@@ -56,14 +56,21 @@ prerequisites:  # требования по базовым модам, без и
     versions: 
      - ">=1.13"  # любой версии начиная с 1.09 - например подойдут 1.11, 1.12, 1.12.4
      - "<1.14"   # но меньше версии 1.14 - 1.14.1 уже не подойдёт
-    optional_content:
-      - name: remaster
-        display_name: Ремастер
-        description: |
-          Установка на Community Remaster (если установка на Patch не активировать!!!)
-        default_option: skip
-      - name: remaster_hd_veh
-        display_name: Ремастер + HD модели
-        description: |
-          Установка на Community Remaster + HD модели (Не активировать вместе с "Ремастер")
-        default_option: skip
+     
+optional_content:
+  - name: remaster
+    display_name: Ремастер
+    description: |
+      Установка на Community Remaster (если установка на Patch не активировать!!!)
+    default_option: skip
+    install_settings:
+    - name: stock
+      display_name: Ремастер
+      description: |
+        Установка на Community Remaster без HD моделей.
+      default_option: skip
+    - name: remaster_hd_veh
+      display_name: Ремастер + HD модели
+      description: |
+        Установка на Community Remaster + HD модели
+      default_option: skip
