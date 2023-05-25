@@ -429,7 +429,7 @@ Extra machines end here
 	<Item
 		id="additional_stability"
 		locForm="0"
-		value="Гидроусилитель руля" />
+		value="Изоляция топливной системы" />
 
 	<Item
 		id="additional_fuel_tank2"
@@ -2021,7 +2021,7 @@ Extra machines end here
 		id="cruiserCargo02"
 		locForm="0"
 		value="Кузов Крейсера" />
-		
+	
 	<Item
 		id="Smoke"
 		locForm="0"
