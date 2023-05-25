@@ -1,11 +1,11 @@
 name: ExtraMachinesCP
  
 # необходимая человекочитаемая информация
-display_name: Extra Machines для CP/CR
+display_name: Extra Machines для CP
 version: "1.0.1"  # версия в формате "major.minor.patch-identifier", например "1", "1.0", "1.0.0", "1.4.2-HD.new" 
-build: "230523b"  # формат YYMMDD<build_letter>. Первый релиз 30 декабря 22 - 221230a. Второй от 1 января - 230101b
+build: "230525a"  # формат YYMMDD<build_letter>. Первый релиз 30 декабря 22 - 221230a. Второй от 1 января - 230101b
 description: |  # описание мода в ComMod
-  Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода не является до конца адаптированной для полноценной игры, поскольку машины могут быть получены только с помощью читов (/car(26) - /car(42)), а так же без доработок будут отображаться только при игре на карте Край, так как не прописаны в файл servers.xml других карт.
+  Extra Machines - аддон ассет-пак, добавляющий новые машины в Ex Machina. Основная версия мода не является до конца адаптированной для полноценной игры, поскольку машины могут быть получены только с помощью читов (/car(26) - /car(42)).
   Все машины в паке были созданы специально для Ex Machina, а не являются портами из других игр, как в многих других модах. Мод является беспрецедентным по уровню качества добавляемых машин, разнообразию доступных кабин и кузовов, наличию модели повреждений у всех играбельных машин, по сути, идеально вписываясь в игру на одном уровне с оригинальными машинами, сделанными Targem Games.
 authors: Spok, OverLine
  
@@ -15,62 +15,12 @@ language: ru  # eng, ru, ua, de, tr - вероятные ожидаемые ко
 link: https://github.com/lineisover/ExtraMachinesCP  # ссылка где вы публикуете ифнормацию про мод и свежие релизы
 tags: [vehicles]
 change_log: changelog.md
-logo: screen/logo.png
-# other_info: readme.md
-screenshots:
-  - img: screen/Rednek/1.jpg
-    text: | 
-      Плеб - Базовая кабина для Рэднэка. Говорят, ее можно продырявить плевком.
-      Рустикана - Родной кузов Рэднека. Обязательно запирайте заднюю дверь, а то украдут что внутри.
-  - img: screen/Rednek/2.jpg
-    text: |
-      Кантри - Кустарная модификация базовой кабины, скорее всего сделана знакомым механиком за чарочку чего-нибудь по-крепче.
-      Урбана - Родной кузов Рэднека. Обязательно запирайте заднюю дверь, а то украдут что внутри.
-  - img: screen/Rednek/3.jpg
-    text: |
-      Хэдмен - Поздняя модель кабины Рэднека, в целом держится хорошо.
-      Капитус - Кузов для кемпинга где-нибудь в отдалённой глуши. Часто используется исследователями.
-  - img: screen/Rednek/4.jpg
-    text: |
-      Хэдмен - Поздняя модель кабины Рэднека, в целом держится хорошо.
-      Палатий - Лучший кузов для Рэднека. Места в нём, увы, немного, но это с лихвой компенсируется его бронированностью.
-  - img: screen/Tornado/1.jpg
-  - img: screen/Tornado/2.jpg
-  - img: screen/Tornado/3.jpg
-  - img: screen/Tornado/4.jpg
-  - img: screen/Traktor/1.jpg
-  - img: screen/Traktor/2.jpg
-  - img: screen/Traktor/3.jpg
-  - img: screen/M35/1.jpg
-  - img: screen/M35/2.jpg
-  - img: screen/M35/3.jpg
-  - img: screen/M35/4.jpg
-  - img: screen/Cumbine/1.jpg
-
  
 # информация о процессе инсталляции
 patcher_version_requirement: "1.13"  # трактуется как >=1.13
  
 prerequisites:  # требования по базовым модам, без их наличия установка будет запрещена
-  - name: [community_patch,community_remaster]  # ComPatch или ComRemaster
+  - name: [community_patch]  # ComPatch или ComRemaster
     versions: 
      - ">=1.13"  # любой версии начиная с 1.09 - например подойдут 1.11, 1.12, 1.12.4
      - "<1.14"   # но меньше версии 1.14 - 1.14.1 уже не подойдёт
-     
-optional_content:
-  - name: remaster
-    display_name: Ремастер
-    description: |
-      Установка на Community Remaster (если установка на Patch не активировать!!!)
-    default_option: skip
-    install_settings:
-    - name: stock
-      display_name: Ремастер
-      description: |
-        Установка на Community Remaster без HD моделей.
-      default_option: skip
-    - name: remaster_hd_veh
-      display_name: Ремастер + HD модели
-      description: |
-        Установка на Community Remaster + HD модели
-      default_option: skip
