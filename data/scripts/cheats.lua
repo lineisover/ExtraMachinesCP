@@ -7,20 +7,20 @@
 --------------------------------------------------
 
 function gimmegimmegimme()
-		if testcheat()~=1 then return end
+	if testcheat()~=1 then return end
 
-		AddPlayerMoney( 10000 )
-		println( "Money added" )
+	AddPlayerMoney( 10000 )
+	println( "Money added" )
 
-		local v = GetPlayerVehicle()
+	local v = GetPlayerVehicle()
 
-		v:AddModifier( "maxhp", "+ 10000" )
-		v:AddModifier( "hp", "+ 10000" )
-		println( "HP added" )
+	v:AddModifier( "maxhp", "+ 10000" )
+	v:AddModifier( "hp", "+ 10000" )
+	println( "HP added" )
 
-		v:AddModifier( "maxfuel", "+ 10000" )
-		v:AddModifier( "fuel", "+ 10000" )
-		println( "Fuel added" )
+	v:AddModifier( "maxfuel", "+ 10000" )
+	v:AddModifier( "fuel", "+ 10000" )
+	println( "Fuel added" )
 end
 
 function GiveMoney(money)
@@ -197,48 +197,50 @@ function cargo (num)
    GetPlayerVehicle():SetNewPart("BASKET",newcargo)
 end
 
-function giveguns ()
---éêìÜàÖ
-	if testcheat()~=1 then return end
-			local veh=GetPlayerVehicle()
-			local parts={"CABIN_","BASKET_","CHASSIS_"}
-			local slots={"SMALL_","BIG_","GIANT_","SIDE_"}
-			local guns={"GUN","GUN_0","GUN_1","GUN_2"}
-			local smallgun={"hornet01","specter01","pkt01","kord01","maxim01","storm01","fagot01"}
-			local biggun={"rapier01","vector01","vulcan01","flag01","kpvt01","rainmetal01","elephant01","odin01","bumblebee01","omega01","hurricane01"}
-			local giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
-			local sidegun={"hailSideGun","marsSideGun","zeusSideGun","hunterSideGun"}
-			local i,j,k=1,1,1
-			while parts[i] do
-				while slots[j] do
-					while guns[k] do
---						LOG(parts[i]..slots[j]..guns[k])
-						local gun=1
-						local slot=parts[i]..slots[j]..guns[k]
-						if j==1 then
-							gun=smallgun[random(7)]
-						elseif j==2 then
-							gun=biggun[random(11)]
-						elseif j==3 then
-							gun=giantgun[random(4)]
-						elseif j==4 then
-							gun=sidegun[random(4)]
+function giveguns (silent)
+	--éêìÜàÖ
+	if silent == nil then
+		if testcheat()~=1 then return end
+	end
+				local veh=GetPlayerVehicle()
+				local parts={"CABIN_","BASKET_","CHASSIS_"}
+				local slots={"SMALL_","BIG_","GIANT_","SIDE_"}
+				local guns={"GUN","GUN_0","GUN_1","GUN_2"}
+				local smallgun={"hornet01","specter01","pkt01","kord01","maxim01","storm01","fagot01"}
+				local biggun={"rapier01","vector01","vulcan01","flag01","kpvt01","rainmetal01","elephant01","odin01","bumblebee01","omega01","hurricane01"}
+				local giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
+				local sidegun={"hailSideGun","marsSideGun","zeusSideGun","hunterSideGun"}
+				local i,j,k=1,1,1
+				while parts[i] do
+					while slots[j] do
+						while guns[k] do
+	--						LOG(parts[i]..slots[j]..guns[k])
+							local gun=1
+							local slot=parts[i]..slots[j]..guns[k]
+							if j==1 then
+								gun=smallgun[random(7)]
+							elseif j==2 then
+								gun=biggun[random(11)]
+							elseif j==3 then
+								gun=giantgun[random(4)]
+							elseif j==4 then
+								gun=sidegun[random(4)]
+							end
+	
+	--						LOG(gun)
+							if veh:CanPartBeAttached(slot) then
+--								LOG(slot.." -- "..gun)
+								veh:SetNewPart(slot,gun)
+							end
+							k=k+1
 						end
-
---						LOG(gun)
-						if veh:CanPartBeAttached(slot) then
-						    LOG(slot.." -- "..gun)
-							veh:SetNewPart(slot,gun)
-						end
-						k=k+1
+						k=1
+						j=j+1
 					end
-					k=1
-					j=j+1
+					j=1
+					i=i+1
 				end
-				j=1
-				i=i+1
-			end
-end
+	end
 
 function map ()
 	ShowMap()
@@ -261,24 +263,26 @@ function OpenEncyclopaedia()
 end
 
 function testcheat()
-    if	GetComputerName() == "JSINX" 	or GetComputerName() == "ANTON2" 	or
-		GetComputerName() == "MIF2000"	or GetComputerName() == "HRRR" 		or
-		GetComputerName() == "PHOSGEN" 	or GetComputerName() == "ALEXTG" 	or
-		GetComputerName() == "MAIN" 	or GetComputerName() == "POWERPLANT" 	or
-		GetComputerName() == "VANO" 	or GetComputerName() == "STAZ" 		then
+    if	GetComputerName() == "PAVLIKRPG" then
+		anticheat = 1
 		return 1
 	end
-	if anticheat==0 then	
+
+	if anticheat==0 then
+		local ChUsed = GetVar("CheatsUsedOnCurLoc").AsInt
+		if ChUsed~=-1 then
+--			println("UpdateVar")
+			ChUsed = ChUsed + 1
+--			println(ChUsed)
+			SetVar("CheatsUsedOnCurLoc", ChUsed)
+		else
+--			println("CreateVar")
+			SetVar("CheatsUsedOnCurLoc", 1)
+		end
+
 		LOG("---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------")
-    	AddFadingMsgId( "fm_cheat_is_allowed" )
+  		AddFadingMsgId( "fm_cheat_is_allowed" )
     	AddImportantFadingMsgId( "fm_cheat_is_allowed" )
 		return 1
- 	else
-		LOG("---------------------- CHEAT CAN'T BE USED ---- ANTICHEAT -----------------")
-    	AddFadingMsgId( "fm_cheat_is_not_allowed" )
-    	AddImportantFadingMsgId( "fm_cheat_is_not_allowed" )
-    	return 0
  	end
 end
-
-

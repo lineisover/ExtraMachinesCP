@@ -74,11 +74,13 @@ Extra machines end here
    <Item id="uralCab03"   	      file="data\if\ico\InventoryDlg\ural\Ural_Cab03.dds" file1=""/>
    <Item id="uralCab04"   	      file="data\if\ico\InventoryDlg\ural\Ural_Cab04.dds" file1=""/>
    <Item id="uralCab05"   	      file="data\if\ico\InventoryDlg\ural\Ural_Cab05.dds" file1=""/>
+   <Item id="uralCab06"   	      file="data\if\ico\InventoryDlg\ural\Ural_Cab05.dds" file1=""/>
    <Item id="uralCargo01" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo01.dds" file1=""/>
    <Item id="uralCargo02" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo02.dds" file1=""/>
    <Item id="uralCargo03" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo03.dds" file1=""/>
    <Item id="uralCargo04" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo04.dds" file1=""/>
    <Item id="uralCargo05" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo05.dds" file1=""/>
+   <Item id="uralCargo06" 	      file="data\if\ico\InventoryDlg\ural\Ural_Cargo03.dds" file1=""/>
 
    <Item id="belazCab01"         file="data\if\ico\InventoryDlg\belaz\Belaz_Cab01.dds" file1=""/>
    <Item id="belazCab02"         file="data\if\ico\InventoryDlg\belaz\Belaz_Cab02.dds" file1=""/>
@@ -101,6 +103,8 @@ Extra machines end here
    <Item id="mirotvorecCargo03"	file="data\if\ico\InventoryDlg\mirotvorec\mirotvorecCargo03.dds" file1=""/>
    <Item id="mirotvorecCargo04"	file="data\if\ico\InventoryDlg\mirotvorec\mirotvorecCargo04.dds" file1=""/>
    <Item id="mirotvorecCargo05"	file="data\if\ico\InventoryDlg\mirotvorec\mirotvorecCargo05.dds" file1=""/>
+
+   <Item id="denscoutCab"	file="data\if\ico\InventoryDlg\scout\denscoutcab.dds" file1=""/>
 
 
    <Item id="potato"			      file="data\if\ico_hd\InventoryDlg\goods\potatoe.dds" 	file1="data\if\ico_hd\InventoryDlg\goods\potatoe.dds"/>
@@ -218,18 +222,20 @@ Extra machines end here
 
    <Item id="additional_durability" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1.dds" file1=""/>
    <Item id="additional_durability2" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v2.dds" file1=""/>
+   <Item id="additional_durability3" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget1_v3.dds" file1=""/>
    
    <Item id="additional_stability" 		file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4.dds" file1=""/>
    <Item id="add_stability_and_speed" 	file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v2.dds" file1=""/>
+   <Item id="add_stability_and_speed2" file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v4.dds" file1=""/>
    <Item id="add_torque_and_stability" file="data\if\ico_hd\InventoryDlg\Gadgets\sml_gadget4_v3.dds" file1=""/>
 
 
    <Item id="TownSouth"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownEast"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownMidgard"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
-   <Item id="TownPorto"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="TownPorto"			file1="data\if\ico\LocalMap\icn_dock.dds" file=""/>
    <Item id="TownAsgard"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
-   <Item id="TownPesht"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="TownPesht"			file1="data\if\ico\LocalMap\icn_bridgetown.dds" file=""/>
    <Item id="TownMinin"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownBaseInRock"	file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownOlme"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
@@ -247,6 +253,9 @@ Extra machines end here
    <Item id="TownUluk"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownKazif"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="CrazyBase"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="TownOldCibilla"	file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="r1m6_Kateberg"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="TownMoska"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
 
 
    <Item id="someVillage_0"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
@@ -257,8 +266,7 @@ Extra machines end here
    <Item id="r1m1_GloohoeVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m1_OilVillage"			   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m1_ContraVillage"		   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r1m1_FreedomVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r1m2_BenVillage"			   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_FreedomVillage"		file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
    <Item id="r1m2_SignVillage"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m2_ArtefactVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m2_OlimpVillage"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
@@ -267,7 +275,7 @@ Extra machines end here
    <Item id="r1m3_ForgottenVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m3_OreMineVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m3_VozleMininVillage"	file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r1m3_OilMineVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m3_OilMineVillage"		file1="data\if\ico\LocalMap\icn_oilpump.dds" file=""/>
    <Item id="r2m1_DoubtfulVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r2m1_UnderAttaksVillage"	file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r2m1_Vill2Village"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
@@ -281,22 +289,33 @@ Extra machines end here
    <Item id="r1m4_BerkoVillage"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m4_StorageVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r3_AloneDruid"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="OraculTest"				   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r3_RazboinikVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r3_OracleDefVil"			   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r3_NearOracul"				file1="data\if\ico\LocalMap\icn_outpost.dds" file=""/>
    <Item id="r3_FarVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="PetrolStationTown"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="PetrolStationTown"			file1="data\if\ico\LocalMap\icn_gasstation.dds" file=""/>
+   <Item id="PetrolStationTown_NoSt"			file1="data\if\ico\LocalMap\icn_gasstation.dds" file=""/>
    <Item id="r4_Aliham"					   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r4_Buhara"					   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r4_OilCity"				   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r4_OilCity"				file1="data\if\ico\LocalMap\icn_oilpump.dds" file=""/>
    <Item id="r4_Zuhel"					   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r4_Scientific"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r2m2_GranicaVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r2m2_ZnakiVillage"			file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r2m2_NewVillage"			   file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m6_DreenorVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_Sosnovka"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_Lukoil"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_Svalka"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_Ruin"				    file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m1_Kolhoz"				file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="r1m6_MudrecStation"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m5_LaBelle"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
 
-   <!-- Probably unused - TO TEST
-   <Item id="DoNotRememberDeleteThisVillage"	file1="data\if\ico\LocalMap\icn_village.dds" file=""/> -->
+   <!-- Неактивные поселения / точки интереса -->
+   <Item id="r1m2_BenHouse"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r1m3_Circus"				file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="r3m2_OracleComplex"				file1="data\if\ico\LocalMap\icn_oraclebase.dds" file=""/>
+   <Item id="r4_Buhara"					file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
 
    <Item id="genericLocation"		file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
 
@@ -304,6 +323,8 @@ Extra machines end here
    <Item id="ToR1M2"			file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
    <Item id="ToR1M3"			file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
    <Item id="ToR1M4"			file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
+   <Item id="ToR1M5"					file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
+   <Item id="ToR1M6"					file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
    <Item id="ToR2M1"			file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
    <Item id="ToR2M1small"	file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
    <Item id="ToR2M2"			file1="data\if\ico\LocalMap\icn_exit.dds" file=""/>
@@ -385,6 +406,7 @@ Extra machines end here
    <Item id="Belong_1028"		file="data\if\ico\clans\trappers03.dds" 			file1="data\if\ico_hd\clans\trappers02.dds"/>
    <Item id="Belong_1029"		file="data\if\ico\clans\beer03.dds" 			   file1="data\if\ico_hd\clans\beer02.dds"/>
    <Item id="Belong_1030"		file="data\if\ico\clans\njeri03.dds" 			   file1="data\if\ico_hd\clans\njeri02.dds"/>
+   <Item id="Belong_1035"		file="data\if\ico\clans\vagabonds03.dds" 			file1="data\if\ico_hd\clans\vagabonds02.dds"/>
    <Item id="Belong_1040"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1041"		file="data\if\ico\clans\crimson_dawn03.dds" 		file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1042"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico_hd\clans\adventurers02.dds"/>
@@ -401,14 +423,22 @@ Extra machines end here
    <Item id="Belong_1053"		file="data\if\ico\clans\npp03.dds"						file1="data\if\ico_hd\clans\npp02.dds"/>
    <Item id="Belong_1054"		file="data\if\ico\clans\commonwealth_of independent_towns03.dds" 	file1="data\if\ico_hd\clans\commonwealth_of independent_towns02.dds"/>
 
+
    <Item id="Belong_1060"		file="data\if\ico\clans\desert_people03.dds" 			file1="data\if\ico_hd\clans\desert_people02.dds"/>
-   <Item id="Belong_1061"		file="data\if\ico\clans\scientists_followers03.dds" 		file1="data\if\ico_hd\clans\scientists_followers02.dds"/>
+   <Item id="Belong_1061"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico_hd\clans\militarists02.dds"/>
    <Item id="Belong_1062"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico_hd\clans\militarists02.dds"/>
    <Item id="Belong_1063"		file="data\if\ico\clans\brigade03.dds" 			file1="data\if\ico_hd\clans\brigade02.dds"/>
    <Item id="Belong_1064"		file="data\if\ico\clans\children_of_iron03.dds" file1="data\if\ico_hd\clans\children_of_iron02.dds"/>
-   <Item id="Belong_1066"		file="data\if\ico\clans\fishermen03.dds" 			file1="data\if\ico_hd\clans\fishermen02.dds"/>
 
-   <Item id="Belong_1080"		file="data\if\ico\clans\death.dds" 			file1="data\if\ico\clans\death.dds"/>
+   <Item id="Belong_1080"		file="data\if\ico\clans\refuelers03.dds" 			file1="data\if\ico_hd\clans\refuelers02.dds"/>
    <Item id="Belong_1081"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico_hd\clans\militarists02.dds"/>
-
+   <Item id="Belong_1082"		file="data\if\ico\clans\druids03.dds" 	         file1="data\if\ico_hd\clans\druids02.dds"/>
+   <Item id="Belong_1083"		file="data\if\ico\clans\antimilitarists03.dds" 	file1="data\if\ico_hd\clans\antimilitarists02.dds"/>
+   <Item id="Belong_1084"		file="data\if\ico\clans\fishermen03.dds" 			file1="data\if\ico_hd\clans\fishermen02.dds"/>
+   <Item id="Belong_1085"		file="data\if\ico\clans\fishermen03.dds" 			file1="data\if\ico_hd\clans\fishermen02.dds"/>
+   <Item id="Belong_1088"		file="data\if\ico\clans\trappers03.dds" 			file1="data\if\ico_hd\clans\trappers02.dds"/>
+   <Item id="Belong_1089"		file="data\if\ico\clans\bounty_hunters03.dds" 	file1="data\if\ico_hd\clans\bounty_hunters02.dds"/>
+   <Item id="Belong_1090"		file="data\if\ico\clans\beer03.dds" 			   file1="data\if\ico_hd\clans\beer02.dds"/>
+   <Item id="Belong_1091"		file="data\if\ico\clans\bounty_hunters03.dds" 	file1="data\if\ico_hd\clans\bounty_hunters02.dds"/>
+   <Item id="Belong_1092"		file="data\if\ico\clans\hermits03.dds" 			file1="data\if\ico_hd\clans\hermits02.dds"/>
 </icons>
