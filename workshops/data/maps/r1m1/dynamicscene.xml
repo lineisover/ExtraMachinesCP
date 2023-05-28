@@ -633,8 +633,9 @@
 							Flags="16"
 							Prototype="bugChassis" />
 					</Parts>
+				</Item>
 
-					<Item
+				<Item
 					PosX="0"
 					PosY="0"
 					Flags="16"
