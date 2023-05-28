@@ -548,7 +548,7 @@
 					PosY="100"
 					Flags="16"
 					Prototype="uralCab05" />
-
+<!-- Extra Machines start -->
 				<Item
 					PosX="5"
 					PosY="100"
@@ -608,6 +608,7 @@
 					PosY="100"
 					Flags="16"
 					Prototype="ChevC10Cargo04" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -634,7 +635,7 @@
 							Prototype="bugChassis" />
 					</Parts>
 				</Item>
-
+<!-- Extra Machines start -->
 				<Item
 					PosX="0"
 					PosY="0"
@@ -647,6 +648,7 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 

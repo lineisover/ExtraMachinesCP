@@ -300,6 +300,79 @@
 					PosY="20"
 					Flags="16"
 					Prototype="mirotvorecCargo05" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cab03" />
+				
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cargo02" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cargo03" />
+				
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cargo03" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cargo04" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="ChevC10Cargo04" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCab01" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCab02" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCab02" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCargo01" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCargo01" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TractorCargo02" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -325,7 +398,6 @@
 							Flags="16"
 							Prototype="bugChassis" />
 					</Parts>
-
 					<Repository />
 				</Item>
 
@@ -357,6 +429,33 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines start -->
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="TractorForSale"
+					Pos="0.000 111.656 0.000">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="ChevC10ForSale"
+					Pos="0.000 111.656 0.000">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
