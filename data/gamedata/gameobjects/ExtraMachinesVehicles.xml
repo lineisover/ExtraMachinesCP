@@ -321,6 +321,18 @@ Prototypes
         </Parts>
     </Prototype>
 
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC10Player"
+        ParentPrototype="ChevC10"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab01" />
+            <Part id="BASKET" Prototype="ChevC10Cargo01" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="hornet01" />
+        </Parts>
+    </Prototype>
+
     <!--  TRACTOR  -->
 
     <Prototype
