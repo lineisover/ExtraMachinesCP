@@ -174,7 +174,7 @@ Extra Machines vehicles
         HighGearShiftLimit="5500"
         SteeringSpeed="0.6"
         BlastWave="bigBlastWave"
-        CameraHeight="5.5"
+        CameraHeight="7"
         CameraMaxDist="24"
         HornSound="ET_S_HORN03"
         DecisionMatrix="vehiclemain.lua"
