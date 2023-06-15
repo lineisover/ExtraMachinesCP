@@ -926,7 +926,7 @@ Extra Machines vehicles parts
 			RepairCoef			= "0.3"
 
 			Mass				= "65.0" 
-			LoadPoints			= "LP_SML01" >
+			LoadPoints			= "LP_SML01 NO_LP" >
 	
 			<RepositoryDescription
 				RepositorySize		= "5 5">
@@ -1108,7 +1108,8 @@ Extra Machines vehicles parts
 			Price				= "3000"
 			RepairCoef			= "0.2"
 
-			Mass				= "20.0">
+			Mass				= "20.0"
+			LoadPoints			= "NO_LP">
 			<RepositoryDescription
 				RepositorySize		= "5 4">
 				
