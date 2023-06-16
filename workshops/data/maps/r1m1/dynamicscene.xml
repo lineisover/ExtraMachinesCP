@@ -12,7 +12,7 @@
 		<Object
 			Name="MyCar"
 			Belong="1100"
-			Prototype="ChevC10Player"
+			Prototype="Bug01"
 			Pos="3355.000 368.500 3308.000"
 			Rot="-0.007 1.000 -0.010 0.021">
 			<Parts />
@@ -548,127 +548,6 @@
 					PosY="100"
 					Flags="16"
 					Prototype="uralCab05" />
-<!-- Extra Machines start -->
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cab02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cab02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cab03" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cab03" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo03" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo03" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="ChevC10Cargo04" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCab01" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCab02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCab03" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCargo01" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCargo01" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCargo02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="TractorCargo02" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="M35Cab04" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="M35Cab04" />
-
-				<Item
-					PosX="5"
-					PosY="100"
-					Flags="16"
-					Prototype="M35Cab04" />
-<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -694,21 +573,9 @@
 							Flags="16"
 							Prototype="bugChassis" />
 					</Parts>
-				</Item>
-<!-- Extra Machines start -->
-				<Item
-					PosX="0"
-					PosY="0"
-					Flags="16"
-					Prototype="ChevC10ForSale"
-					Pos="0.000 369.722 0.000">
-					<Parts>
-
-					</Parts>
 
 					<Repository />
 				</Item>
-<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
@@ -948,30 +815,6 @@
 					PosY="40"
 					Flags="16"
 					Prototype="bugCab02" />
-
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="ChevC10Cab01" />
-
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="ChevC10Cab02" />
-
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="ChevC10Cargo01" />
-
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="ChevC10Cargo02" />
 			</CabinsAndBaskets>
 
 			<Vehicles />

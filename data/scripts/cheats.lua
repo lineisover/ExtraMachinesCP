@@ -88,40 +88,6 @@ function GiveVehicle(num)
 		model="RobotBobot02"
 	elseif num==25 then
 		model="RobotMetatron"
-	elseif num==26 then
-		model="ChevC1001"
-	elseif num==27 then
-		model="ChevC1002"
-	elseif num==28 then
-		model="ChevC1003"
-	elseif num==29 then
-		model="ChevC10ForSale"
-	elseif num==30 then
-		model="Tractor01"
-	elseif num==31 then
-		model="Tractor02"
-	elseif num==32 then
-		model="Tractor03"
-	elseif num==33 then
-		model="TractorForSale"
-	elseif num==34 then
-		model="Tornado01"
-	elseif num==35 then
-		model="Tornado02"
-	elseif num==36 then
-		model="Tornado03"
-	elseif num==37 then
-		model="TornadoForSale"
-	elseif num==38 then
-		model="M3501"
-	elseif num==39 then
-		model="M3502"
-	elseif num==40 then
-		model="M3503"
-	elseif num==41 then
-		model="M3504"
-	elseif num==42 then
-		model="Cumbine01"
 	end
 	AddPlayerVehicle(model)
 end

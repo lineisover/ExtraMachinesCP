@@ -2,54 +2,6 @@
 <!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 
 <icons>
-<!--
-Extra Machines start here
--->
-   <Item id="ChevC10Cab01"   file="data\if\ico\InventoryDlg\chevc10\cab1.dds" file1=""/>
-   <Item id="ChevC10Cab02"   file="data\if\ico\InventoryDlg\chevc10\cab2.dds" file1=""/>
-   <Item id="ChevC10Cab03"   file="data\if\ico\InventoryDlg\chevc10\cab3.dds" file1=""/>
-   <Item id="ChevC10Cargo01" file="data\if\ico\InventoryDlg\chevc10\cargo1.dds" file1=""/>
-   <Item id="ChevC10Cargo02" file="data\if\ico\InventoryDlg\chevc10\cargo2.dds" file1=""/>
-   <Item id="ChevC10Cargo03" file="data\if\ico\InventoryDlg\chevc10\cargo3.dds" file1=""/>
-   <Item id="ChevC10Cargo04" file="data\if\ico\InventoryDlg\chevc10\cargo4.dds" file1=""/>
-
- <!--  TRACTOR  -->	
-   
-   <Item id="TractorCab01"   file="data\if\ico\InventoryDlg\tractor\cab1.dds" file1=""/>
-   <Item id="TractorCab02"   file="data\if\ico\InventoryDlg\tractor\cab2.dds" file1=""/>
-   <Item id="TractorCab03"   file="data\if\ico\InventoryDlg\tractor\cab3.dds" file1=""/>
-   <Item id="TractorCargo01" file="data\if\ico\InventoryDlg\tractor\cargo1.dds" file1=""/>
-   <Item id="TractorCargo02" file="data\if\ico\InventoryDlg\tractor\cargo2.dds" file1=""/>  
-   <Item id="TractorCargo03" file="data\if\ico\InventoryDlg\tractor\cargo3.dds" file1=""/>
-  
- <!--  TORNADO  -->	
- 
-   <Item id="TornadoCab00"   file="data\if\ico\InventoryDlg\tornado\cab1.dds" file1=""/>
-   <Item id="TornadoCab01"   file="data\if\ico\InventoryDlg\tornado\cab1.dds" file1=""/>
-   <Item id="TornadoCab02"   file="data\if\ico\InventoryDlg\tornado\cab2.dds" file1=""/>
-   <Item id="TornadoCab03"   file="data\if\ico\InventoryDlg\tornado\cab3.dds" file1=""/>
-   <Item id="TornadoCargo01" file="data\if\ico\InventoryDlg\tornado\cargo1.dds" file1=""/>
-   <Item id="TornadoCargo02" file="data\if\ico\InventoryDlg\tornado\cargo2.dds" file1=""/>  
-   <Item id="TornadoCargo03" file="data\if\ico\InventoryDlg\tornado\cargo3.dds" file1=""/>
-   
-  <!--  M35  -->	
- 
-   <Item id="M35Cab01"   file="data\if\ico\InventoryDlg\M35\cab01.dds" file1=""/>
-   <Item id="M35Cab02"   file="data\if\ico\InventoryDlg\M35\cab02.dds" file1=""/>
-   <Item id="M35Cab03"   file="data\if\ico\InventoryDlg\M35\cab03.dds" file1=""/>
-   <Item id="M35Cab04"   file="data\if\ico\InventoryDlg\M35\cab04.dds" file1=""/>
-   <Item id="M35Cargo01" file="data\if\ico\InventoryDlg\M35\cargo01.dds" file1=""/>
-   <Item id="M35Cargo02" file="data\if\ico\InventoryDlg\M35\cargo02.dds" file1=""/>  
-   <Item id="M35Cargo03" file="data\if\ico\InventoryDlg\M35\cargo03.dds" file1=""/>
-	<Item id="M35Cargo04" file="data\if\ico\InventoryDlg\M35\cargo04.dds" file1=""/>
-	
-  <!--  CUMBINE  -->	
-  
-   <Item id="CumbineCab01"   file="data\if\ico\InventoryDlg\cumbine\cab01.dds" file1=""/>
-	<Item id="CumbineCargo01" file="data\if\ico\InventoryDlg\tractor\cargo1.dds" file1=""/>
-<!--
-Extra machines end here
--->
    <Item id="arcadescoutCab"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="FormulaCab01"		   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="fakeCargo"	         file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
