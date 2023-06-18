@@ -1018,6 +1018,48 @@
 					PosY="85"
 					Flags="16"
 					Prototype="uralCab02" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cargo04" />
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="M35Cargo04" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -1410,6 +1452,108 @@
 					PosY="45"
 					Flags="16"
 					Prototype="uralCab03" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo04" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo03" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -1438,6 +1582,20 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines start -->
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="M35ForSale"
+					Pos="0.000 351.914 0.000">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
@@ -1725,6 +1883,83 @@
 					PosY="95"
 					Flags="16"
 					Prototype="uralCab03" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="ChevC10Cargo04" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCab02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCargo02" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="TractorCargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo03" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="M35Cargo03" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles />

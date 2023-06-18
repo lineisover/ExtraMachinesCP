@@ -459,6 +459,88 @@
 					PosY="75"
 					Flags="16"
 					Prototype="uralCab01" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="TractorCargo02" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="TractorCargo03" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo03" />
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="M35Cargo04" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -513,6 +595,20 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines start -->
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="M35ForSale"
+					Skin="1">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
@@ -881,6 +977,118 @@
 					PosY="10"
 					Flags="16"
 					Prototype="uralCab05" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TractorCargo02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TractorCargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TractorCargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo04" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -909,6 +1117,20 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines start -->
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="M35ForSale"
+					Skin="1">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
@@ -1344,6 +1566,93 @@
 					PosY="10"
 					Flags="16"
 					Prototype="uralCab04" />
+<!-- Extra Machines start -->
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TraktorCargo02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TraktorCargo02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TraktorCargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="TraktorCargo03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab03" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cab04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo01" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo02" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo04" />
+				<Item
+					PosX="10"
+					PosY="10"
+					Flags="16"
+					Prototype="M35Cargo04" />
+<!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -1372,6 +1681,20 @@
 
 					<Repository />
 				</Item>
+<!-- Extra Machines start -->
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="M35ForSale"
+					Skin="1">
+					<Parts>
+
+					</Parts>
+
+					<Repository />
+				</Item>
+<!-- Extra Machines end -->
 			</Vehicles>
 		</Object>
 
