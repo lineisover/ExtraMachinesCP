@@ -452,6 +452,11 @@ Extra machines end here
 		value="Катанные броневые листы с дополнительным цементированием" />
 
 	<Item
+		id="additional_durability3"
+		locForm="0"
+		value="Броневые листы из неизвестного сверхпрочного сплава" />
+
+	<Item
 		id="add_speed_and_torque"
 		locForm="0"
 		value="Электронная инжекторная система" />
@@ -460,6 +465,11 @@ Extra machines end here
 		id="add_stability_and_speed"
 		locForm="0"
 		value="Система &quot;Sagitta&quot;  " />
+
+	<Item
+		id="add_stability_and_speed2"
+		locForm="0"
+		value="Система &quot;Sagitta 2.0&quot;  " />
 
 	<Item
 		id="add_torque_and_stability"
@@ -537,6 +547,46 @@ Extra machines end here
 		value="Медикаменты" />
 
 	<Item
+		id="quest_crimson_medal"
+		locForm="0"
+		value="Медаль за боевые заслуги" />
+
+	<Item
+		id="quest_thief_package"
+		locForm="0"
+		value="Коробки из схрона" />
+
+	<Item
+		id="quest_babka_package"
+		locForm="0"
+		value="Посылка бабе Поле" />
+
+	<Item
+		id="quest_ananaga_bottle"
+		locForm="0"
+		value="Бутылка &quot;ледяной&quot; ананаги" />
+
+	<Item
+		id="quest_bratislav_component1"
+		locForm="0"
+		value="Первая деталь" />
+
+	<Item
+		id="quest_bratislav_component2"
+		locForm="0"
+		value="Вторая деталь" />
+
+	<Item
+		id="quest_bratislav_component3"
+		locForm="0"
+		value="Третья деталь" />
+
+	<Item
+		id="quest_chehly_box"
+		locForm="0"
+		value="Коробка с чехлами" />
+
+	<Item
 		id="quest_explosive"
 		locForm="0"
 		value="Взрывчатка" />
@@ -549,7 +599,7 @@ Extra machines end here
 	<Item
 		id="quest_komp_splav"
 		locForm="0"
-		value="Редкий сплав" />
+		value="Композит" />
 
 	<Item
 		id="quest_shaman_head1"
@@ -577,11 +627,6 @@ Extra machines end here
 		value="Наркотики" />
 
 	<Item
-		id="quest_first_canistra"
-		locForm="0"
-		value="Канистра нефти" />
-
-	<Item
 		id="quest_disk_1"
 		locForm="0"
 		value="Диск" />
@@ -595,6 +640,11 @@ Extra machines end here
 		id="quest_key_for_submarine"
 		locForm="0"
 		value="Ключ от морских врат" />
+
+	<Item
+		id="quest_key_for_submarine1"
+		locForm="0"
+		value="Дубликат ключа от морских врат" />
 
 	<Item
 		id="quest_key_for_tunnel"
@@ -630,6 +680,16 @@ Extra machines end here
 		id="quest_magic_thing1"
 		locForm="0"
 		value="Старинный артефакт" />
+
+	<Item
+		id="quest_magic_thing3"
+		locForm="0"
+		value="Старая плата" />
+
+	<Item
+		id="quest_magic_thing4"
+		locForm="0"
+		value="Непонятный механизм" />
 
 	<Item
 		id="quest_monster_head"
@@ -810,6 +870,11 @@ Extra machines end here
 		id="uralCab05"
 		locForm="0"
 		value="Витязь" />
+	
+	<Item
+		id="uralCab06"
+		locForm="0"
+		value="@ff27B41FКнязь" />
 
 	<Item
 		id="uralCargo01"
@@ -835,6 +900,11 @@ Extra machines end here
 		id="uralCargo05"
 		locForm="0"
 		value="Тигр" />
+	
+	<Item
+		id="uralCargo06"
+		locForm="0"
+		value="@ff27B41FКрейсер 2.0" />
 
 	<Item
 		id="BelazForSale"
@@ -1092,6 +1162,11 @@ Extra machines end here
 		value="Вихрь" />
 
 	<Item
+		id="Sml301"
+		locForm="0"
+		value="Муравей" />
+
+	<Item
 		id="r1m1_sml01"
 		locForm="0"
 		value="Клоп" />
@@ -1160,7 +1235,7 @@ Extra machines end here
 		id="r1m2_hunter02"
 		locForm="0"
 		value="Охотник" />
-		
+
 	<Item
 		id="ScoutEnemySpawn"
 		locForm="0"
@@ -1185,11 +1260,16 @@ Extra machines end here
 		id="ArcadeScout01"
 		locForm="0"
 		value="Скаут GT" />
-		
+
 	<Item
 		id="FighterEnemySpawn"
 		locForm="0"
 		value="Боец" />
+
+	<Item
+		id="SeraFighter01"
+		locForm="0"
+		value="Серафима" />
 
 	<Item
 		id="Fighter01"
@@ -1200,7 +1280,7 @@ Extra machines end here
 		id="Fighter02"
 		locForm="0"
 		value="Боец" />
-		
+
 	<Item
 		id="HunterEnemySpawn"
 		locForm="0"
@@ -1215,7 +1295,7 @@ Extra machines end here
 		id="Hunter02"
 		locForm="0"
 		value="Охотник" />
-		
+
 	<Item
 		id="CruiserEnemySpawn"
 		locForm="0"
@@ -1227,10 +1307,15 @@ Extra machines end here
 		value="Крейсер" />
 
 	<Item
-		id="CruiserTest02"
+		id="MolokovozChehol"
 		locForm="0"
-		value="Крейсер" />
-		
+		value="Мародёр" />
+
+	<Item
+		id="BelazTSPP"
+		locForm="0"
+		value="Расхититель" />
+
 	<Item
 		id="DozerEnemySpawn"
 		locForm="0"
@@ -1247,12 +1332,22 @@ Extra machines end here
 		value="Трактор" />
 
 	<Item
+		id="SeraTraktor01"
+		locForm="0"
+		value="Серафима" />
+
+	<Item
 		id="Tank01"
 		locForm="0"
 		value="Танк" />
 
 	<Item
 		id="Bug01"
+		locForm="0"
+		value="Вэн" />
+
+	<Item
+		id="Bug02"
 		locForm="0"
 		value="Вэн" />
 
@@ -1282,14 +1377,29 @@ Extra machines end here
 		value="Белаз" />
 
 	<Item
-		id="Mirotvorec01"
+		id="BelazTSP"
 		locForm="0"
-		value="Миротворец" />
+		value="Командир армии" />
 
 	<Item
-		id="ArcadeBelaz"
+		id="TSPFighter"
 		locForm="0"
-		value="Белаз Спринт" />
+		value="Солдат" />
+
+	<Item
+		id="tspfighter2"
+		locForm="0"
+		value="Солдат" />
+
+	<Item
+		id="BrigadaCruiser"
+		locForm="0"
+		value="Бандит" />
+
+	<Item
+		id="BrigadaVoz"
+		locForm="0"
+		value="Бандит" />
 
 	<Item
 		id="DemoBandit"
@@ -1302,42 +1412,12 @@ Extra machines end here
 		value="Лиса" />
 
 	<Item
-		id="DemoFighter1"
-		locForm="0"
-		value="Боец" />
-
-	<Item
 		id="DemoHunter1"
 		locForm="0"
 		value="Охотник" />
 
 	<Item
-		id="DemoHunter2"
-		locForm="0"
-		value="Охотник" />
-
-	<Item
-		id="DemoBug1"
-		locForm="0"
-		value="Вэн" />
-
-	<Item
-		id="DemoBug2"
-		locForm="0"
-		value="Вэн" />
-
-	<Item
-		id="DemoBug3"
-		locForm="0"
-		value="Вэн" />
-
-	<Item
 		id="DemoMolokovoz1"
-		locForm="0"
-		value="Молоковоз" />
-
-	<Item
-		id="DemoMolokovoz2"
 		locForm="0"
 		value="Молоковоз" />
 
@@ -1350,41 +1430,6 @@ Extra machines end here
 		id="DemoUral1"
 		locForm="0"
 		value="Урал" />
-
-	<Item
-		id="DemoUral2"
-		locForm="0"
-		value="Урал" />
-
-	<Item
-		id="DemoUral3"
-		locForm="0"
-		value="Урал" />
-
-	<Item
-		id="DemoBelaz1"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="DemoBelaz2"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="DemoBelaz3"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="DemoMirotvorec1"
-		locForm="0"
-		value="Миротворец" />
-
-	<Item
-		id="DemoMirotvorec2"
-		locForm="0"
-		value="Миротворец" />
 
 	<Item
 		id="DemoMirotvorec3"
@@ -1407,30 +1452,25 @@ Extra machines end here
 		value="Белаз" />
 
 	<Item
-		id="MolokovozTest"
-		locForm="0"
-		value="Молоковоз" />
-
-	<Item
 		id="Sml101"
 		locForm="0"
 		value="Клоп" />
 
 	<Item
+		id="SmlOilRunner"
+		locForm="0"
+		value="Нефтегонщик" />
+
+	<Item
 		id="Sml201"
 		locForm="0"
 		value="Таракан" />
-		
-	<Item
-		id="Sml301"
-		locForm="0"
-		value="Муравей" />
 
 	<Item
 		id="Sml401"
 		locForm="0"
 		value="Кузнечик" />
-		
+
 	<Item
 		id="Sml1EnemySpawn"
 		locForm="0"
@@ -1457,41 +1497,6 @@ Extra machines end here
 		value="Миротворец" />
 
 	<Item
-		id="mirotvorecTest1"
-		locForm="0"
-		value="Миротворец" />
-
-	<Item
-		id="BugTest1"
-		locForm="0"
-		value="Вэн" />
-
-	<Item
-		id="BelazTest01"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="BelazTest02"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="BelazTest03"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="BelazTest04"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
-		id="BelazTest05"
-		locForm="0"
-		value="Белаз" />
-
-	<Item
 		id="BelazShot"
 		locForm="0"
 		value="Белаз" />
@@ -1505,6 +1510,11 @@ Extra machines end here
 		id="MirotvorecShot"
 		locForm="0"
 		value="Миротворец" />
+
+	<Item
+		id="MirotvorecShot1"
+		locForm="0"
+		value="Ф.Г." />
 
 	<Item
 		id="Formula01"
@@ -1528,11 +1538,6 @@ Extra machines end here
 		value="Боец" />
 
 	<Item
-		id="r1m3_Sml101"
-		locForm="0"
-		value="Клоп" />
-
-	<Item
 		id="r1m3_molokovoz03"
 		locForm="0"
 		value="Молоковоз" />
@@ -1548,7 +1553,22 @@ Extra machines end here
 		value="Дот" />
 
 	<Item
+		id="staticAutoGun02_spec"
+		locForm="0"
+		value="Дот" />
+
+	<Item
 		id="staticAutoGun03"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun03_spec"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun04_spec"
 		locForm="0"
 		value="Дот" />
 
@@ -1588,44 +1608,39 @@ Extra machines end here
 		value="Дот" />
 
 	<Item
-		id="PublicDemoBug01"
+		id="heavy_dot4_octopus"
 		locForm="0"
-		value="Машина Старика" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoSinks"
+		id="heavy_dot4_octopus_spec"
 		locForm="0"
-		value="Бродяга Синкс" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoBandit1"
+		id="heavy_dot4_big_hurricane"
 		locForm="0"
-		value="Убийца" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoBandit2"
+		id="heavy_dot4_big_rainmetal"
 		locForm="0"
-		value="Мародер" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoFighter"
+		id="heavy_dot4_big_hunterLauncher"
 		locForm="0"
-		value="Главарь банды" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoIeriBand1"
+		id="heavy_dot3_rainmetal"
 		locForm="0"
-		value="Защитник Иери" />
+		value="Дот" />
 
 	<Item
-		id="PublicDemoIeriBand2"
+		id="heavy_dot4_rapier"
 		locForm="0"
-		value="Защитник Иери" />
-
-	<Item
-		id="PublicDemoIeriCar"
-		locForm="0"
-		value="Иери" />
+		value="Дот" />
 
 	<Item
 		id="r1m2_CaravanBug01"
@@ -1758,11 +1773,6 @@ Extra machines end here
 		value="Транспорт" />
 
 	<Item
-		id="r2m2_ShamanHunter02"
-		locForm="0"
-		value="Сектант" />
-
-	<Item
 		id="r2m2_ShamanHunter01"
 		locForm="0"
 		value="Сектант" />
@@ -1818,6 +1828,11 @@ Extra machines end here
 		value="Молоковоз" />
 
 	<Item
+		id="r2m1_CaravanMolokovoz03"
+		locForm="0"
+		value="Караван" />
+
+	<Item
 		id="r2m1_Belaz01"
 		locForm="0"
 		value="Белаз" />
@@ -1853,21 +1868,6 @@ Extra machines end here
 		value="Дрон" />
 
 	<Item
-		id="r2m1_HunterNarcBoss"
-		locForm="0"
-		value="Босс мафии" />
-
-	<Item
-		id="r2m1_HunterNarcCaravan"
-		locForm="0"
-		value="Курьер" />
-
-	<Item
-		id="r2m1_FighterNarcCaravan"
-		locForm="0"
-		value="Курьер" />
-
-	<Item
 		id="r2m1_Hunter02"
 		locForm="0"
 		value="Охотник" />
@@ -1876,16 +1876,6 @@ Extra machines end here
 		id="r2m1_Hunter01"
 		locForm="0"
 		value="Охотник" />
-
-	<Item
-		id="r2m1_FighterGulik"
-		locForm="0"
-		value="Жулик" />
-
-	<Item
-		id="r2m1_Fighter02"
-		locForm="0"
-		value="Боец" />
 
 	<Item
 		id="r2m1_Fighter01"
@@ -1905,7 +1895,7 @@ Extra machines end here
 	<Item
 		id="DemoShot1"
 		locForm="0"
-		value="Враг" />
+		value="Урал" />
 
 	<Item
 		id="AxelVehicle"
@@ -1915,10 +1905,15 @@ Extra machines end here
 	<Item
 		id="FelixVehicle2"
 		locForm="0"
-		value="Феликс" />
+		value="Профессор" />
 
 	<Item
 		id="FelixVehicle"
+		locForm="0"
+		value="Феликс" />
+
+	<Item
+		id="CruiserFelix"
 		locForm="0"
 		value="Феликс" />
 
@@ -1938,9 +1933,9 @@ Extra machines end here
 		value="Крейсер" />
 
 	<Item
-		id="Fighter03"
+		id="CruiserBased"
 		locForm="0"
-		value="Боец" />
+		value="Крейсер" />
 
 	<Item
 		id="r1m3_hunter02"
@@ -1948,9 +1943,29 @@ Extra machines end here
 		value="Охотник" />
 
 	<Item
+		id="r1m3_hunter03"
+		locForm="0"
+		value="Еретик" />
+
+	<Item
 		id="r1m2_bug04"
 		locForm="0"
 		value="Вэн" />
+
+	<Item
+		id="MolokovozKolizey"
+		locForm="0"
+		value="Гладиатор" />
+
+	<Item
+		id="r1m3_bug01"
+		locForm="0"
+		value="Охранник" />
+
+	<Item
+		id="r1m3_molokovoz01"
+		locForm="0"
+		value="Охранник" />
 
 	<Item
 		id="r1m3_MerScout"
@@ -2026,7 +2041,7 @@ Extra machines end here
 		id="cruiserCargo02"
 		locForm="0"
 		value="Кузов Крейсера" />
-	
+		
 	<Item
 		id="Smoke"
 		locForm="0"
@@ -2040,12 +2055,12 @@ Extra machines end here
 	<Item
 		id="Bug"
 		locForm="0"
-		value="Транспорт" />
+		value="Вэн" />
 
 	<Item
-		id="Bug_02"
+		id="Ural"
 		locForm="0"
-		value="Транспорт" />
+		value="Урал" />
 
 	<Item
 		id="Ural02"
@@ -2066,4 +2081,234 @@ Extra machines end here
 		id="Gladiator02"
 		locForm="0"
 		value="Гладиатор" />
+
+	<Item
+		id="bandit_base_defense_2"
+		locForm="0"
+		value="Турель" />
+
+	<Item
+		id="molokovozBandos"
+		locForm="0"
+		value="Грабитель" />
+
+	<Item
+		id="PetroBug"
+		locForm="0"
+		value="Ополченец" />
+
+	<Item
+		id="NazarBug"
+		locForm="0"
+		value="Ополченец" />
+
+	<Item
+		id="Dozer02"
+		locForm="0"
+		value="Миколка" />
+	
+	<Item
+		id="UralTikhomir"
+		locForm="0"
+		value="Тихомир" />
+
+	<Item
+		id="OL_Ural"
+		locForm="0"
+		value="Урал" />
+
+	<Item
+		id="OL_Belaz"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="AKF_Belaz1"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="AKF_Cruiser1"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="AKF_Cruiser2"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="AKF_Belaz2"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="FarmerDik_P"
+		locForm="0"
+		value="Фермер Дик" />
+
+	<Item
+		id="ArchProrab_P"
+		locForm="0"
+		value="Начальник археологов" />
+
+	<Item
+		id="OilBandit_P"
+		locForm="0"
+		value="Бандит с нефтяной вышки" />
+
+	<Item
+		id="Brigada_P"
+		locForm="0"
+		value="Бригада нефтегонщиков" />
+
+	<Item
+		id="Filimon_P"
+		locForm="0"
+		value="Филимон" />
+
+	<Item
+		id="ExtLeader_P"
+		locForm="0"
+		value="Лидер Рыбаков" />
+
+	<Item
+		id="SNGSpy_P"
+		locForm="0"
+		value="Беженец из АР" />
+
+	<Item
+		id="ARGeneral_P"
+		locForm="0"
+		value="Генерал АР" />
+
+	<Item
+		id="Heretik_P"
+		locForm="0"
+		value="Еретик" />
+
+	<Item
+		id="Lisa_P"
+		locForm="0"
+		value="Лиса" />
+
+	<Item
+		id="Rybak_P"
+		locForm="0"
+		value="Рыбак" />
+
+	<Item
+		id="Vasily_P"
+		locForm="0"
+		value="Василий" />
+
+	<Item
+		id="quest_blokirator"
+		locForm="0"
+		value="Блокиратор Ньери" />
+
+	<Item
+		id="quest_druid_package"
+		locForm="0"
+		value="Посылка для Друида" />
+
+	<Item
+		id="StarDod_P"
+		locForm="0"
+		value="Старик Дод" />
+
+	<Item
+		id="KonniBlade_P"
+		locForm="0"
+		value="Кони и Блайд" />
+
+	<Item
+		id="quest_Valeriy_package"
+		locForm="0"
+		value="Посылка для Валерия" />
+
+	<Item
+		id="Mudr_Belaz"
+		locForm="0"
+		value="Воительница" />
+
+	<Item
+		id="Mudr_Cruiser2"
+		locForm="0"
+		value="Воительница" />
+
+	<Item
+		id="LabirintUral"
+		locForm="0"
+		value="Урал" />
+
+	<Item
+		id="quest_boat_digital"
+		locForm="0"
+		value="Лодочные двигатели" />
+
+	<Item
+		id="quest_labelle_scrap"
+		locForm="0"
+		value="Металл из Ла Белля" />
+
+	<Item
+		id="heavy_dot3_vulcan"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="Dobroslava_P"
+		locForm="0"
+		value="Доброслава" />
+
+	<Item
+		id="heavy_dot2_rainmetal"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="quest_key_for_station"
+		locForm="0"
+		value="Ключ Мудреца" />
+
+	<Item
+		id="AivenGo_P"
+		locForm="0"
+		value="Айвен Го" />
+
+	<Item
+		id="quest_lisa_narcotik"
+		locForm="0"
+		value="Лекарства для Лисы" />
+
+	<Item
+		id="Odett_hunter"
+		locForm="0"
+		value="Одетт" />
+
+	<Item
+		id="Belaz"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="Homer_P"
+		locForm="0"
+		value="Гомер" />
+
+	<Item
+		id="CruiserZhrec"
+		locForm="0"
+		value="Жрец" />
+
+	<Item
+		id="TuzzEscapist_P"
+		locForm="0"
+		value="Беженцы из Туза" />
+
+	<Item
+		id="MarezziaEscapist_P"
+		locForm="0"
+		value="Оппозиционеры из Марецции" />
 </ModelNames>

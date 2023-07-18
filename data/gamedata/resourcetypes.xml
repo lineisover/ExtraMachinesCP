@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <!--
-$Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
+$Id: ResourceTypes.xml,v 1.54 2005/11/09 07:26:52 anton Exp $
 -->
 <ResourceTypes>
 
@@ -181,6 +181,7 @@ Extra machines end here
 		<Type Name="QUEST_START_FATHER_LETTER" />
 		<Type Name="QUEST_POTATO" />
 		<Type Name="QUEST_MEDICINE_BOX" />
+		<Type Name="QUEST_CHEHLY_BOX" />
 		<Type Name="QUEST_EXPLOSIVE" />
 		<Type Name="QUEST_WINEBARRELS" />
 		<Type Name="QUEST_KOMPAZITNIY_SPLAV" />
@@ -189,7 +190,6 @@ Extra machines end here
 		<Type Name="QUEST_OLD_DIGITAL" />
 		<Type Name="QUEST_ART_MASTERPICE" />
 		<Type Name="QUEST_MAFIA_NARCOTIK" />
-		<Type Name="QUEST_FIRST_CANISTRA" />
 		<Type Name="QUEST_DISK_1" />
 		<Type Name="QUEST_DISK_2" />
 		<Type Name="QUEST_KEY_FOR_SUBMARINE" />
@@ -198,7 +198,11 @@ Extra machines end here
 		<Type Name="QUEST_MONSTER_HEAD" />
 		<Type Name="QUEST_MAGIC_THING1" />
 		<Type Name="QUEST_MAGIC_THING2" />
+		<Type Name="QUEST_MAGIC_THING3" />
+		<Type Name="QUEST_MAGIC_THING4" />
 		<Type Name="QUEST_EXPLOSION_STONE" />
 		<Type Name="QUEST_REPROBOT" />
+		<Type Name="POPYT4IK" />
+		<Type Name="QUEST_LABELLE_SCRAP" />
 	</Type>
 </ResourceTypes>

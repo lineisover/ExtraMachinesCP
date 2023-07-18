@@ -2556,7 +2556,7 @@ Extra Machines end here
 -->
 		
 		
-
+		
 	<model
 		id="point"
 		file="data\models\ammo\plasma01.gam"
@@ -2836,6 +2836,15 @@ Extra Machines end here
 		composite="0" />
 
 	<model
+		id="dweller_snowlisa"
+		file="data\models\objects\lisasnow.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0"
+		composite="0" />
+
+	<model
 		id="dweller_felix"
 		file="data\models\objects\felix02.gam"
 		shadow="1"
@@ -2980,6 +2989,14 @@ Extra Machines end here
 		composite="0" />
 
 	<model
+		id="mask_snowlisa"
+		file="data\models\Masks\Main\lisasnowmask.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0"
+		composite="0" />
+
+	<model
 		id="mask_ben"
 		file="data\models\Masks\Main\ben01.gam"
 		shadow="1"
@@ -3006,6 +3023,14 @@ Extra Machines end here
 	<model
 		id="mask_axel"
 		file="data\models\Masks\Main\axel01.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0"
+		composite="0" />
+
+	<model
+		id="mask_thief"
+		file="data\models\Masks\Main\mask_thief.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0"
@@ -3341,12 +3366,28 @@ Extra Machines end here
 		file="data\models\nature\region1\trees\dub1.gam" />
 
 	<model
+		id="dub1snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\dub1.gam" />
+
+	<model
 		id="dub2"
 		shadow="1"
 		trans="1"
 		windwavy="0"
 		useImpostors = "1"
 		file="data\models\nature\region1\trees\dub2.gam" />
+
+	<model
+		id="dub2snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\dub2.gam" />
 
 	<model
 		id="dub3"
@@ -3357,12 +3398,28 @@ Extra Machines end here
 		file="data\models\nature\region1\trees\dub3.gam" />
 
 	<model
+		id="dub3snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\dub3.gam" />
+
+	<model
 		id="elka1"
 		shadow="1"
 		trans="1"
 		windwavy="0"
 		useImpostors = "1"
 		file="data\models\nature\region1\trees\elka1.gam" />
+
+	<model
+		id="elka1snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\elka1.gam" />
 
 	<model
 		id="elka2"
@@ -3373,12 +3430,28 @@ Extra Machines end here
 		file="data\models\nature\region1\trees\elka2.gam" />
 
 	<model
+		id="elka2snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\elka2.gam" />
+
+	<model
 		id="elka3"
 		shadow="1"
 		trans="1"
 		windwavy="0"
 		useImpostors = "1"
 		file="data\models\nature\region1\trees\elka3.gam" />
+
+	<model
+		id="elka3snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\elka3.gam" />
 
 	<model
 		id="kustarnik1"
@@ -3413,6 +3486,14 @@ Extra Machines end here
 		file="data\models\nature\region1\trees\listvenoe1.gam" />
 
 	<model
+		id="listvenoe1snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\listvenoe1.gam" />
+
+	<model
 		id="listvenoe2"
 		shadow="1"
 		trans="1"
@@ -3421,12 +3502,28 @@ Extra Machines end here
 		file="data\models\nature\region1\trees\listvenoe2.gam" />
 
 	<model
+		id="listvenoe2snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\listvenoe2.gam" />
+
+	<model
 		id="listvenoe3"
 		shadow="1"
 		trans="1"
 		windwavy="0"
 		useImpostors = "1"
 		file="data\models\nature\region1\trees\listvenoe3.gam" />
+
+	<model
+		id="listvenoe3snow"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\nature\region1\trees\snow\listvenoe3.gam" />
 
 	<model
 		id="sosna1"
@@ -3558,7 +3655,7 @@ Extra Machines end here
 				effect_id="ET_PS_BUMBLEBEE_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+			
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_BIG_MORTAR_R"
@@ -3896,7 +3993,7 @@ Extra Machines end here
 		<action
 			name="DEATH2"
 			skin="8"/>
-			
+
 		<action
 			name="MOVE1">
 			<lp
@@ -4017,7 +4114,7 @@ Extra Machines end here
 				effect_id="ET_PS_SPECTER_FIRE_NO_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_SML_MGUN"
@@ -4118,14 +4215,14 @@ Extra Machines end here
 				effect_id="ET_PS_VECTOR01_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+	
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_BIG_MGUN"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
-	
+
 		<action
 			name="STAND1">
 			<lp
@@ -4378,7 +4475,7 @@ Extra Machines end here
 				effect_id="ET_PS_FLAG01_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_BIG_SHOTGUN"
@@ -4476,7 +4573,7 @@ Extra Machines end here
 				effect_id="ET_PS_STORM_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_SML_SHOTGUN"
@@ -4635,7 +4732,7 @@ Extra Machines end here
 				effect_id="ET_PS_OMEGA_FIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_BIG_MORTAR"
@@ -4665,7 +4762,7 @@ Extra Machines end here
 		<action
 			name="DEATH2"
 			skin="8"/>
-			
+
 		<action
 			name="MOVE1">
 			<lp
@@ -4928,14 +5025,14 @@ Extra Machines end here
 				effect_id="ET_PS_KORD_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_SML_MGUN_R"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
-		
+
 		<action
 			name="STAND1">
 			<lp
@@ -4980,7 +5077,7 @@ Extra Machines end here
 				effect_id="ET_PS_PKT_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_SML_MGUN"
@@ -5047,7 +5144,7 @@ Extra Machines end here
 				effect_id="ET_PS_HORNET_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-			
+
 			<lp
 				id="LP_SHELL01"
 				effect_id="ET_PS_SHELL_SML_MGUN"
@@ -8635,7 +8732,7 @@ Extra Machines end here
 				id="LP_LIGHT04"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-				
+
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB01"
@@ -8728,12 +8825,12 @@ Extra Machines end here
 				id="LP_LIGHT03"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-
+				
 			<lp
 				id="LP_LIGHT04"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-				
+
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_HUNTER_CAB02"
@@ -10544,7 +10641,7 @@ Extra Machines end here
 			name="DEATH2"
 			skin="8" />
 
-		<action
+			<action
 			name="RESERVED2">
 			<lp
 				id="LP_LIGHT01"
@@ -10896,7 +10993,7 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
@@ -11043,7 +11140,7 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_EXH05"
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
@@ -11322,7 +11419,7 @@ Extra Machines end here
 				restartOnAnimationChange="0" />
 		</action>
 	</model>
-	
+
 	<model
 		id="bugChassis"
 		file="data\models\vehicles\bug\shassis01.gam"
@@ -11622,7 +11719,6 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
 		</action>
 
 		<action
@@ -11686,7 +11782,6 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
 		</action>
 
 		<action
@@ -11750,7 +11845,6 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
 		</action>
 
 		<action
@@ -11983,7 +12077,7 @@ Extra Machines end here
 		<action
 			name="DEATH2"
 			skin="16" />
-		
+
 		<action
 			name="STAND1">
 			<lp
@@ -12004,7 +12098,6 @@ Extra Machines end here
 
 		<action
 			name="MOVE2">
-			
 			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW"
@@ -12014,7 +12107,6 @@ Extra Machines end here
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="0" />
 		</action>
-
 	</model>
 
 	<model
@@ -13701,7 +13793,7 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-			
+
 			<lp
 				id="LP_EXH04"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
@@ -13734,7 +13826,7 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_EXH04"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
@@ -13767,7 +13859,7 @@ Extra Machines end here
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-				
+
 			<lp
 				id="LP_EXH04"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
@@ -14071,7 +14163,6 @@ Extra Machines end here
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
 		</action>
-
 	</model>
 
 	<model
@@ -14150,7 +14241,7 @@ Extra Machines end here
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW_QUAD"
 				restartOnAnimationChange="0" />
-			
+
 			<lp
 				id="LP_GLOW02"
 				effect_id="ET_PS_GLOW_QUAD"
@@ -14411,7 +14502,7 @@ Extra Machines end here
 				id="LP_LIGHT16"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-				
+
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB01"
@@ -14665,7 +14756,7 @@ Extra Machines end here
 				id="LP_LIGHT14"
 				effect_id="ET_PS_HLIGHT"
 				restartOnAnimationChange="0" />
-				
+
 			<lp
 				id="LP_PROJECTOR"
 				effect_id="ET_PS_PROJECTOR_BELAZ_CAB04"
@@ -17042,13 +17133,6 @@ Extra Machines end here
 		trans="0" />
 
 	<model
-		id="vagon3"
-		file="data\models\buildings\region1\vagon3.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
 		id="rr_vagon1"
 		file="data\models\buildings\region1\rr_vagon1.gam"
 		shadowVolume="1"
@@ -17079,6 +17163,58 @@ Extra Machines end here
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+
+	<model
+		id="rr_locovagon"
+		file="data\models\buildings\region1\ChME3.gam"
+		shadowVolume="1"
+		shadow="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+		<lp
+			id=""
+			effect_id="ET_PS_S_LOCOMOTIVE01"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_EXH01"
+			effect_id="ET_PS_BOSS1_SMOKE"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT01"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT02"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT03"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT04"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT05"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		<lp
+			id="LP_LIGHT06"
+			effect_id="ET_PS_HLIGHT"
+			restartOnAnimationChange="0"
+			ImmediateRemove="0" />
+		</action>
+	</model>
 
 	<model
 		id="rr_column1"
@@ -18248,7 +18384,7 @@ Extra Machines end here
 		shadow="1"
 		windwavy="0"
 		trans="0" />
-		
+
 	<model
 		id="grave1"
 		file="data\models\buildings\region1\cemetery\grave1.gam"
@@ -18896,13 +19032,6 @@ Extra Machines end here
 	<model
 		id="wood_tramp"
 		file="data\models\buildings\region3\factory\wood_tramp.gam"
-		shadow="1"
-		windwavy="0"
-		trans="0" />
-
-	<model
-		id="big_brock_wall"
-		file="data\models\buildings\region3\factory\big_brock_wall.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />
@@ -21370,6 +21499,22 @@ Extra Machines end here
 		composite="0" />
 
 	<model
+		id="crimson_medal"
+		file="data\models\questitems\cdmed.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0"
+		composite="0" />
+
+	<model
+		id="clothes_player"
+		file="data\models\objects\shmotki.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0"
+		composite="0" />
+
+	<model
 		id="quest_komp_splav"
 		file="data\models\questitems\splav.gam"
 		shadow="1"
@@ -21466,6 +21611,55 @@ Extra Machines end here
 	<model
 		id="boss_barrel"
 		file="data\models\goods\barrel.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="cerkov"
+		file="data\models\buildings\region1\cemetery\cerkov.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />
+	
+	<model
+		id="end_screen"
+		file="data\models\buildings\region1\ekran\end_screen.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="ananaga_bottle"
+		file="data\models\goods\bottle.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="dweller_homer"
+		file="data\models\objects\dweller_Homer.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+		<model
+		id="flagshtock"
+		file="data\models\flags\flag_big.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="flagshtock_small"
+		file="data\models\flags\flag_small.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="flagshtock_smallGun"
+		file="data\models\ammo\plasma01.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />

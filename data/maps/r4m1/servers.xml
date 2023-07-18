@@ -272,11 +272,11 @@ Extra Machines start here
 Extra Machines end here
 -->
 		<Item
-			id="point"
+			id="cargo"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="cargo"
+			id="point"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -300,8 +300,20 @@ Extra Machines end here
 			id="mask_hero"
 			file="data\models\AnimModels.xml" />
 
+		<Item 
+			id="dweller_father" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="mask_father"
+			file="data\models\AnimModels.xml" />
+
 		<Item
 			id="r4_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_man"
 			file="data\models\AnimModels.xml" />
 
 		<!-- dweller ragdoll -->
@@ -315,6 +327,22 @@ Extra Machines end here
 
 		<Item 
 			id="dweller3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller07" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_white" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_player" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_lisa" 
 			file="data\models\AnimModels.xml"/>
 
 		<!-- Segments -->
@@ -427,6 +455,10 @@ Extra Machines end here
 
 		<Item 
 			id="bottles" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="ananaga_bottle" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -926,13 +958,13 @@ Extra Machines end here
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			file="data\models\AnimModels.xml"
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			file="data\models\AnimModels.xml"
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="dozerSusp01" 
@@ -1028,7 +1060,7 @@ Extra Machines end here
 		<Item 
 			id="sml4Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="sml4Susp01" 
@@ -1053,7 +1085,7 @@ Extra Machines end here
 		<Item 
 			id="scoutCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="scoutCab02" 
@@ -1063,7 +1095,7 @@ Extra Machines end here
 		<Item 
 			id="scoutCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="scoutSusp01" 
@@ -1088,12 +1120,12 @@ Extra Machines end here
 		<Item 	
 			id="fighterCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="fighterCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 	
 			id="fighterSusp01l" 
@@ -1134,12 +1166,12 @@ Extra Machines end here
 		<Item 
 			id="hunterCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="hunterCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="hunterSusp01" 
@@ -1160,23 +1192,23 @@ Extra Machines end here
 		<Item 
 			id="cruiserCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="cruiserCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="cruiserCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="cruiserCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
-			
+			params = "skins: 0 1 2 3 7 8;" />
+
 		<Item 
 			id="cruiserSusp01" 
 			file="data\models\AnimModels.xml"/>
@@ -1246,52 +1278,52 @@ Extra Machines end here
 		<Item 
 			id="uralCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCab02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCab04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCab05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCargo04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralCargo05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="uralSusp01" 
@@ -1324,37 +1356,37 @@ Extra Machines end here
 		<Item 
 			id="molokovozCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCargo01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCargo02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 5 7 8 9 10 11 12 13 15 16;" />
+			params = "skins: 0 1 2 3 5 7 8 9 10 11 12 13 15 16;" />
 
 		<Item 
 			id="molokovozSus_f_r" 
@@ -1391,52 +1423,52 @@ Extra Machines end here
 		<Item 
 			id="belazCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCab04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCab05" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCargo03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazCargo05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="belazSusp01" 
@@ -1465,52 +1497,52 @@ Extra Machines end here
 		<Item 
 			id="mirotvorecCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCargo01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCargo02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCab03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCargo03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCab04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 	
 			id="mirotvorecCargo04" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCab05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="mirotvorecCargo05" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 3 7 8;" />
+			params = "skins: 0 1 2 3 7 8;" />
 
 		<Item 
 			id="robotshassis01" 
@@ -1689,9 +1721,13 @@ Extra Machines end here
 			id="quest_letter" 
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="quest_medicine_box" 
-			file="data\models\AnimModels.xml"/>
+		<Item
+			id="quest_medicine_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crimson_medal"
+			file="data\models\AnimModels.xml" />
 
 		<Item 	
 			id="quest_komp_splav" 
@@ -1865,10 +1901,6 @@ Extra Machines end here
 
 		<Item
 			id="sack_dot_brocken2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="vagon3"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -2397,6 +2429,7 @@ Extra Machines end here
 	<ParticlesServer />
 
 	<SoundsServer>
+
 		<Item id="S_CRASH_METAL01" />
 		<Item id="S_CRASH_METAL02" />
 		<Item id="S_CRASH_METAL03" />
@@ -2416,16 +2449,16 @@ Extra Machines end here
 		<Item id="S_CRASH_WOOD06" />
 		<Item id="S_CRASH_WOOD07" />
 		<Item id="S_CRASH_WOOD08" />
-            <!-- <Item id="S_WOODVEHICLEHIT" /> -->
-		<!-- <Item id="S_WOODVEHICLECRASH" /> -->
-            <!-- <Item id="S_BRICKVEHICLEHIT01" /> -->
-            <!-- <Item id="S_BRICKVEHICLEHIT02" /> -->
-            <!-- <Item id="S_SACKVEHICLEHIT" /> -->
-            <!-- <Item id="S_VEHICLESPARKLE" /> -->
-            <!-- <Item id="S_VEHICLEONGROUND" /> -->
-            <Item id="S_VEHICLEONGROUND_SLOW" />
-            <Item id="S_STATICSSPARKLE" />
-            <Item id="S_STATICSSPARKLE_SLOW" />
+		<Item id="S_WOODVEHICLECRASH" />
+        <Item id="S_BRICKVEHICLEHIT01" />
+        <Item id="S_BRICKVEHICLEHIT02" />
+        <Item id="S_SACKVEHICLEHIT" />
+        <Item id="S_VEHICLESPARKLE" />
+        <Item id="S_VEHICLESPARKLE_SLOW" />
+        <Item id="S_VEHICLEONGROUND" />
+        <Item id="S_VEHICLEONGROUND_SLOW" />
+        <Item id="S_STATICSSPARKLE" />
+        <Item id="S_STATICSSPARKLE_SLOW" />
 
 
 		<!-- Braking -->
@@ -2454,9 +2487,6 @@ Extra Machines end here
 		<Item id="S_ENGINE_BELAZ_3_HIGH" />
 		<Item id="S_ENGINE_BELAZ_4_HIGH" />
 		<Item id="S_ENGINE_BELAZ_5_HIGH" />
-
-		<Item id="S_BELAZ_ENGINE_HIGH" />
-
 
 		<Item id="S_ENGINE_MIR_1_HIGH" />
 		<Item id="S_ENGINE_MIR_2_HIGH" />
@@ -2588,18 +2618,6 @@ Extra Machines end here
 
 		<!-- Starting -->
 
-		<Item id="S_STARTING01" />
-		<Item id="S_STARTING02" />
-		<Item id="S_STARTING03" />
-		<Item id="S_STARTING04" />
-		<Item id="S_STARTING05" />
-		<Item id="S_STARTING06" />
-		<Item id="S_STARTING07" />
-		<Item id="S_STARTING08" />
-		<Item id="S_STARTING09" />
-		<Item id="S_SOMESHOT" />
-		<Item id="S_SHELL_SMALL" />
-		<Item id="S_SHELL_MEDIUM" />
 		<Item id="S_MISSILE_FLAME" />
 		<Item id="S_HORNET_TAIL" />
 		<Item id="S_STATIC07" />
@@ -2689,6 +2707,7 @@ Extra Machines end here
 		<Item id="S_MARSH" />
 		<Item id="S_MOUNT" />
 		<Item id="S_LAKE" />
+
 		<Item id="S_FOREST" />
 		<Item id="S_DESERT" />
 		<Item id="S_JUNGLE" />
@@ -2702,21 +2721,15 @@ Extra Machines end here
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
 		<Item id="S_WOODVEHICLEHIT1"/>
-		<Item id="S_WOODVEHICLEHIT2"/>
-		<Item id="S_WOODVEHICLEHIT3"/>
-		<Item id="S_WOODVEHICLECRASH"/>
-		<Item id="S_BRICKVEHICLEHIT01"/>
-		<Item id="S_BRICKVEHICLEHIT02"/>
-		<Item id="S_BRICKVEHICLEHIT03"/>
+	      <Item id="S_WOODVEHICLEHIT2"/>
+	      <Item id="S_WOODVEHICLEHIT3"/>
+            <Item id="S_BRICKVEHICLEHIT03"/>
 
-		<Item id="S_SACKVEHICLEHIT"/>
-		<Item id="S_SACKVEHICLEHIT02"/>
-		<Item id="S_TREEVEHICLECRASH"/>
-		<Item id="S_VEHICLESPARKLE"/>
-		<Item id="S_VEHICLESPARKLE_SLOW"/>
-		<Item id="S_VEHICLEONGROUND"/>
+            <Item id="S_SACKVEHICLEHIT02"/>
+            <Item id="S_TREEVEHICLECRASH"/>
 		<Item id="S_DRIFT01"/>
-		<Item id="S_CARJUMP"/>
+            <Item id="S_CARJUMP"/>
+
 
 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
@@ -2737,7 +2750,7 @@ Extra Machines end here
 		<Item id="S_CAR_BURNING_SMALL"/>
 		<Item id="S_CAR_BURNING"/>
 
-		<Item id="S_ENGINE_TANK_HIGH"/>
+            <Item id="S_ENGINE_TANK_HIGH"/>
 
 	</SoundsServer>
 

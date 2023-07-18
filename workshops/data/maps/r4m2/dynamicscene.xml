@@ -19,6 +19,14 @@
 
 	<Object
 		Flags="21"
+		Name="TarelkaEnd_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2973.575 227.431 2214.632"
+		Radius="100.000" />
+
+	<Object
+		Flags="21"
 		Name="MilitaryBase_loc"
 		Belong="1100"
 		Prototype="genericLocation"
@@ -69,9 +77,9 @@
 				Belong="1061"
 				Prototype="NPC"
 				ModelName="r4_man"
-				skin="2"
-				cfg="85"
-				helloReplyNames="r4m2_Bar_Scientist_1_N01 r4m2_Bar_Scientist_2_N01 r4m2_Bar_Scientist_3_N01"
+				skin="1"
+				cfg="111"
+				helloReplyNames="r4m2_Bar_Scientist_1_N01 r4m2_Bar_Scientist_2_N01"
 				SpokenCount="0" />
 		</Object>
 
@@ -865,22 +873,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="UralForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -902,22 +895,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="BelazForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="belazCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="belazCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="belazChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -927,22 +905,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="MirotvorecForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="mirotvorecCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="mirotvorecCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="mirotvorecChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1902,22 +1865,6 @@
 
 	<Object
 		Flags="21"
-		Name="ScienceEnd_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="2465.130 295.979 1206.396"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="ScienceSpawn_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="2844.503 288.432 1550.461"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
 		Name="SpawnCrazy11_loc"
 		Belong="1001"
 		Prototype="genericLocation"
@@ -2054,66 +2001,10 @@
 
 	<Object
 		Flags="21"
-		Name="HelpersPeople1_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2557.717 308.446 1246.076"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="HelpersPeople2_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2625.945 314.497 1345.200"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="HelpersPeople3_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2744.479 316.059 1385.801"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="HelpersPeople4_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2817.557 312.094 1441.591"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="HelpersPeople5_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3271.582 247.973 2072.119"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="HelpersPeople6_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3321.383 254.642 2007.637"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
 		Name="TarelkaPoint_loc"
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="2955.210 227.431 2325.393"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="genericLocation51"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3019.172 228.019 2101.250"
 		Radius="10.000" />
 
 	<Object
@@ -2182,7 +2073,7 @@
 		Name="poddon231"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="3264.006 254.653 1897.863"
+		Pos="3264.006 254.654 1897.863"
 		Rot="0.000 0.523 0.000 0.853" />
 
 	<Object
@@ -2200,24 +2091,10 @@
 		Rot="0.192 0.263 0.557 0.764" />
 
 	<Object
-		Name="poddon234"
-		Belong="-1"
-		Prototype="poddon"
-		Pos="3284.342 254.645 1928.556"
-		Rot="-0.209 0.695 -0.198 0.659" />
-
-	<Object
-		Name="poddon235"
-		Belong="-1"
-		Prototype="poddon"
-		Pos="3472.232 280.119 1787.847"
-		Rot="-0.257 0.000 0.000 0.966" />
-
-	<Object
 		Name="poddon236"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="1548.692 328.738 344.797"
+		Pos="1548.692 328.925 344.797"
 		Rot="0.000 0.286 0.000 0.958"
 		NodeScale="0.474" />
 
@@ -2225,14 +2102,14 @@
 		Name="factory_box237"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1549.333 328.711 344.836"
+		Pos="1550.929 328.686 345.941"
 		NodeScale="0.474" />
 
 	<Object
 		Name="factory_box238"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1554.594 328.235 349.079"
+		Pos="1549.231 328.801 347.875"
 		NodeScale="0.474" />
 
 	<Object
@@ -2393,7 +2270,7 @@
 		Name="poddon261"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="3264.006 254.653 1897.863"
+		Pos="3264.006 254.654 1897.863"
 		Rot="0.000 0.523 0.000 0.853" />
 
 	<Object
@@ -2414,20 +2291,20 @@
 		Name="poddon264"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="3284.342 254.645 1928.556"
+		Pos="3273.079 254.686 1896.479"
 		Rot="0.000 0.729 0.000 0.684" />
 
 	<Object
 		Name="poddon265"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="3472.232 280.119 1787.847" />
+		Pos="3465.678 280.118 1790.693" />
 
 	<Object
 		Name="poddon266"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="1548.692 328.738 344.797"
+		Pos="1548.692 328.925 344.797"
 		Rot="0.000 0.286 0.000 0.958"
 		NodeScale="0.474" />
 
@@ -2435,14 +2312,14 @@
 		Name="factory_box267"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1549.333 328.711 344.836"
+		Pos="1547.235 329.033 347.036"
 		NodeScale="0.474" />
 
 	<Object
 		Name="factory_box268"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1554.594 328.235 349.079"
+		Pos="1551.329 328.541 348.577"
 		NodeScale="0.474" />
 
 	<Object
@@ -2592,7 +2469,7 @@
 		Pos="491.655 288.000 1573.338">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="491.655 298.192 1576.503" />
 	</Object>
 
@@ -2767,7 +2644,7 @@
 		Name="desert_dtree_1311"
 		Belong="-1"
 		Prototype="desert_dtree_1_dyn"
-		Pos="572.068 285.011 1743.083"
+		Pos="572.068 285.012 1743.083"
 		Rot="0.000 -0.250 0.000 0.968"
 		NodeScale="0.810" />
 
@@ -2871,7 +2748,7 @@
 		Name="r4_desert_palma_3324"
 		Belong="-1"
 		Prototype="r4_desert_palma_3_dyn"
-		Pos="648.302 311.006 1879.885"
+		Pos="648.302 311.005 1879.885"
 		Rot="0.000 -1.000 0.000 0.000"
 		NodeScale="1.130" />
 
@@ -2897,7 +2774,7 @@
 		Rot="0.000 0.706 0.000 0.709">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2393.699 305.336 1036.305"
 			Rot="0.000 0.706 0.000 0.709" />
 	</Object>
@@ -2980,7 +2857,7 @@
 		Rot="0.000 0.356 0.000 0.934">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2271.867 305.192 1184.965"
 			Rot="0.000 0.356 0.000 0.934" />
 	</Object>
@@ -3070,7 +2947,7 @@
 		Rot="0.000 -0.015 0.000 1.000">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2436.889 305.195 1180.277"
 			Rot="0.000 -0.015 0.000 1.000" />
 	</Object>
@@ -3098,7 +2975,7 @@
 		Rot="0.000 -0.013 0.000 1.000">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2148.743 305.192 1099.279"
 			Rot="0.000 -0.013 0.000 1.000" />
 	</Object>
@@ -3237,7 +3114,7 @@
 		Name="desert_dtree_2374"
 		Belong="-1"
 		Prototype="desert_dtree_2_dyn"
-		Pos="3209.654 264.156 2210.558"
+		Pos="3209.654 264.157 2210.558"
 		Rot="0.000 -0.035 0.000 0.999"
 		NodeScale="1.080" />
 
@@ -3473,7 +3350,7 @@
 		Name="desert_dtree_1404"
 		Belong="-1"
 		Prototype="desert_dtree_1_dyn"
-		Pos="2013.333 345.953 714.142"
+		Pos="2013.333 345.954 714.142"
 		Rot="0.000 -0.713 0.000 0.701"
 		NodeScale="0.950" />
 
@@ -3693,13 +3570,13 @@
 		Name="barrel1435"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="1548.581 328.775 344.190" />
+		Pos="1545.639 329.197 345.158" />
 
 	<Object
 		Name="barrel1436"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="1554.043 330.193 347.857" />
+		Pos="1544.503 329.251 346.256" />
 
 	<Object
 		Name="desert_dtree_2437"
@@ -3761,7 +3638,7 @@
 		Name="desert_dtree_1444"
 		Belong="-1"
 		Prototype="desert_dtree_1_dyn"
-		Pos="2691.765 229.329 2121.660"
+		Pos="2691.765 229.328 2121.660"
 		Rot="0.000 0.870 0.000 0.492"
 		NodeScale="0.800" />
 
@@ -3865,8 +3742,8 @@
 		Name="stolb1457"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3298.998 255.740 1856.836"
-		Rot="0.000 0.156 0.000 0.988"
+		Pos="3298.971 255.740 1856.836"
+		Rot="0.001 -0.040 0.017 0.999"
 		NodeScale="1.400" />
 
 	<Object
@@ -3905,7 +3782,7 @@
 		Name="stolb1462"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3416.418 280.110 1762.329"
+		Pos="3407.368 280.127 1751.425"
 		Rot="0.000 -0.941 0.000 0.338"
 		NodeScale="1.400" />
 
@@ -3913,7 +3790,7 @@
 		Name="stolb1463"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3456.096 280.124 1802.140"
+		Pos="3460.226 280.114 1788.763"
 		Rot="0.000 -0.905 0.000 0.425"
 		NodeScale="1.400" />
 
@@ -3952,7 +3829,7 @@
 		Name="desert_dtree_1468"
 		Belong="-1"
 		Prototype="desert_dtree_1_dyn"
-		Pos="1108.961 286.646 1206.840"
+		Pos="1108.961 286.645 1206.840"
 		Rot="0.000 0.917 0.000 0.399"
 		NodeScale="1.040" />
 
@@ -4066,37 +3943,27 @@
 		Name="lamppost2484"
 		Belong="-1"
 		Prototype="lamppost2"
-		Pos="3261.915 254.645 1904.461"
-		Rot="0.000 0.996 0.000 0.085">
+		Pos="3261.942 254.645 1904.461"
+		Rot="-0.017 0.996 0.001 0.085">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
-			Pos="3262.890 261.591 1904.630"
-			Rot="0.000 0.996 0.000 0.085" />
+			Prototype="LightObject2"
+			Pos="3262.691 260.975 1904.630"
+			Rot="-0.017 0.996 0.001 0.085" />
 	</Object>
 
 	<Object
 		Name="lamppost2485"
 		Belong="-1"
 		Prototype="lamppost2"
-		Pos="3459.161 280.111 1757.013"
+		Pos="3434.199 280.102 1778.766"
 		Rot="0.000 0.528 0.000 0.849">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
-			Pos="3458.720 287.057 1757.898"
+			Prototype="LightObject2"
+			Pos="3433.758 287.057 1779.651"
 			Rot="0.000 0.528 0.000 0.849" />
 	</Object>
-
-	<Object
-		Flags="21"
-		Name="ToR2M2"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1367.830 381.453 3100.416"
-		Radius="10.000"
-		Active="0"
-		PassageAddress="r2m2 FromR4M1" />
 
 	<Object
 		Name="Human486"
@@ -4161,7 +4028,7 @@
 		Name="Human3495"
 		Belong="1001"
 		Prototype="Human3"
-		Pos="2929.516 223.682 2369.582" />
+		Pos="2929.516 223.683 2369.582" />
 
 	<Object
 		Name="Human3496"
@@ -4191,7 +4058,7 @@
 		Name="Human502"
 		Belong="1001"
 		Prototype="Human"
-		Pos="2969.051 223.258 2379.493" />
+		Pos="2969.051 223.257 2379.493" />
 
 	<Object
 		Name="Human503"
@@ -4215,7 +4082,7 @@
 		Name="Human506"
 		Belong="1001"
 		Prototype="Human"
-		Pos="2916.117 222.819 2376.404" />
+		Pos="2916.117 222.820 2376.404" />
 
 	<Object
 		Name="Human507"
@@ -4288,13 +4155,6 @@
 		Rot="0.000 -0.317 0.000 0.948" />
 
 	<Object
-		Name="ExitFromSecretTonnel_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1156.558 315.677 2797.072"
-		Radius="10.000" />
-
-	<Object
 		Name="pack519"
 		Belong="-1"
 		Prototype="pack_breakable"
@@ -4340,7 +4200,7 @@
 		Name="poddon525"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="3264.006 254.653 1897.863"
+		Pos="3264.006 254.654 1897.863"
 		Rot="0.000 0.523 0.000 0.853" />
 
 	<Object
@@ -4372,13 +4232,6 @@
 		Rot="0.192 0.263 0.557 0.764" />
 
 	<Object
-		Name="poddon530"
-		Belong="-1"
-		Prototype="poddon"
-		Pos="3284.342 254.645 1928.556"
-		Rot="-0.209 0.695 -0.198 0.659" />
-
-	<Object
 		Name="pack531"
 		Belong="-1"
 		Prototype="pack_breakable"
@@ -4393,17 +4246,10 @@
 		Rot="0.000 0.986 0.000 -0.165" />
 
 	<Object
-		Name="poddon533"
-		Belong="-1"
-		Prototype="poddon"
-		Pos="3472.232 280.119 1787.847"
-		Rot="-0.257 0.000 0.000 0.966" />
-
-	<Object
 		Name="brokvehicle2534"
 		Belong="-1"
 		Prototype="brokvehicle2_breakable"
-		Pos="2989.368 227.463 2253.115"
+		Pos="2989.368 227.462 2253.115"
 		Rot="0.000 -0.089 0.000 0.996" />
 
 	<Object
@@ -4426,7 +4272,7 @@
 		Name="pack537"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="1553.116 328.084 353.067"
+		Pos="1551.970 328.293 351.627"
 		Mass="4.260"
 		NodeScale="0.474" />
 
@@ -4434,7 +4280,7 @@
 		Name="factory_box538"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1549.333 328.859 344.836"
+		Pos="1547.476 329.042 342.017"
 		Mass="5.325"
 		NodeScale="0.474" />
 
@@ -4442,7 +4288,7 @@
 		Name="factory_box539"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="1554.594 329.209 349.079"
+		Pos="1548.585 328.738 350.636"
 		Mass="5.325"
 		NodeScale="0.474" />
 
@@ -4643,7 +4489,7 @@
 		Name="desert_tree_1566"
 		Belong="-1"
 		Prototype="desert_tree_1_dyn"
-		Pos="1566.684 328.159 343.377" />
+		Pos="1566.684 328.160 343.377" />
 
 	<Object
 		Name="desert_tree_2567"
@@ -4653,4 +4499,260 @@
 		Rot="0.000 1.000 0.000 0.009"
 		Mass="456.262"
 		NodeScale="1.150" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1459"
+			NodesNameHierarchy=""
+			PostTiePos="3294.114 282.075 1772.112"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1458"
+			NodesNameHierarchy=""
+			PostTiePos="3293.210 271.377 1812.292"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1459"
+			NodesNameHierarchy=""
+			PostTiePos="3292.443 281.595 1771.537"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1458"
+			NodesNameHierarchy=""
+			PostTiePos="3291.463 270.897 1812.560"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1458"
+			NodesNameHierarchy=""
+			PostTiePos="3293.210 271.377 1812.292"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1457"
+			NodesNameHierarchy=""
+			PostTiePos="3299.640 264.740 1857.242"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1458"
+			NodesNameHierarchy=""
+			PostTiePos="3291.463 270.897 1812.560"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1457"
+			NodesNameHierarchy=""
+			PostTiePos="3297.896 264.199 1857.101"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1460"
+			NodesNameHierarchy=""
+			PostTiePos="3324.176 288.286 1732.962"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1461"
+			NodesNameHierarchy=""
+			PostTiePos="3372.715 289.323 1723.701"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1460"
+			NodesNameHierarchy=""
+			PostTiePos="3322.989 287.806 1731.652"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1461"
+			NodesNameHierarchy=""
+			PostTiePos="3372.745 288.842 1721.934"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1461"
+			NodesNameHierarchy=""
+			PostTiePos="3372.715 289.323 1723.701"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1462"
+			NodesNameHierarchy=""
+			PostTiePos="3406.379 289.099 1751.817"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1461"
+			NodesNameHierarchy=""
+			PostTiePos="3372.745 288.842 1721.934"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1462"
+			NodesNameHierarchy=""
+			PostTiePos="3407.743 288.618 1750.692"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1462"
+			NodesNameHierarchy=""
+			PostTiePos="3406.379 289.099 1751.817"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="lamppost2485"
+			NodesNameHierarchy=""
+			PostTiePos="3433.749 287.735 1779.643"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1462"
+			NodesNameHierarchy=""
+			PostTiePos="3407.743 288.618 1750.692"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="lamppost2485"
+			NodesNameHierarchy=""
+			PostTiePos="3434.630 287.735 1777.856"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="lamppost2485"
+			NodesNameHierarchy=""
+			PostTiePos="3433.749 287.735 1779.643"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1463"
+			NodesNameHierarchy=""
+			PostTiePos="3459.329 289.086 1789.333"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="lamppost2485"
+			NodesNameHierarchy=""
+			PostTiePos="3434.630 287.735 1777.856"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1463"
+			NodesNameHierarchy=""
+			PostTiePos="3460.458 288.605 1787.973"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="lamppost2484"
+			NodesNameHierarchy=""
+			PostTiePos="3262.644 262.306 1904.644"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1457"
+			NodesNameHierarchy=""
+			PostTiePos="3299.640 264.740 1857.242"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="lamppost2484"
+			NodesNameHierarchy=""
+			PostTiePos="3260.681 262.238 1904.306"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1457"
+			NodesNameHierarchy=""
+			PostTiePos="3297.896 264.199 1857.101"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1459"
+			NodesNameHierarchy=""
+			PostTiePos="3294.114 282.075 1772.112"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1460"
+			NodesNameHierarchy=""
+			PostTiePos="3324.176 288.286 1732.962"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1459"
+			NodesNameHierarchy=""
+			PostTiePos="3292.443 281.595 1771.537"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1460"
+			NodesNameHierarchy=""
+			PostTiePos="3322.989 287.806 1731.652"
+			LpName="LP_PART02" />
+	</Object>
 </DynamicScene>

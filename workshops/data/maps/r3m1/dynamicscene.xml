@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="2780">
+	LastId="2781">
 	<TargetNamesForDestroy
 		Names="urod1 urod2 urod3 urod4 urod5 urod6 urod7 urod8 urod9" />
 
@@ -12,7 +12,7 @@
 		Pos="1784.210 286.275 1453.526"
 		Radius="62.835" />
 
-		<Object
+	<Object
 		Flags="21"
 		Name="RCarsSet_loc"
 		Belong="1064"
@@ -25,31 +25,22 @@
 		Belong="1100"
 		Prototype="genericLocation"
 		Pos="2949.281 305.737 2880.598"
-		Radius="250.000"
-		Active="1" />
-
-	<Object
-		Name="UlukArmyPos1_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="3065.345 368.008 3228.151"
-		Radius="10.000"
-		Active="0" />
+		Radius="250.000" />
 
 	<Object
 		Flags="21"
 		Name="ExitFromDung_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="3203.301 395.168 3389.945"
-		Radius="78.418" />
+		Pos="3220.682 395.060 3330.675"
+		Radius="121.418" />
 
 	<Object
 		Flags="21"
 		Name="RescueCiv_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="1837.639 258.000 1094.107"
+		Pos="1850.808 249.861 1158.190"
 		Radius="80.820" />
 
 	<Object
@@ -60,14 +51,6 @@
 		Pos="865.810 288.003 977.006"
 		Radius="27.246"
 		ExitLocation="ToR2M1" />
-
-	<Object
-		Flags="21"
-		Name="PlayerMoveFromR1M4"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="3752.508 249.025 1869.553"
-		Radius="15.687" />
 
 	<Object
 		Flags="21"
@@ -118,8 +101,8 @@
 		Name="NearFist_TalkGuard_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="3417.872 249.196 1439.255"
-		Radius="97.405" />
+		Pos="3396.927 268.335 1489.185"
+		Radius="128.405" />
 
 	<Object
 		Flags="21"
@@ -189,9 +172,9 @@
 		Name="ZoneRobots"
 		Belong="1022"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r3m1_RobotTeam"
+		InfectionTeamPrototypeName="r3m2_RobotsTeam"
 		DropOutTimeOut="180.000"
-		InfectionLair="r3m1_RobotTeam"
+		InfectionLair="r3m2_RobotsTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
@@ -276,7 +259,7 @@
 
 	<Object
 		Name="ZoneRazboynik"
-		Belong="1063"
+		Belong="1002"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r3m1_RaboynikTeam"
 		DropOutTimeOut="20.000"
@@ -682,15 +665,10 @@
 	</Object>
 
 	<Object
-		Name="Player1"
-		Belong="1100"
-		Prototype="player" />
-
-	<Object
 		Name="TheRazboynik"
 		Belong="1063"
 		Prototype="r3_RazboinikVillage"
-		Pos="435.602 323.701 1778.469"
+		Pos="435.602 323.700 1778.469"
 		Rot="0.000 0.851 0.000 -0.526"
 		PointOfViewInInterface="50.000 50.000 50.000"
 		CaravansDest="">
@@ -1069,22 +1047,7 @@
 					Flags="16"
 					Prototype="BelazForSale"
 					Pos="0.000 352.352 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="belazCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="belazCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="belazChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1226,7 +1189,7 @@
 				ModelName="r3_man"
 				skin="2"
 				cfg="1915"
-				helloReplyNames="Set_Bar_MainDruid_1_N01 Set_Bar_MainDruid_2_N01 Set_Bar_MainDruid_3_N01 Set_Bar_MainDruid_4_N01 Set_Bar_MainDruid_5_N01"
+				helloReplyNames="Set_Bar_MainDruid_1_N01 Set_Bar_MainDruid_3_N01 Set_Bar_MainDruid_4_N01 Set_Bar_MainDruid_5_N01 Dlg_npc_001997"
 				SpokenCount="0" />
 		</Object>
 
@@ -1251,7 +1214,27 @@
 				ModelName="r3_man"
 				skin="2"
 				cfg="379"
-				helloReplyNames="Set_Bar_Customer1_1_N01 Set_Bar_Customer1_2_N01 Set_Bar_Druid3_1_N01"
+				helloReplyNames="Set_Bar_Druid3_1_N01"
+				SpokenCount="0" />
+
+			<Object
+				Name="Set_Bar_Customer2"
+				Belong="1019"
+				Prototype="NPC"
+				ModelName="r3_man"
+				skin="1"
+				cfg="3069"
+				helloReplyNames="Set_Bar_Customer1_1_N01 Set_Bar_Customer1_2_N01"
+				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph1"
+				Belong="1019"
+				Prototype="NPC"
+				ModelName="r3_man"
+				skin="2"
+				cfg="1137"
+				helloReplyNames="Dlg_npc_003026"
 				SpokenCount="0" />
 		</Object>
 
@@ -1563,22 +1546,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Pos="0.000 351.914 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1634,6 +1602,65 @@
 			Pos="1480.519 288.000 2625.605"
 			Rot="0.000 -0.292 0.000 0.956"
 			Radius="51.988" />
+
+		<Object
+			Name="heavy_dot3_vulcan9"
+			Belong="1019"
+			Prototype="heavy_dot3_vulcan"
+			Pos="1431.221 288.000 2636.763">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot3_vulcan9CANNON"
+					Belong="1019"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="heavy_dot2_vector10"
+			Belong="1019"
+			Prototype="heavy_dot2_vector"
+			Pos="1459.756 288.000 2588.627"
+			Rot="0.000 0.716 0.000 0.698">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot2_vector10CANNON"
+					Belong="1019"
+					Prototype="vector01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="sack_dot1_vulcan11"
+			Belong="1019"
+			Prototype="sack_dot1_vulcan"
+			Pos="1401.723 288.000 2597.400"
+			Rot="0.000 -0.998 0.000 0.068">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="sack_dot1_vulcan11CANNON"
+					Belong="1019"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="sack_dot2_vulcan12"
+			Belong="1019"
+			Prototype="sack_dot2_vulcan"
+			Pos="1415.021 288.110 2572.348"
+			Rot="0.000 -0.808 0.000 0.590">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="sack_dot2_vulcan12CANNON"
+					Belong="1019"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
 
 		<Parts>
 			<AttackTeam
@@ -1720,6 +1747,15 @@
 				ModelName="r3_man"
 				cfg="1272"
 				helloReplyNames="Uluk_Bar_Customer1_3_N01"
+				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph2"
+				Belong="1020"
+				Prototype="NPC"
+				ModelName="r3_man"
+				cfg="1137"
+				helloReplyNames="Dlg_npc_003026"
 				SpokenCount="0" />
 		</Object>
 
@@ -2112,13 +2148,10 @@
 				Pos="1543.661 658.995" />
 
 			<CameraPoint
-				Pos="-48.469 9.487 -11.255" />
+				Pos="-93.363 17.717 -18.139" />
 
 			<CameraPoint
-				Pos="-63.746 7.362 -4.129" />
-
-			<CameraPoint
-				Pos="-87.978 21.807 5.897" />
+				Pos="-114.931 15.354 -10.431" />
 		</ExitPath>
 	</Object>
 
@@ -2894,7 +2927,7 @@
 		Name="sack_dot2_vulcan6"
 		Belong="1020"
 		Prototype="sack_dot2_vulcan"
-		Pos="1428.519 251.044 804.270">
+		Pos="1428.519 251.043 804.270">
 		<Parts />
 	</Object>
 
@@ -2913,41 +2946,6 @@
 		Prototype="heavy_dot4_octopus"
 		Pos="1551.977 249.000 625.582"
 		Rot="0.000 -0.395 0.000 0.919">
-		<Parts />
-	</Object>
-
-	<Object
-		Name="heavy_dot3_vulcan9"
-		Belong="1019"
-		Prototype="heavy_dot3_vulcan"
-		Pos="1431.221 288.000 2636.763">
-		<Parts />
-	</Object>
-
-	<Object
-		Name="heavy_dot2_vector10"
-		Belong="1019"
-		Prototype="heavy_dot2_vector"
-		Pos="1459.756 288.000 2588.627"
-		Rot="0.000 0.716 0.000 0.698">
-		<Parts />
-	</Object>
-
-	<Object
-		Name="sack_dot1_vulcan11"
-		Belong="1019"
-		Prototype="sack_dot1_vulcan"
-		Pos="1401.723 288.000 2597.400"
-		Rot="0.000 -0.998 0.000 0.068">
-		<Parts />
-	</Object>
-
-	<Object
-		Name="sack_dot2_vulcan12"
-		Belong="1019"
-		Prototype="sack_dot2_vulcan"
-		Pos="1415.021 288.110 2572.348"
-		Rot="0.000 -0.808 0.000 0.590">
 		<Parts />
 	</Object>
 
@@ -3067,116 +3065,102 @@
 		Radius="99.453" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman3_loc"
+		Name="WalkerHuman1"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1426.782 290.392 2725.874"
-		Radius="10.000" />
+		Prototype="Human"
+		Pos="1426.782 290.264 2725.874"
+		PathsNames="Human1_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman1_loc"
+		Name="WalkerHuman2"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human2"
 		Pos="1462.154 288.000 2710.138"
-		Radius="10.000" />
+		PathsNames="Human2_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman2_loc"
+		Name="WalkerHuman3"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human3"
 		Pos="1573.439 288.000 2599.602"
-		Radius="10.000" />
+		PathsNames="Human3_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman4_loc"
+		Name="WalkerHuman4"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human"
 		Pos="1370.067 249.000 652.057"
-		Radius="10.000" />
+		PathsNames="Human4_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman5_loc"
+		Name="WalkerHuman5"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1648.228 253.898 712.420"
-		Radius="10.000" />
+		Prototype="Human2"
+		Pos="1648.228 253.927 712.420"
+		PathsNames="Human5_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman6_loc"
+		Name="WalkerHuman6"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human3"
 		Pos="1394.607 249.000 640.059"
-		Radius="10.000" />
+		PathsNames="Human6_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman7_loc"
+		Name="WalkerHuman7"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1576.776 249.010 691.696"
-		Radius="10.000" />
+		Prototype="Human"
+		Pos="1576.776 249.035 691.696"
+		PathsNames="Human7_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman8_loc"
+		Name="WalkerHuman8"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3032.831 260.806 1330.498"
-		Radius="10.000" />
+		Prototype="Human2"
+		Pos="3032.831 260.805 1330.498"
+		PathsNames="Human8_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman9_loc"
+		Name="WalkerHuman9"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3065.691 261.218 1222.425"
-		Radius="10.000" />
+		Prototype="Human3"
+		Pos="3065.691 261.221 1222.425"
+		PathsNames="Human9_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman10_loc"
+		Name="WalkerHuman10"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2943.120 266.220 1353.749"
-		Radius="10.000" />
+		Prototype="Human"
+		Pos="2943.120 266.162 1353.749"
+		PathsNames="Human10_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman11_loc"
+		Name="WalkerHuman11"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human2"
 		Pos="510.901 321.479 1783.830"
-		Radius="10.000" />
+		PathsNames="Human11_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman12_loc"
+		Name="WalkerHuman12"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human3"
 		Pos="1549.979 288.000 2564.564"
-		Radius="10.000" />
+		PathsNames="Human12_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman13_loc"
+		Name="WalkerHuman13"
 		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3425.454 287.682 2211.660"
-		Radius="10.000" />
+		Prototype="Human"
+		Pos="3425.454 288.000 2211.660"
+		PathsNames="Human13_Path" />
 
 	<Object
-		Flags="21"
-		Name="SpawnHuman14_loc"
+		Name="WalkerHuman14"
 		Belong="1001"
-		Prototype="genericLocation"
+		Prototype="Human2"
 		Pos="3372.180 288.000 2074.756"
-		Radius="10.000" />
+		PathsNames="Human14_Path" />
 
 	<Object
 		Flags="21"
@@ -3288,14 +3272,6 @@
 		Belong="1001"
 		Prototype="genericLocation"
 		Pos="2166.279 269.319 2293.124"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="MegaSecretPlace_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2327.680 443.006 2720.626"
 		Radius="10.000" />
 
 	<Object
@@ -3416,9 +3392,9 @@
 			<Object
 				Name="js_wallwithenemy176_Child7"
 				Belong="1002"
-				Prototype="r1m1_scout01"
-				Pos="965.244 305.791 2192.625"
-				Rot="-0.050 -0.961 -0.028 0.270">
+				Prototype="r2m1_scout02"
+				Pos="846.738 356.805 3200.852"
+				Rot="-0.048 -0.938 -0.032 0.343">
 				<Parts />
 
 				<Repository />
@@ -3427,13 +3403,14 @@
 			<Object
 				Name="js_wallwithenemy176_Child8"
 				Belong="1002"
-				Prototype="r1m3_hunter02"
-				Pos="978.916 304.556 2183.506"
-				Rot="-0.041 -0.961 -0.006 0.273">
+				Prototype="Ural00"
+				Pos="853.271 355.659 3193.322"
+				Rot="-0.041 -0.943 -0.008 0.331">
 				<Parts />
 
 				<Repository />
 			</Object>
+
 			<Formation
 				Name="js_wallwithenemy176_Team_Formation"
 				Belong="1002"
@@ -3483,7 +3460,7 @@
 			<Object
 				Name="js_wallwithenemy168_Child7"
 				Belong="1002"
-				Prototype="r1m1_scout01"
+				Prototype="r2m1_scout02"
 				Pos="1556.849 270.981 1394.204"
 				Rot="-0.004 0.524 -0.031 0.851">
 				<Parts />
@@ -3494,7 +3471,7 @@
 			<Object
 				Name="js_wallwithenemy168_Child8"
 				Belong="1002"
-				Prototype="r1m3_hunter02"
+				Prototype="Ural00"
 				Pos="1550.021 271.930 1409.153"
 				Rot="-0.013 0.526 -0.025 0.850">
 				<Parts />
@@ -3575,7 +3552,7 @@
 			<Object
 				Name="barricade8_wwwC17_Child4"
 				Belong="1002"
-				Prototype="Sml301"
+				Prototype="Fighter02"
 				Pos="1459.413 270.129 1106.697"
 				Rot="0.000 0.236 0.000 0.972">
 				<Parts />
@@ -3704,7 +3681,7 @@
 			Name="barricade6_wGw80_Child3"
 			Belong="1002"
 			Prototype="staticAutoGun07"
-			Pos="2027.682 293.481 1432.638"
+			Pos="2027.682 293.427 1432.638"
 			Rot="0.000 -0.303 0.000 0.953">
 			<Parts />
 		</Object>
@@ -3754,7 +3731,7 @@
 			Name="barricade4_wGw90_Child3"
 			Belong="1002"
 			Prototype="staticAutoGun08"
-			Pos="2580.369 249.247 1169.950"
+			Pos="2580.369 249.193 1169.950"
 			Rot="0.000 -0.469 0.000 0.883">
 			<Parts />
 		</Object>
@@ -3796,7 +3773,7 @@
 			Name="barricade7_GwG27_Child3"
 			Belong="1002"
 			Prototype="staticAutoGun08"
-			Pos="2903.466 249.217 814.040"
+			Pos="2903.466 249.216 814.040"
 			Rot="0.000 0.577 0.000 0.817">
 			<Parts />
 		</Object>
@@ -3849,7 +3826,7 @@
 			<Object
 				Name="barricade8_wwwC15_Child4"
 				Belong="1005"
-				Prototype="Sml301"
+				Prototype="Hunter01"
 				Pos="2209.073 249.706 744.277"
 				Rot="-0.087 -0.703 -0.112 0.697">
 				<Parts />
@@ -3904,7 +3881,7 @@
 			Name="barricade7_GwG68_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2276.879 252.711 1203.824"
+			Pos="2276.879 252.657 1203.824"
 			Rot="0.000 0.557 0.000 0.830">
 			<Parts />
 		</Object>
@@ -3930,7 +3907,7 @@
 			Name="barricade7_GwG68_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2281.423 251.039 1192.717"
+			Pos="2281.423 250.985 1192.717"
 			Rot="0.000 0.557 0.000 0.830">
 			<Parts />
 		</Object>
@@ -3946,7 +3923,7 @@
 			Name="barricade5_GwG55_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2810.337 249.217 1166.483"
+			Pos="2810.337 249.163 1166.483"
 			Rot="0.000 0.646 0.000 0.763">
 			<Parts />
 		</Object>
@@ -3955,7 +3932,7 @@
 			Name="barricade5_GwG55_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2812.318 249.195 1154.648"
+			Pos="2812.318 249.142 1154.648"
 			Rot="0.000 0.646 0.000 0.763">
 			<Parts />
 		</Object>
@@ -4469,7 +4446,7 @@
 		<Object
 			Name="js_barricade193_Child5"
 			Belong="1002"
-			Prototype="sack_dot2_kord"
+			Prototype="staticAutoGun07"
 			Pos="1572.325 275.153 2311.855"
 			Rot="0.000 -1.000 0.000 0.011">
 			<Parts />
@@ -4523,7 +4500,7 @@
 			<Object
 				Name="barricade8_wwwC8_Child4"
 				Belong="1002"
-				Prototype="Sml301"
+				Prototype="Molokovoz02"
 				Pos="1657.334 278.810 1686.692"
 				Rot="0.021 -0.004 0.063 0.998">
 				<Parts />
@@ -4569,7 +4546,7 @@
 		<Object
 			Name="js_barricade116_Child5"
 			Belong="1002"
-			Prototype="sack_dot2_kord"
+			Prototype="staticAutoGun07"
 			Pos="1719.817 283.657 1551.857"
 			Rot="0.000 -1.000 0.000 0.011">
 			<Parts />
@@ -4676,7 +4653,7 @@
 		Name="factory_box2"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="3803.849 267.860 1969.206"
+		Pos="3812.255 250.107 1971.179"
 		Rot="0.000 -0.591 0.000 0.806" />
 
 	<Object
@@ -4689,7 +4666,7 @@
 		Name="factory_box4"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="3811.358 258.503 1985.206"
+		Pos="3813.412 250.107 1974.438"
 		Rot="0.000 -0.373 0.000 0.928" />
 
 	<Object
@@ -4703,14 +4680,14 @@
 		Name="factory_box6"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="3814.926 251.946 1892.815"
+		Pos="3815.928 251.946 1893.154"
 		Rot="0.000 -0.588 0.000 0.809" />
 
 	<Object
 		Name="factory_box7"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="3814.785 251.946 1893.010"
+		Pos="3809.613 250.107 1968.133"
 		Rot="0.000 -0.984 0.000 0.178" />
 
 	<Object
@@ -4731,7 +4708,7 @@
 		Name="poddon10"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="629.426 228.481 2008.827"
+		Pos="629.426 231.764 2008.827"
 		Rot="0.000 0.952 0.000 -0.305"
 		NodeScale="1.190" />
 
@@ -4813,7 +4790,7 @@
 		Name="r3_tropicpalma121"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2939.943 255.536 1072.746"
+		Pos="2939.943 255.537 1072.746"
 		Rot="0.000 0.609 0.000 0.793"
 		NodeScale="1.427" />
 
@@ -4973,7 +4950,7 @@
 		Name="r3_tropicpalma141"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2025.520 264.837 692.385"
+		Pos="2025.520 264.838 692.385"
 		Rot="0.000 -0.656 0.000 0.755"
 		NodeScale="1.099" />
 
@@ -5133,7 +5110,7 @@
 		Name="r3_tropicpalma161"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1855.595 258.381 828.323"
+		Pos="1855.595 258.380 828.323"
 		Rot="0.000 0.267 0.000 0.964"
 		NodeScale="0.767" />
 
@@ -5405,7 +5382,7 @@
 		Name="r3_tropicpalma195"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3620.555 283.539 287.447"
+		Pos="3620.555 283.540 287.447"
 		Rot="0.000 0.485 0.000 0.875"
 		NodeScale="1.003" />
 
@@ -5445,7 +5422,7 @@
 		Name="r3_tropicpalma1100"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3694.630 266.291 243.089"
+		Pos="3694.630 266.290 243.089"
 		Rot="0.000 -0.609 0.000 0.793"
 		NodeScale="1.180" />
 
@@ -5461,7 +5438,7 @@
 		Name="r3_tropicpalma3102"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3665.634 277.711 247.593"
+		Pos="3665.634 277.712 247.593"
 		Rot="0.000 0.910 0.000 0.415"
 		NodeScale="1.121" />
 
@@ -5541,7 +5518,7 @@
 		Name="r3_tropicpalma1112"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3602.126 248.284 341.589"
+		Pos="3602.126 248.283 341.589"
 		Rot="0.000 -0.954 0.000 0.301"
 		NodeScale="1.249" />
 
@@ -5581,7 +5558,7 @@
 		Name="r3_tropicpalma1117"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3798.607 249.328 643.063"
+		Pos="3798.607 249.327 643.063"
 		Rot="0.000 -0.595 0.000 0.804"
 		NodeScale="1.115" />
 
@@ -5668,7 +5645,7 @@
 		Name="r3_tropicpalma1128"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2358.338 250.226 331.482"
+		Pos="2358.338 250.227 331.482"
 		Rot="0.000 -0.309 0.000 0.951"
 		NodeScale="1.134" />
 
@@ -5708,7 +5685,7 @@
 		Name="r3_tropicpalma1133"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2291.822 250.555 152.628"
+		Pos="2291.822 250.556 152.628"
 		Rot="0.000 -0.070 0.000 0.998"
 		NodeScale="1.216" />
 
@@ -5772,7 +5749,7 @@
 		Name="r3_tropicpalma1141"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2475.193 247.294 319.422"
+		Pos="2475.193 247.293 319.422"
 		Rot="0.000 -0.999 0.000 0.052"
 		NodeScale="1.238" />
 
@@ -5932,7 +5909,7 @@
 		Name="r3_tropicpalma1161"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2066.673 255.269 116.189"
+		Pos="2066.673 255.268 116.189"
 		Rot="0.000 0.948 0.000 0.317"
 		NodeScale="1.132" />
 
@@ -5948,7 +5925,7 @@
 		Name="r3_tropicpalma1163"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2988.158 274.385 1145.199"
+		Pos="2988.158 274.384 1145.199"
 		Rot="0.000 0.530 0.000 0.848"
 		NodeScale="1.088" />
 
@@ -5988,7 +5965,7 @@
 		Name="r3_tropicpalma1168"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2502.149 277.250 1102.102"
+		Pos="2502.149 277.251 1102.102"
 		Rot="0.000 -0.044 0.000 0.999"
 		NodeScale="1.295" />
 
@@ -6004,7 +5981,7 @@
 		Name="r3_tropicpalma1170"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3389.090 306.672 1675.080"
+		Pos="3389.090 307.869 1675.080"
 		Rot="0.000 -0.853 0.000 0.523"
 		NodeScale="0.842" />
 
@@ -6012,7 +5989,7 @@
 		Name="r3_tropicpalma1171"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3387.680 321.576 1706.383"
+		Pos="3387.680 321.595 1706.383"
 		Rot="0.000 0.508 0.000 0.862"
 		NodeScale="1.001" />
 
@@ -6052,7 +6029,7 @@
 		Name="r3_tropicpalma3176"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="2071.466 265.775 897.366"
+		Pos="2071.466 265.776 897.366"
 		Rot="0.000 0.477 0.000 0.879"
 		NodeScale="1.421" />
 
@@ -6140,7 +6117,7 @@
 		Name="r3_tropicpalma3187"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3027.149 381.831 3178.225"
+		Pos="3027.149 381.832 3178.225"
 		Rot="0.000 0.174 0.000 0.985"
 		NodeScale="0.900" />
 
@@ -6220,7 +6197,7 @@
 		Name="r3_tropicpalma3197"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="2995.374 447.024 3430.007"
+		Pos="2995.374 447.025 3430.007"
 		Rot="0.000 0.139 0.000 0.990"
 		NodeScale="0.950" />
 
@@ -6252,7 +6229,7 @@
 		Name="r3_tropicpalma1201"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3045.401 433.597 3356.089"
+		Pos="3045.401 433.598 3356.089"
 		Rot="0.000 0.943 0.000 0.334"
 		NodeScale="0.890" />
 
@@ -6364,7 +6341,7 @@
 		Name="r3_tropicpalma1215"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1956.561 270.708 1140.662"
+		Pos="1956.561 270.707 1140.662"
 		Rot="0.000 -0.061 0.000 0.998"
 		NodeScale="1.227" />
 
@@ -6452,7 +6429,7 @@
 		Name="r3_tropicpalma1226"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1678.581 253.280 844.047"
+		Pos="1678.581 253.279 844.047"
 		Rot="0.000 0.383 0.000 0.924"
 		NodeScale="1.168" />
 
@@ -6548,7 +6525,7 @@
 		Name="r3_tropicpalma1238"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1872.017 251.792 654.969"
+		Pos="1872.017 251.793 654.969"
 		Rot="0.000 -0.485 0.000 0.875"
 		NodeScale="1.473" />
 
@@ -6764,7 +6741,7 @@
 		Name="r3_tropicpalma1265"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2374.248 249.307 816.584"
+		Pos="2374.248 249.306 816.584"
 		Rot="0.000 0.985 0.000 0.174"
 		NodeScale="0.786" />
 
@@ -6804,7 +6781,7 @@
 		Name="r3_tropicpalma1270"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2461.278 254.127 775.830"
+		Pos="2461.278 254.126 775.830"
 		Rot="0.000 -0.208 0.000 0.978"
 		NodeScale="1.070" />
 
@@ -6908,7 +6885,7 @@
 		Name="r3_tropicpalma1283"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2732.806 256.420 908.392"
+		Pos="2732.806 256.419 908.392"
 		Rot="0.000 0.866 0.000 0.500"
 		NodeScale="0.789" />
 
@@ -7204,7 +7181,7 @@
 		Name="r3_tropicpalma1320"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3216.604 259.610 1217.686"
+		Pos="3216.604 259.609 1217.686"
 		Rot="0.000 -0.242 0.000 0.970"
 		NodeScale="1.383" />
 
@@ -7292,7 +7269,7 @@
 		Name="r3_tropicpalma1331"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3374.979 259.781 1325.078"
+		Pos="3374.979 259.780 1325.078"
 		Rot="0.000 -0.643 0.000 0.766"
 		NodeScale="1.411" />
 
@@ -7300,7 +7277,7 @@
 		Name="r3_tropicpalma1332"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3401.980 258.788 1211.274"
+		Pos="3401.980 258.789 1211.274"
 		Rot="0.000 -0.026 0.000 1.000"
 		NodeScale="0.907" />
 
@@ -7340,7 +7317,7 @@
 		Name="r3_tropicpalma1337"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2776.077 249.525 767.298"
+		Pos="2776.077 249.526 767.298"
 		Rot="0.000 0.052 0.000 0.999"
 		NodeScale="1.048" />
 
@@ -7372,7 +7349,7 @@
 		Name="r3_tropicpalma1341"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3457.314 255.430 1316.040"
+		Pos="3457.314 255.431 1316.040"
 		Rot="0.000 0.993 0.000 0.122"
 		NodeScale="1.132" />
 
@@ -7468,7 +7445,7 @@
 		Name="r3_tropicpalma1353"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2765.581 299.901 2067.139"
+		Pos="2765.581 299.900 2067.139"
 		Rot="0.000 -0.951 0.000 0.309"
 		NodeScale="1.317" />
 
@@ -7492,7 +7469,7 @@
 		Name="r3_tropicpalma3356"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="2767.984 291.847 2098.030"
+		Pos="2767.984 291.846 2098.030"
 		Rot="0.000 0.216 0.000 0.976"
 		NodeScale="0.759" />
 
@@ -7668,7 +7645,7 @@
 		Name="r3_tropicpalma1378"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2823.266 312.339 2165.823"
+		Pos="2823.266 312.340 2165.823"
 		Rot="0.000 0.725 0.000 0.688"
 		NodeScale="1.188" />
 
@@ -7724,7 +7701,7 @@
 		Name="r3_tropicpalma1385"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2146.144 307.714 2179.693"
+		Pos="2146.144 307.713 2179.693"
 		Rot="0.000 0.284 0.000 0.959"
 		NodeScale="1.305" />
 
@@ -7748,7 +7725,7 @@
 		Name="r3_tropicpalma1388"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2076.468 319.545 2215.483"
+		Pos="2076.468 319.544 2215.483"
 		Rot="0.000 -0.879 0.000 0.477"
 		NodeScale="1.117" />
 
@@ -7788,7 +7765,7 @@
 		Name="r3_tropicpalma1393"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2183.739 365.021 2083.493"
+		Pos="2183.739 365.020 2083.493"
 		Rot="0.000 -0.407 0.000 0.914"
 		NodeScale="1.148" />
 
@@ -7812,7 +7789,7 @@
 		Name="r3_tropicpalma1396"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2284.179 376.891 2103.398"
+		Pos="2284.179 376.892 2103.398"
 		Rot="0.000 0.755 0.000 0.656"
 		NodeScale="0.902" />
 
@@ -8004,7 +7981,7 @@
 		Name="r3_tropicpalma1420"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="524.002 307.827 1367.123"
+		Pos="524.002 307.828 1367.123"
 		Rot="0.000 -0.824 0.000 0.566"
 		NodeScale="1.370" />
 
@@ -8076,7 +8053,7 @@
 		Name="r3_tropicpalma1429"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="413.172 381.407 1111.805"
+		Pos="413.172 381.408 1111.805"
 		Rot="0.000 0.814 0.000 0.581"
 		NodeScale="1.277" />
 
@@ -8100,7 +8077,7 @@
 		Name="r3_tropicpalma1432"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="470.906 374.474 1081.987"
+		Pos="470.906 374.473 1081.987"
 		Rot="0.000 -0.879 0.000 0.477"
 		NodeScale="1.486" />
 
@@ -8132,7 +8109,7 @@
 		Name="r3_tropicpalma1436"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="552.548 319.371 1108.299"
+		Pos="552.548 319.372 1108.299"
 		Rot="0.000 0.804 0.000 0.595"
 		NodeScale="1.317" />
 
@@ -8363,7 +8340,7 @@
 		Name="r3_tropicpalma1465"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2916.191 252.574 773.896"
+		Pos="2916.191 252.573 773.896"
 		Rot="0.000 -0.656 0.000 0.755"
 		NodeScale="1.070" />
 
@@ -8627,7 +8604,7 @@
 		Name="r3_tropicpalma3498"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3343.304 249.135 1241.592"
+		Pos="3343.304 249.081 1241.592"
 		Rot="0.000 -0.998 0.000 0.061"
 		NodeScale="0.820" />
 
@@ -8659,7 +8636,7 @@
 		Name="r3_tropicpalma1502"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3367.866 251.726 1208.755"
+		Pos="3367.866 251.725 1208.755"
 		Rot="0.000 -0.350 0.000 0.937"
 		NodeScale="0.890" />
 
@@ -8675,7 +8652,7 @@
 		Name="r3_tropicpalma1504"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3374.112 249.059 1272.819"
+		Pos="3374.112 249.060 1272.819"
 		Rot="0.000 0.994 0.000 0.113"
 		NodeScale="1.020" />
 
@@ -8699,7 +8676,7 @@
 		Name="r3_tropicpalma3507"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3346.090 249.278 1275.560"
+		Pos="3346.090 249.279 1275.560"
 		Rot="0.000 -0.996 0.000 0.092"
 		NodeScale="0.910" />
 
@@ -8707,7 +8684,7 @@
 		Name="r3_tropicpalma3508"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3373.757 249.116 1295.640"
+		Pos="3373.757 249.089 1295.640"
 		Rot="0.000 -0.799 0.000 0.602"
 		NodeScale="0.800" />
 
@@ -8763,7 +8740,7 @@
 		Name="r3_tropicpalma3515"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3462.204 249.384 1258.426"
+		Pos="3462.204 249.385 1258.426"
 		Rot="0.000 -0.795 0.000 0.607"
 		NodeScale="1.120" />
 
@@ -8787,7 +8764,7 @@
 		Name="r3_tropicpalma3518"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3501.246 249.119 1438.054"
+		Pos="3501.246 249.105 1438.054"
 		Rot="0.000 0.895 0.000 0.446"
 		NodeScale="0.950" />
 
@@ -8875,7 +8852,7 @@
 		Name="r3_tropicpalma1529"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3418.021 250.487 1273.849"
+		Pos="3418.021 250.488 1273.849"
 		Rot="0.000 -0.500 0.000 0.866" />
 
 	<Object
@@ -9010,7 +8987,7 @@
 		Name="r3_tropicpalma1546"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1819.344 327.520 2677.661"
+		Pos="1819.344 327.521 2677.661"
 		Rot="0.000 0.891 0.000 0.454"
 		NodeScale="1.179" />
 
@@ -9026,7 +9003,7 @@
 		Name="r3_tropicpalma1548"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1779.967 319.188 2697.326"
+		Pos="1779.967 319.187 2697.326"
 		Rot="0.000 0.999 0.000 0.052"
 		NodeScale="1.321" />
 
@@ -9042,7 +9019,7 @@
 		Name="r3_tropicpalma1550"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1634.834 303.407 2471.034"
+		Pos="1634.834 303.406 2471.034"
 		Rot="0.000 -0.477 0.000 0.879"
 		NodeScale="1.069" />
 
@@ -9082,7 +9059,7 @@
 		Name="r3_tropicpalma1555"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1810.907 302.658 2511.639"
+		Pos="1810.907 302.659 2511.639"
 		Rot="0.000 -0.208 0.000 0.978"
 		NodeScale="1.064" />
 
@@ -9202,7 +9179,7 @@
 		Name="r3_tropicpalma3570"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1477.770 366.907 1807.681"
+		Pos="1477.770 366.908 1807.681"
 		Rot="0.000 -0.930 0.000 0.367"
 		NodeScale="1.071" />
 
@@ -9218,7 +9195,7 @@
 		Name="r3_tropicpalma1572"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1445.185 361.254 1822.918"
+		Pos="1445.185 361.255 1822.918"
 		Rot="0.000 -0.707 0.000 0.707"
 		NodeScale="1.237" />
 
@@ -9282,7 +9259,7 @@
 		Name="r3_tropicpalma1580"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1478.421 304.738 1966.371"
+		Pos="1478.421 304.737 1966.371"
 		Rot="0.000 -0.309 0.000 0.951"
 		NodeScale="0.993" />
 
@@ -9378,7 +9355,7 @@
 		Name="r3_tropicpalma3592"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1456.453 323.287 2160.342"
+		Pos="1456.453 323.286 2160.342"
 		Rot="0.000 -0.485 0.000 0.875"
 		NodeScale="1.102" />
 
@@ -9394,7 +9371,7 @@
 		Name="r3_tropicpalma1594"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1874.379 321.987 1806.875"
+		Pos="1874.379 321.986 1806.875"
 		Rot="0.000 0.588 0.000 0.809"
 		NodeScale="1.325" />
 
@@ -9466,7 +9443,7 @@
 		Name="r3_tropicpalma3603"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1964.636 327.792 1904.518"
+		Pos="1964.636 327.791 1904.518"
 		Rot="0.000 -0.216 0.000 0.976"
 		NodeScale="1.431" />
 
@@ -9578,7 +9555,7 @@
 		Name="r3_tropicpalma1617"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1769.563 276.490 2004.436"
+		Pos="1769.563 276.491 2004.436"
 		Rot="0.000 -0.974 0.000 0.225"
 		NodeScale="1.017" />
 
@@ -9754,7 +9731,7 @@
 		Name="r3_tropicpalma1639"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3548.184 312.775 2128.477"
+		Pos="3548.184 312.774 2128.477"
 		Rot="0.000 0.819 0.000 0.574"
 		NodeScale="0.841" />
 
@@ -9794,7 +9771,7 @@
 		Name="r3_tropicpalma1644"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3613.696 352.331 2220.360"
+		Pos="3613.696 352.332 2220.360"
 		Rot="0.000 0.970 0.000 0.242"
 		NodeScale="1.245" />
 
@@ -9834,7 +9811,7 @@
 		Name="r3_tropicpalma1649"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3662.395 352.539 2286.230"
+		Pos="3662.395 352.540 2286.230"
 		Rot="0.000 0.879 0.000 0.477"
 		NodeScale="1.278" />
 
@@ -9962,7 +9939,7 @@
 		Name="r3_tropicpalma1665"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3975.648 324.798 2099.612"
+		Pos="3975.648 324.799 2099.612"
 		Rot="0.000 0.994 0.000 0.105"
 		NodeScale="0.912" />
 
@@ -10018,7 +9995,7 @@
 		Name="r3_tropicpalma1672"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3465.066 334.892 1781.513"
+		Pos="3465.066 334.893 1781.513"
 		Rot="0.000 0.961 0.000 0.276"
 		NodeScale="0.852" />
 
@@ -10105,7 +10082,7 @@
 		Name="r3_tropicpalma1683"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1321.931 323.701 1497.785"
+		Pos="1321.931 323.702 1497.785"
 		Rot="0.000 0.986 0.000 0.165"
 		NodeScale="1.380" />
 
@@ -10129,7 +10106,7 @@
 		Name="r3_tropicpalma1686"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1354.995 324.813 1479.201"
+		Pos="1354.995 324.814 1479.201"
 		Rot="0.000 0.986 0.000 0.165"
 		NodeScale="1.078" />
 
@@ -10225,7 +10202,7 @@
 		Name="r3_tropicpalma1698"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1340.886 346.472 1217.648"
+		Pos="1340.886 346.473 1217.648"
 		Rot="0.000 0.423 0.000 0.906"
 		NodeScale="1.040" />
 
@@ -10249,7 +10226,7 @@
 		Name="r3_tropicpalma1701"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1239.334 307.202 959.882"
+		Pos="1239.334 307.201 959.882"
 		Rot="0.000 -0.682 0.000 0.731"
 		NodeScale="0.951" />
 
@@ -10313,7 +10290,7 @@
 		Name="r3_tropicpalma1709"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1314.704 319.842 1102.150"
+		Pos="1314.704 319.843 1102.150"
 		Rot="0.000 -0.602 0.000 0.799"
 		NodeScale="1.024" />
 
@@ -10369,7 +10346,7 @@
 		Name="r3_tropicpalma1716"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1753.466 313.238 1673.424"
+		Pos="1753.466 313.237 1673.424"
 		Rot="0.000 0.430 0.000 0.903"
 		NodeScale="0.774" />
 
@@ -10377,7 +10354,7 @@
 		Name="r3_tropicpalma1717"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1778.729 310.735 1709.361"
+		Pos="1778.729 310.734 1709.361"
 		Rot="0.000 -0.991 0.000 0.131"
 		NodeScale="1.073" />
 
@@ -10385,7 +10362,7 @@
 		Name="r3_tropicpalma1718"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1807.749 316.932 1697.422"
+		Pos="1807.749 316.933 1697.422"
 		Rot="0.000 0.350 0.000 0.937"
 		NodeScale="0.984" />
 
@@ -10585,7 +10562,7 @@
 		Name="r3_tropicpalma1743"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1115.269 462.591 2805.318"
+		Pos="1115.269 462.592 2805.318"
 		Rot="0.000 0.731 0.000 0.682"
 		NodeScale="0.808" />
 
@@ -10601,7 +10578,7 @@
 		Name="r3_tropicpalma1745"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1150.018 410.880 2710.018"
+		Pos="1150.018 410.881 2710.018"
 		Rot="0.000 -0.999 0.000 0.052"
 		NodeScale="1.260" />
 
@@ -10633,7 +10610,7 @@
 		Name="r3_tropicpalma1749"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1165.493 386.670 2580.370"
+		Pos="1165.493 386.669 2580.370"
 		Rot="0.000 -0.999 0.000 0.044"
 		NodeScale="1.098" />
 
@@ -10705,7 +10682,7 @@
 		Name="r3_tropicpalma3758"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1103.214 410.398 2672.122"
+		Pos="1103.214 410.399 2672.122"
 		Rot="0.000 -0.148 0.000 0.989"
 		NodeScale="1.161" />
 
@@ -10777,7 +10754,7 @@
 		Name="r3_tropicpalma1767"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1275.479 374.694 2848.057"
+		Pos="1275.479 374.693 2848.057"
 		Rot="0.000 -0.454 0.000 0.891"
 		NodeScale="1.269" />
 
@@ -10785,7 +10762,7 @@
 		Name="r3_tropicpalma1768"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1295.213 358.901 2805.527"
+		Pos="1295.213 358.900 2805.527"
 		Rot="0.000 -0.545 0.000 0.839"
 		NodeScale="0.961" />
 
@@ -10833,7 +10810,7 @@
 		Name="r3_tropicpalma1774"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1230.726 434.118 3015.723"
+		Pos="1230.726 434.117 3015.723"
 		Rot="0.000 -0.956 0.000 0.292"
 		NodeScale="1.261" />
 
@@ -10881,7 +10858,7 @@
 		Name="r3_tropicpalma1780"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1259.129 426.111 3090.403"
+		Pos="1259.129 426.110 3090.403"
 		Rot="0.000 -0.843 0.000 0.537"
 		NodeScale="1.460" />
 
@@ -10953,7 +10930,7 @@
 		Name="r3_tropicpalma1789"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1075.568 446.320 3108.286"
+		Pos="1075.568 446.319 3108.286"
 		Rot="0.000 -0.985 0.000 0.174"
 		NodeScale="0.968" />
 
@@ -10993,7 +10970,7 @@
 		Name="r3_tropicpalma1794"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1163.875 452.878 3219.869"
+		Pos="1163.875 452.877 3219.869"
 		Rot="0.000 -0.026 0.000 1.000"
 		NodeScale="0.994" />
 
@@ -11057,7 +11034,7 @@
 		Name="r3_tropicpalma1802"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1425.666 487.091 3482.225"
+		Pos="1425.666 487.090 3482.225"
 		Rot="0.000 -0.974 0.000 0.225"
 		NodeScale="0.846" />
 
@@ -11137,7 +11114,7 @@
 		Name="r3_tropicpalma1812"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1705.346 554.008 3689.023"
+		Pos="1705.346 554.009 3689.023"
 		Rot="0.000 -0.233 0.000 0.972"
 		NodeScale="1.015" />
 
@@ -11145,7 +11122,7 @@
 		Name="r3_tropicpalma1813"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1681.772 558.745 3664.512"
+		Pos="1681.772 558.744 3664.512"
 		Rot="0.000 -0.139 0.000 0.990"
 		NodeScale="1.111" />
 
@@ -11153,7 +11130,7 @@
 		Name="r3_tropicpalma1814"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1673.496 551.163 3614.660"
+		Pos="1673.496 551.164 3614.660"
 		Rot="0.000 -0.276 0.000 0.961"
 		NodeScale="1.026" />
 
@@ -11161,7 +11138,7 @@
 		Name="r3_tropicpalma1815"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1711.138 549.919 3599.150"
+		Pos="1711.138 549.918 3599.150"
 		Rot="0.000 -0.875 0.000 0.485"
 		NodeScale="0.993" />
 
@@ -11169,7 +11146,7 @@
 		Name="r3_tropicpalma1816"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1690.807 531.321 3576.038"
+		Pos="1690.807 531.322 3576.038"
 		Rot="0.000 0.156 0.000 0.988"
 		NodeScale="0.984" />
 
@@ -11177,7 +11154,7 @@
 		Name="r3_tropicpalma1817"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1700.113 555.335 3630.443"
+		Pos="1700.113 555.334 3630.443"
 		Rot="0.000 0.317 0.000 0.948"
 		NodeScale="0.975" />
 
@@ -11225,7 +11202,7 @@
 		Name="r3_tropicpalma1823"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1774.875 530.411 3719.576"
+		Pos="1774.875 530.412 3719.576"
 		Rot="0.000 -0.430 0.000 0.903"
 		NodeScale="1.255" />
 
@@ -11384,7 +11361,7 @@
 		Name="r3_tropicpalma1843"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2337.352 363.267 3275.208"
+		Pos="2337.352 363.266 3275.208"
 		Rot="0.000 0.976 0.000 0.216"
 		NodeScale="1.209" />
 
@@ -11664,7 +11641,7 @@
 		Name="r3_tropicpalma1878"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2312.635 458.734 3578.952"
+		Pos="2312.635 458.733 3578.952"
 		Rot="0.000 1.000 0.000 0.009"
 		NodeScale="1.203" />
 
@@ -11688,7 +11665,7 @@
 		Name="r3_tropicpalma1881"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2288.689 424.923 3519.297"
+		Pos="2288.689 424.924 3519.297"
 		Rot="0.000 0.545 0.000 0.839"
 		NodeScale="1.448" />
 
@@ -11736,7 +11713,7 @@
 		Name="r3_tropicpalma1887"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2038.796 350.193 3348.180"
+		Pos="2038.796 350.192 3348.180"
 		Rot="0.000 -0.994 0.000 0.113"
 		NodeScale="1.470" />
 
@@ -11768,7 +11745,7 @@
 		Name="r3_tropicpalma1891"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2099.880 301.609 3235.381"
+		Pos="2099.880 301.608 3235.381"
 		Rot="0.000 0.242 0.000 0.970"
 		NodeScale="1.172" />
 
@@ -11840,7 +11817,7 @@
 		Name="r3_tropicpalma3900"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1779.227 394.649 3439.687"
+		Pos="1779.227 394.648 3439.687"
 		Rot="0.000 0.927 0.000 0.375"
 		NodeScale="1.132" />
 
@@ -11911,7 +11888,7 @@
 		Name="r3_tropicpalma1909"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2304.636 493.649 3673.607"
+		Pos="2304.636 493.650 3673.607"
 		Rot="0.000 -0.945 0.000 0.326"
 		NodeScale="1.249" />
 
@@ -11999,7 +11976,7 @@
 		Name="r3_tropicpalma1920"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1910.782 482.471 3756.347"
+		Pos="1910.782 482.472 3756.347"
 		Rot="0.000 -0.284 0.000 0.959"
 		NodeScale="1.478" />
 
@@ -12039,7 +12016,7 @@
 		Name="r3_tropicpalma1925"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1844.078 491.664 3729.055"
+		Pos="1844.078 491.663 3729.055"
 		Rot="0.000 -1.000 0.000 0.018"
 		NodeScale="0.826" />
 
@@ -12159,7 +12136,7 @@
 		Name="r3_tropicpalma1940"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2588.568 367.835 3007.846"
+		Pos="2588.568 367.837 3007.846"
 		Rot="0.000 -0.993 0.000 0.122"
 		NodeScale="0.992" />
 
@@ -12255,7 +12232,7 @@
 		Name="r3_tropicpalma1952"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2765.962 405.195 3275.362"
+		Pos="2765.962 405.196 3275.362"
 		Rot="0.000 -0.994 0.000 0.105"
 		NodeScale="1.035" />
 
@@ -12295,7 +12272,7 @@
 		Name="r3_tropicpalma1957"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2771.160 419.592 3313.593"
+		Pos="2771.160 419.593 3313.593"
 		Rot="0.000 -0.824 0.000 0.566"
 		NodeScale="1.002" />
 
@@ -12311,7 +12288,7 @@
 		Name="r3_tropicpalma1959"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2855.995 438.336 3367.521"
+		Pos="2855.995 438.335 3367.521"
 		Rot="0.000 0.998 0.000 0.061"
 		NodeScale="1.008" />
 
@@ -12399,7 +12376,7 @@
 		Name="r3_tropicpalma1970"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3054.161 499.178 3588.837"
+		Pos="3054.161 499.179 3588.837"
 		Rot="0.000 -0.682 0.000 0.731"
 		NodeScale="0.852" />
 
@@ -12407,7 +12384,7 @@
 		Name="r3_tropicpalma1971"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3025.318 491.941 3578.130"
+		Pos="3025.318 491.942 3578.130"
 		Rot="0.000 -0.998 0.000 0.070"
 		NodeScale="1.394" />
 
@@ -12495,7 +12472,7 @@
 		Name="r3_tropicpalma1982"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3337.514 476.543 3599.091"
+		Pos="3337.514 476.542 3599.091"
 		Rot="0.000 -0.656 0.000 0.755"
 		NodeScale="1.028" />
 
@@ -12647,7 +12624,7 @@
 		Name="r3_tropicpalma11001"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3701.412 527.597 3643.618"
+		Pos="3701.412 527.598 3643.618"
 		Rot="0.000 -0.552 0.000 0.834"
 		NodeScale="1.277" />
 
@@ -12663,7 +12640,7 @@
 		Name="r3_tropicpalma11003"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3684.025 538.500 3682.547"
+		Pos="3684.025 538.499 3682.547"
 		Rot="0.000 -0.477 0.000 0.879"
 		NodeScale="1.110" />
 
@@ -12671,7 +12648,7 @@
 		Name="r3_tropicpalma11004"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3666.401 544.667 3710.511"
+		Pos="3666.401 544.668 3710.511"
 		Rot="0.000 -0.470 0.000 0.883"
 		NodeScale="1.101" />
 
@@ -12743,7 +12720,7 @@
 		Name="r3_tropicpalma11013"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3503.003 516.720 3758.904"
+		Pos="3503.003 516.721 3758.904"
 		Rot="0.000 0.719 0.000 0.695"
 		NodeScale="1.082" />
 
@@ -12783,7 +12760,7 @@
 		Name="r3_tropicpalma11018"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3538.746 543.730 3811.625"
+		Pos="3538.746 543.729 3811.625"
 		Rot="0.000 -0.643 0.000 0.766"
 		NodeScale="0.760" />
 
@@ -12791,7 +12768,7 @@
 		Name="r3_tropicpalma11019"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3567.083 548.667 3798.119"
+		Pos="3567.083 548.668 3798.119"
 		Rot="0.000 -0.242 0.000 0.970"
 		NodeScale="1.106" />
 
@@ -12807,7 +12784,7 @@
 		Name="r3_tropicpalma11021"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3535.700 545.581 3792.827"
+		Pos="3535.700 545.580 3792.827"
 		Rot="0.000 -0.834 0.000 0.552"
 		NodeScale="0.785" />
 
@@ -12831,7 +12808,7 @@
 		Name="r3_tropicpalma11024"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3450.476 524.122 3813.664"
+		Pos="3450.476 524.123 3813.664"
 		Rot="0.000 -0.891 0.000 0.454"
 		NodeScale="0.868" />
 
@@ -12919,7 +12896,7 @@
 		Name="r3_tropicpalma11035"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3122.067 495.940 3600.529"
+		Pos="3122.067 495.939 3600.529"
 		Rot="0.000 -0.999 0.000 0.052"
 		NodeScale="0.987" />
 
@@ -12999,7 +12976,7 @@
 		Name="r3_tropicpalma11045"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3373.773 515.045 3687.091"
+		Pos="3373.773 515.046 3687.091"
 		Rot="0.000 0.917 0.000 0.399"
 		NodeScale="1.109" />
 
@@ -13127,7 +13104,7 @@
 		Name="r3_tropicpalma11061"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3756.004 458.177 3077.371"
+		Pos="3756.004 458.178 3077.371"
 		Rot="0.000 -0.870 0.000 0.492"
 		NodeScale="1.328" />
 
@@ -13143,7 +13120,7 @@
 		Name="r3_tropicpalma11063"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3787.962 460.754 3060.845"
+		Pos="3787.962 460.755 3060.845"
 		Rot="0.000 0.191 0.000 0.982"
 		NodeScale="0.860" />
 
@@ -13167,7 +13144,7 @@
 		Name="r3_tropicpalma11066"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3817.912 465.724 3084.081"
+		Pos="3817.912 465.723 3084.081"
 		Rot="0.000 0.991 0.000 0.131"
 		NodeScale="1.189" />
 
@@ -13191,7 +13168,7 @@
 		Name="r3_tropicpalma11069"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3697.431 406.828 2960.270"
+		Pos="3697.431 406.829 2960.270"
 		Rot="0.000 -0.096 0.000 0.995"
 		NodeScale="1.273" />
 
@@ -13199,7 +13176,7 @@
 		Name="r3_tropicpalma11070"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3711.443 428.723 3018.665"
+		Pos="3711.443 428.722 3018.665"
 		Rot="0.000 0.914 0.000 0.407"
 		NodeScale="1.323" />
 
@@ -13207,7 +13184,7 @@
 		Name="r3_tropicpalma11071"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3752.583 442.717 3006.770"
+		Pos="3752.583 442.716 3006.770"
 		Rot="0.000 -0.725 0.000 0.688"
 		NodeScale="1.151" />
 
@@ -13255,7 +13232,7 @@
 		Name="r3_tropicpalma11077"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3797.043 404.246 2762.176"
+		Pos="3797.043 404.247 2762.176"
 		Rot="0.000 0.530 0.000 0.848"
 		NodeScale="1.197" />
 
@@ -13263,7 +13240,7 @@
 		Name="r3_tropicpalma11078"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3818.558 389.199 2739.844"
+		Pos="3818.558 389.200 2739.844"
 		Rot="0.000 0.883 0.000 0.470"
 		NodeScale="1.066" />
 
@@ -13279,7 +13256,7 @@
 		Name="r3_tropicpalma11080"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3795.332 410.200 2823.645"
+		Pos="3795.332 410.199 2823.645"
 		Rot="0.000 -0.545 0.000 0.839"
 		NodeScale="1.245" />
 
@@ -13431,7 +13408,7 @@
 		Name="r3_tropicpalma11099"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3518.114 362.828 3063.961"
+		Pos="3518.114 362.827 3063.961"
 		Rot="0.000 0.500 0.000 0.866"
 		NodeScale="0.968" />
 
@@ -13534,7 +13511,7 @@
 		Name="r3_tropicpalma11112"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3446.603 280.695 2828.662"
+		Pos="3446.603 280.696 2828.662"
 		Rot="0.000 0.208 0.000 0.978"
 		NodeScale="1.003" />
 
@@ -13638,7 +13615,7 @@
 		Name="r3_tropicpalma11125"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3525.930 328.740 2791.880"
+		Pos="3525.930 328.741 2791.880"
 		Rot="0.000 -0.676 0.000 0.737"
 		NodeScale="0.764" />
 
@@ -13646,7 +13623,7 @@
 		Name="r3_tropicpalma11126"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3508.205 310.016 2824.637"
+		Pos="3508.205 310.015 2824.637"
 		Rot="0.000 0.182 0.000 0.983"
 		NodeScale="1.490" />
 
@@ -13678,7 +13655,7 @@
 		Name="r3_tropicpalma11130"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3568.674 296.770 2507.953"
+		Pos="3568.674 296.771 2507.953"
 		Rot="0.000 0.559 0.000 0.829"
 		NodeScale="0.850" />
 
@@ -13694,7 +13671,7 @@
 		Name="r3_tropicpalma11132"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3543.382 298.566 2319.622"
+		Pos="3543.382 298.567 2319.622"
 		Rot="0.000 -0.777 0.000 0.629"
 		NodeScale="0.822" />
 
@@ -13726,7 +13703,7 @@
 		Name="r3_tropicpalma11136"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3521.252 277.432 2262.237"
+		Pos="3521.252 277.433 2262.237"
 		Rot="0.000 0.883 0.000 0.470"
 		NodeScale="1.016" />
 
@@ -13742,7 +13719,7 @@
 		Name="r3_tropicpalma11138"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3441.301 268.089 2288.940"
+		Pos="3441.301 268.088 2288.940"
 		Rot="0.000 -1.000 0.000 0.000"
 		NodeScale="0.794" />
 
@@ -13790,7 +13767,7 @@
 		Name="r3_tropicpalma11144"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3509.375 312.073 2609.894"
+		Pos="3509.375 312.074 2609.894"
 		Rot="0.000 -0.961 0.000 0.276"
 		NodeScale="0.946" />
 
@@ -13830,7 +13807,7 @@
 		Name="r3_tropicpalma11149"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3820.743 349.819 2659.045"
+		Pos="3820.743 349.820 2659.045"
 		Rot="0.000 -0.985 0.000 0.174"
 		NodeScale="0.813" />
 
@@ -13846,7 +13823,7 @@
 		Name="r3_tropicpalma11151"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3773.861 333.395 2582.776"
+		Pos="3773.861 333.396 2582.776"
 		Rot="0.000 0.804 0.000 0.595"
 		NodeScale="1.035" />
 
@@ -13918,7 +13895,7 @@
 		Name="r3_tropicpalma11160"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3814.724 342.435 2510.318"
+		Pos="3814.724 342.436 2510.318"
 		Rot="0.000 0.477 0.000 0.879"
 		NodeScale="0.980" />
 
@@ -13926,7 +13903,7 @@
 		Name="r3_tropicpalma11161"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3877.342 357.975 2630.794"
+		Pos="3877.342 357.976 2630.794"
 		Rot="0.000 -0.216 0.000 0.976"
 		NodeScale="1.078" />
 
@@ -13934,7 +13911,7 @@
 		Name="r3_tropicpalma11162"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3877.449 357.881 2583.754"
+		Pos="3877.449 357.882 2583.754"
 		Rot="0.000 -1.000 0.000 0.018"
 		NodeScale="1.451" />
 
@@ -14030,7 +14007,7 @@
 		Name="r3_tropicpalma11174"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3884.416 410.821 2832.525"
+		Pos="3884.416 410.822 2832.525"
 		Rot="0.000 0.574 0.000 0.819"
 		NodeScale="1.320" />
 
@@ -14118,7 +14095,7 @@
 		Name="r3_tropicpalma11185"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3571.185 408.496 3176.311"
+		Pos="3571.185 408.495 3176.311"
 		Rot="0.000 -0.375 0.000 0.927"
 		NodeScale="1.300" />
 
@@ -14150,7 +14127,7 @@
 		Name="r3_tropicpalma11189"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3727.929 461.066 3246.965"
+		Pos="3727.929 461.065 3246.965"
 		Rot="0.000 0.983 0.000 0.182"
 		NodeScale="0.882" />
 
@@ -14222,7 +14199,7 @@
 		Name="r3_tropicpalma31198"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="3663.945 455.399 3311.609"
+		Pos="3663.945 455.398 3311.609"
 		Rot="0.000 -0.956 0.000 0.292"
 		NodeScale="1.470" />
 
@@ -14246,7 +14223,7 @@
 		Name="r3_tropicpalma11201"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3573.672 444.646 3341.657"
+		Pos="3573.672 444.647 3341.657"
 		Rot="0.000 -0.669 0.000 0.743"
 		NodeScale="1.207" />
 
@@ -14333,7 +14310,7 @@
 		Name="r3_tropicpalma11212"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3429.341 414.645 3439.084"
+		Pos="3429.341 414.646 3439.084"
 		Rot="0.000 -0.910 0.000 0.415"
 		NodeScale="0.914" />
 
@@ -14357,7 +14334,7 @@
 		Name="r3_tropicpalma11215"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3405.111 504.237 3670.110"
+		Pos="3405.111 504.238 3670.110"
 		Rot="0.000 0.492 0.000 0.870"
 		NodeScale="0.982" />
 
@@ -14452,7 +14429,7 @@
 		Name="r3_tropicpalma11227"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3625.765 441.859 3574.780"
+		Pos="3625.765 441.858 3574.780"
 		Rot="0.000 0.940 0.000 0.342"
 		NodeScale="1.010" />
 
@@ -14540,7 +14517,7 @@
 		Name="r3_tropicpalma11238"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3525.649 442.358 3626.845"
+		Pos="3525.649 442.359 3626.845"
 		Rot="0.000 0.267 0.000 0.964"
 		NodeScale="1.192" />
 
@@ -14604,7 +14581,7 @@
 		Name="r3_tropicpalma11246"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2881.916 429.389 3387.928"
+		Pos="2881.916 429.390 3387.928"
 		Rot="0.000 0.695 0.000 0.719"
 		NodeScale="1.147" />
 
@@ -14620,7 +14597,7 @@
 		Name="r3_tropicpalma11248"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2925.733 424.577 3346.202"
+		Pos="2925.733 424.578 3346.202"
 		Rot="0.000 -1.000 0.000 0.000"
 		NodeScale="1.231" />
 
@@ -14636,7 +14613,7 @@
 		Name="r3_tropicpalma11250"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2678.906 348.367 3144.888"
+		Pos="2678.906 348.368 3144.888"
 		Rot="0.000 0.131 0.000 0.991"
 		NodeScale="0.926" />
 
@@ -14764,7 +14741,7 @@
 		Name="r3_tropicpalma11266"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2713.231 308.960 2435.877"
+		Pos="2713.231 308.961 2435.877"
 		Rot="0.000 -0.737 0.000 0.676"
 		NodeScale="1.148" />
 
@@ -14780,7 +14757,7 @@
 		Name="r3_tropicpalma11268"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2633.112 363.149 1923.851"
+		Pos="2633.112 363.150 1923.851"
 		Rot="0.000 0.719 0.000 0.695"
 		NodeScale="1.446" />
 
@@ -14828,7 +14805,7 @@
 		Name="r3_tropicpalma31274"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="2735.825 322.450 1937.048"
+		Pos="2735.825 322.449 1937.048"
 		Rot="0.000 -0.399 0.000 0.917"
 		NodeScale="1.167" />
 
@@ -14836,7 +14813,7 @@
 		Name="r3_tropicpalma11275"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2753.725 323.263 1963.803"
+		Pos="2753.725 323.264 1963.803"
 		Rot="0.000 0.399 0.000 0.917"
 		NodeScale="1.270" />
 
@@ -14892,7 +14869,7 @@
 		Name="r3_tropicpalma11282"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2515.902 363.294 2031.619"
+		Pos="2515.902 363.293 2031.619"
 		Rot="0.000 -0.972 0.000 0.233"
 		NodeScale="1.149" />
 
@@ -14908,7 +14885,7 @@
 		Name="r3_tropicpalma11284"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2514.824 363.887 2040.705"
+		Pos="2514.824 363.888 2040.705"
 		Rot="0.000 -0.367 0.000 0.930"
 		NodeScale="1.340" />
 
@@ -14996,7 +14973,7 @@
 		Name="r3_tropicpalma11295"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2095.426 374.306 1570.074"
+		Pos="2095.426 374.305 1570.074"
 		Rot="0.000 -0.959 0.000 0.284"
 		NodeScale="1.342" />
 
@@ -15004,7 +14981,7 @@
 		Name="r3_tropicpalma11296"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2065.277 372.324 1580.234"
+		Pos="2065.277 372.325 1580.234"
 		Rot="0.000 -0.829 0.000 0.559"
 		NodeScale="1.341" />
 
@@ -15012,7 +14989,7 @@
 		Name="r3_tropicpalma11297"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2033.285 373.041 1581.394"
+		Pos="2033.285 373.040 1581.394"
 		Rot="0.000 0.959 0.000 0.284"
 		NodeScale="0.779" />
 
@@ -15036,7 +15013,7 @@
 		Name="r3_tropicpalma11300"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1861.489 338.450 1606.527"
+		Pos="1861.489 338.449 1606.527"
 		Rot="0.000 -0.983 0.000 0.182"
 		NodeScale="1.165" />
 
@@ -15156,7 +15133,7 @@
 		Name="r3_tropicpalma11315"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2189.303 326.606 1438.814"
+		Pos="2189.303 326.607 1438.814"
 		Rot="0.000 0.629 0.000 0.777"
 		NodeScale="1.118" />
 
@@ -15164,7 +15141,7 @@
 		Name="r3_tropicpalma11316"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2178.655 375.657 1398.525"
+		Pos="2178.655 375.658 1398.525"
 		Rot="0.000 0.755 0.000 0.656"
 		NodeScale="0.849" />
 
@@ -15180,7 +15157,7 @@
 		Name="r3_tropicpalma11318"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2215.413 370.423 1388.835"
+		Pos="2215.413 370.422 1388.835"
 		Rot="0.000 0.537 0.000 0.843"
 		NodeScale="0.897" />
 
@@ -15260,7 +15237,7 @@
 		Name="r3_tropicpalma11328"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2455.002 261.553 1162.854"
+		Pos="2455.002 261.554 1162.854"
 		Rot="0.000 -0.866 0.000 0.500"
 		NodeScale="1.149" />
 
@@ -15483,7 +15460,7 @@
 		Name="r3_tropicpalma11356"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1133.440 341.378 452.631"
+		Pos="1133.440 341.377 452.631"
 		Rot="0.000 0.233 0.000 0.972"
 		NodeScale="1.177" />
 
@@ -15507,7 +15484,7 @@
 		Name="r3_tropicpalma11359"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1014.020 379.647 466.386"
+		Pos="1014.020 379.646 466.386"
 		Rot="0.000 -0.552 0.000 0.834"
 		NodeScale="1.106" />
 
@@ -15579,7 +15556,7 @@
 		Name="r3_tropicpalma11368"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="949.492 399.350 345.544"
+		Pos="949.492 399.351 345.544"
 		Rot="0.000 -0.500 0.000 0.866"
 		NodeScale="1.020" />
 
@@ -15603,7 +15580,7 @@
 		Name="r3_tropicpalma11371"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="882.046 406.934 338.447"
+		Pos="882.046 406.933 338.447"
 		Rot="0.000 -0.148 0.000 0.989"
 		NodeScale="0.991" />
 
@@ -15691,7 +15668,7 @@
 		Name="r3_tropicpalma11382"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1031.395 360.310 310.907"
+		Pos="1031.395 360.311 310.907"
 		Rot="0.000 -0.895 0.000 0.446"
 		NodeScale="1.486" />
 
@@ -15715,7 +15692,7 @@
 		Name="r3_tropicpalma11385"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="965.488 334.624 259.935"
+		Pos="965.488 334.625 259.935"
 		Rot="0.000 -0.122 0.000 0.993"
 		NodeScale="1.094" />
 
@@ -15731,7 +15708,7 @@
 		Name="r3_tropicpalma11387"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="942.385 311.829 220.157"
+		Pos="942.385 311.828 220.157"
 		Rot="0.000 -0.309 0.000 0.951"
 		NodeScale="0.778" />
 
@@ -15915,7 +15892,7 @@
 		Name="r3_tropicpalma11410"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="503.328 347.389 593.163"
+		Pos="503.328 347.390 593.163"
 		Rot="0.000 -0.079 0.000 0.997"
 		NodeScale="1.459" />
 
@@ -15923,7 +15900,7 @@
 		Name="r3_tropicpalma11411"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="502.486 343.253 640.722"
+		Pos="502.486 343.254 640.722"
 		Rot="0.000 0.906 0.000 0.423"
 		NodeScale="0.978" />
 
@@ -15971,7 +15948,7 @@
 		Name="r3_tropicpalma11417"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="596.484 345.994 725.857"
+		Pos="596.484 345.993 725.857"
 		Rot="0.000 0.044 0.000 0.999"
 		NodeScale="0.847" />
 
@@ -16003,7 +15980,7 @@
 		Name="r3_tropicpalma11421"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="623.360 340.724 758.176"
+		Pos="623.360 340.725 758.176"
 		Rot="0.000 -0.383 0.000 0.924"
 		NodeScale="1.178" />
 
@@ -16035,7 +16012,7 @@
 		Name="r3_tropicpalma11425"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="798.628 344.706 494.390"
+		Pos="798.628 344.705 494.390"
 		Rot="0.000 0.879 0.000 0.477"
 		NodeScale="1.091" />
 
@@ -16227,7 +16204,7 @@
 		Name="r3_tropicpalma11449"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="676.219 318.176 982.531"
+		Pos="676.219 318.177 982.531"
 		Rot="0.000 -0.559 0.000 0.829"
 		NodeScale="1.348" />
 
@@ -16259,7 +16236,7 @@
 		Name="r3_tropicpalma11453"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="473.390 345.513 698.795"
+		Pos="473.390 345.514 698.795"
 		Rot="0.000 0.731 0.000 0.682"
 		NodeScale="1.069" />
 
@@ -16307,7 +16284,7 @@
 		Name="r3_tropicpalma11459"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="245.382 467.784 459.146"
+		Pos="245.382 467.783 459.146"
 		Rot="0.000 -0.937 0.000 0.350"
 		NodeScale="0.890" />
 
@@ -16379,7 +16356,7 @@
 		Name="r3_tropicpalma11468"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="214.847 428.876 594.152"
+		Pos="214.847 428.877 594.152"
 		Rot="0.000 -0.688 0.000 0.725"
 		NodeScale="0.750" />
 
@@ -16403,7 +16380,7 @@
 		Name="r3_tropicpalma11471"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="332.087 384.687 760.500"
+		Pos="332.087 384.686 760.500"
 		Rot="0.000 -0.755 0.000 0.656"
 		NodeScale="1.039" />
 
@@ -16483,7 +16460,7 @@
 		Name="r3_tropicpalma11481"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="306.649 416.206 587.570"
+		Pos="306.649 416.207 587.570"
 		Rot="0.000 0.131 0.000 0.991"
 		NodeScale="0.769" />
 
@@ -16667,7 +16644,7 @@
 		Name="r3_tropicpalma11504"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="507.477 442.403 117.493"
+		Pos="507.477 442.402 117.493"
 		Rot="0.000 -0.156 0.000 0.988"
 		NodeScale="1.065" />
 
@@ -16819,7 +16796,7 @@
 		Name="r3_tropicpalma11523"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="817.539 357.754 423.930"
+		Pos="817.539 357.753 423.930"
 		Rot="0.000 0.829 0.000 0.559"
 		NodeScale="0.853" />
 
@@ -16883,7 +16860,7 @@
 		Name="r3_tropicpalma11531"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="274.296 425.641 1072.740"
+		Pos="274.296 425.642 1072.740"
 		Rot="0.000 0.643 0.000 0.766"
 		NodeScale="0.854" />
 
@@ -17019,7 +16996,7 @@
 		Name="r3_tropicpalma11548"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="314.977 390.003 998.257"
+		Pos="314.977 390.004 998.257"
 		Rot="0.000 -0.999 0.000 0.044"
 		NodeScale="1.275" />
 
@@ -17027,7 +17004,7 @@
 		Name="r3_tropicpalma11549"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="306.065 387.204 954.978"
+		Pos="306.065 387.203 954.978"
 		Rot="0.000 -0.259 0.000 0.966"
 		NodeScale="1.354" />
 
@@ -17258,7 +17235,7 @@
 		Name="r3_tropicpalma11578"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="344.682 429.665 1597.328"
+		Pos="344.682 429.664 1597.328"
 		Rot="0.000 -0.407 0.000 0.914"
 		NodeScale="1.310" />
 
@@ -17354,7 +17331,7 @@
 		Name="r3_tropicpalma11590"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="332.339 436.875 1693.828"
+		Pos="332.339 436.876 1693.828"
 		Rot="0.000 -0.937 0.000 0.350"
 		NodeScale="0.888" />
 
@@ -17458,7 +17435,7 @@
 		Name="r3_tropicpalma11603"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="259.201 437.554 2024.719"
+		Pos="259.201 437.555 2024.719"
 		Rot="0.000 -0.731 0.000 0.682"
 		NodeScale="1.228" />
 
@@ -17506,7 +17483,7 @@
 		Name="r3_tropicpalma11609"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="398.360 462.577 2205.846"
+		Pos="398.360 462.578 2205.846"
 		Rot="0.000 -0.070 0.000 0.998"
 		NodeScale="0.973" />
 
@@ -17594,7 +17571,7 @@
 		Name="r3_tropicpalma11620"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="253.809 513.909 2270.094"
+		Pos="253.809 513.908 2270.094"
 		Rot="0.000 0.061 0.000 0.998"
 		NodeScale="0.867" />
 
@@ -17698,7 +17675,7 @@
 		Name="r3_tropicpalma11633"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="208.730 490.331 2213.307"
+		Pos="208.730 490.330 2213.307"
 		Rot="0.000 0.755 0.000 0.656"
 		NodeScale="0.878" />
 
@@ -17946,7 +17923,7 @@
 		Name="r3_tropicpalma11664"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="527.738 465.914 3121.862"
+		Pos="527.738 465.915 3121.862"
 		Rot="0.000 0.862 0.000 0.508"
 		NodeScale="1.244" />
 
@@ -17986,7 +17963,7 @@
 		Name="r3_tropicpalma11669"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="393.911 534.984 3246.937"
+		Pos="393.911 534.983 3246.937"
 		Rot="0.000 1.000 0.000 0.018"
 		NodeScale="1.481" />
 
@@ -17994,7 +17971,7 @@
 		Name="r3_tropicpalma11670"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="398.123 536.740 3195.490"
+		Pos="398.123 536.741 3195.490"
 		Rot="0.000 -0.956 0.000 0.292"
 		NodeScale="1.356" />
 
@@ -18114,7 +18091,7 @@
 		Name="r3_tropicpalma11685"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="686.355 402.258 2709.886"
+		Pos="686.355 402.257 2709.886"
 		Rot="0.000 0.326 0.000 0.945"
 		NodeScale="0.859" />
 
@@ -18170,7 +18147,7 @@
 		Name="r3_tropicpalma11692"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="814.034 473.029 3908.802"
+		Pos="814.034 473.031 3908.802"
 		Rot="0.000 0.777 0.000 0.629"
 		NodeScale="1.098" />
 
@@ -18210,7 +18187,7 @@
 		Name="r3_tropicpalma11697"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="946.938 405.778 3755.197"
+		Pos="946.938 405.779 3755.197"
 		Rot="0.000 -0.910 0.000 0.415"
 		NodeScale="1.462" />
 
@@ -18266,7 +18243,7 @@
 		Name="r3_tropicpalma11704"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="754.655 458.427 3758.486"
+		Pos="754.655 458.426 3758.486"
 		Rot="0.000 -0.755 0.000 0.656"
 		NodeScale="1.283" />
 
@@ -18290,7 +18267,7 @@
 		Name="r3_tropicpalma11707"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="696.327 488.026 3773.331"
+		Pos="696.327 488.027 3773.331"
 		Rot="0.000 0.983 0.000 0.182"
 		NodeScale="1.203" />
 
@@ -18298,7 +18275,7 @@
 		Name="r3_tropicpalma11708"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="699.754 489.985 3805.800"
+		Pos="699.754 489.984 3805.800"
 		Rot="0.000 -0.559 0.000 0.829"
 		NodeScale="1.438" />
 
@@ -18314,7 +18291,7 @@
 		Name="r3_tropicpalma11710"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="746.494 492.538 3874.333"
+		Pos="746.494 492.537 3874.333"
 		Rot="0.000 0.242 0.000 0.970"
 		NodeScale="1.397" />
 
@@ -18322,7 +18299,7 @@
 		Name="r3_tropicpalma11711"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="694.856 458.425 3877.353"
+		Pos="694.856 458.426 3877.353"
 		Rot="0.000 -0.470 0.000 0.883"
 		NodeScale="1.181" />
 
@@ -18442,7 +18419,7 @@
 		Name="r3_tropicpalma11726"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="487.509 529.779 3719.015"
+		Pos="487.509 529.778 3719.015"
 		Rot="0.000 0.663 0.000 0.749"
 		NodeScale="0.831" />
 
@@ -18554,7 +18531,7 @@
 		Name="r3_tropicpalma11740"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="454.311 496.018 3625.030"
+		Pos="454.311 496.019 3625.030"
 		Rot="0.000 -0.087 0.000 0.996"
 		NodeScale="1.140" />
 
@@ -18578,7 +18555,7 @@
 		Name="r3_tropicpalma11743"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="497.480 460.643 3627.470"
+		Pos="497.480 460.642 3627.470"
 		Rot="0.000 0.070 0.000 0.998"
 		NodeScale="0.773" />
 
@@ -18650,7 +18627,7 @@
 		Name="r3_tropicpalma11752"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="399.395 490.844 3469.599"
+		Pos="399.395 490.843 3469.599"
 		Rot="0.000 -0.317 0.000 0.948"
 		NodeScale="0.781" />
 
@@ -18810,7 +18787,7 @@
 		Name="r3_tropicpalma11772"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="439.497 512.033 3312.521"
+		Pos="439.497 512.032 3312.521"
 		Rot="0.000 0.701 0.000 0.713"
 		NodeScale="1.376" />
 
@@ -18882,7 +18859,7 @@
 		Name="r3_tropicpalma11781"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="929.445 373.188 3416.789"
+		Pos="929.445 373.189 3416.789"
 		Rot="0.000 -0.446 0.000 0.895"
 		NodeScale="0.934" />
 
@@ -18922,7 +18899,7 @@
 		Name="r3_tropicpalma11786"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1036.603 379.459 3419.743"
+		Pos="1036.603 379.460 3419.743"
 		Rot="0.000 -0.887 0.000 0.462"
 		NodeScale="1.098" />
 
@@ -18930,7 +18907,7 @@
 		Name="r3_tropicpalma31787"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1008.112 373.463 3408.274"
+		Pos="1008.112 373.462 3408.274"
 		Rot="0.000 -0.956 0.000 0.292"
 		NodeScale="1.156" />
 
@@ -18946,7 +18923,7 @@
 		Name="r3_tropicpalma11789"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1100.438 384.914 3419.630"
+		Pos="1100.438 384.913 3419.630"
 		Rot="0.000 0.566 0.000 0.824"
 		NodeScale="0.797" />
 
@@ -18994,7 +18971,7 @@
 		Name="r3_tropicpalma11795"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1174.878 452.320 3252.476"
+		Pos="1174.878 452.319 3252.476"
 		Rot="0.000 -0.994 0.000 0.105"
 		NodeScale="1.412" />
 
@@ -19106,7 +19083,7 @@
 		Name="r3_tropicpalma11809"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1236.344 423.116 3821.969"
+		Pos="1236.344 423.115 3821.969"
 		Rot="0.000 -0.999 0.000 0.035"
 		NodeScale="1.334" />
 
@@ -19154,7 +19131,7 @@
 		Name="r3_tropicpalma11815"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1265.696 433.459 3962.599"
+		Pos="1265.696 433.458 3962.599"
 		Rot="0.000 -0.755 0.000 0.656"
 		NodeScale="0.900" />
 
@@ -19210,7 +19187,7 @@
 		Name="r3_tropicpalma11822"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1485.317 473.993 3829.940"
+		Pos="1485.317 473.992 3829.940"
 		Rot="0.000 -0.974 0.000 0.225"
 		NodeScale="1.333" />
 
@@ -19218,7 +19195,7 @@
 		Name="r3_tropicpalma11823"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1459.436 487.718 3855.595"
+		Pos="1459.436 487.719 3855.595"
 		Rot="0.000 -0.208 0.000 0.978"
 		NodeScale="1.259" />
 
@@ -19226,7 +19203,7 @@
 		Name="r3_tropicpalma11824"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1477.011 495.573 3881.122"
+		Pos="1477.011 495.574 3881.122"
 		Rot="0.000 0.857 0.000 0.515"
 		NodeScale="1.085" />
 
@@ -19282,7 +19259,7 @@
 		Name="r3_tropicpalma11831"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1647.657 451.473 4008.866"
+		Pos="1647.657 451.472 4008.866"
 		Rot="0.000 -0.470 0.000 0.883"
 		NodeScale="0.755" />
 
@@ -19290,7 +19267,7 @@
 		Name="r3_tropicpalma11832"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1549.719 511.027 3871.263"
+		Pos="1549.719 511.028 3871.263"
 		Rot="0.000 -0.970 0.000 0.242"
 		NodeScale="1.277" />
 
@@ -19306,7 +19283,7 @@
 		Name="r3_tropicpalma11834"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1831.243 472.939 3867.906"
+		Pos="1831.243 472.940 3867.906"
 		Rot="0.000 -0.326 0.000 0.945"
 		NodeScale="0.873" />
 
@@ -19346,7 +19323,7 @@
 		Name="r3_tropicpalma31839"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="1201.556 431.208 4017.317"
+		Pos="1201.556 431.209 4017.317"
 		Rot="0.000 -0.879 0.000 0.477"
 		NodeScale="1.087" />
 
@@ -19498,7 +19475,7 @@
 		Name="r3_tropicpalma11858"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="558.214 454.484 3023.794"
+		Pos="558.214 454.485 3023.794"
 		Rot="0.000 0.701 0.000 0.713"
 		NodeScale="1.457" />
 
@@ -19578,7 +19555,7 @@
 		Name="r3_tropicpalma11868"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="479.848 510.284 2923.696"
+		Pos="479.848 510.285 2923.696"
 		Rot="0.000 -0.737 0.000 0.676"
 		NodeScale="1.236" />
 
@@ -19618,7 +19595,7 @@
 		Name="r3_tropicpalma11873"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="594.107 439.444 2742.691"
+		Pos="594.107 439.445 2742.691"
 		Rot="0.000 0.895 0.000 0.446"
 		NodeScale="1.231" />
 
@@ -19626,7 +19603,7 @@
 		Name="r3_tropicpalma11874"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="597.905 412.479 2798.871"
+		Pos="597.905 412.480 2798.871"
 		Rot="0.000 0.793 0.000 0.609"
 		NodeScale="1.143" />
 
@@ -19634,7 +19611,7 @@
 		Name="r3_tropicpalma31875"
 		Belong="-1"
 		Prototype="r3_tropicpalma3_dyn"
-		Pos="593.844 450.849 2768.774"
+		Pos="593.844 450.848 2768.774"
 		Rot="0.000 -0.783 0.000 0.623"
 		NodeScale="1.078" />
 
@@ -19714,7 +19691,7 @@
 		Name="r3_tropicpalma11885"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="353.241 403.632 1907.514"
+		Pos="353.241 403.631 1907.514"
 		Rot="0.000 0.903 0.000 0.430"
 		NodeScale="0.859" />
 
@@ -19850,7 +19827,7 @@
 		Name="r3_tropicpalma11902"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1064.329 315.931 1332.662"
+		Pos="1064.329 315.932 1332.662"
 		Rot="0.000 -0.309 0.000 0.951"
 		NodeScale="0.806" />
 
@@ -19874,7 +19851,7 @@
 		Name="r3_tropicpalma11905"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1135.527 306.292 1332.589"
+		Pos="1135.527 306.291 1332.589"
 		Rot="0.000 0.895 0.000 0.446"
 		NodeScale="1.447" />
 
@@ -20018,7 +19995,7 @@
 		Name="r3_tropicpalma11923"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1049.355 331.996 1582.813"
+		Pos="1049.355 331.997 1582.813"
 		Rot="0.000 0.903 0.000 0.430"
 		NodeScale="1.331" />
 
@@ -20098,7 +20075,7 @@
 		Name="r3_tropicpalma11933"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1101.788 347.193 1924.706"
+		Pos="1101.788 347.192 1924.706"
 		Rot="0.000 -0.284 0.000 0.959"
 		NodeScale="1.424" />
 
@@ -20106,7 +20083,7 @@
 		Name="r3_tropicpalma11934"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1095.047 351.839 1850.974"
+		Pos="1095.047 351.838 1850.974"
 		Rot="0.000 -0.018 0.000 1.000"
 		NodeScale="0.905" />
 
@@ -20122,7 +20099,7 @@
 		Name="r3_tropicpalma11936"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1079.133 354.830 1745.624"
+		Pos="1079.133 354.829 1745.624"
 		Rot="0.000 0.454 0.000 0.891"
 		NodeScale="1.072" />
 
@@ -20194,7 +20171,7 @@
 		Name="r3_tropicpalma11945"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1349.443 326.611 1512.594"
+		Pos="1349.443 326.610 1512.594"
 		Rot="0.000 0.834 0.000 0.552"
 		NodeScale="1.156" />
 
@@ -20250,7 +20227,7 @@
 		Name="r3_tropicpalma11952"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1288.295 315.937 2009.852"
+		Pos="1288.295 315.938 2009.852"
 		Rot="0.000 0.883 0.000 0.470"
 		NodeScale="1.095" />
 
@@ -20298,7 +20275,7 @@
 		Name="r3_tropicpalma11958"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1328.771 329.093 2261.405"
+		Pos="1328.771 329.094 2261.405"
 		Rot="0.000 0.870 0.000 0.492"
 		NodeScale="0.870" />
 
@@ -20378,7 +20355,7 @@
 		Name="r3_tropicpalma11968"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1706.776 287.834 1123.642"
+		Pos="1706.776 287.833 1123.642"
 		Rot="0.000 0.367 0.000 0.930"
 		NodeScale="1.243" />
 
@@ -20402,7 +20379,7 @@
 		Name="r3_tropicpalma11971"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1703.225 286.770 1180.025"
+		Pos="1703.225 286.769 1180.025"
 		Rot="0.000 -0.326 0.000 0.945"
 		NodeScale="1.008" />
 
@@ -20514,7 +20491,7 @@
 		Name="r3_tropicpalma11985"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3203.070 305.774 1742.121"
+		Pos="3203.070 305.775 1742.121"
 		Rot="0.000 0.616 0.000 0.788"
 		NodeScale="1.430" />
 
@@ -20610,7 +20587,7 @@
 		Name="r3_tropicpalma11997"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3436.897 333.514 1864.101"
+		Pos="3436.897 333.515 1864.101"
 		Rot="0.000 -0.026 0.000 1.000"
 		NodeScale="1.304" />
 
@@ -20658,7 +20635,7 @@
 		Name="r3_tropicpalma12003"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="2954.564 305.371 1611.596"
+		Pos="2954.564 305.372 1611.596"
 		Rot="0.000 0.989 0.000 0.148"
 		NodeScale="0.849" />
 
@@ -20746,7 +20723,7 @@
 		Name="r3_tropicpalma12014"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="873.691 424.710 4036.320"
+		Pos="873.691 424.711 4036.320"
 		Rot="0.000 -0.317 0.000 0.948"
 		NodeScale="1.364" />
 
@@ -20882,7 +20859,7 @@
 		Name="r3_tropicpalma12031"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1073.853 334.798 1603.569"
+		Pos="1073.853 334.799 1603.569"
 		Rot="0.000 -0.656 0.000 0.755"
 		NodeScale="0.768" />
 
@@ -20962,7 +20939,7 @@
 		Name="r3_tropicpalma12041"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1105.202 291.595 1137.294"
+		Pos="1105.202 291.594 1137.294"
 		Rot="0.000 0.804 0.000 0.595"
 		NodeScale="1.245" />
 
@@ -21050,7 +21027,7 @@
 		Name="r3_tropicpalma12052"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="1006.035 304.797 1167.226"
+		Pos="1006.035 304.798 1167.226"
 		Rot="0.000 0.997 0.000 0.079"
 		NodeScale="1.093" />
 
@@ -21058,7 +21035,7 @@
 		Name="r3_tropicpalma12053"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="839.074 291.939 1209.323"
+		Pos="839.074 291.938 1209.323"
 		Rot="0.000 -0.793 0.000 0.609"
 		NodeScale="0.953" />
 
@@ -21129,7 +21106,7 @@
 		Name="barrel32062"
 		Belong="-1"
 		Prototype="Breakable_Barrel3"
-		Pos="1505.988 244.815 559.603"
+		Pos="1505.988 244.814 559.603"
 		Rot="0.000 0.595 0.000 0.804" />
 
 	<Object
@@ -21264,7 +21241,7 @@
 		Name="r3_tropicpalma12081"
 		Belong="-1"
 		Prototype="r3_tropicpalma1_dyn"
-		Pos="3402.879 241.174 2512.115"
+		Pos="3402.879 241.175 2512.115"
 		Rot="0.000 0.804 0.000 0.595"
 		NodeScale="1.124" />
 
@@ -21328,7 +21305,7 @@
 		Name="wood_fence12089"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="3391.224 288.068 2096.378"
+		Pos="3391.224 288.067 2096.378"
 		Rot="0.000 -0.969 0.000 0.247"
 		NodeScale="1.130" />
 
@@ -21352,7 +21329,7 @@
 		Name="wood_fence12092"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="3356.510 287.760 2105.828"
+		Pos="3356.510 287.759 2105.828"
 		Rot="0.000 0.739 0.000 0.674"
 		NodeScale="1.130" />
 
@@ -21509,7 +21486,7 @@
 		Name="sack_wall12112"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1443.369 251.423 806.067" />
+		Pos="1443.369 251.424 806.067" />
 
 	<Object
 		Name="sack_wall12113"
@@ -21535,7 +21512,7 @@
 		Name="r3_tropicpalma22116"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3628.048 263.162 1801.048"
+		Pos="3628.048 263.161 1801.048"
 		Rot="0.000 0.978 0.000 0.208"
 		NodeScale="0.857" />
 
@@ -21551,7 +21528,7 @@
 		Name="r3_tropicpalma22118"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2511.515 250.901 1163.880"
+		Pos="2511.515 250.900 1163.880"
 		Rot="0.000 -0.862 0.000 0.508"
 		NodeScale="0.796" />
 
@@ -21575,7 +21552,7 @@
 		Name="r3_tropicpalma22121"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2512.666 305.162 1407.518"
+		Pos="2512.666 305.163 1407.518"
 		Rot="0.000 0.174 0.000 0.985"
 		NodeScale="0.930" />
 
@@ -21615,7 +21592,7 @@
 		Name="r3_tropicpalma22126"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2735.071 273.687 1209.461"
+		Pos="2735.071 273.686 1209.461"
 		Rot="0.000 0.809 0.000 0.588"
 		NodeScale="1.072" />
 
@@ -21671,7 +21648,7 @@
 		Name="r3_tropicpalma22133"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1890.658 257.265 657.523"
+		Pos="1890.658 257.266 657.523"
 		Rot="0.000 -0.508 0.000 0.862"
 		NodeScale="1.001" />
 
@@ -21799,7 +21776,7 @@
 		Name="r3_tropicpalma22149"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1575.873 258.887 920.990"
+		Pos="1575.873 258.886 920.990"
 		Rot="0.000 -0.682 0.000 0.731"
 		NodeScale="0.826" />
 
@@ -21839,7 +21816,7 @@
 		Name="r3_tropicpalma22154"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3790.653 254.135 517.901"
+		Pos="3790.653 254.136 517.901"
 		Rot="0.000 -0.937 0.000 0.350"
 		NodeScale="1.353" />
 
@@ -21847,7 +21824,7 @@
 		Name="r3_tropicpalma22155"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3840.624 273.040 431.762"
+		Pos="3840.624 273.039 431.762"
 		Rot="0.000 -0.990 0.000 0.139"
 		NodeScale="1.287" />
 
@@ -21951,7 +21928,7 @@
 		Name="r3_tropicpalma22168"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2316.748 254.105 161.199"
+		Pos="2316.748 254.104 161.199"
 		Rot="0.000 0.934 0.000 0.358"
 		NodeScale="0.875" />
 
@@ -21959,7 +21936,7 @@
 		Name="r3_tropicpalma22169"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2264.075 253.200 201.385"
+		Pos="2264.075 253.199 201.385"
 		Rot="0.000 -0.707 0.000 0.707"
 		NodeScale="0.902" />
 
@@ -21967,7 +21944,7 @@
 		Name="r3_tropicpalma22170"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2279.111 252.378 232.289"
+		Pos="2279.111 252.379 232.289"
 		Rot="0.000 -0.500 0.000 0.866"
 		NodeScale="1.208" />
 
@@ -22087,7 +22064,7 @@
 		Name="r3_tropicpalma22185"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3184.439 320.646 2837.702"
+		Pos="3184.439 320.645 2837.702"
 		Rot="0.000 -0.165 0.000 0.986"
 		NodeScale="1.110" />
 
@@ -22223,7 +22200,7 @@
 		Name="r3_tropicpalma22202"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2017.873 253.123 673.005"
+		Pos="2017.873 253.124 673.005"
 		Rot="0.000 -0.978 0.000 0.208"
 		NodeScale="1.418" />
 
@@ -22231,7 +22208,7 @@
 		Name="r3_tropicpalma22203"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2159.328 255.861 784.947"
+		Pos="2159.328 255.862 784.947"
 		Rot="0.000 -0.707 0.000 0.707"
 		NodeScale="0.845" />
 
@@ -22279,7 +22256,7 @@
 		Name="r3_tropicpalma22209"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2715.293 257.639 882.305"
+		Pos="2715.293 257.640 882.305"
 		Rot="0.000 -0.998 0.000 0.061"
 		NodeScale="1.365" />
 
@@ -22335,7 +22312,7 @@
 		Name="r3_tropicpalma22216"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3309.579 260.695 1231.855"
+		Pos="3309.579 260.694 1231.855"
 		Rot="0.000 -0.766 0.000 0.643"
 		NodeScale="1.409" />
 
@@ -22639,7 +22616,7 @@
 		Name="r3_tropicpalma22254"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1870.296 307.089 2674.167"
+		Pos="1870.296 307.090 2674.167"
 		Rot="0.000 -0.719 0.000 0.695"
 		NodeScale="1.423" />
 
@@ -22647,7 +22624,7 @@
 		Name="r3_tropicpalma22255"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1868.432 305.007 2640.308"
+		Pos="1868.432 305.008 2640.308"
 		Rot="0.000 -0.552 0.000 0.834"
 		NodeScale="1.294" />
 
@@ -22663,7 +22640,7 @@
 		Name="r3_tropicpalma22257"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1777.784 313.305 2188.546"
+		Pos="1777.784 313.306 2188.546"
 		Rot="0.000 -0.623 0.000 0.783"
 		NodeScale="0.939" />
 
@@ -23271,7 +23248,7 @@
 		Name="r3_tropicpalma22333"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1807.579 388.892 3421.031"
+		Pos="1807.579 388.893 3421.031"
 		Rot="0.000 0.848 0.000 0.530"
 		NodeScale="0.980" />
 
@@ -23327,7 +23304,7 @@
 		Name="r3_tropicpalma22340"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2895.910 387.116 3252.272"
+		Pos="2895.910 387.117 3252.272"
 		Rot="0.000 0.623 0.000 0.783"
 		NodeScale="1.359" />
 
@@ -23383,7 +23360,7 @@
 		Name="r3_tropicpalma22347"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3023.612 490.011 3565.691"
+		Pos="3023.612 490.012 3565.691"
 		Rot="0.000 0.595 0.000 0.804"
 		NodeScale="1.328" />
 
@@ -23447,7 +23424,7 @@
 		Name="r3_tropicpalma22355"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3602.409 549.663 3793.193"
+		Pos="3602.409 549.664 3793.193"
 		Rot="0.000 -0.917 0.000 0.399"
 		NodeScale="0.796" />
 
@@ -23583,7 +23560,7 @@
 		Name="r3_tropicpalma22372"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3793.400 405.795 2769.202"
+		Pos="3793.400 405.796 2769.202"
 		Rot="0.000 -0.267 0.000 0.964"
 		NodeScale="1.046" />
 
@@ -23655,7 +23632,7 @@
 		Name="r3_tropicpalma22381"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3312.746 288.393 2713.953"
+		Pos="3312.746 288.394 2713.953"
 		Rot="0.000 -0.883 0.000 0.470"
 		NodeScale="1.297" />
 
@@ -23735,7 +23712,7 @@
 		Name="r3_tropicpalma22391"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3465.132 279.455 2316.639"
+		Pos="3465.132 279.454 2316.639"
 		Rot="0.000 0.998 0.000 0.061"
 		NodeScale="1.146" />
 
@@ -23823,7 +23800,7 @@
 		Name="r3_tropicpalma22402"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3824.706 428.815 2978.769"
+		Pos="3824.706 428.816 2978.769"
 		Rot="0.000 -0.276 0.000 0.961"
 		NodeScale="1.462" />
 
@@ -23831,7 +23808,7 @@
 		Name="r3_tropicpalma22403"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3661.893 438.827 3132.832"
+		Pos="3661.893 438.826 3132.832"
 		Rot="0.000 0.996 0.000 0.087"
 		NodeScale="1.147" />
 
@@ -23839,7 +23816,7 @@
 		Name="r3_tropicpalma22404"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3630.516 402.406 3121.354"
+		Pos="3630.516 402.407 3121.354"
 		Rot="0.000 -0.350 0.000 0.937"
 		NodeScale="1.153" />
 
@@ -23911,7 +23888,7 @@
 		Name="r3_tropicpalma22413"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3600.065 443.390 3591.302"
+		Pos="3600.065 443.391 3591.302"
 		Rot="0.000 0.956 0.000 0.292"
 		NodeScale="1.393" />
 
@@ -24023,7 +24000,7 @@
 		Name="r3_tropicpalma22427"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1102.189 340.283 559.701"
+		Pos="1102.189 340.284 559.701"
 		Rot="0.000 -0.018 0.000 1.000"
 		NodeScale="1.121" />
 
@@ -24103,7 +24080,7 @@
 		Name="r3_tropicpalma22437"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="623.807 345.935 695.244"
+		Pos="623.807 345.936 695.244"
 		Rot="0.000 0.989 0.000 0.148"
 		NodeScale="1.158" />
 
@@ -24207,7 +24184,7 @@
 		Name="r3_tropicpalma22450"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="271.759 479.196 434.625"
+		Pos="271.759 479.197 434.625"
 		Rot="0.000 0.018 0.000 1.000"
 		NodeScale="1.078" />
 
@@ -24287,7 +24264,7 @@
 		Name="r3_tropicpalma22460"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="505.908 369.300 431.987"
+		Pos="505.908 369.301 431.987"
 		Rot="0.000 0.358 0.000 0.934"
 		NodeScale="1.230" />
 
@@ -24295,7 +24272,7 @@
 		Name="r3_tropicpalma22461"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="273.104 470.252 333.547"
+		Pos="273.104 470.251 333.547"
 		Rot="0.000 0.492 0.000 0.870"
 		NodeScale="1.236" />
 
@@ -24327,7 +24304,7 @@
 		Name="r3_tropicpalma22465"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="436.650 424.458 176.517"
+		Pos="436.650 424.457 176.517"
 		Rot="0.000 0.688 0.000 0.725"
 		NodeScale="1.335" />
 
@@ -24415,7 +24392,7 @@
 		Name="r3_tropicpalma22476"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="269.755 428.272 976.064"
+		Pos="269.755 428.273 976.064"
 		Rot="0.000 0.358 0.000 0.934"
 		NodeScale="1.297" />
 
@@ -24582,7 +24559,7 @@
 		Name="r3_tropicpalma22497"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="393.428 542.277 2640.064"
+		Pos="393.428 542.276 2640.064"
 		Rot="0.000 0.643 0.000 0.766"
 		NodeScale="1.331" />
 
@@ -24630,7 +24607,7 @@
 		Name="r3_tropicpalma22503"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="434.013 536.544 2845.360"
+		Pos="434.013 536.543 2845.360"
 		Rot="0.000 -0.182 0.000 0.983"
 		NodeScale="1.056" />
 
@@ -24654,7 +24631,7 @@
 		Name="r3_tropicpalma22506"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="503.752 468.601 3140.274"
+		Pos="503.752 468.600 3140.274"
 		Rot="0.000 -0.993 0.000 0.122"
 		NodeScale="0.981" />
 
@@ -24765,7 +24742,7 @@
 		Name="r3_tropicpalma22520"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="404.737 477.032 3584.421"
+		Pos="404.737 477.033 3584.421"
 		Rot="0.000 -0.515 0.000 0.857"
 		NodeScale="1.193" />
 
@@ -24845,7 +24822,7 @@
 		Name="r3_tropicpalma22530"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1195.225 444.017 3276.563"
+		Pos="1195.225 444.016 3276.563"
 		Rot="0.000 -0.044 0.000 0.999"
 		NodeScale="1.249" />
 
@@ -24901,7 +24878,7 @@
 		Name="r3_tropicpalma22537"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1204.568 397.401 3888.610"
+		Pos="1204.568 397.402 3888.610"
 		Rot="0.000 0.523 0.000 0.853"
 		NodeScale="1.342" />
 
@@ -24941,7 +24918,7 @@
 		Name="r3_tropicpalma22542"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1203.978 419.058 3986.674"
+		Pos="1203.978 419.059 3986.674"
 		Rot="0.000 -0.508 0.000 0.862"
 		NodeScale="0.879" />
 
@@ -25013,7 +24990,7 @@
 		Name="r3_tropicpalma22551"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="622.502 418.260 2924.095"
+		Pos="622.502 418.261 2924.095"
 		Rot="0.000 -0.976 0.000 0.216"
 		NodeScale="1.473" />
 
@@ -25037,7 +25014,7 @@
 		Name="r3_tropicpalma22554"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="622.597 419.903 2781.738"
+		Pos="622.597 419.902 2781.738"
 		Rot="0.000 0.982 0.000 0.191"
 		NodeScale="0.872" />
 
@@ -25069,7 +25046,7 @@
 		Name="r3_tropicpalma22558"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="365.392 386.019 1935.851"
+		Pos="365.392 386.018 1935.851"
 		Rot="0.000 0.920 0.000 0.391"
 		NodeScale="1.280" />
 
@@ -25149,7 +25126,7 @@
 		Name="r3_tropicpalma22568"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1106.927 325.198 1420.779"
+		Pos="1106.927 325.197 1420.779"
 		Rot="0.000 0.500 0.000 0.866"
 		NodeScale="0.790" />
 
@@ -25197,7 +25174,7 @@
 		Name="r3_tropicpalma22574"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="1072.155 343.974 1775.997"
+		Pos="1072.155 343.975 1775.997"
 		Rot="0.000 -0.964 0.000 0.267"
 		NodeScale="1.492" />
 
@@ -25309,7 +25286,7 @@
 		Name="r3_tropicpalma22588"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="3125.347 267.622 1805.861"
+		Pos="3125.347 267.623 1805.861"
 		Rot="0.000 -0.959 0.000 0.284"
 		NodeScale="0.922" />
 
@@ -25317,7 +25294,7 @@
 		Name="r3_tropicpalma22589"
 		Belong="-1"
 		Prototype="r3_tropicpalma2_dyn"
-		Pos="2927.623 328.996 1552.448"
+		Pos="2927.623 328.995 1552.448"
 		Rot="0.000 -0.799 0.000 0.602"
 		NodeScale="1.233" />
 
@@ -25431,7 +25408,7 @@
 		Rot="0.000 -0.818 0.000 0.575">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="1573.831 259.192 666.974"
 			Rot="0.000 -0.818 0.000 0.575" />
 	</Object>
@@ -25440,7 +25417,7 @@
 		Name="lamppost12604"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="1396.893 266.069 896.605"
+		Pos="1396.893 266.070 896.605"
 		Rot="0.000 -0.909 0.000 0.417" />
 
 	<Object
@@ -25451,7 +25428,7 @@
 		Rot="0.000 0.897 0.000 0.442">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="847.031 298.195 973.539"
 			Rot="0.000 0.897 0.000 0.442" />
 	</Object>
@@ -25484,12 +25461,6 @@
 		Pos="1725.991 283.423 1532.027" />
 
 	<Object
-		Name="lamppost22610"
-		Belong="-1"
-		Prototype="lamppost2"
-		Pos="3063.732 260.805 1339.959" />
-
-	<Object
 		Name="lamppost12611"
 		Belong="-1"
 		Prototype="lamppost1"
@@ -25497,7 +25468,7 @@
 		Rot="0.000 0.914 0.000 0.405">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="3795.034 266.413 1938.163"
 			Rot="0.000 0.914 0.000 0.405" />
 	</Object>
@@ -25514,7 +25485,13 @@
 		Belong="-1"
 		Prototype="lamppost1"
 		Pos="3221.175 249.286 1421.800"
-		Rot="0.000 0.979 0.000 0.206" />
+		Rot="0.000 0.979 0.000 0.206">
+		<Object
+			Belong="-1"
+			Prototype="LightObject2"
+			Pos="3222.451 259.478 1418.903"
+			Rot="0.000 0.979 0.000 0.206" />
+	</Object>
 
 	<Object
 		Name="lamppost12614"
@@ -25552,7 +25529,7 @@
 		Name="lamppost12619"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="1590.272 273.004 2299.643"
+		Pos="1590.272 273.003 2299.643"
 		Rot="0.000 -0.584 0.000 0.812" />
 
 	<Object
@@ -25587,14 +25564,14 @@
 		Name="stolb12624"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3747.053 249.085 1877.830"
+		Pos="3747.053 249.032 1877.830"
 		Rot="0.000 0.169 0.000 0.986" />
 
 	<Object
 		Name="stolb12625"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3727.610 249.209 1827.730"
+		Pos="3727.610 249.156 1827.730"
 		Rot="0.000 0.208 0.000 0.978" />
 
 	<Object
@@ -25608,21 +25585,21 @@
 		Name="stolb12627"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3665.334 249.096 1764.727"
+		Pos="3665.334 249.043 1764.727"
 		Rot="0.000 0.373 0.000 0.928" />
 
 	<Object
 		Name="stolb12628"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3617.034 249.127 1713.722"
+		Pos="3617.034 249.073 1713.722"
 		Rot="0.000 0.231 0.000 0.973" />
 
 	<Object
 		Name="stolb12629"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3595.773 249.091 1678.537"
+		Pos="3595.773 249.038 1678.537"
 		Rot="0.000 0.202 0.000 0.979" />
 
 	<Object
@@ -25636,7 +25613,7 @@
 		Name="stolb12631"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3523.572 249.076 1584.370"
+		Pos="3523.572 249.023 1584.370"
 		Rot="0.000 0.332 0.000 0.943" />
 
 	<Object
@@ -25657,7 +25634,7 @@
 		Name="stolb12634"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3391.657 249.388 1433.886"
+		Pos="3391.657 249.387 1433.886"
 		Rot="0.000 0.570 0.000 0.822" />
 
 	<Object
@@ -25671,7 +25648,7 @@
 		Name="stolb12636"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3309.840 249.094 1403.929"
+		Pos="3309.840 249.040 1403.929"
 		Rot="0.000 0.616 0.000 0.788" />
 
 	<Object
@@ -25706,21 +25683,21 @@
 		Name="stolb12641"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3112.458 265.066 1398.097"
+		Pos="3112.458 265.067 1398.097"
 		Rot="0.000 0.736 0.000 0.677" />
 
 	<Object
 		Name="stolb12642"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3353.000 249.059 1413.578"
+		Pos="3353.000 249.006 1413.578"
 		Rot="0.000 0.477 0.000 0.879" />
 
 	<Object
 		Name="stolb12643"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3099.625 272.762 1402.108"
+		Pos="3099.625 267.664 1402.108"
 		Rot="0.000 0.721 0.000 0.693" />
 
 	<Object
@@ -25734,18 +25711,24 @@
 		Name="lamppost12645"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="3355.177 249.073 1413.982"
-		Rot="0.000 0.979 0.000 0.206" />
+		Pos="3355.177 249.019 1413.982"
+		Rot="0.000 0.979 0.000 0.206">
+		<Object
+			Belong="-1"
+			Prototype="LightObject2"
+			Pos="3356.453 259.211 1411.085"
+			Rot="0.000 0.979 0.000 0.206" />
+	</Object>
 
 	<Object
 		Name="lamppost12646"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="3479.459 249.097 1489.468"
+		Pos="3479.459 249.043 1489.468"
 		Rot="0.000 0.901 0.000 0.434">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="3481.934 259.289 1487.495"
 			Rot="0.000 0.901 0.000 0.434" />
 	</Object>
@@ -25754,18 +25737,18 @@
 		Name="lamppost12647"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="3592.454 249.178 1662.946"
+		Pos="3592.454 249.124 1662.946"
 		Rot="0.000 0.835 0.000 0.550" />
 
 	<Object
 		Name="lamppost12648"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="3694.999 249.060 1787.170"
+		Pos="3694.999 249.006 1787.170"
 		Rot="0.000 0.976 0.000 0.216">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="3696.334 259.252 1784.300"
 			Rot="0.000 0.976 0.000 0.216" />
 	</Object>
@@ -25787,7 +25770,7 @@
 		Name="sack_wall12651"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="3487.062 249.138 1494.491"
+		Pos="3487.062 249.085 1494.491"
 		Rot="0.000 0.600 0.000 0.800" />
 
 	<Object
@@ -25800,7 +25783,7 @@
 		Name="sack_wall12653"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="3485.429 249.206 1488.858"
+		Pos="3485.429 249.152 1488.858"
 		Rot="0.000 -0.409 0.000 0.913" />
 
 	<Object
@@ -25814,7 +25797,7 @@
 		Name="sack_wall12655"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="3495.434 249.116 1479.162"
+		Pos="3495.434 249.062 1479.162"
 		Rot="0.000 -0.303 0.000 0.953" />
 
 	<Object
@@ -25869,7 +25852,7 @@
 		Name="tankeg2663"
 		Belong="-1"
 		Prototype="Breakable_TankEg"
-		Pos="3593.434 242.260 1462.499" />
+		Pos="3593.434 242.261 1462.499" />
 
 	<Object
 		Name="tankeg2664"
@@ -25929,7 +25912,7 @@
 		Name="tankeg2673"
 		Belong="-1"
 		Prototype="Breakable_TankEg"
-		Pos="3480.747 249.227 1483.613" />
+		Pos="3480.747 249.174 1483.613" />
 
 	<Object
 		Name="tankeg2674"
@@ -25941,7 +25924,7 @@
 		Name="tankeg2675"
 		Belong="-1"
 		Prototype="Breakable_TankEg"
-		Pos="3490.647 249.116 1474.264" />
+		Pos="3490.647 249.063 1474.264" />
 
 	<Object
 		Name="barrel12676"
@@ -25989,43 +25972,43 @@
 		Name="brick_wall22683"
 		Belong="-1"
 		Prototype="Breakable_BrickWall2"
-		Pos="974.873 305.733 2177.236"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="849.595 356.076 3187.083"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="brick_wall22684"
 		Belong="-1"
 		Prototype="Breakable_BrickWall2"
-		Pos="968.126 306.353 2181.439"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="843.476 356.193 3192.157"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="brick_wall22685"
 		Belong="-1"
 		Prototype="Breakable_BrickWall2"
-		Pos="961.453 306.640 2185.569"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="837.421 355.911 3197.149"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="sack_wall22686"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="974.405 305.636 2175.232"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="848.861 356.168 3185.160"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="sack_wall22687"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="967.947 306.310 2179.264"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="843.006 356.323 3190.027"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="sack_wall22688"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="961.388 306.632 2183.405"
-		Rot="0.000 -0.962 0.000 0.274" />
+		Pos="837.065 356.088 3195.014"
+		Rot="0.000 -0.941 0.000 0.338" />
 
 	<Object
 		Name="brick_wall22689"
@@ -26073,13 +26056,13 @@
 		Name="barrel12695"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="1671.099 284.771 1452.385" />
+		Pos="1671.099 284.770 1452.385" />
 
 	<Object
 		Name="wood_fence22696"
 		Belong="-1"
 		Prototype="Breakable_WoodFence2"
-		Pos="1666.241 284.189 1451.170"
+		Pos="1666.241 284.190 1451.170"
 		Rot="0.000 -0.710 0.000 0.704" />
 
 	<Object
@@ -26160,28 +26143,28 @@
 		Name="sack_wall22708"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="2022.782 293.421 1429.175"
+		Pos="2022.782 293.367 1429.175"
 		Rot="0.000 -0.303 0.000 0.953" />
 
 	<Object
 		Name="sack_wall12709"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2032.581 293.440 1436.101"
+		Pos="2032.581 293.387 1436.101"
 		Rot="0.000 -0.303 0.000 0.953" />
 
 	<Object
 		Name="sack_wall12710"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2577.013 249.201 1164.976"
+		Pos="2577.013 249.147 1164.976"
 		Rot="0.000 -0.469 0.000 0.883" />
 
 	<Object
 		Name="sack_wall12711"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2583.723 249.216 1174.925"
+		Pos="2583.723 249.163 1174.925"
 		Rot="0.000 -0.469 0.000 0.883" />
 
 	<Object
@@ -26230,14 +26213,14 @@
 		Name="sack_wall12718"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2279.151 251.823 1198.271"
+		Pos="2279.151 251.770 1198.271"
 		Rot="0.000 0.557 0.000 0.830" />
 
 	<Object
 		Name="sack_wall12719"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2811.328 249.249 1160.565"
+		Pos="2811.328 249.196 1160.565"
 		Rot="0.000 0.646 0.000 0.763" />
 
 	<Object
@@ -26462,7 +26445,7 @@
 		Name="sack_wall22753"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="1682.047 248.195 525.341"
+		Pos="1682.047 248.194 525.341"
 		Rot="0.000 -0.662 0.000 0.750" />
 
 	<Object
@@ -26585,7 +26568,7 @@
 		<Post
 			ServerObjName="stolb12636"
 			NodesNameHierarchy=""
-			PostTiePos="3310.241 255.502 1403.284"
+			PostTiePos="3310.241 255.449 1403.284"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26601,7 +26584,7 @@
 		<Post
 			ServerObjName="stolb12636"
 			NodesNameHierarchy=""
-			PostTiePos="3309.936 255.159 1404.509"
+			PostTiePos="3309.936 255.106 1404.509"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26659,13 +26642,13 @@
 		<Post
 			ServerObjName="stolb12628"
 			NodesNameHierarchy=""
-			PostTiePos="3617.784 255.536 1713.605"
+			PostTiePos="3617.784 255.482 1713.605"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb12627"
 			NodesNameHierarchy=""
-			PostTiePos="3666.017 255.505 1764.395"
+			PostTiePos="3666.017 255.451 1764.395"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26675,13 +26658,13 @@
 		<Post
 			ServerObjName="stolb12628"
 			NodesNameHierarchy=""
-			PostTiePos="3616.656 255.193 1714.173"
+			PostTiePos="3616.656 255.139 1714.173"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb12627"
 			NodesNameHierarchy=""
-			PostTiePos="3665.106 255.161 1765.269"
+			PostTiePos="3665.106 255.108 1765.269"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26691,7 +26674,7 @@
 		<Post
 			ServerObjName="stolb12627"
 			NodesNameHierarchy=""
-			PostTiePos="3666.017 255.505 1764.395"
+			PostTiePos="3666.017 255.451 1764.395"
 			LpName="LP_PART01" />
 
 		<Post
@@ -26707,7 +26690,7 @@
 		<Post
 			ServerObjName="stolb12627"
 			NodesNameHierarchy=""
-			PostTiePos="3665.106 255.161 1765.269"
+			PostTiePos="3665.106 255.108 1765.269"
 			LpName="LP_PART02" />
 
 		<Post
@@ -26729,7 +26712,7 @@
 		<Post
 			ServerObjName="stolb12625"
 			NodesNameHierarchy=""
-			PostTiePos="3728.365 255.618 1827.649"
+			PostTiePos="3728.365 255.564 1827.649"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26745,7 +26728,7 @@
 		<Post
 			ServerObjName="stolb12625"
 			NodesNameHierarchy=""
-			PostTiePos="3727.212 255.275 1828.163"
+			PostTiePos="3727.212 255.221 1828.163"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26761,7 +26744,7 @@
 		<Post
 			ServerObjName="stolb12629"
 			NodesNameHierarchy=""
-			PostTiePos="3596.529 255.500 1678.465"
+			PostTiePos="3596.529 255.446 1678.465"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26777,7 +26760,7 @@
 		<Post
 			ServerObjName="stolb12629"
 			NodesNameHierarchy=""
-			PostTiePos="3595.369 255.156 1678.965"
+			PostTiePos="3595.369 255.103 1678.965"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26787,13 +26770,13 @@
 		<Post
 			ServerObjName="stolb12629"
 			NodesNameHierarchy=""
-			PostTiePos="3596.529 255.500 1678.465"
+			PostTiePos="3596.529 255.446 1678.465"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb12628"
 			NodesNameHierarchy=""
-			PostTiePos="3617.784 255.536 1713.605"
+			PostTiePos="3617.784 255.482 1713.605"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26803,7 +26786,7 @@
 		<Post
 			ServerObjName="stolb12642"
 			NodesNameHierarchy=""
-			PostTiePos="3353.589 255.468 1413.099"
+			PostTiePos="3353.589 255.414 1413.099"
 			LpName="LP_PART01" />
 
 		<Post
@@ -26819,7 +26802,7 @@
 		<Post
 			ServerObjName="stolb12642"
 			NodesNameHierarchy=""
-			PostTiePos="3352.901 255.124 1414.158"
+			PostTiePos="3352.901 255.071 1414.158"
 			LpName="LP_PART02" />
 
 		<Post
@@ -26835,13 +26818,13 @@
 		<Post
 			ServerObjName="stolb12636"
 			NodesNameHierarchy=""
-			PostTiePos="3310.241 255.502 1403.284"
+			PostTiePos="3310.241 255.449 1403.284"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb12642"
 			NodesNameHierarchy=""
-			PostTiePos="3353.589 255.468 1413.099"
+			PostTiePos="3353.589 255.414 1413.099"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26851,13 +26834,13 @@
 		<Post
 			ServerObjName="stolb12636"
 			NodesNameHierarchy=""
-			PostTiePos="3309.936 255.159 1404.509"
+			PostTiePos="3309.936 255.106 1404.509"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb12642"
 			NodesNameHierarchy=""
-			PostTiePos="3352.901 255.124 1414.158"
+			PostTiePos="3352.901 255.071 1414.158"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26899,13 +26882,13 @@
 		<Post
 			ServerObjName="stolb12625"
 			NodesNameHierarchy=""
-			PostTiePos="3728.365 255.618 1827.649"
+			PostTiePos="3728.365 255.564 1827.649"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb12624"
 			NodesNameHierarchy=""
-			PostTiePos="3747.812 255.494 1877.809"
+			PostTiePos="3747.812 255.440 1877.809"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -26915,13 +26898,13 @@
 		<Post
 			ServerObjName="stolb12625"
 			NodesNameHierarchy=""
-			PostTiePos="3727.212 255.275 1828.163"
+			PostTiePos="3727.212 255.221 1828.163"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb12624"
 			NodesNameHierarchy=""
-			PostTiePos="3746.622 255.151 1878.230"
+			PostTiePos="3746.622 255.097 1878.230"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -26931,7 +26914,7 @@
 		<Post
 			ServerObjName="stolb12624"
 			NodesNameHierarchy=""
-			PostTiePos="3747.812 255.494 1877.809"
+			PostTiePos="3747.812 255.440 1877.809"
 			LpName="LP_PART01" />
 
 		<Post
@@ -26947,7 +26930,7 @@
 		<Post
 			ServerObjName="stolb12624"
 			NodesNameHierarchy=""
-			PostTiePos="3746.622 255.151 1878.230"
+			PostTiePos="3746.622 255.097 1878.230"
 			LpName="LP_PART02" />
 
 		<Post
@@ -26979,7 +26962,7 @@
 		<Post
 			ServerObjName="stolb12631"
 			NodesNameHierarchy=""
-			PostTiePos="3524.281 255.485 1584.099"
+			PostTiePos="3524.281 255.431 1584.099"
 			LpName="LP_PART01" />
 
 		<Post
@@ -26995,7 +26978,7 @@
 		<Post
 			ServerObjName="stolb12631"
 			NodesNameHierarchy=""
-			PostTiePos="3523.297 255.142 1584.890"
+			PostTiePos="3523.297 255.088 1584.890"
 			LpName="LP_PART02" />
 
 		<Post
@@ -27033,7 +27016,7 @@
 		<Post
 			ServerObjName="stolb12631"
 			NodesNameHierarchy=""
-			PostTiePos="3523.297 255.142 1584.890"
+			PostTiePos="3523.297 255.088 1584.890"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -27049,7 +27032,7 @@
 		<Post
 			ServerObjName="stolb12631"
 			NodesNameHierarchy=""
-			PostTiePos="3524.281 255.485 1584.099"
+			PostTiePos="3524.281 255.431 1584.099"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -27059,13 +27042,13 @@
 		<Post
 			ServerObjName="stolb12629"
 			NodesNameHierarchy=""
-			PostTiePos="3595.369 255.156 1678.965"
+			PostTiePos="3595.369 255.103 1678.965"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb12628"
 			NodesNameHierarchy=""
-			PostTiePos="3616.656 255.193 1714.173"
+			PostTiePos="3616.656 255.139 1714.173"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -27075,7 +27058,7 @@
 		<Post
 			ServerObjName="stolb12635"
 			NodesNameHierarchy=""
-			PostTiePos="3438.538 255.276 1457.808"
+			PostTiePos="3438.538 255.277 1457.808"
 			LpName="LP_PART02" />
 
 		<Post
@@ -27145,7 +27128,7 @@
 		<Post
 			ServerObjName="stolb12635"
 			NodesNameHierarchy=""
-			PostTiePos="3438.538 255.276 1457.808"
+			PostTiePos="3438.538 255.277 1457.808"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -27176,14 +27159,14 @@
 		Name="StoneRobot2_loc"
 		Belong="1001"
 		Prototype="genericLocation"
-		Pos="2869.083 308.621 2942.937"
+		Pos="3082.963 305.771 2943.008"
 		Radius="10.000" />
 
 	<Object
 		Name="StoneRobot3_loc"
 		Belong="1001"
 		Prototype="genericLocation"
-		Pos="3082.963 305.771 2943.008"
+		Pos="2869.083 308.621 2942.937"
 		Radius="10.000" />
 
 	<Object
@@ -27191,69 +27174,69 @@
 		Belong="-1"
 		Prototype="pack_breakable"
 		Pos="3777.516 256.221 1942.819"
-		Rot="0.000 0.489 0.000 0.873" />
+		Rot="0.000 0.489 0.000 0.872" />
 
 	<Object
 		Name="pack2764"
 		Belong="-1"
 		Prototype="pack_breakable"
 		Pos="3781.054 256.221 1942.031"
-		Rot="0.000 0.489 0.000 0.873" />
+		Rot="0.000 0.489 0.000 0.872" />
 
 	<Object
 		Name="pack2765"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3810.067 260.873 1981.341"
+		Pos="3810.067 258.503 1981.341"
 		Rot="0.217 0.208 -0.661 0.687" />
 
 	<Object
 		Name="pack2766"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3802.878 251.995 1951.678"
-		Rot="0.000 0.995 0.000 -0.105" />
+		Pos="3802.291 250.107 1951.790"
+		Rot="-0.003 0.860 0.008 -0.510" />
 
 	<Object
 		Name="pack2767"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3803.228 253.864 1955.059"
+		Pos="3803.585 250.107 1954.787"
 		Rot="0.000 0.061 0.000 0.998" />
 
 	<Object
 		Name="pack2768"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3804.904 251.917 1964.056"
+		Pos="3804.904 250.107 1964.056"
 		Rot="0.000 0.978 0.000 0.208" />
 
 	<Object
 		Name="pack2769"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3807.015 251.969 1959.108"
-		Rot="0.000 0.375 0.000 0.927" />
+		Pos="3806.323 250.107 1960.496"
+		Rot="0.000 0.208 0.000 0.978" />
 
 	<Object
 		Name="pack2770"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3800.202 251.866 1948.703"
-		Rot="0.000 0.737 0.000 0.676" />
+		Pos="3800.202 250.107 1948.703"
+		Rot="0.000 0.697 0.000 0.717" />
 
 	<Object
 		Name="pack2771"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="3803.021 253.864 1955.062"
-		Rot="0.000 0.399 0.000 0.917" />
+		Pos="3804.286 250.107 1957.898"
+		Rot="0.000 0.684 0.000 0.730" />
 
 	<Object
 		Name="brokvehicle22772"
 		Belong="-1"
 		Prototype="brokvehicle2_breakable"
-		Pos="1373.751 250.857 701.668"
+		Pos="1373.751 249.000 701.668"
 		Rot="0.008 -0.028 -0.018 -0.999" />
 
 	<Object
@@ -27267,40 +27250,58 @@
 		Name="brokvehicle22774"
 		Belong="-1"
 		Prototype="brokvehicle2_breakable"
-		Pos="1510.708 247.553 562.112"
+		Pos="1510.708 245.963 562.112"
 		Rot="0.210 0.670 -0.206 -0.682" />
 
 	<Object
 		Name="agro_tech12775"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="1517.087 247.828 561.546"
+		Pos="1517.087 245.671 561.546"
 		Rot="0.006 0.985 -0.171 -0.034" />
 
 	<Object
 		Name="brokvehicle12776"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="923.436 291.324 1272.998"
+		Pos="923.436 288.000 1272.998"
 		Rot="0.000 0.072 0.000 0.997" />
 
 	<Object
 		Name="pack2777"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="1853.235 256.938 1194.833" />
+		Pos="1853.235 255.020 1194.833" />
 
 	<Object
 		Name="pack2778"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="1790.374 250.951 1165.444"
+		Pos="1790.374 249.000 1165.444"
 		Rot="0.092 0.203 0.019 0.975" />
 
 	<Object
 		Name="pack2779"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="1789.908 250.917 1187.625"
+		Pos="1789.908 249.000 1187.625"
 		Rot="0.000 -0.387 0.000 0.922" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player" />
+
+	<Object
+		Name="lamppost12780"
+		Belong="1001"
+		Prototype="lamppost1"
+		Pos="3066.683 260.806 1344.732"
+		Rot="0.000 -0.965 0.000 0.263">
+		<Object
+			Belong="1001"
+			Prototype="LightObject2"
+			Pos="3065.077 270.998 1342.005"
+			Rot="0.000 0.965 0.000 -0.263" />
+	</Object>
 </DynamicScene>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="3595">
+	LastId="3632">
 	<TargetNamesForDestroy
 		Names="urod1 urod2 urod3 urod4 urod5 urod6 urod7 urod8 urod9" />
 
@@ -29,6 +29,21 @@
 		PointOfViewInInterface="-27.436 79.601 -219.687"
 		CaravansDest="">
 		<Object
+			Name="TheOlme_Administration"
+			Belong="1010"
+			Prototype="barWithoutBarman">
+			<Object
+				Name="Olme_Bar_Customer2"
+				Belong="1010"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="2"
+				cfg="188"
+				helloReplyNames="Olme_Bar_Customer2_1_N01 Olme_Bar_Customer2_2_N01"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
 			Name="Olme_Bar"
 			Belong="1010"
 			Prototype="bar">
@@ -52,22 +67,33 @@
 				SpokenCount="0" />
 
 			<Object
-				Name="Olme_Bar_Customer2"
+				Name="Bar_Gomer1"
 				Belong="1010"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
-				cfg="188"
-				helloReplyNames="Olme_Bar_Customer2_1_N01 Olme_Bar_Customer2_2_N01 Olme_Bar_Customer2_3_N01"
+				cfg="70"
+				helloReplyNames="Dlg_npc_002652"
 				SpokenCount="0" />
 
 			<Object
-				Name="Olme_Bar_Traider"
+				Name="TikhomirInSorrow1"
 				Belong="1010"
 				Prototype="NPC"
 				ModelName="r1_man"
-				cfg="76"
-				helloReplyNames="Olme_Bar_Traider_1_N01"
+				skin="4"
+				cfg="84"
+				helloReplyNames="Dlg_npc_003256"
+				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph1"
+				Belong="1010"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="3"
+				cfg="180"
+				helloReplyNames="Dlg_npc_003014"
 				SpokenCount="0" />
 		</Object>
 
@@ -398,22 +424,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="BugForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="bugCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="bugCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="bugChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -423,22 +434,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="MolokovozForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="molokovozCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="molokovozCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="molokovozChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -448,22 +444,7 @@
 					PosY="0"
 					Flags="16"
 					Prototype="UralForSale">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -547,6 +528,121 @@
 			Radius="24.866"
 			LookingTimeOut="10.000" />
 
+		<Object
+			Name="staticAutoGun601"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2648.184 248.333 905.217">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun601CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun602"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2605.600 248.287 907.188">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun602CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun603"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2543.191 248.333 1143.230">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun603CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun604"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2508.914 246.426 1143.910">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun604CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun605"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2766.255 248.333 938.332"
+			Rot="0.000 -0.204 0.000 0.979">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun605CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun606"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2475.606 248.333 922.469"
+			Rot="0.000 0.288 0.000 0.958">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun606CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun607"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2412.971 248.333 965.611"
+			Rot="0.000 0.643 0.000 0.766">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun607CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun608"
+			Belong="1010"
+			Prototype="staticAutoGun04"
+			Pos="2414.101 248.409 1144.970">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun608CANNON"
+					Belong="1010"
+					Prototype="vulcan01" />
+			</Parts>
+		</Object>
+
 		<Parts>
 			<AttackTeam
 				present="no" />
@@ -583,7 +679,7 @@
 
 	<Object
 		Name="FVOnOcean"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_SaliniomVillage"
 		Pos="2801.324 216.000 3640.781"
 		Rot="0.000 -0.225 0.000 0.974"
@@ -591,11 +687,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVOnOcean_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVOnOcean_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="14"
@@ -603,38 +699,64 @@
 				SpokenCount="0" />
 
 			<Object
-				Name="FVOnOcean_Bar_Customer1"
-				Belong="1066"
-				Prototype="NPC"
-				ModelName="r1_woman"
-				skin="1"
-				cfg="112"
-				helloReplyNames="r1m4_UnknownBar_Customer2_1_N01"
-				SpokenCount="0" />
-
-			<Object
-				Name="FVOnOcean_Bar_Customer3"
-				Belong="1066"
-				Prototype="NPC"
-				ModelName="r1_man"
-				cfg="182"
-				helloReplyNames="r1m4_UnknownBar_Customer5_1_N01"
-				SpokenCount="0" />
-
-			<Object
-				Name="FVOnOcean_Bar_Gomer"
-				Belong="1066"
+				Name="FVOnOcean_Bar_Gomer1"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
 				cfg="70"
-				helloReplyNames="r1m4_RandomBar_Gomer_1_N01 r1m4_RandomBar_Gomer_2_N01"
+				helloReplyNames="Dlg_npc_003225"
+				SpokenCount="0" />
+
+			<Object
+				Name="FVBerko_Bar_Customer2"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="r1_man"
+				cfg="188"
+				helloReplyNames="Dlg_npc_001927"
+				SpokenCount="0" />
+
+			<Object
+				Name="FVOnOcean_Bar_Customer3"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="r1_man"
+				cfg="182"
+				helloReplyNames="Dlg_npc_001929"
+				SpokenCount="0" />
+
+			<Object
+				Name="Olme_Bar_Customer3"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="5"
+				cfg="110"
+				helloReplyNames="Dlg_npc_002677 Dlg_npc_002692"
+				SpokenCount="0" />
+
+			<Object
+				Name="MrShlyapa"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="427"
+				helloReplyNames="Dlg_npc_001952"
+				SpokenCount="0" />
+
+			<Object
+				Name="MrShlyapaEmpty"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="point"
+				helloReplyNames="Dlg_npc_003296"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="FVOnOcean_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -671,13 +793,13 @@
 
 		<Object
 			Name="FVOnOcean_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVOnOcean_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2738.503 215.867 3627.521"
 			Radius="75.196"
@@ -686,7 +808,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2759.887 216.359 3631.184"
 			Radius="137.000"
@@ -695,7 +817,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2692.083 215.996 3585.041"
 			Radius="17.238"
@@ -704,7 +826,7 @@
 		<Object
 			Flags="21"
 			Name="FVOnOcean_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2692.083 215.996 3585.041"
 			Radius="17.238"
@@ -722,7 +844,7 @@
 
 	<Object
 		Name="FVNearOlme"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_LaukaVillage"
 		Pos="2974.371 249.000 1803.868"
 		Rot="0.000 -0.352 0.000 0.936"
@@ -730,11 +852,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVNearOlme_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVNearOlme_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="166"
@@ -743,16 +865,16 @@
 
 			<Object
 				Name="FVNearOlme_Bar_Customer2"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="220"
-				helloReplyNames="r1m4_RandomBar_Customer1_1_N01 r1m4_UnknownBar_Customer1_1_N01"
+				helloReplyNames="r1m4_RandomBar_Customer1_1_N01"
 				SpokenCount="0" />
 
 			<Object
 				Name="FVNearOlme_Bar_Customer3"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				skin="1"
@@ -763,7 +885,7 @@
 
 		<Object
 			Name="FVNearOlme_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -807,7 +929,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2943.487 249.138 1787.201"
 			Radius="53.832"
@@ -816,7 +938,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2967.603 248.701 1795.116"
 			Radius="120.000"
@@ -825,7 +947,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2922.563 249.113 1822.649"
 			Radius="20.000"
@@ -834,7 +956,7 @@
 		<Object
 			Flags="21"
 			Name="FVNearOlme_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="2922.563 249.113 1822.649"
 			Radius="20.000"
@@ -842,7 +964,7 @@
 
 		<Object
 			Name="FVNearOlme_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Parts>
@@ -857,7 +979,7 @@
 
 	<Object
 		Name="FVCalis"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_CalisVillage"
 		Pos="3264.369 224.231 2139.292"
 		Rot="0.000 -0.998 0.000 0.060"
@@ -866,7 +988,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3263.132 224.232 2106.436"
 			Radius="72.450"
@@ -875,7 +997,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3261.931 224.232 2101.389"
 			Radius="137.000"
@@ -884,7 +1006,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3258.089 218.931 2044.945"
 			Radius="20.000"
@@ -893,7 +1015,7 @@
 		<Object
 			Flags="21"
 			Name="FVCalis_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3258.089 218.931 2044.945"
 			Radius="20.000"
@@ -901,11 +1023,11 @@
 
 		<Object
 			Name="FVCalis_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVCalis_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -915,7 +1037,7 @@
 
 			<Object
 				Name="FVCalis_Bar_Customer3"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -925,27 +1047,27 @@
 
 			<Object
 				Name="FVCalis_Bar_Customer1"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="190"
-				helloReplyNames="r1m4_RandomBar_Customer1_1_N01 r1m4_UnknownBar_Customer3_1_N01"
+				helloReplyNames="Dlg_npc_000089"
 				SpokenCount="0" />
 
 			<Object
-				Name="FVCalis_Bar_Husbent1"
-				Belong="1066"
+				Name="WorkGiver"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
-				cfg="182"
-				helloReplyNames="r1m4_SomeWhere_Husbent1_1_N01"
+				cfg="92"
+				helloReplyNames="Dlg_npc_002623 Dlg_npc_002625 Dlg_npc_002689 Dlg_npc_003288"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="FVCalis_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -976,7 +1098,7 @@
 
 		<Object
 			Name="FVCalis_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Parts>
@@ -991,7 +1113,7 @@
 
 	<Object
 		Name="FVCordan"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_CordanVillage"
 		Pos="1663.391 270.000 1851.340"
 		Rot="0.000 0.998 0.000 -0.069"
@@ -1000,7 +1122,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="1706.994 270.363 1852.181"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -1010,7 +1132,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="1674.797 270.000 1848.786"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -1019,11 +1141,11 @@
 
 		<Object
 			Name="FVCordan_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVCordan_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="156"
@@ -1031,19 +1153,38 @@
 				SpokenCount="0" />
 
 			<Object
+				Name="AivenGo"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="mask_father"
+				skin="1"
+				helloReplyNames="Dlg_npc_003104 Dlg_npc_003141"
+				SpokenCount="0" />
+
+			<Object
 				Name="FVCordan_Bar_Customer2"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
 				cfg="86"
 				helloReplyNames="r1m4_UnknownBar_Customer3_1_N01"
 				SpokenCount="0" />
+
+			<Object
+				Name="TikhomirInSorrow"
+				Belong="1085"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="4"
+				cfg="84"
+				helloReplyNames="Dlg_npc_003256"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="FVCordan_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1074,13 +1215,13 @@
 
 		<Object
 			Name="FVCordan_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVCordan_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="1685.207 270.000 1936.121"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -1090,7 +1231,7 @@
 		<Object
 			Flags="21"
 			Name="FVCordan_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="1685.207 270.000 1936.121"
 			Rot="0.000 0.998 0.000 -0.069"
@@ -1109,7 +1250,7 @@
 
 	<Object
 		Name="FVPerch"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_PerchVillage"
 		Pos="344.466 335.061 3168.327"
 		Rot="0.000 0.657 0.000 0.754"
@@ -1117,25 +1258,25 @@
 		CaravansDest="">
 		<Object
 			Name="FVPerch_Houses"
-			Belong="1066"
+			Belong="1085"
 			Prototype="barWithoutBarman">
 			<Object
 				Name="LookingWife1"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="92"
-				helloReplyNames="r1m4_SomeWhere_OldWomen1_2_N01"
+				helloReplyNames="r1m4_SomeWhere_OldWomen1_1_N01 r1m4_SomeWhere_OldWomen1_2_N01"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="FVPerch_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVPerch_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				skin="2"
@@ -1145,7 +1286,7 @@
 
 			<Object
 				Name="FVPerch_Bar_Customer2"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_man"
 				skin="2"
@@ -1156,7 +1297,7 @@
 
 		<Object
 			Name="FVPerch_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1199,13 +1340,13 @@
 
 		<Object
 			Name="FVPerch_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVPerch_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="367.174 335.561 3197.501"
 			Radius="93.722"
@@ -1214,7 +1355,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="354.350 335.262 3176.614"
 			Radius="137.000"
@@ -1223,7 +1364,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="448.655 335.000 3224.042"
 			Radius="20.000"
@@ -1232,7 +1373,7 @@
 		<Object
 			Flags="21"
 			Name="FVPerch_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="448.655 335.000 3224.042"
 			Radius="20.000"
@@ -1250,7 +1391,7 @@
 
 	<Object
 		Name="FVBerko"
-		Belong="1066"
+		Belong="1085"
 		Prototype="r1m4_BerkoVillage"
 		Pos="3067.184 226.000 755.059"
 		Rot="0.000 -0.555 0.000 0.832"
@@ -1258,11 +1399,11 @@
 		CaravansDest="">
 		<Object
 			Name="FVBerko_Bar"
-			Belong="1066"
+			Belong="1085"
 			Prototype="bar">
 			<Object
 				Name="FVBerko_Bar_Barman"
-				Belong="1066"
+				Belong="1085"
 				Prototype="NPC"
 				ModelName="r1_woman"
 				cfg="104"
@@ -1270,18 +1411,19 @@
 				SpokenCount="0" />
 
 			<Object
-				Name="FVBerko_Bar_Customer2"
-				Belong="1066"
+				Name="FVOnOcean_Bar_Customer1"
+				Belong="1085"
 				Prototype="NPC"
-				ModelName="r1_man"
-				cfg="188"
+				ModelName="r1_woman"
+				skin="1"
+				cfg="112"
 				helloReplyNames="r1m4_UnknownBar_Customer5_1_N01"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="FVBerko_Shop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1318,13 +1460,13 @@
 
 		<Object
 			Name="FVBerko_Workshop"
-			Belong="1066"
+			Belong="1085"
 			Prototype="workshop" />
 
 		<Object
 			Flags="21"
 			Name="FVBerko_enter"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3049.434 226.000 740.076"
 			Radius="71.030"
@@ -1333,7 +1475,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_defend"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3067.038 226.000 734.085"
 			Radius="137.000"
@@ -1342,7 +1484,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_deploy"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3031.622 226.000 724.816"
 			Radius="20.000"
@@ -1351,7 +1493,7 @@
 		<Object
 			Flags="21"
 			Name="FVBerko_caravan"
-			Belong="1066"
+			Belong="1085"
 			Prototype="genericLocation"
 			Pos="3031.622 226.000 724.816"
 			Radius="20.000"
@@ -1378,37 +1520,64 @@
 
 	<Object
 		Flags="21"
-		Name="Port_loc"
+		Name="SpecEndPlane_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="755.250 230.567 878.418"
-		Radius="83.656"
+		Pos="1395.755 215.743 1560.802"
+		Radius="169.000"
 		LookingTimeOut="137.000" />
 
 	<Object
+		Flags="21"
+		Name="SpecEndPlane2_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="533.023 241.576 1720.310"
+		Radius="145.000"
+		LookingTimeOut="137.000" />
+
+	<Object
+		Flags="21"
+		Name="RrybakRoad_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2437.636 249.035 2858.103"
+		Radius="100.000"
+		LookingTimeOut="137.000" />
+
+	<Object
+		Flags="21"
+		Name="KillSkladGuys_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1086.401 306.808 2259.887"
+		Radius="50.000"
+		LookingTimeOut="100.000" />
+
+	<Object
 		Name="StorageVil"
-		Belong="1012"
+		Belong="1084"
 		Prototype="r1m4_StorageVillage"
 		Pos="897.973 306.001 2536.173"
 		PointOfViewInInterface="50.000 50.000 50.000"
 		CaravansDest="">
 		<Object
 			Name="StorageVilBar"
-			Belong="1012"
+			Belong="1084"
 			Prototype="barWithoutBarman">
 			<Object
 				Name="r1m4_Storage_Guard1"
-				Belong="1012"
+				Belong="1084"
 				Prototype="NPC"
 				ModelName="r1_man"
 				cfg="70"
-				helloReplyNames="r1m4_Storage_Guard1_1_N01 r1m4_Storage_Guard1_2_N01 r1m4_Storage_Guard1_3_N01"
+				helloReplyNames="r1m4_Storage_Guard1_1_N01 r1m4_Storage_Guard1_3_N01"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="StorageVil_Shop"
-			Belong="1012"
+			Belong="1084"
 			Prototype="shop">
 			<GunsAndGadgets>
 				<Item
@@ -1470,7 +1639,7 @@
 		<Object
 			Flags="21"
 			Name="StorageVil_enter"
-			Belong="1012"
+			Belong="1084"
 			Prototype="genericLocation"
 			Pos="915.998 306.001 2509.014"
 			Radius="51.329"
@@ -1479,7 +1648,7 @@
 		<Object
 			Flags="21"
 			Name="StorageVil_defend"
-			Belong="1012"
+			Belong="1084"
 			Prototype="genericLocation"
 			Pos="881.477 306.001 2513.979"
 			Radius="137.000"
@@ -1488,11 +1657,114 @@
 		<Object
 			Flags="21"
 			Name="StorageVil_deploy"
-			Belong="1012"
+			Belong="1084"
 			Prototype="genericLocation"
 			Pos="981.336 306.000 2542.470"
 			Radius="20.000"
 			LookingTimeOut="20.000" />
+
+		<Object
+			Name="heavy_dot4_octopus3600"
+			Belong="1084"
+			Prototype="heavy_dot4_octopus_spec"
+			Pos="952.890 306.001 2489.514"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot4_octopus3600_CANNON"
+					Belong="1084"
+					Prototype="octopus01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="heavy_dot4_octopus3596"
+			Belong="1084"
+			Prototype="heavy_dot4_octopus_spec"
+			Pos="953.748 306.001 2510.661"
+			Rot="0.000 0.706 0.000 0.709">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot4_octopus3596_CANNON"
+					Belong="1084"
+					Prototype="octopus01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="heavy_dot4_octopus3601"
+			Belong="1084"
+			Prototype="heavy_dot4_octopus_spec"
+			Pos="885.818 306.001 2555.277">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot4_octopus3601_CANNON"
+					Belong="1084"
+					Prototype="octopus01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="heavy_dot4_octopus3602"
+			Belong="1084"
+			Prototype="heavy_dot4_octopus_spec"
+			Pos="868.584 306.001 2555.270">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="heavy_dot4_octopus3602_CANNON"
+					Belong="1084"
+					Prototype="octopus01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun023597"
+			Belong="1084"
+			Prototype="staticAutoGun02_spec"
+			Pos="1309.845 306.038 2508.224"
+			Rot="0.000 0.904 0.000 0.427">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun023597_CANNON"
+					Belong="1084"
+					Prototype="rainmetal01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun023598"
+			Belong="1084"
+			Prototype="staticAutoGun02_spec"
+			Pos="1197.637 306.168 2586.535"
+			Rot="0.000 0.976 0.000 0.216">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun023598_CANNON"
+					Belong="1084"
+					Prototype="rainmetal01" />
+			</Parts>
+		</Object>
+
+		<Object
+			Name="staticAutoGun023599"
+			Belong="1084"
+			Prototype="staticAutoGun02_spec"
+			Pos="1155.153 306.000 2411.679"
+			Rot="0.000 -0.707 0.000 0.707">
+			<Parts>
+				<CANNON
+					present="1"
+					Name="staticAutoGun023599_CANNON"
+					Belong="1084"
+					Prototype="rainmetal01" />
+			</Parts>
+		</Object>
 
 		<Parts>
 			<AttackTeam
@@ -1539,41 +1811,30 @@
 		Prototype="genericLocation"
 		Pos="2786.510 228.122 211.075"
 		Radius="186.057"
-   		LookingTimeOut="108.157"
-   		PassageActive="0"
-		PassageAddress="r1m3 FromR1M4" />
+		LookingTimeOut="108.157"
+		PassageAddress="r1m3 FromR1M4"
+		PassageActive="0" />
 
 	<Object
 		Flags="21"
-		Name="AfterMorass2_loc"
+		Name="FromR1M6"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="848.191 232.292 1692.771"
-		Radius="10.000" />
+		Pos="2075.002 257.000 3526.435"
+		Radius="10.000"
+		LookingTimeOut="10.000"
+		ExitLocation="ToR1M6" />
 
 	<Object
 		Flags="21"
-		Name="AfterMorass_loc"
+		Name="ToR1M6"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="896.539 229.345 1680.759"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="BeforeMorass_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="1433.497 215.369 1587.563"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="BeforeMorass2_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="1477.200 217.446 1582.913"
-		Radius="10.000" />
+		Pos="2054.117 257.000 3572.602"
+		Radius="36.000"
+		LookingTimeOut="108.157"
+		PassageAddress="r1m6 FromR1M4"
+		PassageActive="0" />
 
 	<Object
 		Flags="21"
@@ -1593,6 +1854,32 @@
 
 	<Object
 		Flags="21"
+		Name="Mishlen_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3682.244 255.813 777.658"
+		Radius="75.000" />
+
+	<Object
+		Flags="21"
+		Name="HomerRyba_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3504.431 186.260 3695.381"
+		Radius="20.000">
+		<Object
+			Name="FVOnOcean_Bar_Gomer"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="r1_man"
+			skin="2"
+			cfg="70"
+			helloReplyNames="r1m4_RandomBar_Gomer_1_N01"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Flags="21"
 		Name="EnterToSubmarine_loc"
 		Belong="1100"
 		Prototype="genericLocation"
@@ -1605,87 +1892,6 @@
 		Prototype="bossMetalArm"
 		Pos="869.878 275.876 1317.439"
 		Rot="0.000 -0.261 0.000 0.965" />
-
-	<Object
-		Name="Banditi3"
-		Belong="1002"
-		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r1m4_FishersTeam"
-		DropOutTimeOut="20.000"
-		InfectionLair="r1m4_FishersTeam"
-		HadPlayerInside="0">
-		<Polygon>
-			<Point
-				x="2966.434"
-				y="397.977" />
-
-			<Point
-				x="3031.927"
-				y="566.918" />
-
-			<Point
-				x="2852.280"
-				y="614.880" />
-
-			<Point
-				x="2603.234"
-				y="612.209" />
-
-			<Point
-				x="2509.824"
-				y="588.322" />
-
-			<Point
-				x="2397.435"
-				y="547.195" />
-
-			<Point
-				x="2445.916"
-				y="263.207" />
-
-			<Point
-				x="2602.593"
-				y="154.446" />
-
-			<Point
-				x="2779.477"
-				y="154.806" />
-		</Polygon>
-
-		<DropOut>
-			<Point
-				x="2756.510"
-				y="564.848" />
-
-			<Point
-				x="2745.847"
-				y="333.127" />
-
-			<Point
-				x="2801.404"
-				y="480.759" />
-
-			<Point
-				x="2811.861"
-				y="248.038" />
-
-			<Point
-				x="2689.819"
-				y="540.932" />
-
-			<Point
-				x="2631.174"
-				y="563.135" />
-
-			<Point
-				x="2787.994"
-				y="536.292" />
-
-			<Point
-				x="2786.611"
-				y="420.270" />
-		</DropOut>
-	</Object>
 
 	<Object
 		Name="TraidersZone2"
@@ -1858,7 +2064,7 @@
 
 	<Object
 		Name="TraidersZone3"
-		Belong="1010"
+		Belong="1014"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_TraidersTeam"
 		DropOutTimeOut="20.000"
@@ -2065,28 +2271,12 @@
 				y="2177.747" />
 
 			<Point
-				x="1770.041"
-				y="1789.649" />
-
-			<Point
 				x="1612.200"
 				y="2298.033" />
 
 			<Point
-				x="1842.791"
-				y="2014.387" />
-
-			<Point
 				x="1776.758"
 				y="2183.626" />
-
-			<Point
-				x="1720.551"
-				y="2013.885" />
-
-			<Point
-				x="1890.136"
-				y="1826.941" />
 
 			<Point
 				x="2061.484"
@@ -2108,7 +2298,7 @@
 
 	<Object
 		Name="SorageZone1"
-		Belong="1012"
+		Belong="1014"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_FishersTeam"
 		DropOutTimeOut="20.000"
@@ -2193,28 +2383,29 @@
 
 	<Object
 		Flags="21"
-		Name="Wife_loc"
+		Name="AfterWinterFisher_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="977.069 336.127 3432.437"
-		Radius="30.312">
+		Pos="0.000 215.000 0.000"
+		Radius="1.000">
 		<Object
-			Name="LookingWife"
+			Name="FVBerko_Bar_Customer2_1"
 			Belong="1100"
 			Prototype="NPC"
-			ModelName="r1_woman"
-			cfg="92"
-			helloReplyNames="r1m4_SomeWhere_OldWomen1_1_N01"
+			ModelName="r1_man"
+			cfg="188"
+			helloReplyNames="Dlg_npc_002873 Dlg_npc_002971"
+			SpokenCount="0" />
+
+		<Object
+			Name="AivenGo1"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="mask_father"
+			skin="1"
+			helloReplyNames="Dlg_npc_003103"
 			SpokenCount="0" />
 	</Object>
-
-	<Object
-		Flags="21"
-		Name="AfterMorasTraider_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1120.466 225.481 1288.744"
-		Radius="10.000" />
 
 	<Object
 		Name="TraderCaravans"
@@ -2365,7 +2556,7 @@
 
 	<Object
 		Name="Fishers3"
-		Belong="1011"
+		Belong="1085"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_FishersTeam"
 		DropOutTimeOut="20.000"
@@ -2442,7 +2633,7 @@
 
 	<Object
 		Name="Banditi4"
-		Belong="1005"
+		Belong="1014"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_FishersTeam"
 		DropOutTimeOut="20.000"
@@ -2519,7 +2710,7 @@
 
 	<Object
 		Name="Banditi1"
-		Belong="1002"
+		Belong="1014"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_TraidersTeam"
 		DropOutTimeOut="20.000"
@@ -2628,7 +2819,7 @@
 
 	<Object
 		Name="Banditi2"
-		Belong="1002"
+		Belong="1014"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_TraidersTeam"
 		DropOutTimeOut="20.000"
@@ -2857,7 +3048,7 @@
 
 	<Object
 		Name="FisherZone2"
-		Belong="1011"
+		Belong="1085"
 		Prototype="InfectionZone"
 		InfectionTeamPrototypeName="r1m4_FishersTeam"
 		DropOutTimeOut="20.000"
@@ -2936,118 +3127,6 @@
 
 	<Object
 		Flags="21"
-		Name="SpawnHuman1_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2720.953 248.332 1047.434"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman2_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2661.387 248.332 951.503"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman3_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2429.219 248.332 1050.609"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman4_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2590.135 248.332 1120.995"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman5_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3087.975 226.000 735.578"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman6_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2993.174 249.000 1762.916"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawbHuman7_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3314.709 224.243 2107.971"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman8_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="3210.975 224.227 2181.762"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman9_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="2827.153 216.000 3594.064"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman10_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1622.035 270.000 1797.126"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman11_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="313.890 337.889 3195.587"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman12_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="424.300 337.525 3343.525"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman13_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="1615.530 270.000 1801.580"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
-		Name="SpawnHuman14_loc"
-		Belong="1001"
-		Prototype="genericLocation"
-		Pos="530.477 335.226 3476.067"
-		Radius="10.000" />
-
-	<Object
-		Flags="21"
 		Name="NearBoss_loc"
 		Belong="1100"
 		Prototype="genericLocation"
@@ -3058,40 +3137,36 @@
 		Name="Human64"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3243.055 224.348 2160.844"
+		Pos="3208.754 224.417 2145.521"
 		PathsNames="human01" />
 
 	<Object
 		Name="Human16"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3297.038 224.231 2118.263"
-		PathsNames="Human7_Path Human8_Path" />
+		Pos="3208.876 224.370 2183.392"
+		PathsNames="Human8_Path" />
 
 	<Object
 		Name="Human23"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3281.436 224.192 2080.920" />
-
-	<Object
-		Name="Human44"
-		Belong="1001"
-		Prototype="Human"
-		Pos="3211.646 224.227 2152.610"
-		PathsNames="human01" />
+		Pos="2993.410 249.000 1758.425"
+		PathsNames="Human6_Path" />
 
 	<Object
 		Name="Human99"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3290.082 224.231 2159.987" />
+		Pos="3311.067 224.231 2176.326"
+		Rot="0.000 -0.845 0.000 0.535" />
 
 	<Object
 		Name="Human87"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3390.302 228.024 2059.548" />
+		Pos="3413.992 228.024 2032.623"
+		Rot="0.000 -0.663 0.000 0.749" />
 
 	<Object
 		Name="Human4"
@@ -3111,29 +3186,22 @@
 		Name="Human89"
 		Belong="1001"
 		Prototype="Human"
-		Pos="2762.238 216.000 3658.208"
-		PathsNames="human04 human05" />
+		Pos="2826.855 216.000 3590.073"
+		PathsNames="Human9_Path" />
 
 	<Object
 		Name="Human12"
 		Belong="1001"
-		Prototype="Human"
+		Prototype="Human2"
 		Pos="2689.545 216.000 3650.981"
-		PathsNames="human04 human05" />
-
-	<Object
-		Name="Human46"
-		Belong="1001"
-		Prototype="Human"
-		Pos="2638.243 216.000 3629.512"
-		PathsNames="human04 human05" />
+		PathsNames="human05" />
 
 	<Object
 		Name="Human3"
 		Belong="1001"
 		Prototype="Human"
-		Pos="2753.898 216.000 3689.584"
-		PathsNames="human04 human05" />
+		Pos="2756.429 216.000 3667.935"
+		PathsNames="human04" />
 
 	<Object
 		Name="Human6"
@@ -3147,13 +3215,16 @@
 		Name="Human96"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3053.389 226.000 736.893" />
+		Pos="3089.909 226.000 724.601"
+		Rot="0.000 -0.663 0.000 0.749"
+		PathsNames="Human5_Path" />
 
 	<Object
 		Name="Human63"
 		Belong="1001"
 		Prototype="Human"
-		Pos="3035.181 226.000 676.836" />
+		Pos="3063.661 226.000 758.691"
+		Rot="0.000 -0.728 0.000 0.685" />
 
 	<Object
 		Name="Human13"
@@ -3197,13 +3268,6 @@
 		PathsNames="human10" />
 
 	<Object
-		Name="Human71"
-		Belong="1001"
-		Prototype="Human"
-		Pos="2737.679 248.333 1038.097"
-		PathsNames="human08" />
-
-	<Object
 		Name="Human91"
 		Belong="1001"
 		Prototype="Human"
@@ -3211,37 +3275,12 @@
 		PathsNames="Human2_Path" />
 
 	<Object
-		Name="Human8"
-		Belong="1001"
-		Prototype="Human"
-		Pos="1659.065 270.000 1802.661"
-		Rot="0.000 0.407 0.000 0.914"
-		PathsNames="Human10_Path" />
-
-	<Object
-		Name="Human40"
-		Belong="1001"
-		Prototype="Human"
-		Pos="1644.694 270.000 1830.795"
-		Rot="0.000 0.988 0.000 -0.156"
-		PathsNames="Human10_Path" />
-
-	<Object
 		Name="Human85"
 		Belong="1001"
 		Prototype="Human"
 		Pos="1660.456 270.000 1831.486"
 		Rot="0.000 -0.623 0.000 0.783"
-		PathsNames="Human10_Path" />
-
-	<Object
-		Flags="21"
-		Name="SetSpeed_loc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="709.137 179.114 700.465"
-		Radius="30.000"
-		LookingTimeOut="200.000" />
+		PathsNames="human11" />
 
 	<Object
 		Flags="21"
@@ -3280,7 +3319,7 @@
 			Name="barricade6_wGw12_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="1575.265 223.976 1585.617"
+			Pos="1575.265 223.922 1585.617"
 			Rot="0.000 0.668 0.000 0.745">
 			<Parts />
 		</Object>
@@ -3313,7 +3352,7 @@
 			Name="barricade7_GwG19_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1966.712 257.957 1903.962"
+			Pos="1966.712 257.903 1903.962"
 			Rot="0.000 -0.624 0.000 0.781">
 			<Parts />
 		</Object>
@@ -3322,7 +3361,7 @@
 			Name="barricade7_GwG19_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1969.361 257.659 1915.666"
+			Pos="1969.361 257.605 1915.666"
 			Rot="0.000 -0.624 0.000 0.781">
 			<Parts />
 		</Object>
@@ -3355,7 +3394,7 @@
 			Name="barricade4_wGw91_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2533.091 266.926 1978.847"
+			Pos="2533.091 266.873 1978.847"
 			Rot="0.000 -0.710 0.000 0.704">
 			<Parts />
 		</Object>
@@ -3388,7 +3427,7 @@
 			Name="barricade5_GwG60_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2767.201 226.293 1539.168">
+			Pos="2767.201 226.239 1539.168">
 			<Parts />
 		</Object>
 
@@ -3396,7 +3435,7 @@
 			Name="barricade5_GwG60_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2779.201 226.177 1539.168">
+			Pos="2779.201 226.123 1539.168">
 			<Parts />
 		</Object>
 	</Object>
@@ -3428,7 +3467,7 @@
 			Name="barricade5_GwG44_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2810.733 249.038 2065.461">
+			Pos="2810.733 248.985 2065.461">
 			<Parts />
 		</Object>
 
@@ -3436,7 +3475,7 @@
 			Name="barricade5_GwG44_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="2822.733 249.014 2065.461">
+			Pos="2822.733 248.966 2065.461">
 			<Parts />
 		</Object>
 	</Object>
@@ -3468,8 +3507,8 @@
 			Name="barricade7_GwG16_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2560.191 249.011 2479.885"
-			Rot="0.000 -0.225 0.000 0.974">
+			Pos="2538.747 248.538 2372.968"
+			Rot="0.000 0.240 0.000 0.971">
 			<Parts />
 		</Object>
 
@@ -3477,8 +3516,8 @@
 			Name="barricade7_GwG16_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2570.976 249.416 2485.146"
-			Rot="0.000 -0.225 0.000 0.974">
+			Pos="2549.366 247.830 2367.381"
+			Rot="0.000 0.240 0.000 0.971">
 			<Parts />
 		</Object>
 	</Object>
@@ -3510,7 +3549,7 @@
 			Name="barricade4_wGw84_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="2356.636 225.373 3278.209"
+			Pos="2356.636 225.320 3278.209"
 			Rot="0.000 0.202 0.000 0.979">
 			<Parts />
 		</Object>
@@ -3543,7 +3582,7 @@
 			Name="barricade6_wGw4_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="1566.798 288.488 2144.469"
+			Pos="1566.798 288.434 2144.469"
 			Rot="0.000 -0.269 0.000 0.963">
 			<Parts />
 		</Object>
@@ -3576,7 +3615,7 @@
 			Name="barricade7_GwG99_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1654.161 289.299 2480.922"
+			Pos="1654.161 289.245 2480.922"
 			Rot="0.000 -0.360 0.000 0.933">
 			<Parts />
 		</Object>
@@ -3585,7 +3624,7 @@
 			Name="barricade7_GwG99_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1663.044 289.306 2488.990"
+			Pos="1663.044 289.252 2488.990"
 			Rot="0.000 -0.360 0.000 0.933">
 			<Parts />
 		</Object>
@@ -3618,7 +3657,7 @@
 			Name="barricade5_GwG24_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="1705.724 294.145 3052.173"
+			Pos="1705.724 294.091 3052.173"
 			Rot="0.000 0.133 0.000 0.991">
 			<Parts />
 		</Object>
@@ -3627,7 +3666,7 @@
 			Name="barricade5_GwG24_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun07"
-			Pos="1717.302 294.234 3049.017"
+			Pos="1717.302 294.181 3049.017"
 			Rot="0.000 0.133 0.000 0.991">
 			<Parts />
 		</Object>
@@ -3660,7 +3699,7 @@
 			Name="barricade7_GwG39_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1373.441 306.199 3080.455"
+			Pos="1373.441 306.146 3080.455"
 			Rot="0.000 -0.532 0.000 0.847">
 			<Parts />
 		</Object>
@@ -3669,7 +3708,7 @@
 			Name="barricade7_GwG39_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1378.655 306.453 3091.263"
+			Pos="1378.655 306.399 3091.263"
 			Rot="0.000 -0.532 0.000 0.847">
 			<Parts />
 		</Object>
@@ -3702,7 +3741,7 @@
 			Name="barricade4_wGw96_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="1136.889 321.542 3298.841"
+			Pos="1136.889 321.488 3298.841"
 			Rot="0.000 -0.338 0.000 0.941">
 			<Parts />
 		</Object>
@@ -3735,7 +3774,7 @@
 			Name="barricade7_GwG61_Child2"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="612.084 335.657 3331.807"
+			Pos="612.084 335.603 3331.807"
 			Rot="0.000 0.319 0.000 0.948">
 			<Parts />
 		</Object>
@@ -3744,7 +3783,7 @@
 			Name="barricade7_GwG61_Child3"
 			Belong="1005"
 			Prototype="staticAutoGun08"
-			Pos="621.636 335.910 3324.543"
+			Pos="621.636 335.856 3324.543"
 			Rot="0.000 0.319 0.000 0.948">
 			<Parts />
 		</Object>
@@ -3777,7 +3816,7 @@
 			Name="barricade5_GwG2_Child2"
 			Belong="1002"
 			Prototype="staticAutoGun07"
-			Pos="3459.270 226.349 1844.992">
+			Pos="3459.270 226.295 1844.992">
 			<Parts />
 		</Object>
 
@@ -3785,7 +3824,7 @@
 			Name="barricade5_GwG2_Child3"
 			Belong="1002"
 			Prototype="staticAutoGun07"
-			Pos="3471.270 227.525 1844.992">
+			Pos="3471.270 227.472 1844.992">
 			<Parts />
 		</Object>
 	</Object>
@@ -3817,7 +3856,7 @@
 			Name="barricade6_wGw98_Child3"
 			Belong="1002"
 			Prototype="staticAutoGun07"
-			Pos="3684.119 245.883 1296.134"
+			Pos="3684.119 245.830 1296.134"
 			Rot="0.000 -0.597 0.000 0.803">
 			<Parts />
 		</Object>
@@ -3837,7 +3876,7 @@
 			<Object
 				Name="barricade8_wwwC8_Child4"
 				Belong="1002"
-				Prototype="Sml301"
+				Prototype="Fighter02"
 				Pos="2614.413 226.586 3366.840"
 				Rot="0.011 0.168 -0.009 0.986">
 				<Parts />
@@ -3855,38 +3894,6 @@
 				LinearVelocity="13.889"
 				AngularVelocity="0.500"
 				NumPathPoint="-1" />
-		</Object>
-	</Object>
-
-	<Object
-		Name="barricade6_wGw69"
-		Belong="1002"
-		Prototype="barricade6_wGw"
-		Pos="1970.278 288.000 2547.463"
-		Probability="0.500">
-		<Object
-			Flags="21"
-			Name="barricade6_wGw69_Team"
-			Belong="1002"
-			Prototype="settlementTeam">
-			<Formation
-				Name="barricade6_wGw69_Team_Formation"
-				Belong="1002"
-				Prototype="caravanFormation"
-				DistBetweenVehicles="30.000"
-				Pos="0.000 0.000 0.000"
-				Direction="0.000 0.000 1.000"
-				LinearVelocity="100.000"
-				AngularVelocity="0.500"
-				NumPathPoint="-1" />
-		</Object>
-
-		<Object
-			Name="barricade6_wGw69_Child3"
-			Belong="1002"
-			Prototype="staticAutoGun07"
-			Pos="1970.278 288.000 2547.463">
-			<Parts />
 		</Object>
 	</Object>
 
@@ -4001,6 +4008,48 @@
 		Prototype="genericLocation"
 		Pos="2786.353 258.000 3048.498"
 		Radius="10.000" />
+
+	<Object
+		Flags="21"
+		Name="FilimonLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3856.241 249.000 924.827"
+		Radius="77.000">
+		<Object
+			Name="FVCalis_Bar_Husbent1"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="r1_man"
+			skin="2"
+			cfg="182"
+			helloReplyNames="r1m4_SomeWhere_Husbent1_1_N01"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="RybakLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2577.189 248.332 1043.188"
+		Radius="101.000" />
+
+	<Object
+		Flags="21"
+		Name="SlkadOdezhdaLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1199.949 306.000 2484.886"
+		Radius="30.000" />
+
+	<Object
+		Flags="21"
+		Name="KamexpLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2138.934 257.401 3490.895"
+		Radius="100.000" />
 
 	<Object
 		Name="sosna10"
@@ -4488,7 +4537,7 @@
 		Name="listvenoe369"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3165.344 280.535 3165.999"
+		Pos="3165.344 280.536 3165.999"
 		Rot="0.000 0.956 0.000 0.292" />
 
 	<Object
@@ -4705,7 +4754,7 @@
 		Name="listvenoe3100"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3106.887 235.319 2475.412"
+		Pos="3106.887 235.320 2475.412"
 		Rot="0.000 -0.978 0.000 0.208" />
 
 	<Object
@@ -4754,7 +4803,7 @@
 		Name="listvenoe3107"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2687.583 250.991 2508.047"
+		Pos="2687.583 251.059 2508.047"
 		Rot="0.000 0.788 0.000 0.616" />
 
 	<Object
@@ -4789,7 +4838,7 @@
 		Name="listvenoe3112"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2203.742 290.241 2376.556"
+		Pos="2203.742 290.242 2376.556"
 		Rot="0.000 0.500 0.000 0.866" />
 
 	<Object
@@ -4950,7 +4999,7 @@
 		Name="listvenoe3135"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1983.509 265.702 2923.649"
+		Pos="1983.509 265.701 2923.649"
 		Rot="0.000 0.994 0.000 0.105" />
 
 	<Object
@@ -5306,7 +5355,7 @@
 		Name="listvenoe3186"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2629.080 250.235 2214.955"
+		Pos="2629.080 250.234 2214.955"
 		Rot="0.000 0.976 0.000 0.216" />
 
 	<Object
@@ -5453,7 +5502,7 @@
 		Name="listvenoe3207"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2895.807 223.641 1176.758"
+		Pos="2895.807 223.642 1176.758"
 		Rot="0.000 -0.707 0.000 0.707" />
 
 	<Object
@@ -5474,7 +5523,7 @@
 		Name="listvenoe3210"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2815.560 220.641 823.982"
+		Pos="2815.560 220.642 823.982"
 		Rot="0.000 -0.999 0.000 0.052" />
 
 	<Object
@@ -5565,7 +5614,7 @@
 		Name="dub3223"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3241.675 249.194 957.178"
+		Pos="3241.675 249.193 957.178"
 		Rot="0.000 -0.997 0.000 0.078" />
 
 	<Object
@@ -5817,7 +5866,7 @@
 		Name="listvenoe1259"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3235.979 249.520 1002.663"
+		Pos="3235.979 249.521 1002.663"
 		Rot="0.000 0.284 0.000 0.959" />
 
 	<Object
@@ -5887,7 +5936,7 @@
 		Name="listvenoe2269"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3133.898 228.046 1006.100"
+		Pos="3133.898 228.047 1006.100"
 		Rot="0.000 -0.875 0.000 0.485" />
 
 	<Object
@@ -5901,7 +5950,7 @@
 		Name="elka2271"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="3122.767 227.287 995.504"
+		Pos="3122.767 227.288 995.504"
 		Rot="0.000 0.522 0.000 0.853" />
 
 	<Object
@@ -5964,7 +6013,7 @@
 		Name="listvenoe3280"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3063.904 226.157 907.323"
+		Pos="3063.904 226.156 907.323"
 		Rot="0.000 0.391 0.000 0.920" />
 
 	<Object
@@ -6293,21 +6342,21 @@
 		Name="dub3327"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="2697.908 249.655 248.133"
+		Pos="2697.908 249.656 248.133"
 		Rot="0.000 0.182 0.000 0.983" />
 
 	<Object
 		Name="listvenoe2328"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="2678.576 248.967 270.863"
+		Pos="2678.576 248.966 270.863"
 		Rot="0.000 -0.522 0.000 0.853" />
 
 	<Object
 		Name="dub3329"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="2735.263 246.730 138.585"
+		Pos="2735.263 246.729 138.585"
 		Rot="0.000 0.326 0.000 0.945" />
 
 	<Object
@@ -6405,7 +6454,7 @@
 		Name="listvenoe2343"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="2635.458 248.792 429.084"
+		Pos="2635.458 248.793 429.084"
 		Rot="0.000 -0.843 0.000 0.537" />
 
 	<Object
@@ -6433,7 +6482,7 @@
 		Name="elka2347"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2463.453 289.030 305.081"
+		Pos="2463.453 289.029 305.081"
 		Rot="0.000 -0.954 0.000 0.301" />
 
 	<Object
@@ -6629,7 +6678,7 @@
 		Name="elka3375"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2398.709 288.162 564.018"
+		Pos="2398.709 288.161 564.018"
 		Rot="0.000 0.891 0.000 0.454" />
 
 	<Object
@@ -6740,7 +6789,7 @@
 		Name="elka2391"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2436.384 286.695 649.938"
+		Pos="2436.384 286.694 649.938"
 		Rot="0.000 0.731 0.000 0.682" />
 
 	<Object
@@ -6803,7 +6852,7 @@
 		Name="elka2400"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2467.311 283.202 680.234"
+		Pos="2467.311 283.201 680.234"
 		Rot="0.000 0.070 0.000 0.998" />
 
 	<Object
@@ -6824,7 +6873,7 @@
 		Name="elka3403"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2476.652 277.393 660.452"
+		Pos="2476.652 277.394 660.452"
 		Rot="0.000 0.423 0.000 0.906" />
 
 	<Object
@@ -6880,14 +6929,14 @@
 		Name="elka3411"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2493.297 278.134 696.484"
+		Pos="2493.297 278.135 696.484"
 		Rot="0.000 -0.096 0.000 0.995" />
 
 	<Object
 		Name="elka2412"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2522.267 270.315 712.660"
+		Pos="2522.267 270.314 712.660"
 		Rot="0.000 -0.964 0.000 0.267" />
 
 	<Object
@@ -6936,7 +6985,7 @@
 		Name="elka2419"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2533.486 254.217 655.677"
+		Pos="2533.486 254.216 655.677"
 		Rot="0.000 -0.326 0.000 0.945" />
 
 	<Object
@@ -6950,7 +6999,7 @@
 		Name="elka2421"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2522.244 258.046 641.339"
+		Pos="2522.244 258.045 641.339"
 		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
@@ -6971,7 +7020,7 @@
 		Name="elka3424"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2537.728 250.710 625.140"
+		Pos="2537.728 250.711 625.140"
 		Rot="0.000 -0.743 0.000 0.669" />
 
 	<Object
@@ -7041,7 +7090,7 @@
 		Name="elka3434"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2540.142 258.884 558.979"
+		Pos="2540.142 258.885 558.979"
 		Rot="0.000 -0.937 0.000 0.350" />
 
 	<Object
@@ -7146,7 +7195,7 @@
 		Name="elka2449"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2582.579 288.643 120.524"
+		Pos="2582.579 288.642 120.524"
 		Rot="0.000 0.676 0.000 0.737" />
 
 	<Object
@@ -7223,7 +7272,7 @@
 		Name="elka3460"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="2483.956 286.950 449.002"
+		Pos="2483.956 286.949 449.002"
 		Rot="0.000 0.788 0.000 0.616" />
 
 	<Object
@@ -7265,7 +7314,7 @@
 		Name="elka2466"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2675.724 244.122 363.012"
+		Pos="2675.724 244.123 363.012"
 		Rot="0.000 -0.609 0.000 0.793" />
 
 	<Object
@@ -7391,7 +7440,7 @@
 		Name="elka2484"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="2952.056 244.065 522.824"
+		Pos="2952.056 244.066 522.824"
 		Rot="0.000 0.989 0.000 0.148" />
 
 	<Object
@@ -7489,7 +7538,7 @@
 		Name="listvenoe3498"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="2881.696 248.913 237.751"
+		Pos="2881.696 248.914 237.751"
 		Rot="0.000 -0.719 0.000 0.695" />
 
 	<Object
@@ -7887,7 +7936,7 @@
 		Name="listvenoe3555"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3524.121 230.664 2629.146"
+		Pos="3524.121 230.663 2629.146"
 		Rot="0.000 -0.574 0.000 0.819" />
 
 	<Object
@@ -8020,14 +8069,14 @@
 		Name="listvenoe3574"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3397.766 223.919 1909.533"
+		Pos="3397.766 223.918 1909.533"
 		Rot="0.000 0.009 0.000 1.000" />
 
 	<Object
 		Name="listvenoe3575"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3408.752 220.762 1872.259"
+		Pos="3408.752 220.763 1872.259"
 		Rot="0.000 0.477 0.000 0.879" />
 
 	<Object
@@ -8090,7 +8139,7 @@
 		Name="listvenoe1584"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3707.454 250.453 1190.954"
+		Pos="3707.454 250.454 1190.954"
 		Rot="0.000 -0.052 0.000 0.999" />
 
 	<Object
@@ -8524,7 +8573,7 @@
 		Name="dub3646"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3683.696 261.217 919.462"
+		Pos="3683.696 261.216 919.462"
 		Rot="0.000 0.113 0.000 0.994" />
 
 	<Object
@@ -8615,7 +8664,7 @@
 		Name="listvenoe2659"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3635.828 269.521 878.648"
+		Pos="3635.828 269.522 878.648"
 		Rot="0.000 0.559 0.000 0.829" />
 
 	<Object
@@ -8643,7 +8692,7 @@
 		Name="listvenoe3663"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3689.478 263.327 821.548"
+		Pos="3689.478 263.326 821.548"
 		Rot="0.000 -0.688 0.000 0.725" />
 
 	<Object
@@ -8789,7 +8838,7 @@
 		Name="listvenoe1684"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3850.427 257.991 817.322"
+		Pos="3850.427 257.990 817.322"
 		Rot="0.000 0.980 0.000 0.199" />
 
 	<Object
@@ -9006,7 +9055,7 @@
 		Name="elka2715"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="3203.185 248.438 493.431"
+		Pos="3203.185 248.437 493.431"
 		Rot="0.000 0.701 0.000 0.713" />
 
 	<Object
@@ -9034,7 +9083,7 @@
 		Name="listvenoe3719"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3181.572 252.744 486.931"
+		Pos="3181.572 252.745 486.931"
 		Rot="0.000 -0.191 0.000 0.982" />
 
 	<Object
@@ -9062,7 +9111,7 @@
 		Name="dub1723"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3200.510 265.159 562.691"
+		Pos="3200.510 265.160 562.691"
 		Rot="0.000 -0.017 0.000 1.000" />
 
 	<Object
@@ -9097,7 +9146,7 @@
 		Name="listvenoe2728"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3199.857 255.649 529.238"
+		Pos="3199.857 255.650 529.238"
 		Rot="0.000 -0.350 0.000 0.937" />
 
 	<Object
@@ -9132,14 +9181,14 @@
 		Name="listvenoe3733"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3179.039 249.797 407.680"
+		Pos="3179.039 249.796 407.680"
 		Rot="0.000 -0.760 0.000 0.649" />
 
 	<Object
 		Name="listvenoe2734"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3200.292 248.966 407.913"
+		Pos="3200.292 248.967 407.913"
 		Rot="0.000 0.623 0.000 0.783" />
 
 	<Object
@@ -9160,7 +9209,7 @@
 		Name="elka3737"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="3214.449 247.912 420.578"
+		Pos="3214.449 247.911 420.578"
 		Rot="0.000 0.216 0.000 0.976" />
 
 	<Object
@@ -9174,7 +9223,7 @@
 		Name="dub3739"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3226.894 248.181 400.971"
+		Pos="3226.894 248.180 400.971"
 		Rot="0.000 0.317 0.000 0.948" />
 
 	<Object
@@ -9251,7 +9300,7 @@
 		Name="listvenoe1750"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3243.368 252.383 326.398"
+		Pos="3243.368 252.382 326.398"
 		Rot="0.000 -0.131 0.000 0.991" />
 
 	<Object
@@ -9321,7 +9370,7 @@
 		Name="dub3760"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3381.265 225.595 290.249"
+		Pos="3381.265 225.594 290.249"
 		Rot="0.000 -0.301 0.000 0.954" />
 
 	<Object
@@ -9419,7 +9468,7 @@
 		Name="listvenoe2774"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3429.984 231.926 273.398"
+		Pos="3429.984 231.925 273.398"
 		Rot="0.000 -0.998 0.000 0.061" />
 
 	<Object
@@ -9503,7 +9552,7 @@
 		Name="dub3786"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3486.296 247.172 154.690"
+		Pos="3486.296 247.171 154.690"
 		Rot="0.000 -0.225 0.000 0.974" />
 
 	<Object
@@ -9538,14 +9587,14 @@
 		Name="elka2791"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="3503.145 234.795 189.938"
+		Pos="3503.145 234.796 189.938"
 		Rot="0.000 0.994 0.000 0.113" />
 
 	<Object
 		Name="dub2792"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="3534.969 222.796 200.669"
+		Pos="3534.969 222.795 200.669"
 		Rot="0.000 1.000 0.000 0.009" />
 
 	<Object
@@ -9566,14 +9615,14 @@
 		Name="listvenoe3795"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3534.251 232.383 176.408"
+		Pos="3534.251 232.382 176.408"
 		Rot="0.000 0.968 0.000 0.250" />
 
 	<Object
 		Name="dub3796"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3558.642 217.200 205.893"
+		Pos="3558.642 217.199 205.893"
 		Rot="0.000 -0.609 0.000 0.793" />
 
 	<Object
@@ -9594,7 +9643,7 @@
 		Name="listvenoe2799"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3546.424 219.469 214.440"
+		Pos="3546.424 219.470 214.440"
 		Rot="0.000 -0.994 0.000 0.105" />
 
 	<Object
@@ -9678,7 +9727,7 @@
 		Name="dub1811"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3434.633 280.097 18.739"
+		Pos="3434.633 280.096 18.739"
 		Rot="0.000 -0.927 0.000 0.375" />
 
 	<Object
@@ -9706,7 +9755,7 @@
 		Name="dub3815"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3658.841 263.868 165.264"
+		Pos="3658.841 263.869 165.264"
 		Rot="0.000 0.943 0.000 0.334" />
 
 	<Object
@@ -9748,7 +9797,7 @@
 		Name="elka2821"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="3627.944 270.892 113.391"
+		Pos="3627.944 270.893 113.391"
 		Rot="0.000 0.643 0.000 0.766" />
 
 	<Object
@@ -9867,7 +9916,7 @@
 		Name="dub3838"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3683.746 291.973 142.136"
+		Pos="3683.746 291.972 142.136"
 		Rot="0.000 -0.559 0.000 0.829" />
 
 	<Object
@@ -9936,14 +9985,14 @@
 		Name="listvenoe1848"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3611.660 282.443 53.862"
+		Pos="3611.660 282.444 53.862"
 		Rot="0.000 1.000 0.000 0.026" />
 
 	<Object
 		Name="listvenoe1849"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3530.195 264.653 19.651"
+		Pos="3530.195 264.652 19.651"
 		Rot="0.000 0.208 0.000 0.978" />
 
 	<Object
@@ -9985,7 +10034,7 @@
 		Name="listvenoe3855"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3565.680 264.931 40.386"
+		Pos="3565.680 264.932 40.386"
 		Rot="0.000 -0.972 0.000 0.233" />
 
 	<Object
@@ -10027,7 +10076,7 @@
 		Name="elka2861"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="3252.651 259.017 301.367"
+		Pos="3252.651 259.018 301.367"
 		Rot="0.000 -0.326 0.000 0.945" />
 
 	<Object
@@ -10055,7 +10104,7 @@
 		Name="listvenoe1865"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3278.973 267.997 260.971"
+		Pos="3278.973 267.996 260.971"
 		Rot="0.000 -0.895 0.000 0.446" />
 
 	<Object
@@ -10194,7 +10243,7 @@
 		Name="listvenoe2885"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3328.467 243.652 276.495"
+		Pos="3328.467 243.651 276.495"
 		Rot="0.000 -0.462 0.000 0.887" />
 
 	<Object
@@ -10292,7 +10341,7 @@
 		Name="dub1899"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3296.378 311.927 108.693"
+		Pos="3296.378 311.928 108.693"
 		Rot="0.000 -0.415 0.000 0.910" />
 
 	<Object
@@ -10361,7 +10410,7 @@
 		Name="listvenoe3909"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3295.939 238.749 604.915"
+		Pos="3295.939 238.750 604.915"
 		Rot="0.000 -0.375 0.000 0.927" />
 
 	<Object
@@ -10459,7 +10508,7 @@
 		Name="listvenoe3923"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3725.257 225.934 589.123"
+		Pos="3725.257 225.935 589.123"
 		Rot="0.000 -0.026 0.000 1.000" />
 
 	<Object
@@ -10487,7 +10536,7 @@
 		Name="listvenoe3927"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3778.883 225.401 495.214"
+		Pos="3778.883 225.402 495.214"
 		Rot="0.000 -0.208 0.000 0.978" />
 
 	<Object
@@ -10515,7 +10564,7 @@
 		Name="listvenoe3931"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3662.858 250.574 1354.739"
+		Pos="3662.858 250.575 1354.739"
 		Rot="0.000 0.191 0.000 0.982" />
 
 	<Object
@@ -10592,14 +10641,14 @@
 		Name="listvenoe3942"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3674.740 252.483 1359.449"
+		Pos="3674.740 252.484 1359.449"
 		Rot="0.000 0.980 0.000 0.199" />
 
 	<Object
 		Name="listvenoe1943"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3718.741 249.622 1313.012"
+		Pos="3718.741 249.623 1313.012"
 		Rot="0.000 -0.438 0.000 0.899" />
 
 	<Object
@@ -10732,7 +10781,7 @@
 		Name="dub1962"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3446.130 226.160 3215.381"
+		Pos="3446.130 226.161 3215.381"
 		Rot="0.000 0.725 0.000 0.688" />
 
 	<Object
@@ -10753,7 +10802,7 @@
 		Name="elka3965"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="3471.948 228.241 3213.407"
+		Pos="3471.948 228.240 3213.407"
 		Rot="0.000 0.649 0.000 0.760" />
 
 	<Object
@@ -10858,14 +10907,14 @@
 		Name="listvenoe2980"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3525.027 247.970 3279.492"
+		Pos="3525.027 247.971 3279.492"
 		Rot="0.000 0.809 0.000 0.588" />
 
 	<Object
 		Name="listvenoe3981"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3533.820 247.628 3264.217"
+		Pos="3533.820 247.627 3264.217"
 		Rot="0.000 -0.259 0.000 0.966" />
 
 	<Object
@@ -10886,7 +10935,7 @@
 		Name="elka3984"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="3536.587 232.298 3086.876"
+		Pos="3536.587 232.297 3086.876"
 		Rot="0.000 -0.663 0.000 0.749" />
 
 	<Object
@@ -10963,7 +11012,7 @@
 		Name="listvenoe2995"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3671.488 234.339 3034.062"
+		Pos="3671.488 234.338 3034.062"
 		Rot="0.000 0.951 0.000 0.309" />
 
 	<Object
@@ -11047,7 +11096,7 @@
 		Name="dub31007"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3408.365 226.205 3385.505"
+		Pos="3408.365 226.204 3385.505"
 		Rot="0.000 0.522 0.000 0.853" />
 
 	<Object
@@ -11061,7 +11110,7 @@
 		Name="elka31009"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="3408.822 226.020 3406.026"
+		Pos="3408.822 226.021 3406.026"
 		Rot="0.000 0.829 0.000 0.559" />
 
 	<Object
@@ -11159,7 +11208,7 @@
 		Name="listvenoe21023"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3506.624 238.074 3386.046"
+		Pos="3506.624 238.075 3386.046"
 		Rot="0.000 0.537 0.000 0.843" />
 
 	<Object
@@ -11208,7 +11257,7 @@
 		Name="dub11030"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3620.931 252.504 3406.999"
+		Pos="3620.931 252.505 3406.999"
 		Rot="0.000 0.760 0.000 0.649" />
 
 	<Object
@@ -11222,7 +11271,7 @@
 		Name="listvenoe11032"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="3628.873 252.399 3392.760"
+		Pos="3628.873 252.398 3392.760"
 		Rot="0.000 -0.719 0.000 0.695" />
 
 	<Object
@@ -11271,14 +11320,14 @@
 		Name="dub21039"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="3653.501 253.061 3445.203"
+		Pos="3653.501 253.060 3445.203"
 		Rot="0.000 -0.250 0.000 0.968" />
 
 	<Object
 		Name="dub31040"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="3634.386 252.029 3450.073"
+		Pos="3634.386 252.028 3450.073"
 		Rot="0.000 0.342 0.000 0.940" />
 
 	<Object
@@ -11432,7 +11481,7 @@
 		Name="listvenoe21062"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="3557.047 249.006 3303.692"
+		Pos="3557.047 249.007 3303.692"
 		Rot="0.000 -0.879 0.000 0.477" />
 
 	<Object
@@ -11495,7 +11544,7 @@
 		Name="dub11071"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="3631.609 257.483 3197.548"
+		Pos="3631.609 257.484 3197.548"
 		Rot="0.000 0.999 0.000 0.044" />
 
 	<Object
@@ -11544,7 +11593,7 @@
 		Name="listvenoe31078"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3365.297 226.018 3388.058"
+		Pos="3365.297 226.019 3388.058"
 		Rot="0.000 -0.737 0.000 0.676" />
 
 	<Object
@@ -11572,7 +11621,7 @@
 		Name="listvenoe31082"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3199.588 236.888 3490.981"
+		Pos="3199.588 236.887 3490.981"
 		Rot="0.000 -0.225 0.000 0.974" />
 
 	<Object
@@ -11607,7 +11656,7 @@
 		Name="listvenoe31087"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="3623.302 234.449 3630.677"
+		Pos="3623.302 234.450 3630.677"
 		Rot="0.000 0.937 0.000 0.350" />
 
 	<Object
@@ -11698,7 +11747,7 @@
 		Name="listvenoe31100"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1741.830 252.022 1655.175"
+		Pos="1741.830 252.023 1655.175"
 		Rot="0.000 0.342 0.000 0.940" />
 
 	<Object
@@ -11901,7 +11950,7 @@
 		Name="listvenoe31129"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1885.972 270.093 2220.699"
+		Pos="1885.972 270.092 2220.699"
 		Rot="0.000 0.994 0.000 0.105" />
 
 	<Object
@@ -11922,7 +11971,7 @@
 		Name="dub31132"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="1900.265 273.763 2252.367"
+		Pos="1900.265 273.762 2252.367"
 		Rot="0.000 0.485 0.000 0.875" />
 
 	<Object
@@ -12181,7 +12230,7 @@
 		Name="dub21169"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="1918.280 278.732 1944.258"
+		Pos="1918.280 278.731 1944.258"
 		Rot="0.000 0.309 0.000 0.951" />
 
 	<Object
@@ -12202,7 +12251,7 @@
 		Name="elka31172"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1935.596 276.180 1967.333"
+		Pos="1935.596 276.179 1967.333"
 		Rot="0.000 -0.358 0.000 0.934" />
 
 	<Object
@@ -12223,7 +12272,7 @@
 		Name="listvenoe31175"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1928.225 270.231 2072.719"
+		Pos="1928.225 270.230 2072.719"
 		Rot="0.000 -0.956 0.000 0.292" />
 
 	<Object
@@ -12244,7 +12293,7 @@
 		Name="listvenoe31178"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1664.580 294.439 3066.336"
+		Pos="1664.580 294.438 3066.336"
 		Rot="0.000 -0.772 0.000 0.636" />
 
 	<Object
@@ -12538,7 +12587,7 @@
 		Name="dub11220"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="1724.810 291.133 2779.175"
+		Pos="1724.810 291.132 2779.175"
 		Rot="0.000 -0.574 0.000 0.819" />
 
 	<Object
@@ -12594,7 +12643,7 @@
 		Name="listvenoe31228"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1735.204 292.455 2897.362"
+		Pos="1735.204 292.456 2897.362"
 		Rot="0.000 -0.078 0.000 0.997" />
 
 	<Object
@@ -12643,7 +12692,7 @@
 		Name="listvenoe21235"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="1725.563 292.361 2838.959"
+		Pos="1725.563 292.362 2838.959"
 		Rot="0.000 0.574 0.000 0.819" />
 
 	<Object
@@ -12727,7 +12776,7 @@
 		Name="dub21247"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="1736.255 308.573 3208.891"
+		Pos="1736.255 308.572 3208.891"
 		Rot="0.000 0.367 0.000 0.930" />
 
 	<Object
@@ -12811,7 +12860,7 @@
 		Name="elka31259"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1665.193 315.194 3257.653"
+		Pos="1665.193 315.193 3257.653"
 		Rot="0.000 -0.216 0.000 0.976" />
 
 	<Object
@@ -12888,7 +12937,7 @@
 		Name="listvenoe11270"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="1774.760 315.779 3225.008"
+		Pos="1774.760 315.780 3225.008"
 		Rot="0.000 -0.875 0.000 0.485" />
 
 	<Object
@@ -13042,7 +13091,7 @@
 		Name="elka21292"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1353.669 308.085 3181.264"
+		Pos="1353.669 308.086 3181.264"
 		Rot="0.000 -0.980 0.000 0.199" />
 
 	<Object
@@ -13728,7 +13777,7 @@
 		Name="listvenoe11390"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="853.393 325.541 3345.121"
+		Pos="853.393 325.540 3345.121"
 		Rot="0.000 0.799 0.000 0.602" />
 
 	<Object
@@ -13847,7 +13896,7 @@
 		Name="listvenoe11407"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="1169.782 319.439 3137.278"
+		Pos="1169.782 319.438 3137.278"
 		Rot="0.000 0.407 0.000 0.914" />
 
 	<Object
@@ -13875,14 +13924,14 @@
 		Name="elka31411"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1179.814 319.131 3102.353"
+		Pos="1179.814 319.132 3102.353"
 		Rot="0.000 0.105 0.000 0.994" />
 
 	<Object
 		Name="dub21412"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="1179.458 321.778 3062.244"
+		Pos="1179.458 321.777 3062.244"
 		Rot="0.000 -0.956 0.000 0.292" />
 
 	<Object
@@ -13910,7 +13959,7 @@
 		Name="listvenoe21416"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="1190.363 320.300 3046.312"
+		Pos="1190.363 320.299 3046.312"
 		Rot="0.000 -0.990 0.000 0.139" />
 
 	<Object
@@ -14029,7 +14078,7 @@
 		Name="listvenoe11433"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="1169.658 320.411 3157.274"
+		Pos="1169.658 320.410 3157.274"
 		Rot="0.000 -0.636 0.000 0.772" />
 
 	<Object
@@ -14113,14 +14162,14 @@
 		Name="dub21445"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="1031.254 324.967 2892.151"
+		Pos="1031.254 327.986 2892.151"
 		Rot="0.000 0.446 0.000 0.895" />
 
 	<Object
 		Name="listvenoe21446"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="1019.784 329.101 2866.865"
+		Pos="1019.784 328.097 2866.865"
 		Rot="0.000 -0.937 0.000 0.350" />
 
 	<Object
@@ -14197,7 +14246,7 @@
 		Name="dub21457"
 		Belong="-1"
 		Prototype="Breakable_Dub2"
-		Pos="932.330 321.203 3298.167"
+		Pos="932.330 321.202 3298.167"
 		Rot="0.000 0.391 0.000 0.920" />
 
 	<Object
@@ -14316,7 +14365,7 @@
 		Name="listvenoe11474"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="952.073 321.057 3313.877"
+		Pos="952.073 321.058 3313.877"
 		Rot="0.000 -0.853 0.000 0.522" />
 
 	<Object
@@ -14386,7 +14435,7 @@
 		Name="listvenoe31484"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="684.491 358.344 3029.268"
+		Pos="684.491 358.343 3029.268"
 		Rot="0.000 0.719 0.000 0.695" />
 
 	<Object
@@ -14428,7 +14477,7 @@
 		Name="listvenoe31490"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="845.408 333.354 3198.072"
+		Pos="845.408 333.353 3198.072"
 		Rot="0.000 -0.695 0.000 0.719" />
 
 	<Object
@@ -14638,7 +14687,7 @@
 		Name="dub11520"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="529.880 322.543 2698.743"
+		Pos="529.880 322.542 2698.743"
 		Rot="0.000 0.182 0.000 0.983" />
 
 	<Object
@@ -14701,7 +14750,7 @@
 		Name="listvenoe31529"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="623.019 333.754 2641.087"
+		Pos="623.019 333.755 2641.087"
 		Rot="0.000 -0.917 0.000 0.399" />
 
 	<Object
@@ -14743,7 +14792,7 @@
 		Name="listvenoe31535"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="377.701 346.964 2864.179"
+		Pos="377.701 346.965 2864.179"
 		Rot="0.000 -0.588 0.000 0.809" />
 
 	<Object
@@ -14764,7 +14813,7 @@
 		Name="listvenoe31538"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="502.333 321.260 2644.887"
+		Pos="502.333 321.261 2644.887"
 		Rot="0.000 -0.875 0.000 0.485" />
 
 	<Object
@@ -15030,7 +15079,7 @@
 		Name="dub31576"
 		Belong="-1"
 		Prototype="Breakable_Dub3"
-		Pos="2445.320 240.177 1252.265"
+		Pos="2445.320 240.176 1252.265"
 		Rot="0.000 -0.623 0.000 0.783" />
 
 	<Object
@@ -15114,7 +15163,7 @@
 		Name="listvenoe11588"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
-		Pos="2589.967 219.715 1312.576"
+		Pos="2589.967 219.714 1312.576"
 		Rot="0.000 0.342 0.000 0.940" />
 
 	<Object
@@ -15170,7 +15219,7 @@
 		Name="dub11596"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="2678.666 229.197 1256.956"
+		Pos="2678.666 229.198 1256.956"
 		Rot="0.000 0.809 0.000 0.588" />
 
 	<Object
@@ -15282,7 +15331,7 @@
 		Name="deadtree31612"
 		Belong="-1"
 		Prototype="Breakable_DeadTree3"
-		Pos="2889.101 210.204 1266.795"
+		Pos="2889.101 210.205 1266.795"
 		Rot="0.000 -0.731 0.000 0.682" />
 
 	<Object
@@ -15324,7 +15373,7 @@
 		Name="deadtree31618"
 		Belong="-1"
 		Prototype="Breakable_DeadTree3"
-		Pos="3195.483 217.503 2883.014"
+		Pos="3195.483 217.504 2883.014"
 		Rot="0.000 0.566 0.000 0.824" />
 
 	<Object
@@ -15373,7 +15422,7 @@
 		Name="listvenoe31625"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1347.420 207.192 1053.699"
+		Pos="1347.420 207.191 1053.699"
 		Rot="0.000 -0.581 0.000 0.814" />
 
 	<Object
@@ -15401,7 +15450,7 @@
 		Name="listvenoe31629"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1818.500 225.837 859.808"
+		Pos="1818.500 225.836 859.808"
 		Rot="0.000 -0.182 0.000 0.983" />
 
 	<Object
@@ -15527,7 +15576,7 @@
 		Name="listvenoe31647"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1475.961 273.207 1710.607"
+		Pos="1475.961 273.206 1710.607"
 		Rot="0.000 0.454 0.000 0.891" />
 
 	<Object
@@ -15702,7 +15751,7 @@
 		Name="deadtree31672"
 		Belong="-1"
 		Prototype="Breakable_DeadTree3"
-		Pos="271.358 209.135 1718.952"
+		Pos="271.358 209.134 1718.952"
 		Rot="0.000 0.978 0.000 0.208" />
 
 	<Object
@@ -16157,7 +16206,7 @@
 		Name="dub11737"
 		Belong="-1"
 		Prototype="Breakable_Dub1"
-		Pos="2762.754 245.815 55.605"
+		Pos="2762.754 245.814 55.605"
 		Rot="0.000 -0.122 0.000 0.993" />
 
 	<Object
@@ -16171,7 +16220,7 @@
 		Name="listvenoe21739"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe2"
-		Pos="2741.325 248.886 71.222"
+		Pos="2741.325 248.885 71.222"
 		Rot="0.000 0.985 0.000 0.174" />
 
 	<Object
@@ -16475,7 +16524,7 @@
 		Name="barrel11778"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="872.653 271.458 1309.043"
+		Pos="872.653 270.579 1309.043"
 		Rot="0.000 0.669 0.000 0.743"
 		NodeScale="1.060" />
 
@@ -16491,7 +16540,7 @@
 		Name="barrel11780"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="871.962 271.458 1307.642"
+		Pos="871.962 270.403 1307.642"
 		Rot="0.000 -0.399 0.000 0.917"
 		NodeScale="1.170" />
 
@@ -17127,7 +17176,7 @@
 		Name="sosna31861"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2255.694 251.693 2668.543"
+		Pos="2255.694 251.694 2668.543"
 		Rot="0.000 -0.113 0.000 0.994"
 		NodeScale="1.329" />
 
@@ -17247,7 +17296,7 @@
 		Name="sosna21876"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2293.909 249.625 2706.666"
+		Pos="2293.909 249.624 2706.666"
 		Rot="0.000 0.899 0.000 0.438"
 		NodeScale="1.292" />
 
@@ -17383,7 +17432,7 @@
 		Name="sosna11893"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2314.829 279.352 2523.800"
+		Pos="2314.829 279.353 2523.800"
 		Rot="0.000 -0.937 0.000 0.350"
 		NodeScale="0.976" />
 
@@ -17407,7 +17456,7 @@
 		Name="sosna31896"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2347.857 281.116 2558.596"
+		Pos="2347.857 281.115 2558.596"
 		Rot="0.000 0.309 0.000 0.951"
 		NodeScale="1.371" />
 
@@ -17783,7 +17832,7 @@
 		Name="sosna21943"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2555.214 249.406 2923.997"
+		Pos="2555.214 249.405 2923.997"
 		Rot="0.000 0.391 0.000 0.920"
 		NodeScale="1.275" />
 
@@ -18215,7 +18264,7 @@
 		Name="sosna31997"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="1998.601 260.935 2821.956"
+		Pos="1998.601 260.934 2821.956"
 		Rot="0.000 -0.259 0.000 0.966"
 		NodeScale="1.389" />
 
@@ -18223,7 +18272,7 @@
 		Name="sosna11998"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2107.313 267.578 2631.958"
+		Pos="2107.313 267.579 2631.958"
 		Rot="0.000 -0.772 0.000 0.636"
 		NodeScale="1.263" />
 
@@ -18247,7 +18296,7 @@
 		Name="sosna12001"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2156.047 266.560 2619.735"
+		Pos="2156.047 266.561 2619.735"
 		Rot="0.000 -0.839 0.000 0.545"
 		NodeScale="0.918" />
 
@@ -18287,7 +18336,7 @@
 		Name="sosna12006"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2075.490 267.168 2650.557"
+		Pos="2075.490 267.169 2650.557"
 		Rot="0.000 0.317 0.000 0.948"
 		NodeScale="1.024" />
 
@@ -18407,7 +18456,7 @@
 		Name="sosna22021"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="1964.877 288.379 2624.094"
+		Pos="1964.877 288.378 2624.094"
 		Rot="0.000 0.999 0.000 0.044"
 		NodeScale="0.998" />
 
@@ -18558,7 +18607,7 @@
 		Name="sosna12040"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2031.005 305.297 2410.379"
+		Pos="2031.005 305.298 2410.379"
 		Rot="0.000 -0.430 0.000 0.903"
 		NodeScale="0.785" />
 
@@ -18662,7 +18711,7 @@
 		Name="sosna22053"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="1958.463 307.674 2384.762"
+		Pos="1958.463 307.673 2384.762"
 		Rot="0.000 0.866 0.000 0.500"
 		NodeScale="0.842" />
 
@@ -18982,7 +19031,7 @@
 		Name="sosna32093"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="1831.851 294.415 2627.099"
+		Pos="1831.851 294.416 2627.099"
 		Rot="0.000 -0.602 0.000 0.799"
 		NodeScale="1.207" />
 
@@ -18998,7 +19047,7 @@
 		Name="sosna32095"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="1803.419 299.701 2649.847"
+		Pos="1803.419 299.702 2649.847"
 		Rot="0.000 -0.853 0.000 0.523"
 		NodeScale="1.499" />
 
@@ -19030,7 +19079,7 @@
 		Name="sosna32099"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2493.283 262.167 3111.238"
+		Pos="2493.283 262.168 3111.238"
 		Rot="0.000 -0.959 0.000 0.284"
 		NodeScale="1.383" />
 
@@ -19070,7 +19119,7 @@
 		Name="sosna32104"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2500.297 256.204 3086.491"
+		Pos="2500.297 256.203 3086.491"
 		Rot="0.000 -0.996 0.000 0.087"
 		NodeScale="1.212" />
 
@@ -19078,7 +19127,7 @@
 		Name="sosna32105"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2480.892 254.240 3084.955"
+		Pos="2480.892 254.239 3084.955"
 		Rot="0.000 0.766 0.000 0.643"
 		NodeScale="1.362" />
 
@@ -19110,7 +19159,7 @@
 		Name="sosna32109"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2548.449 250.973 2964.349"
+		Pos="2548.449 250.974 2964.349"
 		Rot="0.000 0.259 0.000 0.966"
 		NodeScale="1.460" />
 
@@ -19350,7 +19399,7 @@
 		Name="sosna22139"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2662.772 258.023 2988.256"
+		Pos="2662.772 258.022 2988.256"
 		Rot="0.000 -0.943 0.000 0.334"
 		NodeScale="0.927" />
 
@@ -19358,7 +19407,7 @@
 		Name="sosna32140"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2652.941 258.363 2982.749"
+		Pos="2652.941 258.362 2982.749"
 		Rot="0.000 -0.515 0.000 0.857"
 		NodeScale="1.282" />
 
@@ -19390,7 +19439,7 @@
 		Name="sosna12144"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2617.467 261.265 3089.457"
+		Pos="2617.467 261.266 3089.457"
 		Rot="0.000 0.995 0.000 0.096"
 		NodeScale="1.486" />
 
@@ -19478,7 +19527,7 @@
 		Name="sosna22155"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2789.965 258.003 3137.792"
+		Pos="2789.965 258.004 3137.792"
 		Rot="0.000 -0.131 0.000 0.991"
 		NodeScale="1.235" />
 
@@ -19486,7 +19535,7 @@
 		Name="sosna32156"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2772.441 258.166 3140.167"
+		Pos="2772.441 258.165 3140.167"
 		Rot="0.000 0.917 0.000 0.399"
 		NodeScale="1.077" />
 
@@ -19670,7 +19719,7 @@
 		Name="sosna12179"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2878.724 270.155 2765.894"
+		Pos="2878.724 270.154 2765.894"
 		Rot="0.000 -0.367 0.000 0.930"
 		NodeScale="1.192" />
 
@@ -19766,7 +19815,7 @@
 		Name="sosna12191"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2979.445 288.587 2804.082"
+		Pos="2979.445 288.588 2804.082"
 		Rot="0.000 0.891 0.000 0.454"
 		NodeScale="1.285" />
 
@@ -20062,7 +20111,7 @@
 		Name="sosna12228"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2894.816 274.550 2660.096"
+		Pos="2894.816 274.551 2660.096"
 		Rot="0.000 -0.350 0.000 0.937"
 		NodeScale="1.420" />
 
@@ -20238,7 +20287,7 @@
 		Name="sosna22250"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="3001.568 238.809 2642.268"
+		Pos="3001.568 238.810 2642.268"
 		Rot="0.000 0.113 0.000 0.994"
 		NodeScale="0.781" />
 
@@ -20478,7 +20527,7 @@
 		Name="sosna22280"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="3028.949 242.124 2542.096"
+		Pos="3028.949 242.123 2542.096"
 		Rot="0.000 0.749 0.000 0.663"
 		NodeScale="0.755" />
 
@@ -20510,7 +20559,7 @@
 		Name="sosna12284"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2998.874 248.797 2456.399"
+		Pos="2998.874 248.796 2456.399"
 		Rot="0.000 -0.772 0.000 0.636"
 		NodeScale="1.245" />
 
@@ -20518,7 +20567,7 @@
 		Name="sosna22285"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="3011.202 245.786 2471.607"
+		Pos="3011.202 245.785 2471.607"
 		Rot="0.000 1.000 0.000 0.009"
 		NodeScale="1.496" />
 
@@ -20606,7 +20655,7 @@
 		Name="sosna32296"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2964.181 251.042 2444.613"
+		Pos="2964.181 251.041 2444.613"
 		Rot="0.000 0.415 0.000 0.910"
 		NodeScale="0.851" />
 
@@ -20774,7 +20823,7 @@
 		Name="sosna12317"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2928.077 265.276 3038.893"
+		Pos="2928.077 265.275 3038.893"
 		Rot="0.000 0.899 0.000 0.438"
 		NodeScale="1.219" />
 
@@ -20830,7 +20879,7 @@
 		Name="sosna32324"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2973.558 271.111 3027.986"
+		Pos="2973.558 271.110 3027.986"
 		Rot="0.000 -0.250 0.000 0.968"
 		NodeScale="0.923" />
 
@@ -20838,7 +20887,7 @@
 		Name="sosna12325"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2974.236 267.570 3064.140"
+		Pos="2974.236 267.569 3064.140"
 		Rot="0.000 0.725 0.000 0.688"
 		NodeScale="1.319" />
 
@@ -21294,7 +21343,7 @@
 		Name="sosna32382"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2218.644 259.100 3482.718"
+		Pos="2218.644 259.099 3482.718"
 		Rot="0.000 0.301 0.000 0.954"
 		NodeScale="0.860" />
 
@@ -21334,7 +21383,7 @@
 		Name="sosna32387"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2270.158 250.629 3608.452"
+		Pos="2270.158 250.630 3608.452"
 		Rot="0.000 0.945 0.000 0.326"
 		NodeScale="0.777" />
 
@@ -21430,7 +21479,7 @@
 		Name="sosna12399"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2365.407 224.701 3579.311"
+		Pos="2365.407 224.702 3579.311"
 		Rot="0.000 -0.276 0.000 0.961"
 		NodeScale="1.316" />
 
@@ -21590,7 +21639,7 @@
 		Name="sosna12419"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2722.373 249.538 2063.692"
+		Pos="2722.373 249.539 2063.692"
 		Rot="0.000 0.636 0.000 0.772"
 		NodeScale="1.326" />
 
@@ -21718,7 +21767,7 @@
 		Name="sosna12435"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2990.428 225.488 1596.653"
+		Pos="2990.428 225.487 1596.653"
 		Rot="0.000 -0.588 0.000 0.809"
 		NodeScale="1.343" />
 
@@ -21726,7 +21775,7 @@
 		Name="sosna12436"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2976.990 225.747 1606.670"
+		Pos="2976.990 225.746 1606.670"
 		Rot="0.000 -0.917 0.000 0.399"
 		NodeScale="0.751" />
 
@@ -21774,7 +21823,7 @@
 		Name="sosna32442"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="3009.454 225.750 1588.981"
+		Pos="3009.454 225.749 1588.981"
 		Rot="0.000 0.485 0.000 0.875"
 		NodeScale="1.483" />
 
@@ -21846,7 +21895,7 @@
 		Name="sosna12451"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="3080.084 223.989 1390.100"
+		Pos="3080.084 223.988 1390.100"
 		Rot="0.000 -0.165 0.000 0.986"
 		NodeScale="1.427" />
 
@@ -21894,7 +21943,7 @@
 		Name="sosna32457"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="3096.554 224.679 1402.572"
+		Pos="3096.554 224.678 1402.572"
 		Rot="0.000 0.999 0.000 0.035"
 		NodeScale="1.253" />
 
@@ -21926,7 +21975,7 @@
 		Name="sosna12461"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="3126.554 224.971 1241.459"
+		Pos="3126.554 224.972 1241.459"
 		Rot="0.000 -0.044 0.000 0.999"
 		NodeScale="1.405" />
 
@@ -22062,7 +22111,7 @@
 		Name="sosna12478"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="3135.622 225.751 1147.556"
+		Pos="3135.622 225.752 1147.556"
 		Rot="0.000 0.105 0.000 0.994"
 		NodeScale="0.922" />
 
@@ -22102,7 +22151,7 @@
 		Name="sosna12483"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2930.465 226.161 1044.766"
+		Pos="2930.465 226.160 1044.766"
 		Rot="0.000 0.044 0.000 0.999"
 		NodeScale="0.870" />
 
@@ -22126,7 +22175,7 @@
 		Name="sosna32486"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2941.101 223.779 1055.872"
+		Pos="2941.101 223.780 1055.872"
 		Rot="0.000 -0.009 0.000 1.000"
 		NodeScale="1.486" />
 
@@ -22214,7 +22263,7 @@
 		Name="sosna32497"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2888.666 230.458 1093.909"
+		Pos="2888.666 230.457 1093.909"
 		Rot="0.000 0.719 0.000 0.695"
 		NodeScale="1.481" />
 
@@ -22270,7 +22319,7 @@
 		Name="sosna12504"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2888.724 228.884 1028.743"
+		Pos="2888.724 228.883 1028.743"
 		Rot="0.000 -0.530 0.000 0.848"
 		NodeScale="0.894" />
 
@@ -22294,7 +22343,7 @@
 		Name="sosna12507"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2886.268 226.824 968.719"
+		Pos="2886.268 226.825 968.719"
 		Rot="0.000 0.875 0.000 0.485"
 		NodeScale="1.040" />
 
@@ -22310,7 +22359,7 @@
 		Name="sosna22509"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2874.026 226.009 944.302"
+		Pos="2874.026 226.008 944.302"
 		Rot="0.000 0.982 0.000 0.191"
 		NodeScale="0.829" />
 
@@ -22326,7 +22375,7 @@
 		Name="sosna12511"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2891.121 225.479 929.016"
+		Pos="2891.121 225.480 929.016"
 		Rot="0.000 -0.695 0.000 0.719"
 		NodeScale="1.270" />
 
@@ -22334,7 +22383,7 @@
 		Name="sosna12512"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2863.182 225.779 920.790"
+		Pos="2863.182 225.778 920.790"
 		Rot="0.000 0.991 0.000 0.131"
 		NodeScale="1.407" />
 
@@ -22430,7 +22479,7 @@
 		Name="sosna32524"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2709.848 227.970 1767.130"
+		Pos="2709.848 227.969 1767.130"
 		Rot="0.000 -0.317 0.000 0.948"
 		NodeScale="1.166" />
 
@@ -22694,7 +22743,7 @@
 		Name="sosna12557"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2608.271 229.862 1682.723"
+		Pos="2608.271 229.861 1682.723"
 		Rot="0.000 0.924 0.000 0.383"
 		NodeScale="0.767" />
 
@@ -22750,7 +22799,7 @@
 		Name="sosna22564"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2609.264 229.635 1652.029"
+		Pos="2609.264 229.636 1652.029"
 		Rot="0.000 -0.940 0.000 0.342"
 		NodeScale="1.046" />
 
@@ -22798,7 +22847,7 @@
 		Name="sosna32570"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2606.691 228.838 1611.166"
+		Pos="2606.691 228.837 1611.166"
 		Rot="0.000 0.276 0.000 0.961"
 		NodeScale="1.016" />
 
@@ -22878,7 +22927,7 @@
 		Name="sosna32580"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2512.278 227.948 1507.274"
+		Pos="2512.278 227.949 1507.274"
 		Rot="0.000 -0.777 0.000 0.629"
 		NodeScale="1.019" />
 
@@ -22982,7 +23031,7 @@
 		Name="sosna22593"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2986.224 235.216 2221.717"
+		Pos="2986.224 235.215 2221.717"
 		Rot="0.000 0.954 0.000 0.301"
 		NodeScale="0.925" />
 
@@ -23150,7 +23199,7 @@
 		Name="sosna32614"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="2913.461 226.083 2274.338"
+		Pos="2913.461 226.082 2274.338"
 		Rot="0.000 -0.087 0.000 0.996"
 		NodeScale="0.882" />
 
@@ -23182,7 +23231,7 @@
 		Name="sosna12618"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="2916.884 225.984 2294.441"
+		Pos="2916.884 225.985 2294.441"
 		Rot="0.000 -0.725 0.000 0.688"
 		NodeScale="1.184" />
 
@@ -23198,7 +23247,7 @@
 		Name="sosna22620"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2923.743 225.204 2313.321"
+		Pos="2923.743 225.205 2313.321"
 		Rot="0.000 -0.139 0.000 0.990"
 		NodeScale="1.147" />
 
@@ -23286,7 +23335,7 @@
 		Name="sosna22631"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="2960.628 223.567 2343.653"
+		Pos="2960.628 223.568 2343.653"
 		Rot="0.000 0.945 0.000 0.326"
 		NodeScale="0.906" />
 
@@ -23326,7 +23375,7 @@
 		Name="sosna32636"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="3149.536 237.016 2314.245"
+		Pos="3149.536 237.017 2314.245"
 		Rot="0.000 0.940 0.000 0.342"
 		NodeScale="1.254" />
 
@@ -23405,7 +23454,7 @@
 		Name="sosna12646"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="3121.255 231.276 2239.483"
+		Pos="3121.255 231.277 2239.483"
 		Rot="0.000 -0.966 0.000 0.259"
 		NodeScale="1.286" />
 
@@ -23517,7 +23566,7 @@
 		Name="sosna32660"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="3111.751 229.836 2268.295"
+		Pos="3111.751 229.835 2268.295"
 		Rot="0.000 -0.292 0.000 0.956"
 		NodeScale="1.315" />
 
@@ -23565,7 +23614,7 @@
 		Name="sosna22666"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="3344.009 231.066 2446.037"
+		Pos="3344.009 231.067 2446.037"
 		Rot="0.000 0.989 0.000 0.148"
 		NodeScale="1.128" />
 
@@ -23589,7 +23638,7 @@
 		Name="sosna32669"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="3349.459 240.585 2429.202"
+		Pos="3349.459 240.584 2429.202"
 		Rot="0.000 0.985 0.000 0.174"
 		NodeScale="0.887" />
 
@@ -23789,7 +23838,7 @@
 		Name="sosna12694"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="3394.244 246.747 2220.043"
+		Pos="3394.244 246.746 2220.043"
 		Rot="0.000 -0.866 0.000 0.500"
 		NodeScale="1.315" />
 
@@ -23821,7 +23870,7 @@
 		Name="sosna22698"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="3400.925 248.751 2225.036"
+		Pos="3400.925 248.752 2225.036"
 		Rot="0.000 -0.995 0.000 0.096"
 		NodeScale="1.219" />
 
@@ -24053,7 +24102,7 @@
 		Name="elka32727"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1575.285 341.256 3423.121"
+		Pos="1575.285 341.257 3423.121"
 		Rot="0.000 0.358 0.000 0.934"
 		NodeScale="0.932" />
 
@@ -24069,7 +24118,7 @@
 		Name="elka22729"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1598.975 348.531 3436.107"
+		Pos="1598.975 348.532 3436.107"
 		Rot="0.000 -0.719 0.000 0.695"
 		NodeScale="0.930" />
 
@@ -24101,7 +24150,7 @@
 		Name="elka22733"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1592.293 348.151 3445.531"
+		Pos="1592.293 348.152 3445.531"
 		Rot="0.000 0.809 0.000 0.588"
 		NodeScale="1.131" />
 
@@ -24109,7 +24158,7 @@
 		Name="elka32734"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1603.010 352.921 3468.786"
+		Pos="1603.010 352.920 3468.786"
 		Rot="0.000 -1.000 0.000 0.026"
 		NodeScale="1.240" />
 
@@ -24181,7 +24230,7 @@
 		Name="elka32743"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1504.501 327.916 3432.027"
+		Pos="1504.501 327.915 3432.027"
 		Rot="0.000 -0.292 0.000 0.956"
 		NodeScale="0.987" />
 
@@ -24237,7 +24286,7 @@
 		Name="elka32750"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1474.934 326.020 3461.369"
+		Pos="1474.934 326.021 3461.369"
 		Rot="0.000 -0.649 0.000 0.760"
 		NodeScale="1.042" />
 
@@ -24453,7 +24502,7 @@
 		Name="elka22777"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1307.803 325.030 3420.039"
+		Pos="1307.803 325.029 3420.039"
 		Rot="0.000 0.819 0.000 0.574"
 		NodeScale="1.215" />
 
@@ -24477,7 +24526,7 @@
 		Name="elka12780"
 		Belong="-1"
 		Prototype="Breakable_Elka1"
-		Pos="1258.098 329.327 3430.948"
+		Pos="1258.098 329.326 3430.948"
 		Rot="0.000 0.026 0.000 1.000"
 		NodeScale="0.743" />
 
@@ -24557,7 +24606,7 @@
 		Name="elka22790"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1194.978 330.185 3416.729"
+		Pos="1194.978 330.184 3416.729"
 		Rot="0.000 0.026 0.000 1.000"
 		NodeScale="0.872" />
 
@@ -24669,7 +24718,7 @@
 		Name="elka32804"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1142.949 350.346 3503.613"
+		Pos="1142.949 350.345 3503.613"
 		Rot="0.000 -0.588 0.000 0.809"
 		NodeScale="1.280" />
 
@@ -24773,7 +24822,7 @@
 		Name="elka32817"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1236.440 352.679 3480.840"
+		Pos="1236.440 352.678 3480.840"
 		Rot="0.000 -0.581 0.000 0.814"
 		NodeScale="0.869" />
 
@@ -24869,7 +24918,7 @@
 		Name="elka22829"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1083.154 351.927 3640.587"
+		Pos="1083.154 351.928 3640.587"
 		Rot="0.000 0.616 0.000 0.788"
 		NodeScale="0.876" />
 
@@ -25221,7 +25270,7 @@
 		Name="elka22873"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1535.632 334.462 3254.980"
+		Pos="1535.632 334.463 3254.980"
 		Rot="0.000 -0.743 0.000 0.669"
 		NodeScale="1.253" />
 
@@ -25245,7 +25294,7 @@
 		Name="elka32876"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1551.005 327.383 3278.910"
+		Pos="1551.005 327.384 3278.910"
 		Rot="0.000 -0.829 0.000 0.559"
 		NodeScale="1.487" />
 
@@ -25261,7 +25310,7 @@
 		Name="elka22878"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1504.203 328.799 3254.631"
+		Pos="1504.203 328.800 3254.631"
 		Rot="0.000 0.972 0.000 0.233"
 		NodeScale="1.483" />
 
@@ -25301,7 +25350,7 @@
 		Name="elka32883"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1476.913 324.713 3258.860"
+		Pos="1476.913 324.712 3258.860"
 		Rot="0.000 -0.985 0.000 0.174"
 		NodeScale="1.325" />
 
@@ -25429,7 +25478,7 @@
 		Name="elka32899"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="949.700 335.081 3506.907"
+		Pos="949.700 335.082 3506.907"
 		Rot="0.000 -0.793 0.000 0.609"
 		NodeScale="0.882" />
 
@@ -25565,7 +25614,7 @@
 		Name="sosna32916"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="873.993 356.603 2990.942"
+		Pos="873.993 356.604 2990.942"
 		Rot="0.000 -0.454 0.000 0.891"
 		NodeScale="1.498" />
 
@@ -25613,7 +25662,7 @@
 		Name="sosna12922"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="810.445 357.534 2947.427"
+		Pos="810.445 357.533 2947.427"
 		Rot="0.000 -0.350 0.000 0.937"
 		NodeScale="1.029" />
 
@@ -25685,7 +25734,7 @@
 		Name="sosna22931"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="857.892 381.846 2931.614"
+		Pos="857.892 380.423 2931.614"
 		Rot="0.000 0.862 0.000 0.508"
 		NodeScale="1.346" />
 
@@ -25781,7 +25830,7 @@
 		Name="sosna22943"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="906.824 330.510 3133.206"
+		Pos="906.824 330.509 3133.206"
 		Rot="0.000 -0.755 0.000 0.656"
 		NodeScale="1.240" />
 
@@ -25933,7 +25982,7 @@
 		Name="sosna32962"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="757.079 346.435 3179.268"
+		Pos="757.079 346.436 3179.268"
 		Rot="0.000 -0.225 0.000 0.974"
 		NodeScale="1.050" />
 
@@ -26101,7 +26150,7 @@
 		Name="sosna12983"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="703.253 359.899 3044.311"
+		Pos="703.253 359.900 3044.311"
 		Rot="0.000 -0.399 0.000 0.917"
 		NodeScale="0.964" />
 
@@ -26141,7 +26190,7 @@
 		Name="sosna22988"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="680.803 360.687 3079.970"
+		Pos="680.803 360.688 3079.970"
 		Rot="0.000 -0.415 0.000 0.910"
 		NodeScale="1.008" />
 
@@ -26197,7 +26246,7 @@
 		Name="elka32995"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="300.532 346.426 2793.317"
+		Pos="300.532 346.425 2793.317"
 		Rot="0.000 0.242 0.000 0.970"
 		NodeScale="1.126" />
 
@@ -26333,7 +26382,7 @@
 		Name="elka33012"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="318.308 341.724 2724.096"
+		Pos="318.308 341.723 2724.096"
 		Rot="0.000 0.292 0.000 0.956"
 		NodeScale="0.862" />
 
@@ -26397,7 +26446,7 @@
 		Name="elka23020"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="371.266 346.553 2884.036"
+		Pos="371.266 346.554 2884.036"
 		Rot="0.000 -0.829 0.000 0.559"
 		NodeScale="1.006" />
 
@@ -26477,7 +26526,7 @@
 		Name="sosna33030"
 		Belong="-1"
 		Prototype="Breakable_Sosna3"
-		Pos="373.476 340.996 3324.147"
+		Pos="373.476 340.995 3324.147"
 		Rot="0.000 0.937 0.000 0.350"
 		NodeScale="1.074" />
 
@@ -26525,7 +26574,7 @@
 		Name="sosna23036"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="494.730 342.488 3096.414"
+		Pos="494.730 342.489 3096.414"
 		Rot="0.000 -0.951 0.000 0.309"
 		NodeScale="1.165" />
 
@@ -26597,7 +26646,7 @@
 		Name="sosna23045"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="557.870 355.184 2868.283"
+		Pos="557.870 355.183 2868.283"
 		Rot="0.000 0.595 0.000 0.804"
 		NodeScale="0.962" />
 
@@ -26668,7 +26717,7 @@
 		Name="sosna13054"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="422.627 335.011 2658.770"
+		Pos="422.627 335.010 2658.770"
 		Rot="0.000 0.961 0.000 0.276"
 		NodeScale="0.892" />
 
@@ -26708,7 +26757,7 @@
 		Name="sosna23059"
 		Belong="-1"
 		Prototype="Breakable_Sosna2"
-		Pos="383.633 335.205 2623.618"
+		Pos="383.633 335.206 2623.618"
 		Rot="0.000 -0.930 0.000 0.367"
 		NodeScale="1.244" />
 
@@ -26796,7 +26845,7 @@
 		Name="elka23070"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="888.962 339.142 2193.208"
+		Pos="888.962 339.143 2193.208"
 		Rot="0.000 0.970 0.000 0.242"
 		NodeScale="0.872" />
 
@@ -26876,7 +26925,7 @@
 		Name="elka23080"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="1005.956 324.390 2137.223"
+		Pos="1005.956 324.391 2137.223"
 		Rot="0.000 -0.994 0.000 0.105"
 		NodeScale="1.380" />
 
@@ -26892,7 +26941,7 @@
 		Name="elka33082"
 		Belong="-1"
 		Prototype="Breakable_Elka3"
-		Pos="1005.599 322.198 2159.815"
+		Pos="1005.599 322.197 2159.815"
 		Rot="0.000 0.515 0.000 0.857"
 		NodeScale="1.302" />
 
@@ -26916,7 +26965,7 @@
 		Name="elka23085"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="983.966 328.220 2164.336"
+		Pos="983.966 328.219 2164.336"
 		Rot="0.000 -0.407 0.000 0.914"
 		NodeScale="1.228" />
 
@@ -26956,7 +27005,7 @@
 		Name="elka23090"
 		Belong="-1"
 		Prototype="Breakable_Elka2"
-		Pos="762.092 324.432 2314.455"
+		Pos="762.092 324.431 2314.455"
 		Rot="0.000 -0.914 0.000 0.407"
 		NodeScale="1.364" />
 
@@ -27350,224 +27399,224 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="624.560 358.095 3137.834"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.033 -0.713 -0.032 0.700" />
 
 	<Object
 		Name="wood_fence13142"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="624.417 357.010 3148.143"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.042 -0.711 -0.041 0.701" />
 
 	<Object
 		Name="wood_fence13143"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="624.275 355.837 3158.452"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.037 -0.711 -0.037 0.701" />
 
 	<Object
 		Name="wood_fence13144"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="624.132 354.668 3168.761"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.034 -0.711 -0.034 0.701" />
 
 	<Object
 		Name="wood_fence13145"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="623.990 353.606 3179.070"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.030 -0.711 -0.029 0.701" />
 
 	<Object
 		Name="wood_fence13146"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="623.847 352.574 3189.379"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.040 -0.711 -0.040 0.701" />
 
 	<Object
 		Name="wood_fence13147"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="623.704 351.406 3199.688"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.043 -0.711 -0.043 0.701" />
 
 	<Object
 		Name="wood_fence13148"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="623.562 350.228 3209.998"
-		Rot="0.000 -0.712 0.000 0.702" />
+		Rot="0.033 -0.711 -0.032 0.701" />
 
 	<Object
 		Name="wood_fence13149"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="615.095 348.230 3219.394"
-		Rot="0.000 1.000 0.000 0.021" />
+		Rot="-0.072 0.997 -0.002 0.021" />
 
 	<Object
 		Name="wood_fence13150"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="604.831 346.863 3218.965"
-		Rot="0.000 1.000 0.000 0.021" />
+		Rot="-0.065 0.998 -0.001 0.021" />
 
 	<Object
 		Name="wood_fence13151"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="594.566 345.435 3218.537"
-		Rot="0.000 1.000 0.000 0.021" />
+		Rot="-0.068 0.998 0.001 -0.014" />
 
 	<Object
 		Name="wood_fence13152"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="584.302 343.987 3218.108"
-		Rot="0.000 1.000 0.000 0.021" />
+		Rot="-0.078 0.997 -0.002 0.021" />
 
 	<Object
 		Name="wood_fence13153"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="574.037 342.376 3217.680"
-		Rot="0.000 1.000 0.000 0.021" />
+		Pos="574.037 342.375 3217.680"
+		Rot="-0.078 0.997 -0.002 0.021" />
 
 	<Object
 		Name="wood_fence13154"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="563.773 340.676 3217.251"
-		Rot="0.000 1.000 0.000 0.021" />
+		Rot="-0.078 0.997 -0.002 0.021" />
 
 	<Object
 		Name="wood_fence13155"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.504 336.264 3210.130"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.003 0.706 0.003 0.709" />
 
 	<Object
 		Name="wood_fence13156"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.550 336.796 3199.788"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.012 0.706 0.012 0.709" />
 
 	<Object
 		Name="wood_fence13157"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.596 337.609 3189.447"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.012 0.706 0.012 0.709" />
 
 	<Object
 		Name="wood_fence13158"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.642 338.573 3179.106"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.022 0.705 0.022 0.708" />
 
 	<Object
 		Name="wood_fence13159"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.688 339.871 3168.764"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.031 0.705 0.031 0.708" />
 
 	<Object
 		Name="wood_fence13160"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.734 341.146 3158.423"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.026 0.705 0.026 0.708" />
 
 	<Object
 		Name="wood_fence13161"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.780 342.270 3148.082"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.017 0.705 0.017 0.708" />
 
 	<Object
 		Name="wood_fence13162"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.826 343.250 3137.740"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.015 0.705 0.015 0.708" />
 
 	<Object
 		Name="wood_fence13163"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.872 344.079 3127.399"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.017 0.705 0.017 0.708" />
 
 	<Object
 		Name="wood_fence13164"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.918 344.783 3117.058"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.013 0.722 0.012 0.691" />
 
 	<Object
 		Name="wood_fence13165"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="526.964 345.535 3106.717"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.011 0.706 0.011 0.709" />
 
 	<Object
 		Name="wood_fence13166"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.010 346.307 3096.375"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.009 0.706 0.009 0.709" />
 
 	<Object
 		Name="wood_fence13167"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="527.056 346.989 3086.034"
-		Rot="0.000 0.706 0.000 0.709" />
+		Pos="527.056 346.988 3086.034"
+		Rot="0.017 0.705 0.017 0.708" />
 
 	<Object
 		Name="wood_fence13168"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.102 347.631 3075.693"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.008 0.706 0.008 0.709" />
 
 	<Object
 		Name="wood_fence13169"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.148 348.297 3065.351"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.012 0.706 0.012 0.709" />
 
 	<Object
 		Name="wood_fence13170"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.194 348.882 3055.010"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.006 0.706 0.006 0.709" />
 
 	<Object
 		Name="wood_fence13171"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="527.240 349.445 3044.669"
-		Rot="0.000 0.706 0.000 0.709" />
+		Pos="527.240 349.446 3044.669"
+		Rot="0.011 0.706 0.011 0.709" />
 
 	<Object
 		Name="wood_fence13172"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.286 349.934 3034.327"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.006 0.706 0.006 0.709" />
 
 	<Object
 		Name="wood_fence13173"
@@ -27581,70 +27630,70 @@
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="527.378 350.705 3013.645"
-		Rot="0.000 0.706 0.000 0.709" />
+		Rot="0.011 0.706 0.011 0.709" />
 
 	<Object
 		Name="wood_fence13175"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="589.927 355.352 3114.407"
-		Rot="0.000 0.698 0.000 0.716" />
+		Pos="589.785 355.222 3115.727"
+		Rot="0.018 0.698 0.019 0.716" />
 
 	<Object
 		Name="wood_fence13176"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="590.187 356.160 3104.064"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.023 0.698 0.023 0.716" />
 
 	<Object
 		Name="wood_fence13177"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="590.447 357.013 3093.721"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.026 0.698 0.027 0.716" />
 
 	<Object
 		Name="wood_fence13178"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="590.707 357.885 3083.379"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.018 0.698 0.019 0.716" />
 
 	<Object
 		Name="wood_fence13179"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="590.966 358.667 3073.036"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.014 0.698 0.014 0.716" />
 
 	<Object
 		Name="wood_fence13180"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="591.226 359.333 3062.693"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.009 0.698 0.009 0.716" />
 
 	<Object
 		Name="wood_fence13181"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="591.486 359.865 3052.350"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.009 0.695 -0.009 0.719" />
 
 	<Object
 		Name="wood_fence13182"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="591.746 360.298 3042.008"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.009 0.689 0.009 0.725" />
 
 	<Object
 		Name="wood_fence13183"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="592.005 360.809 3031.665"
-		Rot="0.000 0.698 0.000 0.716" />
+		Rot="0.017 0.698 0.017 0.716" />
 
 	<Object
 		Name="wood_fence13184"
@@ -27657,57 +27706,57 @@
 		Name="wood_fence13185"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="613.516 358.201 3124.199"
-		Rot="0.000 1.000 0.000 0.009" />
+		Pos="613.516 358.202 3124.199"
+		Rot="-0.070 0.998 -0.001 0.009" />
 
 	<Object
 		Name="wood_fence13186"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="603.259 356.784 3124.012"
-		Rot="0.000 1.000 0.000 0.009" />
+		Pos="603.259 356.785 3124.012"
+		Rot="-0.074 0.997 -0.001 0.009" />
 
 	<Object
 		Name="wood_fence13187"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
 		Pos="593.001 355.167 3123.825"
-		Rot="0.000 1.000 0.000 0.009" />
+		Rot="-0.091 0.996 -0.001 0.015" />
 
 	<Object
 		Name="wood_fence13188"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="569.804 361.003 2998.420"
-		Rot="0.000 -1.000 0.000 0.003" />
+		Pos="577.617 361.183 3012.399"
+		Rot="0.081 -0.995 0.002 -0.054" />
 
 	<Object
 		Name="wood_fence13189"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="559.649 359.354 2998.484"
-		Rot="0.000 -1.000 0.000 0.003" />
+		Pos="567.498 359.311 3011.533"
+		Rot="0.087 -0.995 0.004 -0.043" />
 
 	<Object
 		Name="wood_fence13190"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="549.494 357.292 2998.548"
-		Rot="0.000 -1.000 0.000 0.003" />
+		Pos="557.380 357.693 3010.669"
+		Rot="0.104 -0.995 0.010 -0.006" />
 
 	<Object
 		Name="wood_fence13191"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="539.340 354.822 2998.613"
-		Rot="0.000 -1.000 0.000 0.003" />
+		Pos="547.263 355.801 3009.805"
+		Rot="0.111 -0.993 0.005 -0.043" />
 
 	<Object
 		Name="wood_fence13192"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="529.185 352.919 2998.677"
-		Rot="0.000 -1.000 0.000 0.003" />
+		Pos="537.144 353.320 3008.939"
+		Rot="0.115 -0.992 0.005 -0.043" />
 
 	<Object
 		Name="wood_fence13193"
@@ -27825,7 +27874,7 @@
 		Name="wood_fence13209"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="461.329 335.057 3311.056"
+		Pos="461.329 335.056 3311.056"
 		Rot="0.000 -1.000 0.000 0.021" />
 
 	<Object
@@ -28197,7 +28246,7 @@
 		Name="sosna13260"
 		Belong="-1"
 		Prototype="Breakable_Sosna1"
-		Pos="683.707 338.494 3334.373"
+		Pos="683.707 338.495 3334.373"
 		Rot="0.000 0.920 0.000 0.391"
 		NodeScale="1.108" />
 
@@ -28228,7 +28277,7 @@
 		Name="wood_fence13264"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1038.814 328.820 3088.220"
+		Pos="1038.814 328.821 3088.220"
 		Rot="0.000 0.028 0.000 1.000" />
 
 	<Object
@@ -28333,7 +28382,7 @@
 		Name="wood_fence13279"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1137.454 326.085 3149.024"
+		Pos="1137.454 326.084 3149.024"
 		Rot="0.000 -0.681 0.000 0.732" />
 
 	<Object
@@ -28396,7 +28445,7 @@
 		Name="wood_fence13288"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1071.272 328.441 3192.288"
+		Pos="1071.272 328.440 3192.288"
 		Rot="0.000 -0.673 0.000 0.739" />
 
 	<Object
@@ -28424,7 +28473,7 @@
 		Name="wood_fence13292"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1048.934 329.338 3217.489"
+		Pos="1048.934 329.337 3217.489"
 		Rot="0.000 -1.000 0.000 0.003" />
 
 	<Object
@@ -28459,7 +28508,7 @@
 		Name="wood_fence13297"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1008.376 326.937 3193.444"
+		Pos="1008.376 326.938 3193.444"
 		Rot="0.000 0.709 0.000 0.705" />
 
 	<Object
@@ -28480,7 +28529,7 @@
 		Name="wood_fence13300"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1008.214 325.525 3162.336"
+		Pos="1008.214 325.526 3162.336"
 		Rot="0.000 0.709 0.000 0.705" />
 
 	<Object
@@ -28515,7 +28564,7 @@
 		Name="wood_fence13305"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="1007.944 328.117 3110.489"
+		Pos="1007.944 328.118 3110.489"
 		Rot="0.000 0.709 0.000 0.705" />
 
 	<Object
@@ -28639,129 +28688,30 @@
 		Rot="0.000 -1.000 0.000 0.020" />
 
 	<Object
-		Name="lamppost13324"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2503.501 248.333 947.966"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13325"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2503.608 248.333 968.389"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13326"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2503.714 248.333 988.812"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13327"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2503.821 248.333 1009.235"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13328"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2503.927 248.333 1029.658"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13329"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2504.033 248.333 1050.081"
-		Rot="0.000 -0.705 0.000 0.709">
-		<Object
-			Belong="-1"
-			Prototype="Light_Yellow_Lens"
-			Pos="2500.868 258.525 1050.099"
-			Rot="0.000 -0.705 0.000 0.709" />
-	</Object>
-
-	<Object
-		Name="lamppost13330"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2504.140 248.333 1070.504"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13331"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2504.246 248.332 1090.927"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13332"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2504.353 248.326 1111.350"
-		Rot="0.000 -0.705 0.000 0.709" />
-
-	<Object
-		Name="lamppost13333"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.510 248.409 1112.007"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
-		Name="lamppost13334"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.518 248.588 1091.584"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
 		Name="lamppost13335"
 		Belong="-1"
 		Prototype="lamppost1"
 		Pos="2511.527 248.580 1071.161"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
-		Name="lamppost13336"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.535 248.566 1050.737"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
-		Name="lamppost13337"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.543 248.552 1030.314"
-		Rot="0.000 0.707 0.000 0.707" />
+		Rot="0.000 0.707 0.000 0.707">
+		<Object
+			Belong="-1"
+			Prototype="LightObject2"
+			Pos="2514.692 258.772 1071.161"
+			Rot="0.000 0.707 0.000 0.707" />
+	</Object>
 
 	<Object
 		Name="lamppost13338"
 		Belong="-1"
 		Prototype="lamppost1"
 		Pos="2511.552 248.504 1009.891"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
-		Name="lamppost13339"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.560 248.435 989.468"
-		Rot="0.000 0.707 0.000 0.707" />
-
-	<Object
-		Name="lamppost13340"
-		Belong="-1"
-		Prototype="lamppost1"
-		Pos="2511.568 248.367 969.045"
-		Rot="0.000 0.707 0.000 0.707" />
+		Rot="0.000 0.707 0.000 0.707">
+		<Object
+			Belong="-1"
+			Prototype="LightObject2"
+			Pos="2514.717 258.696 1009.891"
+			Rot="0.000 0.707 0.000 0.707" />
+	</Object>
 
 	<Object
 		Name="lamppost13341"
@@ -28771,7 +28721,7 @@
 		Rot="0.000 0.707 0.000 0.707">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2514.741 258.525 948.622"
 			Rot="0.000 0.707 0.000 0.707" />
 	</Object>
@@ -28805,77 +28755,6 @@
 		Belong="-1"
 		Prototype="Breakable_Listvenoe1"
 		Pos="2911.120 249.000 1737.223" />
-
-	<Object
-		Name="wood_fence13347"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3309.169 224.231 2118.586"
-		Rot="0.000 0.688 0.000 0.725"
-		NodeScale="0.900" />
-
-	<Object
-		Name="wood_fence13348"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3311.724 224.260 2098.331"
-		Rot="0.000 0.628 0.000 0.779" />
-
-	<Object
-		Name="wood_fence13349"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3241.890 224.227 2208.433" />
-
-	<Object
-		Name="wood_fence13350"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3252.552 224.227 2209.549" />
-
-	<Object
-		Name="wood_fence13351"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3264.266 224.227 2210.524" />
-
-	<Object
-		Name="wood_fence13352"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3235.213 224.314 2181.967" />
-
-	<Object
-		Name="wood_fence13353"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3433.186 229.108 2052.519"
-		Rot="0.000 0.385 0.000 0.923" />
-
-	<Object
-		Name="wood_fence13354"
-		Belong="-1"
-		Prototype="Breakable_WoodFence1"
-		Pos="3426.336 228.298 2028.948"
-		Rot="0.000 -0.581 0.000 0.814" />
-
-	<Object
-		Name="wood_fence23355"
-		Belong="-1"
-		Prototype="Breakable_WoodFence2"
-		Pos="3352.968 224.316 2124.852" />
-
-	<Object
-		Name="wood_fence23356"
-		Belong="-1"
-		Prototype="Breakable_WoodFence2"
-		Pos="3342.373 224.231 2123.595" />
-
-	<Object
-		Name="wood_fence23357"
-		Belong="-1"
-		Prototype="Breakable_WoodFence2"
-		Pos="3313.274 224.227 2205.685" />
 
 	<Object
 		Name="wood_fence23358"
@@ -29003,7 +28882,7 @@
 		Name="wood_fence13376"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="3625.942 255.421 1051.301"
+		Pos="3625.942 255.420 1051.301"
 		Rot="0.000 -0.688 0.000 0.726" />
 
 	<Object
@@ -29059,7 +28938,7 @@
 		Name="wood_fence13384"
 		Belong="-1"
 		Prototype="Breakable_WoodFence1"
-		Pos="3630.378 252.368 1134.116"
+		Pos="3630.378 252.367 1134.116"
 		Rot="0.000 -0.688 0.000 0.726" />
 
 	<Object
@@ -29581,7 +29460,7 @@
 		Rot="0.000 1.000 0.000 0.028">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="929.672 316.193 2518.414"
 			Rot="0.000 1.000 0.000 0.028" />
 	</Object>
@@ -29593,7 +29472,7 @@
 		Pos="2615.698 248.333 1035.717">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2615.815 257.803 1035.464"
 			Rot="0.998 0.000 0.000 0.060" />
 	</Object>
@@ -29606,7 +29485,7 @@
 		Rot="0.000 0.709 0.000 0.706">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2609.979 258.525 913.543"
 			Rot="0.000 0.709 0.000 0.706" />
 	</Object>
@@ -29630,7 +29509,7 @@
 		Pos="3835.709 249.000 938.145">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="3835.709 259.192 941.310" />
 	</Object>
 
@@ -29642,7 +29521,7 @@
 		Rot="0.000 -0.722 0.000 0.692">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2778.387 258.595 1926.723"
 			Rot="0.000 -0.722 0.000 0.692" />
 	</Object>
@@ -29651,7 +29530,7 @@
 		Name="road_sign43479"
 		Belong="-1"
 		Prototype="road_sign4"
-		Pos="2796.365 247.329 1904.333" />
+		Pos="2796.365 247.330 1904.333" />
 
 	<Object
 		Name="road_sign13480"
@@ -29763,14 +29642,14 @@
 		Name="stolb13496"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2886.830 240.536 2183.819"
+		Pos="2886.830 240.483 2183.819"
 		Rot="0.000 -0.914 0.000 0.406" />
 
 	<Object
 		Name="stolb13497"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2856.098 247.535 2156.043"
+		Pos="2856.098 247.536 2156.043"
 		Rot="0.000 -0.914 0.000 0.406" />
 
 	<Object
@@ -29825,7 +29704,7 @@
 		Name="stolb13505"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2897.108 247.635 1847.270"
+		Pos="2897.108 247.581 1847.270"
 		Rot="0.000 0.894 0.000 0.447" />
 
 	<Object
@@ -29853,7 +29732,7 @@
 		Name="stolb13509"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2639.624 227.791 1257.384"
+		Pos="2639.624 227.790 1257.384"
 		Rot="0.000 0.490 0.000 0.872" />
 
 	<Object
@@ -29896,7 +29775,7 @@
 		Name="stolb13515"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2774.435 225.821 1429.821"
+		Pos="2774.435 225.768 1429.821"
 		Rot="0.000 0.127 0.000 0.992" />
 
 	<Object
@@ -29931,7 +29810,7 @@
 		Name="stolb13520"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2760.804 225.947 1617.496"
+		Pos="2760.804 225.894 1617.496"
 		Rot="0.000 -0.204 0.000 0.979" />
 
 	<Object
@@ -29945,14 +29824,14 @@
 		Name="stolb13522"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2719.784 225.844 1679.302"
+		Pos="2719.784 225.791 1679.302"
 		Rot="0.000 -0.306 0.000 0.952" />
 
 	<Object
 		Name="stolb13523"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2687.124 226.098 1725.272"
+		Pos="2687.124 226.044 1725.272"
 		Rot="0.000 -0.306 0.000 0.952" />
 
 	<Object
@@ -29966,7 +29845,7 @@
 		Name="stolb13525"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2695.585 225.438 1788.537"
+		Pos="2695.585 225.437 1788.537"
 		Rot="0.000 0.531 0.000 0.848" />
 
 	<Object
@@ -29980,14 +29859,14 @@
 		Name="stolb13527"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2764.657 232.774 1821.610"
+		Pos="2764.657 232.773 1821.610"
 		Rot="0.000 0.431 0.000 0.902" />
 
 	<Object
 		Name="stolb23528"
 		Belong="-1"
 		Prototype="Breakable_Stolb2"
-		Pos="2757.733 225.688 1322.845"
+		Pos="2757.733 225.687 1322.845"
 		NodeScale="1.516" />
 
 	<Object
@@ -30034,7 +29913,7 @@
 		Name="stolb23535"
 		Belong="-1"
 		Prototype="Breakable_Stolb2"
-		Pos="2924.116 249.778 1826.281"
+		Pos="2924.116 249.779 1826.281"
 		Rot="0.000 0.833 0.000 0.554" />
 
 	<Object
@@ -30048,14 +29927,14 @@
 		Name="stolb13537"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2807.409 248.710 2007.448"
+		Pos="2807.409 248.656 2007.448"
 		Rot="0.000 0.187 0.000 0.982" />
 
 	<Object
 		Name="stolb13538"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2822.095 248.623 2054.947"
+		Pos="2822.095 248.422 2054.947"
 		Rot="0.000 0.187 0.000 0.982" />
 
 	<Object
@@ -30074,7 +29953,7 @@
 		Name="barrel13541"
 		Belong="-1"
 		Prototype="Breakable_Barrel1"
-		Pos="3274.805 224.297 2086.621" />
+		Pos="3274.805 224.262 2086.621" />
 
 	<Object
 		Name="barrel13542"
@@ -30192,12 +30071,12 @@
 	<Object
 		Name="lamppost23559"
 		Belong="-1"
-		Prototype="lamppost2"
+		Prototype="lamppost3"
 		Pos="3057.053 226.000 747.484"
 		Rot="0.000 0.770 0.000 0.638">
 		<Object
 			Belong="-1"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="3057.236 232.946 748.456"
 			Rot="0.000 0.770 0.000 0.638" />
 	</Object>
@@ -30235,7 +30114,7 @@
 		Name="listvenoe33564"
 		Belong="-1"
 		Prototype="Breakable_Listvenoe3"
-		Pos="1679.299 371.194 3465.248"
+		Pos="1679.299 371.193 3465.248"
 		Rot="0.000 0.009 0.000 1.000" />
 
 	<Object
@@ -30270,178 +30149,166 @@
 		Name="sack_wall23569"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="1574.612 225.004 1591.581"
+		Pos="1574.612 224.950 1591.581"
 		Rot="0.000 0.668 0.000 0.745" />
 
 	<Object
 		Name="sack_wall13570"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1575.919 223.051 1579.652"
+		Pos="1575.919 222.998 1579.652"
 		Rot="0.000 0.668 0.000 0.745" />
 
 	<Object
 		Name="sack_wall13571"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1968.036 257.970 1909.813"
+		Pos="1968.036 257.916 1909.813"
 		Rot="0.000 -0.624 0.000 0.781" />
 
 	<Object
 		Name="sack_wall13572"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2533.143 266.755 1972.847"
+		Pos="2533.143 266.701 1972.847"
 		Rot="0.000 -0.710 0.000 0.704" />
 
 	<Object
 		Name="sack_wall13573"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2533.039 267.253 1984.847"
+		Pos="2533.039 267.200 1984.847"
 		Rot="0.000 -0.710 0.000 0.704" />
 
 	<Object
 		Name="sack_wall13574"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2773.201 226.306 1539.168" />
+		Pos="2773.201 226.252 1539.168" />
 
 	<Object
 		Name="sack_wall13575"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2816.733 249.072 2065.461" />
+		Pos="2816.733 249.018 2065.461" />
 
 	<Object
 		Name="sack_wall13576"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2565.583 249.284 2482.516"
-		Rot="0.000 -0.225 0.000 0.974" />
+		Pos="2544.058 248.396 2370.176"
+		Rot="0.000 0.240 0.000 0.971" />
 
 	<Object
 		Name="sack_wall13577"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2351.103 225.335 3280.533"
+		Pos="2351.103 225.282 3280.533"
 		Rot="0.000 0.202 0.000 0.979" />
 
 	<Object
 		Name="sack_wall13578"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2362.153 225.175 3275.853"
+		Pos="2362.153 225.122 3275.853"
 		Rot="0.000 0.202 0.000 0.979" />
 
 	<Object
 		Name="sack_wall23579"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="1561.668 288.438 2141.356"
+		Pos="1561.668 288.384 2141.356"
 		Rot="0.000 -0.269 0.000 0.963" />
 
 	<Object
 		Name="sack_wall13580"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1571.927 288.478 2147.582"
+		Pos="1571.927 288.424 2147.582"
 		Rot="0.000 -0.269 0.000 0.963" />
 
 	<Object
 		Name="sack_wall13581"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1658.602 289.413 2484.957"
+		Pos="1658.602 289.360 2484.957"
 		Rot="0.000 -0.360 0.000 0.933" />
 
 	<Object
 		Name="sack_wall13582"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1711.513 294.227 3050.596"
+		Pos="1711.513 294.173 3050.596"
 		Rot="0.000 0.133 0.000 0.991" />
 
 	<Object
 		Name="sack_wall13583"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1376.048 306.421 3085.859"
+		Pos="1376.048 306.367 3085.859"
 		Rot="0.000 -0.532 0.000 0.847" />
 
 	<Object
 		Name="sack_wall13584"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1132.259 321.476 3295.025"
+		Pos="1132.259 321.423 3295.025"
 		Rot="0.000 -0.338 0.000 0.941" />
 
 	<Object
 		Name="sack_wall13585"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="1141.519 321.450 3302.657"
+		Pos="1141.519 321.397 3302.657"
 		Rot="0.000 -0.338 0.000 0.941" />
 
 	<Object
 		Name="sack_wall13586"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="616.860 336.017 3328.175"
+		Pos="616.860 335.963 3328.175"
 		Rot="0.000 0.319 0.000 0.948" />
 
 	<Object
 		Name="sack_wall13587"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="3465.270 226.983 1844.992" />
+		Pos="3465.270 226.930 1844.992" />
 
 	<Object
 		Name="sack_wall23588"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="3682.390 245.685 1290.389"
+		Pos="3682.390 245.631 1290.389"
 		Rot="0.000 -0.597 0.000 0.803" />
 
 	<Object
 		Name="sack_wall13589"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="3685.849 246.065 1301.880"
+		Pos="3685.849 246.011 1301.880"
 		Rot="0.000 -0.597 0.000 0.803" />
 
 	<Object
 		Name="sack_wall23590"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="2607.545 226.864 3365.159"
+		Pos="2607.545 226.810 3365.159"
 		Rot="0.000 0.269 0.000 0.963" />
 
 	<Object
 		Name="sack_wall13591"
 		Belong="-1"
 		Prototype="Breakable_SackWall1"
-		Pos="2601.560 227.250 3368.791"
+		Pos="2601.560 227.197 3368.791"
 		Rot="0.000 0.269 0.000 0.963" />
 
 	<Object
 		Name="sack_wall23592"
 		Belong="-1"
 		Prototype="Breakable_SackWall2"
-		Pos="2613.529 226.564 3361.528"
+		Pos="2613.529 226.510 3361.528"
 		Rot="0.000 0.269 0.000 0.963" />
-
-	<Object
-		Name="sack_wall23593"
-		Belong="-1"
-		Prototype="Breakable_SackWall2"
-		Pos="1964.278 288.000 2547.463" />
-
-	<Object
-		Name="sack_wall13594"
-		Belong="-1"
-		Prototype="Breakable_SackWall1"
-		Pos="1976.278 287.965 2547.463" />
 
 	<Object
 		Belong="-1"
@@ -30455,7 +30322,7 @@
 		<Post
 			ServerObjName="stolb13537"
 			NodesNameHierarchy=""
-			PostTiePos="2808.167 255.118 2007.399"
+			PostTiePos="2808.167 255.065 2007.399"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -30529,13 +30396,13 @@
 		<Post
 			ServerObjName="stolb13505"
 			NodesNameHierarchy=""
-			PostTiePos="2897.618 253.700 1847.562"
+			PostTiePos="2897.618 253.646 1847.562"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb23535"
 			NodesNameHierarchy=""
-			PostTiePos="2924.875 256.192 1826.620"
+			PostTiePos="2924.875 256.193 1826.620"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30545,7 +30412,7 @@
 		<Post
 			ServerObjName="stolb13505"
 			NodesNameHierarchy=""
-			PostTiePos="2896.861 254.043 1846.552"
+			PostTiePos="2896.861 253.990 1846.552"
 			LpName="LP_PART01" />
 
 		<Post
@@ -30625,7 +30492,7 @@
 		<Post
 			ServerObjName="stolb13523"
 			NodesNameHierarchy=""
-			PostTiePos="2686.550 232.163 1725.147"
+			PostTiePos="2686.550 232.109 1725.147"
 			LpName="LP_PART02" />
 
 		<Post
@@ -30641,7 +30508,7 @@
 		<Post
 			ServerObjName="stolb13523"
 			NodesNameHierarchy=""
-			PostTiePos="2687.576 232.506 1725.883"
+			PostTiePos="2687.576 232.453 1725.883"
 			LpName="LP_PART01" />
 
 		<Post
@@ -30657,13 +30524,13 @@
 		<Post
 			ServerObjName="stolb13522"
 			NodesNameHierarchy=""
-			PostTiePos="2719.209 231.910 1679.177"
+			PostTiePos="2719.209 231.856 1679.177"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb13523"
 			NodesNameHierarchy=""
-			PostTiePos="2686.550 232.163 1725.147"
+			PostTiePos="2686.550 232.109 1725.147"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30673,13 +30540,13 @@
 		<Post
 			ServerObjName="stolb13522"
 			NodesNameHierarchy=""
-			PostTiePos="2720.236 232.253 1679.913"
+			PostTiePos="2720.236 232.199 1679.913"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb13523"
 			NodesNameHierarchy=""
-			PostTiePos="2687.576 232.506 1725.883"
+			PostTiePos="2687.576 232.453 1725.883"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -30689,13 +30556,13 @@
 		<Post
 			ServerObjName="stolb13537"
 			NodesNameHierarchy=""
-			PostTiePos="2806.993 254.775 2007.863"
+			PostTiePos="2806.993 254.722 2007.863"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb13538"
 			NodesNameHierarchy=""
-			PostTiePos="2821.679 254.688 2055.362"
+			PostTiePos="2821.679 254.488 2055.362"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30705,13 +30572,13 @@
 		<Post
 			ServerObjName="stolb13537"
 			NodesNameHierarchy=""
-			PostTiePos="2808.167 255.118 2007.399"
+			PostTiePos="2808.167 255.065 2007.399"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb13538"
 			NodesNameHierarchy=""
-			PostTiePos="2822.853 255.031 2054.898"
+			PostTiePos="2822.853 254.831 2054.898"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -30727,7 +30594,7 @@
 		<Post
 			ServerObjName="stolb13537"
 			NodesNameHierarchy=""
-			PostTiePos="2806.993 254.775 2007.863"
+			PostTiePos="2806.993 254.722 2007.863"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30839,7 +30706,7 @@
 		<Post
 			ServerObjName="stolb13522"
 			NodesNameHierarchy=""
-			PostTiePos="2719.209 231.910 1679.177"
+			PostTiePos="2719.209 231.856 1679.177"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30855,7 +30722,7 @@
 		<Post
 			ServerObjName="stolb13522"
 			NodesNameHierarchy=""
-			PostTiePos="2720.236 232.253 1679.913"
+			PostTiePos="2720.236 232.199 1679.913"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -30865,7 +30732,7 @@
 		<Post
 			ServerObjName="stolb13520"
 			NodesNameHierarchy=""
-			PostTiePos="2760.216 232.013 1617.494"
+			PostTiePos="2760.216 231.959 1617.494"
 			LpName="LP_PART02" />
 
 		<Post
@@ -30881,7 +30748,7 @@
 		<Post
 			ServerObjName="stolb13520"
 			NodesNameHierarchy=""
-			PostTiePos="2761.374 232.356 1617.998"
+			PostTiePos="2761.374 232.302 1617.998"
 			LpName="LP_PART01" />
 
 		<Post
@@ -30903,7 +30770,7 @@
 		<Post
 			ServerObjName="stolb13520"
 			NodesNameHierarchy=""
-			PostTiePos="2760.216 232.013 1617.494"
+			PostTiePos="2760.216 231.959 1617.494"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -30919,7 +30786,7 @@
 		<Post
 			ServerObjName="stolb13520"
 			NodesNameHierarchy=""
-			PostTiePos="2761.374 232.356 1617.998"
+			PostTiePos="2761.374 232.302 1617.998"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31025,7 +30892,7 @@
 		<Post
 			ServerObjName="stolb13515"
 			NodesNameHierarchy=""
-			PostTiePos="2773.971 231.887 1430.183"
+			PostTiePos="2773.971 231.833 1430.183"
 			LpName="LP_PART02" />
 
 		<Post
@@ -31041,7 +30908,7 @@
 		<Post
 			ServerObjName="stolb13515"
 			NodesNameHierarchy=""
-			PostTiePos="2775.193 232.230 1429.865"
+			PostTiePos="2775.193 232.177 1429.865"
 			LpName="LP_PART01" />
 
 		<Post
@@ -31063,7 +30930,7 @@
 		<Post
 			ServerObjName="stolb13515"
 			NodesNameHierarchy=""
-			PostTiePos="2773.971 231.887 1430.183"
+			PostTiePos="2773.971 231.833 1430.183"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31079,7 +30946,7 @@
 		<Post
 			ServerObjName="stolb13515"
 			NodesNameHierarchy=""
-			PostTiePos="2775.193 232.230 1429.865"
+			PostTiePos="2775.193 232.177 1429.865"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31121,7 +30988,7 @@
 		<Post
 			ServerObjName="stolb23528"
 			NodesNameHierarchy=""
-			PostTiePos="2756.814 235.412 1323.707"
+			PostTiePos="2756.814 235.411 1323.707"
 			LpName="LP_PART02" />
 
 		<Post
@@ -31137,7 +31004,7 @@
 		<Post
 			ServerObjName="stolb23528"
 			NodesNameHierarchy=""
-			PostTiePos="2758.804 235.979 1323.707"
+			PostTiePos="2758.804 235.978 1323.707"
 			LpName="LP_PART01" />
 
 		<Post
@@ -31159,7 +31026,7 @@
 		<Post
 			ServerObjName="stolb23528"
 			NodesNameHierarchy=""
-			PostTiePos="2756.814 235.412 1323.707"
+			PostTiePos="2756.814 235.411 1323.707"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31175,7 +31042,7 @@
 		<Post
 			ServerObjName="stolb23528"
 			NodesNameHierarchy=""
-			PostTiePos="2758.804 235.979 1323.707"
+			PostTiePos="2758.804 235.978 1323.707"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31303,7 +31170,7 @@
 		<Post
 			ServerObjName="stolb13135"
 			NodesNameHierarchy=""
-			PostTiePos="311.114 344.321 3140.369"
+			PostTiePos="311.114 344.322 3140.369"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31377,7 +31244,7 @@
 		<Post
 			ServerObjName="stolb13131"
 			NodesNameHierarchy=""
-			PostTiePos="415.499 343.431 3038.783"
+			PostTiePos="415.499 343.432 3038.783"
 			LpName="LP_PART02" />
 
 		<Post
@@ -31415,7 +31282,7 @@
 		<Post
 			ServerObjName="stolb13131"
 			NodesNameHierarchy=""
-			PostTiePos="415.499 343.431 3038.783"
+			PostTiePos="415.499 343.432 3038.783"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31505,7 +31372,7 @@
 		<Post
 			ServerObjName="stolb13127"
 			NodesNameHierarchy=""
-			PostTiePos="556.679 367.307 2951.041"
+			PostTiePos="556.679 367.308 2951.041"
 			LpName="LP_PART02" />
 
 		<Post
@@ -31543,7 +31410,7 @@
 		<Post
 			ServerObjName="stolb13127"
 			NodesNameHierarchy=""
-			PostTiePos="556.679 367.307 2951.041"
+			PostTiePos="556.679 367.308 2951.041"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31617,7 +31484,7 @@
 		<Post
 			ServerObjName="stolb13135"
 			NodesNameHierarchy=""
-			PostTiePos="311.114 344.321 3140.369"
+			PostTiePos="311.114 344.322 3140.369"
 			LpName="LP_PART01" />
 
 		<Post
@@ -31639,7 +31506,7 @@
 		<Post
 			ServerObjName="stolb13483"
 			NodesNameHierarchy=""
-			PostTiePos="3250.263 228.947 2079.217"
+			PostTiePos="3250.263 228.948 2079.217"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31745,7 +31612,7 @@
 		<Post
 			ServerObjName="stolb13487"
 			NodesNameHierarchy=""
-			PostTiePos="3092.121 231.423 2113.182"
+			PostTiePos="3092.121 231.424 2113.182"
 			LpName="LP_PART01" />
 
 		<Post
@@ -31783,7 +31650,7 @@
 		<Post
 			ServerObjName="stolb13504"
 			NodesNameHierarchy=""
-			PostTiePos="2871.024 252.807 1867.812"
+			PostTiePos="2871.024 252.808 1867.812"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31799,7 +31666,7 @@
 		<Post
 			ServerObjName="stolb13505"
 			NodesNameHierarchy=""
-			PostTiePos="2896.861 254.043 1846.552"
+			PostTiePos="2896.861 253.990 1846.552"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31809,13 +31676,13 @@
 		<Post
 			ServerObjName="stolb13504"
 			NodesNameHierarchy=""
-			PostTiePos="2871.024 252.807 1867.812"
+			PostTiePos="2871.024 252.808 1867.812"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb13505"
 			NodesNameHierarchy=""
-			PostTiePos="2897.618 253.700 1847.562"
+			PostTiePos="2897.618 253.646 1847.562"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -32177,7 +32044,7 @@
 		<Post
 			ServerObjName="stolb13538"
 			NodesNameHierarchy=""
-			PostTiePos="2822.853 255.031 2054.898"
+			PostTiePos="2822.853 254.831 2054.898"
 			LpName="LP_PART01" />
 
 		<Post
@@ -32193,7 +32060,7 @@
 		<Post
 			ServerObjName="stolb13538"
 			NodesNameHierarchy=""
-			PostTiePos="2821.679 254.688 2055.362"
+			PostTiePos="2821.679 254.488 2055.362"
 			LpName="LP_PART02" />
 
 		<Post
@@ -32263,7 +32130,7 @@
 		<Post
 			ServerObjName="stolb13497"
 			NodesNameHierarchy=""
-			PostTiePos="2856.287 253.600 2155.486"
+			PostTiePos="2856.287 253.601 2155.486"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -32279,7 +32146,7 @@
 		<Post
 			ServerObjName="stolb13496"
 			NodesNameHierarchy=""
-			PostTiePos="2886.172 246.945 2184.199"
+			PostTiePos="2886.172 246.891 2184.199"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -32289,13 +32156,13 @@
 		<Post
 			ServerObjName="stolb13497"
 			NodesNameHierarchy=""
-			PostTiePos="2856.287 253.600 2155.486"
+			PostTiePos="2856.287 253.601 2155.486"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb13496"
 			NodesNameHierarchy=""
-			PostTiePos="2887.019 246.601 2183.262"
+			PostTiePos="2887.019 246.548 2183.262"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -32305,7 +32172,7 @@
 		<Post
 			ServerObjName="stolb13496"
 			NodesNameHierarchy=""
-			PostTiePos="2886.172 246.945 2184.199"
+			PostTiePos="2886.172 246.891 2184.199"
 			LpName="LP_PART01" />
 
 		<Post
@@ -32321,7 +32188,7 @@
 		<Post
 			ServerObjName="stolb13496"
 			NodesNameHierarchy=""
-			PostTiePos="2887.019 246.601 2183.262"
+			PostTiePos="2887.019 246.548 2183.262"
 			LpName="LP_PART02" />
 
 		<Post
@@ -32343,7 +32210,7 @@
 		<Post
 			ServerObjName="stolb13494"
 			NodesNameHierarchy=""
-			PostTiePos="2951.892 240.923 2207.506"
+			PostTiePos="2951.892 240.922 2207.506"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -32359,7 +32226,7 @@
 		<Post
 			ServerObjName="stolb13494"
 			NodesNameHierarchy=""
-			PostTiePos="2950.890 240.580 2206.738"
+			PostTiePos="2950.890 240.579 2206.738"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -32369,7 +32236,7 @@
 		<Post
 			ServerObjName="stolb13494"
 			NodesNameHierarchy=""
-			PostTiePos="2951.892 240.923 2207.506"
+			PostTiePos="2951.892 240.922 2207.506"
 			LpName="LP_PART01" />
 
 		<Post
@@ -32385,7 +32252,7 @@
 		<Post
 			ServerObjName="stolb13494"
 			NodesNameHierarchy=""
-			PostTiePos="2950.890 240.580 2206.738"
+			PostTiePos="2950.890 240.579 2206.738"
 			LpName="LP_PART02" />
 
 		<Post
@@ -32455,7 +32322,7 @@
 		<Post
 			ServerObjName="stolb13488"
 			NodesNameHierarchy=""
-			PostTiePos="3066.910 230.563 2112.824"
+			PostTiePos="3066.910 230.564 2112.824"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -32471,7 +32338,7 @@
 		<Post
 			ServerObjName="stolb13487"
 			NodesNameHierarchy=""
-			PostTiePos="3092.121 231.423 2113.182"
+			PostTiePos="3092.121 231.424 2113.182"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -32481,7 +32348,7 @@
 		<Post
 			ServerObjName="stolb13488"
 			NodesNameHierarchy=""
-			PostTiePos="3066.910 230.563 2112.824"
+			PostTiePos="3066.910 230.564 2112.824"
 			LpName="LP_PART02" />
 
 		<Post
@@ -32559,22 +32426,15 @@
 		Name="Human23595"
 		Belong="1001"
 		Prototype="Human2"
-		Pos="1656.403 270.000 1822.765"
-		PathsNames="Human10_Path human11" />
+		Pos="1615.338 270.000 1791.702"
+		PathsNames="Human13_Path" />
 
 	<Object
 		Name="Human33596"
 		Belong="1001"
 		Prototype="Human3"
-		Pos="1654.508 270.000 1827.308"
-		PathsNames="Human10_Path human11" />
-
-	<Object
-		Name="Human3598"
-		Belong="1001"
-		Prototype="Human"
-		Pos="1648.381 270.000 1823.085"
-		PathsNames="Human10_Path human11" />
+		Pos="1622.479 270.000 1785.905"
+		PathsNames="Human10_Path" />
 
 	<Object
 		Name="Human3599"
@@ -32598,13 +32458,6 @@
 		PathsNames="human07" />
 
 	<Object
-		Name="Human3602"
-		Belong="1001"
-		Prototype="Human"
-		Pos="2636.298 248.333 961.289"
-		PathsNames="human07" />
-
-	<Object
 		Name="Human23603"
 		Belong="1001"
 		Prototype="Human2"
@@ -32612,52 +32465,39 @@
 		PathsNames="human09" />
 
 	<Object
-		Name="Human33604"
-		Belong="1001"
-		Prototype="Human3"
-		Pos="2700.170 248.667 995.671"
-		PathsNames="human08" />
-
-	<Object
 		Name="Human33605"
 		Belong="1001"
 		Prototype="Human3"
-		Pos="2485.306 248.333 1067.019"
-		Rot="0.000 0.506 0.000 0.863" />
+		Pos="2713.911 248.333 1047.187"
+		Rot="0.000 -1.000 0.000 0.002"
+		PathsNames="Human1_Path" />
 
 	<Object
 		Name="Human23606"
 		Belong="1001"
 		Prototype="Human2"
-		Pos="3282.275 224.475 2125.828"
-		PathsNames="Human7_Path Human8_Path" />
+		Pos="3312.862 224.236 2109.541"
+		PathsNames="Human7_Path" />
 
 	<Object
 		Name="Human33607"
 		Belong="1001"
 		Prototype="Human3"
-		Pos="3284.756 224.376 2118.285"
-		PathsNames="Human7_Path Human8_Path" />
+		Pos="3296.245 224.231 2101.052"
+		Rot="0.000 -0.595 0.000 0.804" />
 
 	<Object
 		Name="Human33608"
 		Belong="1001"
 		Prototype="Human3"
-		Pos="3869.827 249.000 947.949"
+		Pos="3886.316 249.000 933.274"
 		PathsNames="human13" />
 
 	<Object
 		Name="Human23609"
 		Belong="1001"
 		Prototype="Human2"
-		Pos="3869.269 249.000 947.013"
-		PathsNames="human13" />
-
-	<Object
-		Name="Human3610"
-		Belong="1001"
-		Prototype="Human"
-		Pos="3871.437 249.000 945.662"
+		Pos="3918.414 249.116 915.815"
 		PathsNames="human13" />
 
 	<Object
@@ -32668,27 +32508,6 @@
 		PathsNames="human13" />
 
 	<Object
-		Name="Human3612"
-		Belong="1001"
-		Prototype="Human"
-		Pos="3870.548 249.000 944.042"
-		PathsNames="human13" />
-
-	<Object
-		Name="Human3613"
-		Belong="1001"
-		Prototype="Human"
-		Pos="3873.988 249.000 944.037"
-		PathsNames="human13" />
-
-	<Object
-		Name="Human3614"
-		Belong="1001"
-		Prototype="Human"
-		Pos="3871.899 249.000 946.573"
-		PathsNames="human13" />
-
-	<Object
 		Name="Human3615"
 		Belong="1001"
 		Prototype="Human"
@@ -32696,51 +32515,14 @@
 		Rot="0.000 -0.554 0.000 0.833" />
 
 	<Object
-		Name="lamppost23617"
-		Belong="1001"
-		Prototype="lamppost2"
-		Pos="3902.844 249.000 903.555"
-		Rot="0.000 -0.537 0.000 0.843">
-		<Object
-			Belong="1001"
-			Prototype="Light_Yellow_Lens"
-			Pos="3902.426 255.946 902.658"
-			Rot="0.000 -0.537 0.000 0.843" />
-	</Object>
-
-	<Object
-		Name="lamppost23618"
-		Belong="1001"
-		Prototype="lamppost2"
-		Pos="3291.005 224.231 2111.396"
-		Rot="0.000 -0.781 0.000 0.624">
-		<Object
-			Belong="1001"
-			Prototype="Light_Yellow_Lens"
-			Pos="3291.225 231.178 2110.431"
-			Rot="0.000 -0.781 0.000 0.624" />
-	</Object>
-
-	<Object
-		Name="lamppost23619"
-		Belong="1001"
-		Prototype="lamppost2"
-		Pos="2777.270 216.036 3641.543">
-		<Object
-			Belong="1001"
-			Prototype="Light_Yellow_Lens"
-			Pos="2776.280 222.982 3641.542" />
-	</Object>
-
-	<Object
 		Name="lamppost23620"
 		Belong="1001"
-		Prototype="lamppost2"
+		Prototype="lamppost3"
 		Pos="346.246 335.061 3181.000"
 		Rot="0.000 -0.677 0.000 0.736">
 		<Object
 			Belong="1001"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="346.165 342.007 3180.014"
 			Rot="0.000 -0.677 0.000 0.736" />
 	</Object>
@@ -32748,12 +32530,12 @@
 	<Object
 		Name="lamppost23621"
 		Belong="1001"
-		Prototype="lamppost2"
+		Prototype="lamppost3"
 		Pos="1641.410 270.000 1816.448"
 		Rot="0.000 -0.892 0.000 0.452">
 		<Object
 			Belong="1001"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="1641.996 276.946 1815.650"
 			Rot="0.000 0.892 0.000 -0.452" />
 	</Object>
@@ -32761,12 +32543,12 @@
 	<Object
 		Name="lamppost23622"
 		Belong="1001"
-		Prototype="lamppost2"
+		Prototype="lamppost3"
 		Pos="2974.701 248.921 1777.687"
 		Rot="0.000 -0.517 0.000 0.856">
 		<Object
 			Belong="1001"
-			Prototype="Light_Yellow_Lens"
+			Prototype="LightObject2"
 			Pos="2974.241 255.867 1776.811"
 			Rot="0.000 -0.517 0.000 0.856" />
 	</Object>
@@ -32955,7 +32737,7 @@
 		Name="brokvehicle13616"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="1707.920 273.327 1884.046"
+		Pos="1707.920 270.247 1884.046"
 		Rot="0.000 0.477 0.000 -0.879" />
 
 	<Object
@@ -32969,138 +32751,387 @@
 		Name="agro_tech13618"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2473.283 250.485 1031.686"
+		Pos="2473.283 248.333 1031.686"
 		Rot="0.000 -0.700 0.000 0.714" />
 
 	<Object
 		Name="agro_tech13619"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2473.464 250.485 1041.032"
+		Pos="2473.464 248.333 1041.032"
 		Rot="0.000 -0.700 0.000 0.714" />
 
 	<Object
 		Name="agro_tech13620"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2473.644 250.485 1050.378"
+		Pos="2473.644 248.333 1050.378"
 		Rot="0.000 -0.700 0.000 0.714" />
 
 	<Object
 		Name="agro_tech13621"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2483.194 250.485 1030.693"
+		Pos="2483.194 248.333 1030.693"
 		Rot="0.000 -0.708 0.000 0.706" />
 
 	<Object
 		Name="agro_tech13622"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2483.161 250.485 1040.041"
+		Pos="2483.161 248.333 1040.041"
 		Rot="0.000 -0.708 0.000 0.706" />
 
 	<Object
 		Name="agro_tech13623"
 		Belong="-1"
 		Prototype="agro_tech1_breakable"
-		Pos="2483.127 250.485 1049.389"
+		Pos="2483.127 248.333 1049.389"
 		Rot="0.000 -0.708 0.000 0.706" />
 
 	<Object
 		Name="agro_tech23624"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2445.260 249.513 1061.193"
+		Pos="2445.260 248.333 1061.193"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23625"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2452.737 249.513 1061.153"
+		Pos="2452.737 248.333 1061.153"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23626"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2460.214 249.513 1061.114"
+		Pos="2460.214 248.333 1061.114"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23627"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2467.691 249.513 1061.074"
+		Pos="2467.691 248.333 1061.074"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23628"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2475.168 249.513 1061.035"
+		Pos="2475.168 248.333 1061.035"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23629"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2482.645 249.513 1060.995"
+		Pos="2482.645 248.333 1060.995"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="agro_tech23630"
 		Belong="-1"
 		Prototype="agro_tech2_breakable"
-		Pos="2490.122 249.513 1060.955"
+		Pos="2490.122 248.333 1060.955"
 		Rot="0.000 0.003 0.000 1.000" />
 
 	<Object
 		Name="brokvehicle13631"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="3843.877 252.324 916.175" />
+		Pos="3843.877 249.000 916.175" />
 
 	<Object
 		Name="pack3632"
 		Belong="-1"
 		Prototype="pack_breakable"
-		Pos="2745.698 217.917 3705.914"
+		Pos="2745.698 215.996 3705.914"
 		Rot="0.000 0.998 0.000 0.061" />
 
 	<Object
 		Name="brokvehicle13633"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="856.852 273.218 1306.182"
+		Pos="856.852 269.890 1306.182"
 		Rot="0.000 -0.803 0.000 -0.597" />
 
 	<Object
 		Name="brokvehicle13634"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="847.643 273.239 1319.287"
+		Pos="847.643 269.914 1319.287"
 		Rot="0.000 0.639 0.000 -0.769" />
 
 	<Object
 		Name="brokvehicle13635"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="837.324 273.316 1304.576"
+		Pos="837.324 269.991 1304.576"
 		Rot="0.000 0.995 0.000 0.102" />
 
 	<Object
 		Name="brokvehicle13636"
 		Belong="-1"
 		Prototype="brokvehicle1_breakable"
-		Pos="835.063 273.128 1321.845"
+		Pos="835.063 269.815 1321.845"
 		Rot="0.000 0.995 0.000 0.102" />
 
 	<Object
 		Name="brokvehicle23637"
 		Belong="-1"
 		Prototype="brokvehicle2_breakable"
-		Pos="819.655 272.617 1327.499"
+		Pos="819.655 269.159 1327.499"
 		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="Breakable_BrickWall23603"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1177.198 306.524 2570.577"
+		Rot="0.000 0.362 0.000 0.932" />
+
+	<Object
+		Name="Breakable_BrickWall23604"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1180.145 306.524 2593.916"
+		Rot="0.000 0.772 0.000 0.636" />
+
+	<Object
+		Name="Breakable_BrickWall23605"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1187.426 306.524 2605.779"
+		Rot="0.000 0.085 0.000 0.996" />
+
+	<Object
+		Name="Breakable_BrickWall23606"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1199.831 306.017 2580.501"
+		Rot="0.000 -0.248 0.000 0.969" />
+
+	<Object
+		Name="Breakable_BrickWall23607"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1305.161 306.006 2521.412"
+		Rot="0.000 0.651 0.000 0.759" />
+
+	<Object
+		Name="Breakable_BrickWall23608"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1305.992 306.014 2513.324"
+		Rot="0.000 -0.405 0.000 0.914" />
+
+	<Object
+		Name="Breakable_BrickWall23609"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1298.466 306.010 2506.563"
+		Rot="0.000 -0.828 0.000 0.561" />
+
+	<Object
+		Name="Breakable_BrickWall23610"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1307.642 306.041 2500.321"
+		Rot="0.000 0.113 0.000 0.994" />
+
+	<Object
+		Name="Breakable_BrickWall23611"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1325.788 306.252 2506.559"
+		Rot="0.000 -0.561 0.000 0.828" />
+
+	<Object
+		Name="Breakable_BrickWall23612"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1275.799 306.001 2485.676"
+		Rot="0.000 0.334 0.000 0.943" />
+
+	<Object
+		Name="Breakable_BrickWall23613"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1260.643 306.000 2476.221"
+		Rot="-0.001 -0.137 -0.009 0.991" />
+
+	<Object
+		Name="Breakable_BrickWall23614"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1259.585 306.000 2490.635"
+		Rot="0.000 -0.255 0.000 0.967" />
+
+	<Object
+		Name="Breakable_BrickWall23615"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1243.820 306.000 2490.624"
+		Rot="0.000 0.389 0.000 0.921" />
+
+	<Object
+		Name="Breakable_BrickWall23616"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1248.134 306.000 2465.921"
+		Rot="0.000 0.702 0.000 0.712" />
+
+	<Object
+		Name="Breakable_BrickWall23617"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1238.607 306.000 2458.964" />
+
+	<Object
+		Name="Breakable_BrickWall23618"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1020.671 306.306 2559.664"
+		Rot="0.000 -0.199 0.000 0.980" />
+
+	<Object
+		Name="Breakable_BrickWall23619"
+		Belong="1001"
+		Prototype="Breakable_BrickWall2"
+		Pos="1037.822 306.524 2573.117"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="Breakable_BrickWall13620"
+		Belong="1001"
+		Prototype="Breakable_BrickWall1"
+		Pos="733.387 269.876 1432.255"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb13483"
+			NodesNameHierarchy=""
+			PostTiePos="3250.781 229.291 2080.368"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb13482"
+			NodesNameHierarchy=""
+			PostTiePos="3288.900 229.143 2063.215"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb13483"
+			NodesNameHierarchy=""
+			PostTiePos="3250.263 228.948 2079.217"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb13482"
+			NodesNameHierarchy=""
+			PostTiePos="3288.382 228.799 2062.063"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="RTMRolik_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3502.771 216.773 3621.281"
+		Radius="85.000" />
+
+	<Object
+		Name="Human3622"
+		Belong="1001"
+		Prototype="Human"
+		Pos="311.466 338.271 3198.266"
+		PathsNames="Human11_Path" />
+
+	<Object
+		Name="Human23623"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="431.355 336.472 3336.955"
+		PathsNames="Human12_Path" />
+
+	<Object
+		Name="Human33624"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="522.747 335.538 3481.486"
+		PathsNames="Human14_Path" />
+
+	<Object
+		Name="Human33626"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="3197.381 224.823 2127.472"
+		PathsNames="human02" />
+
+	<Object
+		Name="Human23627"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="3377.609 228.024 2063.301"
+		PathsNames="human03" />
+
+	<Object
+		Name="Human23628"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="1650.889 270.000 1823.350"
+		PathsNames="human12" />
+
+	<Object
+		Name="lamppost13629"
+		Belong="1001"
+		Prototype="lamppost1"
+		Pos="2777.231 215.993 3638.283"
+		Rot="0.000 -0.707 0.000 0.707">
+		<Object
+			Belong="1001"
+			Prototype="LightObject2"
+			Pos="2774.066 226.185 3638.283"
+			Rot="0.000 -0.707 0.000 0.707" />
+	</Object>
+
+	<Object
+		Name="lamppost13630"
+		Belong="1001"
+		Prototype="lamppost1"
+		Pos="3290.381 224.231 2108.037"
+		Rot="0.000 -0.746 0.000 0.666">
+		<Object
+			Belong="1001"
+			Prototype="LightObject2"
+			Pos="3287.236 234.424 2107.678"
+			Rot="0.000 -0.746 0.000 0.666" />
+	</Object>
+
+	<Object
+		Name="lamppost13631"
+		Belong="1001"
+		Prototype="lamppost1"
+		Pos="3899.006 249.000 901.470"
+		Rot="0.000 -0.324 0.000 0.946">
+		<Object
+			Belong="1001"
+			Prototype="LightObject2"
+			Pos="3897.068 259.192 903.972"
+			Rot="0.000 -0.324 0.000 0.946" />
+	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
 </DynamicScene>

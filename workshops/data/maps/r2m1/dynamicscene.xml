@@ -1,29 +1,62 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="4108">
+	LastId="4140">
 	<TargetNamesForDestroy
 		Names="u1 u2 u3 u4 u5 u6 u7u u8 u9" />
 
 	<Object
 		Flags="21"
 		Name="TheVill1_Loc"
-		Belong="1054"
+		Belong="1016"
 		Prototype="genericLocation"
-		Pos="3005.884 222.000 3509.719"
+		Pos="3037.615 222.000 3487.019"
 		Radius="5.000" />
 
 	<Object
 		Flags="21"
 		Name="TheVill2_Loc"
-		Belong="1054"
+		Belong="1016"
 		Prototype="genericLocation"
-		Pos="3861.513 289.001 2569.645"
+		Pos="3882.092 289.001 2541.639"
 		Radius="5.000" />
 
 	<Object
 		Flags="21"
+		Name="BeforeCaravan_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2501.596 221.924 3159.147"
+		Radius="125.000" />
+
+	<Object
+		Flags="21"
+		Name="Prebattle_Loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4009.923 277.989 2851.605"
+		Radius="35.000" />
+
+	<Object
+		Flags="21"
+		Name="ShlyapaSecret_Loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4108.139 213.496 7068.118"
+		Radius="50.000">
+		<Object
+			Name="MrShlyapa"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="r2_man"
+			cfg="427"
+			helloReplyNames="Dlg_npc_002537"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Flags="21"
 		Name="TheVill3_Loc"
-		Belong="1054"
+		Belong="1016"
 		Prototype="genericLocation"
 		Pos="2605.510 278.000 1779.056"
 		Radius="5.000" />
@@ -106,30 +139,6 @@
 
 	<Object
 		Flags="21"
-		Name="RIP"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="4480.774 233.254 4863.758"
-		Radius="31.706" />
-
-	<Object
-		Flags="21"
-		Name="ALIENSLoc"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="1184.729 428.760 1479.850"
-		Radius="100.000" />
-
-	<Object
-		Flags="21"
-		Name="KINGPIN"
-		Belong="1100"
-		Prototype="genericLocation"
-		Pos="4153.000 245.491 6402.000"
-		Radius="25.000" />
-
-	<Object
-		Flags="21"
 		Name="SideLine"
 		Belong="1100"
 		Prototype="genericLocation"
@@ -165,7 +174,7 @@
 		Name="LisaFindLocation"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="6222.411 247.477 6743.357"
+		Pos="6279.450 248.139 6721.837"
 		Radius="400.000" />
 
 	<Object
@@ -216,6 +225,15 @@
 				cfg="198"
 				helloReplyNames="Estet_hellodlg0 Estet_hellodlg1"
 				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph2"
+				Belong="1053"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="162"
+				helloReplyNames="Dlg_npc_003020"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
@@ -229,7 +247,7 @@
 				ModelName="r2_man"
 				skin="2"
 				cfg="368"
-				helloReplyNames="SelCitizen_hellodlg0 SelCitizen_hellodlg1 SelCitizen_hellodlg2"
+				helloReplyNames="SelCitizen_hellodlg0 SelCitizen_hellodlg1"
 				SpokenCount="0" />
 		</Object>
 
@@ -275,13 +293,13 @@
 					Prototype="uralCargo02" />
 
 				<Item
-					PosX="10"
-					PosY="0"
+					PosX="0"
+					PosY="5"
 					Flags="16"
 					Prototype="uralCargo04" />
 
 				<Item
-					PosX="0"
+					PosX="5"
 					PosY="5"
 					Flags="16"
 					Prototype="uralCargo05" />
@@ -293,8 +311,8 @@
 					Prototype="belazCargo01" />
 
 				<Item
-					PosX="5"
-					PosY="5"
+					PosX="0"
+					PosY="20"
 					Flags="16"
 					Prototype="belazCargo01" />
 
@@ -305,8 +323,8 @@
 					Prototype="belazCargo02" />
 
 				<Item
-					PosX="10"
-					PosY="5"
+					PosX="5"
+					PosY="20"
 					Flags="16"
 					Prototype="belazCargo02" />
 
@@ -318,37 +336,31 @@
 
 				<Item
 					PosX="0"
-					PosY="20"
-					Flags="16"
-					Prototype="belazCargo03" />
-
-				<Item
-					PosX="5"
-					PosY="20"
-					Flags="16"
-					Prototype="mirotvorecCargo01" />
-
-				<Item
-					PosX="0"
-					PosY="25"
-					Flags="16"
-					Prototype="mirotvorecCargo01" />
-
-				<Item
-					PosX="0"
 					PosY="35"
 					Flags="16"
-					Prototype="mirotvorecCargo02" />
+					Prototype="mirotvorecCargo01" />
 
 				<Item
 					PosX="5"
 					PosY="35"
 					Flags="16"
-					Prototype="mirotvorecCargo02" />
+					Prototype="mirotvorecCargo01" />
 
 				<Item
 					PosX="0"
 					PosY="40"
+					Flags="16"
+					Prototype="mirotvorecCargo02" />
+
+				<Item
+					PosX="5"
+					PosY="40"
+					Flags="16"
+					Prototype="mirotvorecCargo02" />
+
+				<Item
+					PosX="0"
+					PosY="45"
 					Flags="16"
 					Prototype="mirotvorecCargo04" />
 
@@ -372,24 +384,12 @@
 
 				<Item
 					PosX="5"
-					PosY="40"
+					PosY="45"
 					Flags="16"
 					Prototype="belazCab01" />
 
 				<Item
 					PosX="0"
-					PosY="45"
-					Flags="16"
-					Prototype="belazCab02" />
-
-				<Item
-					PosX="5"
-					PosY="45"
-					Flags="16"
-					Prototype="belazCab03" />
-
-				<Item
-					PosX="0"
 					PosY="50"
 					Flags="16"
 					Prototype="belazCab02" />
@@ -401,14 +401,26 @@
 					Prototype="belazCab03" />
 
 				<Item
+					PosX="5"
+					PosY="60"
+					Flags="16"
+					Prototype="belazCab02" />
+
+				<Item
 					PosX="0"
+					PosY="65"
+					Flags="16"
+					Prototype="belazCab03" />
+
+				<Item
+					PosX="5"
 					PosY="65"
 					Flags="16"
 					Prototype="mirotvorecCab01" />
 
 				<Item
-					PosX="5"
-					PosY="65"
+					PosX="0"
+					PosY="70"
 					Flags="16"
 					Prototype="mirotvorecCab02" />
 
@@ -438,27 +450,34 @@
 
 				<Item
 					PosX="5"
-					PosY="60"
+					PosY="70"
 					Flags="16"
 					Prototype="uralCab01" />
-
-				<Item
-					PosX="0"
-					PosY="70"
-					Flags="16"
-					Prototype="uralCab02" />
-
-				<Item
-					PosX="5"
-					PosY="70"
-					Flags="16"
-					Prototype="uralCab03" />
 
 				<Item
 					PosX="0"
 					PosY="75"
 					Flags="16"
+					Prototype="uralCab02" />
+
+				<Item
+					PosX="5"
+					PosY="75"
+					Flags="16"
+					Prototype="uralCab03" />
+
+				<Item
+					PosX="0"
+					PosY="80"
+					Flags="16"
 					Prototype="uralCab01" />
+
+				<Item
+					PosX="5"
+					PosY="80"
+					Flags="16"
+					Prototype="belazCab05" />
+
 <!-- Extra Machines start -->
 				<Item
 					PosX="0"
@@ -541,7 +560,7 @@
 					Flags="16"
 					Prototype="M35Cargo04" />
 <!-- Extra Machines end -->
-			</CabinsAndBaskets>
+				</CabinsAndBaskets>
 
 			<Vehicles>
 				<Item
@@ -550,22 +569,7 @@
 					Flags="16"
 					Prototype="BelazForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="belazCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="belazCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="belazChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -576,22 +580,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -646,6 +635,18 @@
 					PosY="1"
 					Flags="16"
 					Prototype="firing_rate_guns2" />
+
+				<Item
+					PosX="2"
+					PosY="1"
+					Flags="16"
+					Prototype="firing_rate_guns_and_add_damage_guns" />
+
+				<Item
+					PosX="3"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_guns_and_grouping_angle_guns" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -835,25 +836,13 @@
 					Prototype="belazCargo01" />
 
 				<Item
-					PosX="10"
-					PosY="0"
+					PosX="0"
+					PosY="5"
 					Flags="16"
 					Prototype="molokovozCargo03" />
 
 				<Item
-					PosX="0"
-					PosY="5"
-					Flags="16"
-					Prototype="uralCargo01" />
-
-				<Item
 					PosX="5"
-					PosY="5"
-					Flags="16"
-					Prototype="uralCargo03" />
-
-				<Item
-					PosX="10"
 					PosY="5"
 					Flags="16"
 					Prototype="uralCargo01" />
@@ -867,6 +856,18 @@
 				<Item
 					PosX="5"
 					PosY="20"
+					Flags="16"
+					Prototype="uralCargo01" />
+
+				<Item
+					PosX="0"
+					PosY="25"
+					Flags="16"
+					Prototype="uralCargo03" />
+
+				<Item
+					PosX="0"
+					PosY="30"
 					Flags="16"
 					Prototype="belazCargo01" />
 
@@ -878,13 +879,13 @@
 
 				<Item
 					PosX="0"
-					PosY="25"
+					PosY="35"
 					Flags="16"
 					Prototype="mirotvorecCargo01" />
 
 				<Item
-					PosX="0"
-					PosY="30"
+					PosX="5"
+					PosY="35"
 					Flags="16"
 					Prototype="mirotvorecCargo03" />
 
@@ -902,13 +903,13 @@
 
 				<Item
 					PosX="0"
-					PosY="35"
+					PosY="40"
 					Flags="16"
 					Prototype="belazCab01" />
 
 				<Item
 					PosX="5"
-					PosY="35"
+					PosY="40"
 					Flags="16"
 					Prototype="belazCab03" />
 
@@ -920,19 +921,19 @@
 
 				<Item
 					PosX="0"
-					PosY="40"
+					PosY="45"
 					Flags="16"
 					Prototype="belazCab01" />
 
 				<Item
 					PosX="5"
-					PosY="40"
+					PosY="45"
 					Flags="16"
 					Prototype="belazCab03" />
 
 				<Item
 					PosX="0"
-					PosY="45"
+					PosY="50"
 					Flags="16"
 					Prototype="mirotvorecCab01" />
 
@@ -956,25 +957,25 @@
 
 				<Item
 					PosX="5"
-					PosY="45"
+					PosY="50"
 					Flags="16"
 					Prototype="mirotvorecCab03" />
 
 				<Item
-					PosX="0"
-					PosY="50"
+					PosX="5"
+					PosY="55"
 					Flags="16"
 					Prototype="uralCab03" />
 
 				<Item
 					PosX="5"
-					PosY="50"
+					PosY="60"
 					Flags="16"
 					Prototype="uralCab04" />
 
 				<Item
-					PosX="10"
-					PosY="10"
+					PosX="0"
+					PosY="70"
 					Flags="16"
 					Prototype="uralCab05" />
 <!-- Extra Machines start -->
@@ -1098,22 +1099,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1147,6 +1133,34 @@
 				cfg="116"
 				NpcType="BARMAN"
 				SpokenCount="0" />
+
+			<Object
+				Name="TuzVerb1"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="87"
+				helloReplyNames="Dlg_npc_003365"
+				SpokenCount="0" />
+
+			<Object
+				Name="EngineerEscapist"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="mask_thief"
+				skin="1"
+				cfg="102"
+				helloReplyNames="Dlg_npc_003363 Dlg_npc_003369"
+				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph1"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="162"
+				helloReplyNames="Dlg_npc_003020"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
@@ -1160,6 +1174,15 @@
 				ModelName="r2_man"
 				cfg="87"
 				helloReplyNames="TuzVerb_hellodlg0 TuzVerb_hellodlg1 TuzVerb_hellodlg2 TuzVerb_hellodlg3"
+				SpokenCount="0" />
+
+			<Object
+				Name="Senat"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="294"
+				helloReplyNames="Senat_hellodlg1"
 				SpokenCount="0" />
 		</Object>
 
@@ -1215,6 +1238,12 @@
 					PosY="1"
 					Flags="16"
 					Prototype="add_damage_energy2" />
+
+				<Item
+					PosX="5"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_energy_and_firing_rate_energy" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -1484,86 +1513,86 @@
 					Prototype="uralCargo02" />
 
 				<Item
-					PosX="10"
-					PosY="0"
-					Flags="16"
-					Prototype="uralCargo04" />
-
-				<Item
-					PosX="10"
-					PosY="5"
+					PosX="0"
+					PosY="25"
 					Flags="16"
 					Prototype="uralCargo04" />
 
 				<Item
 					PosX="0"
-					PosY="25"
+					PosY="35"
+					Flags="16"
+					Prototype="uralCargo04" />
+
+				<Item
+					PosX="5"
+					PosY="35"
 					Flags="16"
 					Prototype="belazCargo01" />
 
 				<Item
 					PosX="0"
-					PosY="35"
+					PosY="40"
 					Flags="16"
 					Prototype="belazCargo02" />
 
 				<Item
 					PosX="5"
-					PosY="35"
+					PosY="40"
 					Flags="16"
 					Prototype="mirotvorecCargo01" />
 
 				<Item
 					PosX="0"
-					PosY="40"
+					PosY="45"
 					Flags="16"
 					Prototype="mirotvorecCargo02" />
 
 				<Item
 					PosX="5"
-					PosY="40"
+					PosY="45"
 					Flags="16"
 					Prototype="belazCab01" />
 
 				<Item
 					PosX="0"
-					PosY="45"
+					PosY="50"
 					Flags="16"
 					Prototype="belazCab02" />
 
 				<Item
 					PosX="5"
-					PosY="45"
+					PosY="50"
 					Flags="16"
 					Prototype="mirotvorecCab01" />
-
-				<Item
-					PosX="0"
-					PosY="50"
-					Flags="16"
-					Prototype="mirotvorecCab02" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="uralCab03" />
 
 				<Item
 					PosX="5"
 					PosY="55"
 					Flags="16"
-					Prototype="uralCab01" />
+					Prototype="mirotvorecCab02" />
 
 				<Item
 					PosX="5"
 					PosY="60"
 					Flags="16"
+					Prototype="uralCab03" />
+
+				<Item
+					PosX="0"
+					PosY="70"
+					Flags="16"
+					Prototype="uralCab01" />
+
+				<Item
+					PosX="5"
+					PosY="70"
+					Flags="16"
 					Prototype="uralCab02" />
 
 				<Item
-					PosX="10"
-					PosY="10"
+					PosX="0"
+					PosY="75"
 					Flags="16"
 					Prototype="uralCab04" />
 <!-- Extra Machines start -->
@@ -1662,22 +1691,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
+					<Parts />
 
 					<Repository />
 				</Item>
@@ -1719,6 +1733,15 @@
 				cfg="182"
 				helloReplyNames="Gulik_hellodlg0 Gulik_hellodlg1"
 				SpokenCount="0" />
+
+			<Object
+				Name="Kartograph3"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="162"
+				helloReplyNames="Dlg_npc_003020"
+				SpokenCount="0" />
 		</Object>
 
 		<Object
@@ -1726,12 +1749,12 @@
 			Belong="1016"
 			Prototype="barWithoutBarman">
 			<Object
-				Name="Senat"
+				Name="Senat_1"
 				Belong="1016"
 				Prototype="NPC"
 				ModelName="r2_man"
 				cfg="294"
-				helloReplyNames="Senat_hellodlg0 Senat_hellodlg1 Senat_hellodlg2"
+				helloReplyNames="Senat_hellodlg0"
 				SpokenCount="0" />
 		</Object>
 
@@ -1775,6 +1798,12 @@
 					PosY="1"
 					Flags="16"
 					Prototype="add_damage_energy2" />
+
+				<Item
+					PosX="4"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_explosion_firing_rate_explosion" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -1935,7 +1964,7 @@
 			Name="staticAutoGun015"
 			Belong="1016"
 			Prototype="staticAutoGun01"
-			Pos="6308.631 289.128 3097.604"
+			Pos="6307.526 289.125 3096.688"
 			Rot="0.000 0.332 0.000 0.943">
 			<Parts />
 		</Object>
@@ -2101,6 +2130,15 @@
 				skin="1"
 				cfg="124"
 				NpcType="BARMAN"
+				SpokenCount="0" />
+
+			<Object
+				Name="Senat_2"
+				Belong="1016"
+				Prototype="NPC"
+				ModelName="r2_man"
+				cfg="294"
+				helloReplyNames="Senat_hellodlg2"
 				SpokenCount="0" />
 		</Object>
 
@@ -2273,13 +2311,13 @@
 
 	<Object
 		Name="ParisBoss"
-		Belong="1002"
+		Belong="1018"
 		Prototype="boss02"
 		Pos="2096.584 234.429 5939.142"
 		Rot="-0.002 0.984 0.000 0.178">
 		<Object
 			Name="boss02cont"
-			Belong="1002"
+			Belong="1018"
 			Prototype="boss02container"
 			Pos="2099.984 242.935 5930.033"
 			Rot="0.170 -0.002 -0.985 0.000" />
@@ -2378,40 +2416,6 @@
 				Prototype="r2m1_CaravanOne"
 				Locations="locGelv locVill1 locTuzz locVill2 locEx1" />
 		</Caravans>
-	</Object>
-
-	<Object
-		Name="AliensShip"
-		Belong="1030"
-		Prototype="boss04"
-		Pos="1366.725 490.804 1801.638"
-		Rot="0.000 0.617 0.000 0.787"
-		PathNamesForDrones="dron1 dron2 dron3">
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1367.696 483.361 1801.875"
-			Rot="0.000 0.617 0.000 0.787">
-			<Parts />
-		</Object>
-
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1368.555 483.301 1796.631"
-			Rot="0.000 0.990 0.000 -0.141">
-			<Parts />
-		</Object>
-
-		<Object
-			Belong="1030"
-			Prototype="boss04station"
-			Pos="1362.245 480.637 1803.102"
-			Rot="0.000 0.373 0.000 -0.928">
-			<Parts />
-		</Object>
-
-		<Parts />
 	</Object>
 
 	<Object
@@ -2655,7 +2659,7 @@
 	<Object
 		Flags="21"
 		Name="Boss02Die_Loc"
-		Belong="1002"
+		Belong="1018"
 		Prototype="genericLocation"
 		Pos="2096.138 233.843 5939.550"
 		Radius="20.000" />
@@ -3733,7 +3737,7 @@
 			<Object
 				Name="barricade8_wwwC69_Child4"
 				Belong="1005"
-				Prototype="Sml301"
+				Prototype="Ural00"
 				Pos="6636.306 277.310 4046.801"
 				Rot="-0.028 -0.663 0.020 0.748"
 				Skin="1">
@@ -3769,7 +3773,7 @@
 			<Object
 				Name="barricade36_Child4"
 				Belong="1002"
-				Prototype="Sml101"
+				Prototype="Belaz01"
 				Pos="2779.090 222.359 4102.216"
 				Rot="0.065 -0.007 -0.106 0.992"
 				Skin="1">
@@ -3944,7 +3948,7 @@
 			<Object
 				Name="barricade8_wwwC14_Child4"
 				Belong="1005"
-				Prototype="Sml301"
+				Prototype="Ural00"
 				Pos="4416.109 284.739 3515.012"
 				Rot="0.089 -0.006 -0.067 0.994"
 				Skin="1">
@@ -4018,6 +4022,439 @@
 			Name="PetrolStationTown2_Workshop"
 			Belong="1080"
 			Prototype="workshop" />
+
+		<Parts />
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="TheOldSibilla"
+		Belong="1083"
+		Prototype="TownOldCibilla"
+		Pos="4171.965 247.067 6504.632"
+		Rot="-0.005 0.804 -0.040 0.594"
+		PointOfViewInInterface="50.000 50.000 50.000"
+		CaravansDest="">
+		<Object
+			Name="TheOldSibilla_Bar"
+			Belong="1083"
+			Prototype="barWithoutBarman">
+			<Object
+				Name="AMRekruter"
+				Belong="1083"
+				Prototype="NPC"
+				ModelName="r2_man"
+				skin="1"
+				cfg="162"
+				helloReplyNames="Dlg_npc_002230 Dlg_npc_002267 Dlg_npc_002285"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="TheOldSibilla_Workshop"
+			Belong="1083"
+			Prototype="workshop">
+			<CabinsAndBaskets>
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="uralCargo03" />
+
+				<Item
+					PosX="0"
+					PosY="5"
+					Flags="16"
+					Prototype="uralCargo04" />
+
+				<Item
+					PosX="0"
+					PosY="10"
+					Flags="16"
+					Prototype="uralCargo05" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="uralCab03" />
+
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
+					Prototype="uralCab04" />
+
+				<Item
+					PosX="5"
+					PosY="15"
+					Flags="16"
+					Prototype="uralCab05" />
+			</CabinsAndBaskets>
+
+			<Vehicles>
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="UralForSale"
+					Skin="5">
+					<Parts />
+
+					<Repository />
+				</Item>
+			</Vehicles>
+		</Object>
+
+		<Object
+			Name="TheOldSibilla_Shop"
+			Belong="1083"
+			Prototype="shop">
+			<GunsAndGadgets>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank2" />
+
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_torque2" />
+
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_durability2" />
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
+					Prototype="cooling_system_explosion2" />
+
+				<Item
+					PosX="1"
+					PosY="1"
+					Flags="16"
+					Prototype="cooling_system_guns_and_firing_rate_guns" />
+
+				<Item
+					PosX="2"
+					PosY="1"
+					Flags="16"
+					Prototype="firing_rate_guns2" />
+
+				<Item
+					PosX="3"
+					PosY="1"
+					Flags="16"
+					Prototype="cooling_system_energy_and_firing_rate_energy" />
+
+				<Item
+					PosX="4"
+					PosY="1"
+					Flags="16"
+					Prototype="firing_rate_energy2" />
+
+				<Item
+					PosX="5"
+					PosY="1"
+					Flags="16"
+					Prototype="cooling_system_explosion_and_firing_rate_explosion" />
+			</GunsAndGadgets>
+		</Object>
+
+		<Object
+			Flags="21"
+			Name="TheOldSibilla_defend"
+			Belong="1083"
+			Prototype="genericLocation"
+			Pos="4161.907 246.091 6472.610"
+			Rot="0.000 -0.737 0.000 0.676"
+			Radius="250.000" />
+
+		<Object
+			Flags="21"
+			Name="TheOldSibilla_enter"
+			Belong="1083"
+			Prototype="genericLocation"
+			Pos="4164.730 245.252 6411.322"
+			Rot="0.000 -0.737 0.000 0.676"
+			Radius="35.000" />
+
+		<Object
+			Name="BARIKADACOOL2"
+			Belong="1083"
+			Prototype="staticAutoGun01"
+			Pos="4192.178 236.974 6213.151"
+			Rot="0.000 0.332 0.000 0.943">
+			<Parts />
+		</Object>
+
+		<Object
+			Name="BARIKADACOOL3"
+			Belong="1083"
+			Prototype="staticAutoGun01"
+			Pos="4243.428 235.748 6207.864"
+			Rot="0.000 -0.223 0.000 0.975">
+			<Parts />
+		</Object>
+
+		<Object
+			Name="BARIKADACOOL4"
+			Belong="1083"
+			Prototype="staticAutoGun01"
+			Pos="4146.538 243.309 6337.183"
+			Rot="0.000 -0.223 0.000 0.975">
+			<Parts />
+		</Object>
+
+		<Object
+			Name="BARIKADACOOL5"
+			Belong="1083"
+			Prototype="staticAutoGun01"
+			Pos="4209.701 242.771 6342.324"
+			Rot="0.000 -0.223 0.000 0.975">
+			<Parts />
+		</Object>
+
+		<Object
+			Name="BARIKADACOOL6"
+			Belong="1083"
+			Prototype="staticAutoGun01"
+			Pos="4134.074 246.343 6406.550"
+			Rot="0.000 -0.223 0.000 0.975">
+			<Parts />
+		</Object>
+
+		<Parts />
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="TheNewSibilla"
+		Belong="1083"
+		Prototype="TownOldCibilla"
+		Pos="493.929 275.403 2090.415"
+		Rot="-0.005 0.804 -0.040 0.594"
+		PointOfViewInInterface="50.000 50.000 50.000"
+		CaravansDest="">
+		<Object
+			Name="TheNewSibilla_Bar"
+			Belong="1083"
+			Prototype="barWithoutBarman">
+			<Object
+				Name="AMLider"
+				Belong="1083"
+				Prototype="NPC"
+				ModelName="r2_woman"
+				cfg="104"
+				helloReplyNames="Dlg_npc_002295 Dlg_npc_002341"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="TheNewSibilla_Workshop"
+			Belong="1083"
+			Prototype="workshop">
+			<CabinsAndBaskets>
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="uralCargo03" />
+
+				<Item
+					PosX="0"
+					PosY="5"
+					Flags="16"
+					Prototype="uralCargo04" />
+
+				<Item
+					PosX="0"
+					PosY="10"
+					Flags="16"
+					Prototype="uralCargo05" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="belazCargo03" />
+
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
+					Prototype="belazCargo04" />
+
+				<Item
+					PosX="5"
+					PosY="15"
+					Flags="16"
+					Prototype="belazCargo05" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="uralCab03" />
+
+				<Item
+					PosX="5"
+					PosY="20"
+					Flags="16"
+					Prototype="uralCab04" />
+
+				<Item
+					PosX="0"
+					PosY="25"
+					Flags="16"
+					Prototype="uralCab05" />
+
+				<Item
+					PosX="5"
+					PosY="25"
+					Flags="16"
+					Prototype="belazCab03" />
+
+				<Item
+					PosX="0"
+					PosY="30"
+					Flags="16"
+					Prototype="belazCab04" />
+
+				<Item
+					PosX="5"
+					PosY="30"
+					Flags="16"
+					Prototype="belazCab05" />
+			</CabinsAndBaskets>
+
+			<Vehicles>
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="UralForSale"
+					Skin="5">
+					<Parts />
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="3"
+					PosY="0"
+					Flags="16"
+					Prototype="BelazForSale"
+					Skin="5">
+					<Parts />
+
+					<Repository />
+				</Item>
+			</Vehicles>
+		</Object>
+
+		<Object
+			Name="TheNewSibilla_Shop"
+			Belong="1083"
+			Prototype="shop">
+			<GunsAndGadgets>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank2" />
+
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_durability2" />
+
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="add_stability_and_speed" />
+
+				<Item
+					PosX="3"
+					PosY="0"
+					Flags="16"
+					Prototype="add_torque_and_stability" />
+
+				<Item
+					PosX="4"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank2_add_damage_guns" />
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
+					Prototype="grouping_angle_guns2" />
+
+				<Item
+					PosX="1"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_guns2" />
+
+				<Item
+					PosX="2"
+					PosY="1"
+					Flags="16"
+					Prototype="firing_rate_energy_and_add_damage_energy" />
+
+				<Item
+					PosX="3"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_energy2" />
+
+				<Item
+					PosX="4"
+					PosY="1"
+					Flags="16"
+					Prototype="firing_rate_explosion_and_add_damage_explosion" />
+
+				<Item
+					PosX="5"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_explosion2" />
+			</GunsAndGadgets>
+		</Object>
+
+		<Object
+			Flags="21"
+			Name="TheNewSibilla_defend"
+			Belong="1083"
+			Prototype="genericLocation"
+			Pos="567.717 251.112 2182.035"
+			Rot="0.000 -0.737 0.000 0.676"
+			Radius="300.000" />
+
+		<Object
+			Flags="21"
+			Name="TheNewSibilla_enter"
+			Belong="1083"
+			Prototype="genericLocation"
+			Pos="519.011 253.490 2087.411"
+			Rot="0.000 -0.737 0.000 0.676"
+			Radius="97.000" />
 
 		<Parts />
 
@@ -5819,42 +6256,42 @@
 		Name="stolb1142"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3158.804 232.989 5879.499"
+		Pos="2990.323 225.525 6043.734"
 		Rot="0.000 -0.469 0.000 0.883" />
 
 	<Object
 		Name="stolb1143"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3115.916 232.958 5908.550"
+		Pos="3021.460 232.599 6026.054"
 		Rot="0.000 -0.469 0.000 0.883" />
 
 	<Object
 		Name="stolb1144"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3082.982 232.982 5951.003"
+		Pos="3054.957 232.814 5990.934"
 		Rot="0.000 -0.266 0.000 0.964" />
 
 	<Object
 		Name="stolb1145"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3056.461 232.998 5995.500"
+		Pos="3079.326 232.866 5949.602"
 		Rot="0.000 -0.266 0.000 0.964" />
 
 	<Object
 		Name="stolb1146"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3020.247 232.251 6032.284"
+		Pos="3114.819 232.972 5907.176"
 		Rot="0.000 -0.568 0.000 0.823" />
 
 	<Object
 		Name="stolb1147"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="2973.697 219.279 6049.975"
+		Pos="3157.923 232.953 5877.087"
 		Rot="0.000 -0.568 0.000 0.823" />
 
 	<Object
@@ -7138,7 +7575,7 @@
 		Name="stolb1337"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="6429.830 289.172 3187.560"
+		Pos="6429.020 289.000 3193.022"
 		Rot="0.000 -0.992 0.000 0.130" />
 
 	<Object
@@ -9490,7 +9927,7 @@
 		Name="poddon673"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="2564.331 277.992 1775.975"
+		Pos="2566.615 277.997 1777.040"
 		Rot="0.000 -0.574 0.000 0.819"
 		NodeScale="0.769" />
 
@@ -9754,24 +10191,24 @@
 		Name="factory_box712"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4131.988 261.209 6352.832"
-		Rot="0.000 -0.998 0.000 0.061"
+		Pos="4103.843 245.431 6365.120"
+		Rot="0.000 -0.996 0.000 -0.094"
 		NodeScale="0.950" />
 
 	<Object
 		Name="factory_box713"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4130.488 261.209 6355.603"
-		Rot="0.000 -0.991 0.000 0.131"
+		Pos="4102.805 245.559 6367.769"
+		Rot="0.000 -0.998 0.000 -0.063"
 		NodeScale="0.970" />
 
 	<Object
 		Name="factory_box714"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4135.013 261.209 6354.880"
-		Rot="0.000 0.749 0.000 0.663"
+		Pos="4105.858 245.462 6367.494"
+		Rot="0.000 0.872 0.000 0.489"
 		NodeScale="0.920" />
 
 	<Object
@@ -9802,7 +10239,7 @@
 		Name="factory_box718"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4105.749 275.633 6500.481"
+		Pos="4106.329 266.789 6493.975"
 		Rot="0.000 0.986 0.000 0.165"
 		NodeScale="0.840" />
 
@@ -9810,7 +10247,7 @@
 		Name="factory_box719"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4102.815 275.633 6501.579"
+		Pos="4112.915 266.789 6500.816"
 		Rot="0.000 0.707 0.000 0.707"
 		NodeScale="1.100" />
 
@@ -9818,7 +10255,7 @@
 		Name="factory_box720"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="4104.752 275.633 6505.668"
+		Pos="4109.728 266.789 6497.432"
 		Rot="0.000 0.663 0.000 0.749"
 		NodeScale="1.090" />
 
@@ -9858,7 +10295,7 @@
 		Name="poddon725"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="4204.093 245.163 6365.803"
+		Pos="4201.238 243.018 6363.432"
 		Rot="0.000 -0.574 0.000 0.819"
 		NodeScale="1.030" />
 
@@ -9866,7 +10303,7 @@
 		Name="poddon726"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="4140.432 246.473 6420.774"
+		Pos="4141.231 246.217 6411.558"
 		Rot="0.000 0.941 0.000 0.339"
 		NodeScale="1.100" />
 
@@ -11721,7 +12158,7 @@
 		Name="factory_box990"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6408.862 305.122 3114.479"
+		Pos="6412.072 289.000 3120.431"
 		Rot="0.000 0.477 0.000 0.879"
 		NodeScale="1.500" />
 
@@ -11729,7 +12166,7 @@
 		Name="factory_box991"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6404.882 305.122 3117.035"
+		Pos="6411.472 289.000 3124.917"
 		Rot="0.000 -0.545 0.000 0.839"
 		NodeScale="1.020" />
 
@@ -11737,7 +12174,7 @@
 		Name="factory_box992"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6412.355 305.122 3118.341"
+		Pos="6415.741 289.000 3118.092"
 		Rot="0.000 0.574 0.000 0.819"
 		NodeScale="0.820" />
 
@@ -11745,7 +12182,7 @@
 		Name="factory_box993"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6408.319 305.122 3118.499"
+		Pos="6406.659 289.000 3124.756"
 		Rot="0.000 -0.899 0.000 0.438"
 		NodeScale="1.281" />
 
@@ -11817,7 +12254,7 @@
 		Name="poddon1002"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="6419.068 288.590 3228.216"
+		Pos="6419.696 289.000 3223.553"
 		Rot="0.000 1.000 0.000 0.030"
 		NodeScale="0.889" />
 
@@ -11825,7 +12262,7 @@
 		Name="poddon1003"
 		Belong="-1"
 		Prototype="poddon"
-		Pos="6316.042 292.936 3055.828"
+		Pos="6321.625 289.000 3058.683"
 		Rot="0.000 0.637 0.000 0.771"
 		NodeScale="0.903" />
 
@@ -12607,7 +13044,7 @@
 		Name="factory_box1103"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6566.943 332.403 7062.526"
+		Pos="6558.230 275.333 7033.395"
 		Rot="0.000 -0.987 0.000 0.159"
 		NodeScale="0.850" />
 
@@ -12615,7 +13052,7 @@
 		Name="factory_box1104"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6571.539 332.403 7063.207"
+		Pos="6563.425 275.333 7034.457"
 		Rot="0.000 -0.958 0.000 0.286"
 		NodeScale="1.640" />
 
@@ -12631,7 +13068,7 @@
 		Name="factory_box1106"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="6574.215 332.403 7060.368"
+		Pos="6561.775 275.333 7029.362"
 		Rot="0.000 0.892 0.000 0.452"
 		NodeScale="1.010" />
 
@@ -13053,7 +13490,7 @@
 		Name="factory_box1158"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="2770.430 289.700 1737.976"
+		Pos="2766.091 284.000 1731.843"
 		Rot="0.000 -0.629 0.000 0.777"
 		NodeScale="0.850" />
 
@@ -13061,7 +13498,7 @@
 		Name="factory_box1159"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="2771.610 284.000 1733.487"
+		Pos="2771.415 284.000 1733.111"
 		Rot="0.000 -0.522 0.000 0.853"
 		NodeScale="1.640" />
 
@@ -13069,7 +13506,7 @@
 		Name="factory_box1160"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="2767.825 284.000 1735.068"
+		Pos="2767.649 284.000 1734.752"
 		Rot="0.000 0.251 0.000 0.968"
 		NodeScale="0.960" />
 
@@ -13187,7 +13624,7 @@
 		Name="factory_box1175"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="2771.493 298.969 1879.481"
+		Pos="2778.866 284.000 1865.558"
 		Rot="0.000 -0.866 0.000 0.500"
 		NodeScale="0.810" />
 
@@ -14402,7 +14839,7 @@
 		Name="r2_deadtree31359"
 		Belong="-1"
 		Prototype="Breakable_r2_deadtree3"
-		Pos="1373.884 238.818 2490.971"
+		Pos="1451.788 244.705 2564.818"
 		Rot="0.000 0.284 0.000 0.959"
 		NodeScale="1.150" />
 
@@ -24214,7 +24651,7 @@
 		Name="r2_deadtree52597"
 		Belong="-1"
 		Prototype="Breakable_r2_deadtree5"
-		Pos="926.990 252.608 2608.900"
+		Pos="877.223 257.350 2614.932"
 		Rot="0.000 0.566 0.000 0.824"
 		NodeScale="1.100" />
 
@@ -24262,7 +24699,7 @@
 		Name="r2_deadtree22603"
 		Belong="-1"
 		Prototype="Breakable_r2_deadtree2"
-		Pos="696.655 257.566 2421.920"
+		Pos="540.352 271.161 2265.822"
 		Rot="0.000 -0.870 0.000 0.492"
 		NodeScale="0.970" />
 
@@ -24446,7 +24883,7 @@
 		Name="r2_deadtree22626"
 		Belong="-1"
 		Prototype="Breakable_r2_deadtree2"
-		Pos="686.723 249.955 2141.066"
+		Pos="614.890 249.778 2136.854"
 		Rot="0.000 0.105 0.000 0.994"
 		NodeScale="1.120" />
 
@@ -36035,7 +36472,7 @@
 		<Post
 			ServerObjName="stolb1295"
 			NodesNameHierarchy=""
-			PostTiePos="2476.912 276.343 618.188"
+			PostTiePos="2476.912 276.344 618.188"
 			LpName="LP_PART01" />
 
 		<Post
@@ -36995,7 +37432,7 @@
 		<Post
 			ServerObjName="stolb1295"
 			NodesNameHierarchy=""
-			PostTiePos="2476.912 276.343 618.188"
+			PostTiePos="2476.912 276.344 618.188"
 			LpName="LP_PART01" />
 
 		<Post
@@ -37241,7 +37678,7 @@
 		<Post
 			ServerObjName="stolb19"
 			NodesNameHierarchy=""
-			PostTiePos="2312.804 253.096 2217.078"
+			PostTiePos="2312.804 253.095 2217.078"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -37257,7 +37694,7 @@
 		<Post
 			ServerObjName="stolb110"
 			NodesNameHierarchy=""
-			PostTiePos="2317.047 243.407 2267.823"
+			PostTiePos="2317.047 243.406 2267.823"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -37267,7 +37704,7 @@
 		<Post
 			ServerObjName="stolb19"
 			NodesNameHierarchy=""
-			PostTiePos="2312.804 253.096 2217.078"
+			PostTiePos="2312.804 253.095 2217.078"
 			LpName="LP_PART02" />
 
 		<Post
@@ -37283,7 +37720,7 @@
 		<Post
 			ServerObjName="stolb110"
 			NodesNameHierarchy=""
-			PostTiePos="2317.047 243.407 2267.823"
+			PostTiePos="2317.047 243.406 2267.823"
 			LpName="LP_PART01" />
 
 		<Post
@@ -37737,7 +38174,7 @@
 		<Post
 			ServerObjName="stolb125"
 			NodesNameHierarchy=""
-			PostTiePos="2451.145 238.239 3028.504"
+			PostTiePos="2451.145 238.238 3028.504"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -37763,7 +38200,7 @@
 		<Post
 			ServerObjName="stolb125"
 			NodesNameHierarchy=""
-			PostTiePos="2451.145 238.239 3028.504"
+			PostTiePos="2451.145 238.238 3028.504"
 			LpName="LP_PART01" />
 
 		<Post
@@ -37945,7 +38382,7 @@
 		<Post
 			ServerObjName="stolb131"
 			NodesNameHierarchy=""
-			PostTiePos="2632.962 228.040 3299.389"
+			PostTiePos="2632.962 228.041 3299.389"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -37961,7 +38398,7 @@
 		<Post
 			ServerObjName="stolb132"
 			NodesNameHierarchy=""
-			PostTiePos="2667.854 229.347 3361.044"
+			PostTiePos="2667.854 229.346 3361.044"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -37971,7 +38408,7 @@
 		<Post
 			ServerObjName="stolb131"
 			NodesNameHierarchy=""
-			PostTiePos="2632.962 228.040 3299.389"
+			PostTiePos="2632.962 228.041 3299.389"
 			LpName="LP_PART02" />
 
 		<Post
@@ -37987,7 +38424,7 @@
 		<Post
 			ServerObjName="stolb132"
 			NodesNameHierarchy=""
-			PostTiePos="2667.854 229.347 3361.044"
+			PostTiePos="2667.854 229.346 3361.044"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38089,7 +38526,7 @@
 		<Post
 			ServerObjName="stolb136"
 			NodesNameHierarchy=""
-			PostTiePos="2777.388 228.218 3537.873"
+			PostTiePos="2777.388 228.219 3537.873"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38115,7 +38552,7 @@
 		<Post
 			ServerObjName="stolb136"
 			NodesNameHierarchy=""
-			PostTiePos="2777.388 228.218 3537.873"
+			PostTiePos="2777.388 228.219 3537.873"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38313,7 +38750,7 @@
 		<Post
 			ServerObjName="stolb139"
 			NodesNameHierarchy=""
-			PostTiePos="2847.480 228.379 3678.896"
+			PostTiePos="2847.480 228.326 3678.896"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38329,7 +38766,7 @@
 		<Post
 			ServerObjName="stolb139"
 			NodesNameHierarchy=""
-			PostTiePos="2846.286 228.036 3679.305"
+			PostTiePos="2846.286 227.983 3679.305"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -38339,7 +38776,7 @@
 		<Post
 			ServerObjName="stolb139"
 			NodesNameHierarchy=""
-			PostTiePos="2847.480 228.379 3678.896"
+			PostTiePos="2847.480 228.326 3678.896"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38355,7 +38792,7 @@
 		<Post
 			ServerObjName="stolb139"
 			NodesNameHierarchy=""
-			PostTiePos="2846.286 228.036 3679.305"
+			PostTiePos="2846.286 227.983 3679.305"
 			LpName="LP_PART02" />
 
 		<Post
@@ -38473,7 +38910,7 @@
 		<Post
 			ServerObjName="stolb148"
 			NodesNameHierarchy=""
-			PostTiePos="2825.099 228.346 3950.110"
+			PostTiePos="2825.099 228.293 3950.110"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38489,7 +38926,7 @@
 		<Post
 			ServerObjName="stolb148"
 			NodesNameHierarchy=""
-			PostTiePos="2823.889 228.003 3949.751"
+			PostTiePos="2823.889 227.949 3949.751"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -38499,7 +38936,7 @@
 		<Post
 			ServerObjName="stolb148"
 			NodesNameHierarchy=""
-			PostTiePos="2825.099 228.346 3950.110"
+			PostTiePos="2825.099 228.293 3950.110"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38515,7 +38952,7 @@
 		<Post
 			ServerObjName="stolb148"
 			NodesNameHierarchy=""
-			PostTiePos="2823.889 228.003 3949.751"
+			PostTiePos="2823.889 227.949 3949.751"
 			LpName="LP_PART02" />
 
 		<Post
@@ -38537,7 +38974,7 @@
 		<Post
 			ServerObjName="stolb150"
 			NodesNameHierarchy=""
-			PostTiePos="2786.365 228.394 4043.753"
+			PostTiePos="2786.365 228.393 4043.753"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38563,7 +39000,7 @@
 		<Post
 			ServerObjName="stolb150"
 			NodesNameHierarchy=""
-			PostTiePos="2786.365 228.394 4043.753"
+			PostTiePos="2786.365 228.393 4043.753"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38665,7 +39102,7 @@
 		<Post
 			ServerObjName="stolb154"
 			NodesNameHierarchy=""
-			PostTiePos="2719.100 228.423 4236.348"
+			PostTiePos="2719.100 228.370 4236.348"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38681,7 +39118,7 @@
 		<Post
 			ServerObjName="stolb154"
 			NodesNameHierarchy=""
-			PostTiePos="2717.854 228.080 4236.147"
+			PostTiePos="2717.854 228.026 4236.147"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -38691,13 +39128,13 @@
 		<Post
 			ServerObjName="stolb154"
 			NodesNameHierarchy=""
-			PostTiePos="2719.100 228.423 4236.348"
+			PostTiePos="2719.100 228.370 4236.348"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb155"
 			NodesNameHierarchy=""
-			PostTiePos="2710.839 228.365 4287.487"
+			PostTiePos="2710.839 228.311 4287.487"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38707,13 +39144,13 @@
 		<Post
 			ServerObjName="stolb154"
 			NodesNameHierarchy=""
-			PostTiePos="2717.854 228.080 4236.147"
+			PostTiePos="2717.854 228.026 4236.147"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb155"
 			NodesNameHierarchy=""
-			PostTiePos="2709.593 228.022 4287.286"
+			PostTiePos="2709.593 227.968 4287.286"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -38723,13 +39160,13 @@
 		<Post
 			ServerObjName="stolb155"
 			NodesNameHierarchy=""
-			PostTiePos="2710.839 228.365 4287.487"
+			PostTiePos="2710.839 228.311 4287.487"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb156"
 			NodesNameHierarchy=""
-			PostTiePos="2702.578 228.280 4338.625"
+			PostTiePos="2702.578 228.279 4338.625"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38739,7 +39176,7 @@
 		<Post
 			ServerObjName="stolb155"
 			NodesNameHierarchy=""
-			PostTiePos="2709.593 228.022 4287.286"
+			PostTiePos="2709.593 227.968 4287.286"
 			LpName="LP_PART02" />
 
 		<Post
@@ -38755,13 +39192,13 @@
 		<Post
 			ServerObjName="stolb156"
 			NodesNameHierarchy=""
-			PostTiePos="2702.578 228.280 4338.625"
+			PostTiePos="2702.578 228.279 4338.625"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb157"
 			NodesNameHierarchy=""
-			PostTiePos="2697.406 230.388 4392.746"
+			PostTiePos="2697.406 230.334 4392.746"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -38777,7 +39214,7 @@
 		<Post
 			ServerObjName="stolb157"
 			NodesNameHierarchy=""
-			PostTiePos="2696.158 230.044 4392.554"
+			PostTiePos="2696.158 229.990 4392.554"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -38787,7 +39224,7 @@
 		<Post
 			ServerObjName="stolb157"
 			NodesNameHierarchy=""
-			PostTiePos="2697.406 230.388 4392.746"
+			PostTiePos="2697.406 230.334 4392.746"
 			LpName="LP_PART01" />
 
 		<Post
@@ -38803,7 +39240,7 @@
 		<Post
 			ServerObjName="stolb157"
 			NodesNameHierarchy=""
-			PostTiePos="2696.158 230.044 4392.554"
+			PostTiePos="2696.158 229.990 4392.554"
 			LpName="LP_PART02" />
 
 		<Post
@@ -39513,7 +39950,7 @@
 		<Post
 			ServerObjName="stolb180"
 			NodesNameHierarchy=""
-			PostTiePos="2337.390 239.057 5506.332"
+			PostTiePos="2337.390 239.058 5506.332"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39539,7 +39976,7 @@
 		<Post
 			ServerObjName="stolb180"
 			NodesNameHierarchy=""
-			PostTiePos="2337.390 239.057 5506.332"
+			PostTiePos="2337.390 239.058 5506.332"
 			LpName="LP_PART02" />
 
 		<Post
@@ -39625,7 +40062,7 @@
 		<Post
 			ServerObjName="stolb184"
 			NodesNameHierarchy=""
-			PostTiePos="2210.647 242.142 5644.700"
+			PostTiePos="2210.647 242.141 5644.700"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39651,7 +40088,7 @@
 		<Post
 			ServerObjName="stolb184"
 			NodesNameHierarchy=""
-			PostTiePos="2210.647 242.142 5644.700"
+			PostTiePos="2210.647 242.141 5644.700"
 			LpName="LP_PART01" />
 
 		<Post
@@ -39689,7 +40126,7 @@
 		<Post
 			ServerObjName="stolb1154"
 			NodesNameHierarchy=""
-			PostTiePos="2568.150 240.389 5995.826"
+			PostTiePos="2568.150 240.361 5995.826"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39699,13 +40136,13 @@
 		<Post
 			ServerObjName="stolb1155"
 			NodesNameHierarchy=""
-			PostTiePos="2516.741 242.017 5989.547"
+			PostTiePos="2516.741 242.018 5989.547"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1154"
 			NodesNameHierarchy=""
-			PostTiePos="2568.273 240.046 5994.569"
+			PostTiePos="2568.273 240.018 5994.569"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39715,7 +40152,7 @@
 		<Post
 			ServerObjName="stolb1154"
 			NodesNameHierarchy=""
-			PostTiePos="2568.150 240.389 5995.826"
+			PostTiePos="2568.150 240.361 5995.826"
 			LpName="LP_PART01" />
 
 		<Post
@@ -39731,7 +40168,7 @@
 		<Post
 			ServerObjName="stolb1154"
 			NodesNameHierarchy=""
-			PostTiePos="2568.273 240.046 5994.569"
+			PostTiePos="2568.273 240.018 5994.569"
 			LpName="LP_PART02" />
 
 		<Post
@@ -39753,7 +40190,7 @@
 		<Post
 			ServerObjName="stolb1152"
 			NodesNameHierarchy=""
-			PostTiePos="2678.899 240.688 5987.183"
+			PostTiePos="2678.899 240.634 5987.183"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39769,7 +40206,7 @@
 		<Post
 			ServerObjName="stolb1152"
 			NodesNameHierarchy=""
-			PostTiePos="2678.703 240.344 5985.936"
+			PostTiePos="2678.703 240.291 5985.936"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39779,13 +40216,13 @@
 		<Post
 			ServerObjName="stolb1152"
 			NodesNameHierarchy=""
-			PostTiePos="2678.899 240.688 5987.183"
+			PostTiePos="2678.899 240.634 5987.183"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1151"
 			NodesNameHierarchy=""
-			PostTiePos="2731.967 240.230 5998.394"
+			PostTiePos="2731.967 240.177 5998.394"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39795,13 +40232,13 @@
 		<Post
 			ServerObjName="stolb1152"
 			NodesNameHierarchy=""
-			PostTiePos="2678.703 240.344 5985.936"
+			PostTiePos="2678.703 240.291 5985.936"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1151"
 			NodesNameHierarchy=""
-			PostTiePos="2732.643 239.887 5997.328"
+			PostTiePos="2732.643 239.834 5997.328"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39811,13 +40248,13 @@
 		<Post
 			ServerObjName="stolb1151"
 			NodesNameHierarchy=""
-			PostTiePos="2731.967 240.230 5998.394"
+			PostTiePos="2731.967 240.177 5998.394"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1150"
 			NodesNameHierarchy=""
-			PostTiePos="2775.726 239.513 6026.112"
+			PostTiePos="2775.726 239.465 6026.112"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39827,13 +40264,13 @@
 		<Post
 			ServerObjName="stolb1151"
 			NodesNameHierarchy=""
-			PostTiePos="2732.643 239.887 5997.328"
+			PostTiePos="2732.643 239.834 5997.328"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1150"
 			NodesNameHierarchy=""
-			PostTiePos="2776.402 239.170 6025.045"
+			PostTiePos="2776.402 239.121 6025.045"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39843,7 +40280,7 @@
 		<Post
 			ServerObjName="stolb1150"
 			NodesNameHierarchy=""
-			PostTiePos="2775.726 239.513 6026.112"
+			PostTiePos="2775.726 239.465 6026.112"
 			LpName="LP_PART01" />
 
 		<Post
@@ -39859,7 +40296,7 @@
 		<Post
 			ServerObjName="stolb1150"
 			NodesNameHierarchy=""
-			PostTiePos="2776.402 239.170 6025.045"
+			PostTiePos="2776.402 239.121 6025.045"
 			LpName="LP_PART02" />
 
 		<Post
@@ -39875,13 +40312,13 @@
 		<Post
 			ServerObjName="stolb1142"
 			NodesNameHierarchy=""
-			PostTiePos="3159.015 239.451 5880.229"
+			PostTiePos="2990.534 231.934 6044.463"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1143"
 			NodesNameHierarchy=""
-			PostTiePos="3116.127 239.405 5909.279"
+			PostTiePos="3021.671 239.008 6026.784"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39891,30 +40328,14 @@
 		<Post
 			ServerObjName="stolb1142"
 			NodesNameHierarchy=""
-			PostTiePos="3158.309 239.108 5879.182"
+			PostTiePos="2989.828 231.591 6043.417"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1143"
 			NodesNameHierarchy=""
-			PostTiePos="3115.421 239.062 5908.233"
+			PostTiePos="3020.965 238.665 6025.737"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1143"
-			NodesNameHierarchy=""
-			PostTiePos="3116.127 239.405 5909.279"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1144"
-			NodesNameHierarchy=""
-			PostTiePos="3083.483 239.444 5951.574"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -39923,13 +40344,29 @@
 		<Post
 			ServerObjName="stolb1143"
 			NodesNameHierarchy=""
-			PostTiePos="3115.421 239.062 5908.233"
+			PostTiePos="3021.671 239.008 6026.784"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1144"
+			NodesNameHierarchy=""
+			PostTiePos="3055.458 239.223 5991.505"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1143"
+			NodesNameHierarchy=""
+			PostTiePos="3020.965 238.665 6025.737"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1144"
 			NodesNameHierarchy=""
-			PostTiePos="3082.399 239.101 5950.926"
+			PostTiePos="3054.374 238.880 5990.857"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -39939,13 +40376,13 @@
 		<Post
 			ServerObjName="stolb1144"
 			NodesNameHierarchy=""
-			PostTiePos="3083.483 239.444 5951.574"
+			PostTiePos="3055.458 239.223 5991.505"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1145"
 			NodesNameHierarchy=""
-			PostTiePos="3056.962 239.461 5996.071"
+			PostTiePos="3079.827 239.275 5950.173"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -39955,30 +40392,14 @@
 		<Post
 			ServerObjName="stolb1144"
 			NodesNameHierarchy=""
-			PostTiePos="3082.399 239.101 5950.926"
+			PostTiePos="3054.374 238.880 5990.857"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1145"
 			NodesNameHierarchy=""
-			PostTiePos="3055.878 239.117 5995.423"
+			PostTiePos="3078.743 238.932 5949.525"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1145"
-			NodesNameHierarchy=""
-			PostTiePos="3056.962 239.461 5996.071"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1146"
-			NodesNameHierarchy=""
-			PostTiePos="3020.285 238.713 6033.042"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -39987,29 +40408,13 @@
 		<Post
 			ServerObjName="stolb1145"
 			NodesNameHierarchy=""
-			PostTiePos="3055.878 239.117 5995.423"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName="stolb1146"
-			NodesNameHierarchy=""
-			PostTiePos="3019.838 238.370 6031.862"
-			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1146"
-			NodesNameHierarchy=""
-			PostTiePos="3020.285 238.713 6033.042"
+			PostTiePos="3079.827 239.275 5950.173"
 			LpName="LP_PART01" />
 
 		<Post
-			ServerObjName="stolb1147"
+			ServerObjName="stolb1146"
 			NodesNameHierarchy=""
-			PostTiePos="2973.735 225.688 6050.733"
+			PostTiePos="3114.857 239.381 5907.934"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40017,15 +40422,47 @@
 		Belong="-1"
 		Prototype="Cable_1">
 		<Post
+			ServerObjName="stolb1145"
+			NodesNameHierarchy=""
+			PostTiePos="3078.743 238.932 5949.525"
+			LpName="LP_PART02" />
+
+		<Post
 			ServerObjName="stolb1146"
 			NodesNameHierarchy=""
-			PostTiePos="3019.838 238.370 6031.862"
+			PostTiePos="3114.410 239.037 5906.754"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1146"
+			NodesNameHierarchy=""
+			PostTiePos="3114.857 239.381 5907.934"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1147"
+			NodesNameHierarchy=""
+			PostTiePos="3157.961 239.362 5877.845"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1146"
+			NodesNameHierarchy=""
+			PostTiePos="3114.410 239.037 5906.754"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1147"
 			NodesNameHierarchy=""
-			PostTiePos="2973.288 225.345 6049.553"
+			PostTiePos="3157.514 239.019 5876.665"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40035,7 +40472,7 @@
 		<Post
 			ServerObjName="stolb1147"
 			NodesNameHierarchy=""
-			PostTiePos="2973.735 225.688 6050.733"
+			PostTiePos="3157.961 239.362 5877.845"
 			LpName="LP_PART01" />
 
 		<Post
@@ -40051,7 +40488,7 @@
 		<Post
 			ServerObjName="stolb1147"
 			NodesNameHierarchy=""
-			PostTiePos="2973.288 225.345 6049.553"
+			PostTiePos="3157.514 239.019 5876.665"
 			LpName="LP_PART02" />
 
 		<Post
@@ -40073,7 +40510,7 @@
 		<Post
 			ServerObjName="stolb1140"
 			NodesNameHierarchy=""
-			PostTiePos="3262.291 239.458 5861.728"
+			PostTiePos="3262.291 239.404 5861.728"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40089,7 +40526,7 @@
 		<Post
 			ServerObjName="stolb1140"
 			NodesNameHierarchy=""
-			PostTiePos="3262.312 239.115 5860.465"
+			PostTiePos="3262.312 239.061 5860.465"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40099,13 +40536,13 @@
 		<Post
 			ServerObjName="stolb1140"
 			NodesNameHierarchy=""
-			PostTiePos="3262.291 239.458 5861.728"
+			PostTiePos="3262.291 239.404 5861.728"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1139"
 			NodesNameHierarchy=""
-			PostTiePos="3321.163 239.453 5881.233"
+			PostTiePos="3321.163 239.399 5881.233"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40115,30 +40552,14 @@
 		<Post
 			ServerObjName="stolb1140"
 			NodesNameHierarchy=""
-			PostTiePos="3262.312 239.115 5860.465"
+			PostTiePos="3262.312 239.061 5860.465"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1139"
 			NodesNameHierarchy=""
-			PostTiePos="3321.668 239.110 5880.076"
+			PostTiePos="3321.668 239.056 5880.076"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1139"
-			NodesNameHierarchy=""
-			PostTiePos="3321.163 239.453 5881.233"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1138"
-			NodesNameHierarchy=""
-			PostTiePos="3368.650 239.399 5901.929"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40147,13 +40568,29 @@
 		<Post
 			ServerObjName="stolb1139"
 			NodesNameHierarchy=""
-			PostTiePos="3321.668 239.110 5880.076"
+			PostTiePos="3321.163 239.399 5881.233"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1138"
+			NodesNameHierarchy=""
+			PostTiePos="3368.650 239.345 5901.929"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1139"
+			NodesNameHierarchy=""
+			PostTiePos="3321.668 239.056 5880.076"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1138"
 			NodesNameHierarchy=""
-			PostTiePos="3369.155 239.056 5900.772"
+			PostTiePos="3369.155 239.002 5900.772"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40163,13 +40600,13 @@
 		<Post
 			ServerObjName="stolb1138"
 			NodesNameHierarchy=""
-			PostTiePos="3368.650 239.399 5901.929"
+			PostTiePos="3368.650 239.345 5901.929"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1137"
 			NodesNameHierarchy=""
-			PostTiePos="3416.138 239.485 5922.626"
+			PostTiePos="3416.138 239.432 5922.626"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40179,13 +40616,13 @@
 		<Post
 			ServerObjName="stolb1138"
 			NodesNameHierarchy=""
-			PostTiePos="3369.155 239.056 5900.772"
+			PostTiePos="3369.155 239.002 5900.772"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1137"
 			NodesNameHierarchy=""
-			PostTiePos="3416.643 239.142 5921.469"
+			PostTiePos="3416.643 239.089 5921.469"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40195,13 +40632,13 @@
 		<Post
 			ServerObjName="stolb1137"
 			NodesNameHierarchy=""
-			PostTiePos="3416.138 239.485 5922.626"
+			PostTiePos="3416.138 239.432 5922.626"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1136"
 			NodesNameHierarchy=""
-			PostTiePos="3463.625 239.525 5943.322"
+			PostTiePos="3463.625 239.472 5943.322"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40211,13 +40648,13 @@
 		<Post
 			ServerObjName="stolb1137"
 			NodesNameHierarchy=""
-			PostTiePos="3416.643 239.142 5921.469"
+			PostTiePos="3416.643 239.089 5921.469"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1136"
 			NodesNameHierarchy=""
-			PostTiePos="3464.130 239.182 5942.165"
+			PostTiePos="3464.130 239.128 5942.165"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40227,7 +40664,7 @@
 		<Post
 			ServerObjName="stolb1136"
 			NodesNameHierarchy=""
-			PostTiePos="3463.625 239.525 5943.322"
+			PostTiePos="3463.625 239.472 5943.322"
 			LpName="LP_PART01" />
 
 		<Post
@@ -40243,7 +40680,7 @@
 		<Post
 			ServerObjName="stolb1136"
 			NodesNameHierarchy=""
-			PostTiePos="3464.130 239.182 5942.165"
+			PostTiePos="3464.130 239.128 5942.165"
 			LpName="LP_PART02" />
 
 		<Post
@@ -40265,7 +40702,7 @@
 		<Post
 			ServerObjName="stolb1134"
 			NodesNameHierarchy=""
-			PostTiePos="3576.677 239.400 5958.626"
+			PostTiePos="3576.677 239.312 5958.626"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40281,7 +40718,7 @@
 		<Post
 			ServerObjName="stolb1134"
 			NodesNameHierarchy=""
-			PostTiePos="3576.862 239.057 5957.377"
+			PostTiePos="3576.862 238.969 5957.377"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40291,13 +40728,13 @@
 		<Post
 			ServerObjName="stolb1117"
 			NodesNameHierarchy=""
-			PostTiePos="4224.240 240.172 5480.708"
+			PostTiePos="4224.240 240.118 5480.708"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1119"
 			NodesNameHierarchy=""
-			PostTiePos="4171.965 241.379 5566.778"
+			PostTiePos="4171.965 241.326 5566.778"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40307,30 +40744,14 @@
 		<Post
 			ServerObjName="stolb1117"
 			NodesNameHierarchy=""
-			PostTiePos="4223.220 239.829 5479.964"
+			PostTiePos="4223.220 239.775 5479.964"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1119"
 			NodesNameHierarchy=""
-			PostTiePos="4170.873 241.036 5566.145"
+			PostTiePos="4170.873 240.983 5566.145"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1119"
-			NodesNameHierarchy=""
-			PostTiePos="4171.965 241.379 5566.778"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1120"
-			NodesNameHierarchy=""
-			PostTiePos="4159.675 241.590 5614.971"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40339,29 +40760,13 @@
 		<Post
 			ServerObjName="stolb1119"
 			NodesNameHierarchy=""
-			PostTiePos="4170.873 241.036 5566.145"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName="stolb1120"
-			NodesNameHierarchy=""
-			PostTiePos="4158.413 241.246 5614.986"
-			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1120"
-			NodesNameHierarchy=""
-			PostTiePos="4159.675 241.590 5614.971"
+			PostTiePos="4171.965 241.326 5566.778"
 			LpName="LP_PART01" />
 
 		<Post
-			ServerObjName="stolb1121"
+			ServerObjName="stolb1120"
 			NodesNameHierarchy=""
-			PostTiePos="4160.288 240.697 5666.767"
+			PostTiePos="4159.675 241.536 5614.971"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40369,15 +40774,47 @@
 		Belong="-1"
 		Prototype="Cable_1">
 		<Post
+			ServerObjName="stolb1119"
+			NodesNameHierarchy=""
+			PostTiePos="4170.873 240.983 5566.145"
+			LpName="LP_PART02" />
+
+		<Post
 			ServerObjName="stolb1120"
 			NodesNameHierarchy=""
-			PostTiePos="4158.413 241.246 5614.986"
+			PostTiePos="4158.413 241.193 5614.986"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1120"
+			NodesNameHierarchy=""
+			PostTiePos="4159.675 241.536 5614.971"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1121"
+			NodesNameHierarchy=""
+			PostTiePos="4160.288 240.644 5666.767"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1120"
+			NodesNameHierarchy=""
+			PostTiePos="4158.413 241.193 5614.986"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1121"
 			NodesNameHierarchy=""
-			PostTiePos="4159.025 240.354 5666.782"
+			PostTiePos="4159.025 240.300 5666.782"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40387,7 +40824,7 @@
 		<Post
 			ServerObjName="stolb1121"
 			NodesNameHierarchy=""
-			PostTiePos="4160.288 240.697 5666.767"
+			PostTiePos="4160.288 240.644 5666.767"
 			LpName="LP_PART01" />
 
 		<Post
@@ -40403,7 +40840,7 @@
 		<Post
 			ServerObjName="stolb1121"
 			NodesNameHierarchy=""
-			PostTiePos="4159.025 240.354 5666.782"
+			PostTiePos="4159.025 240.300 5666.782"
 			LpName="LP_PART02" />
 
 		<Post
@@ -40425,7 +40862,7 @@
 		<Post
 			ServerObjName="stolb1123"
 			NodesNameHierarchy=""
-			PostTiePos="4121.236 240.888 5759.445"
+			PostTiePos="4121.236 240.887 5759.445"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40451,13 +40888,13 @@
 		<Post
 			ServerObjName="stolb1123"
 			NodesNameHierarchy=""
-			PostTiePos="4121.236 240.888 5759.445"
+			PostTiePos="4121.236 240.887 5759.445"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1124"
 			NodesNameHierarchy=""
-			PostTiePos="4077.058 239.461 5788.713"
+			PostTiePos="4077.058 239.407 5788.713"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40473,7 +40910,7 @@
 		<Post
 			ServerObjName="stolb1124"
 			NodesNameHierarchy=""
-			PostTiePos="4076.622 239.118 5787.528"
+			PostTiePos="4076.622 239.064 5787.528"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40483,13 +40920,13 @@
 		<Post
 			ServerObjName="stolb1124"
 			NodesNameHierarchy=""
-			PostTiePos="4077.058 239.461 5788.713"
+			PostTiePos="4077.058 239.407 5788.713"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1125"
 			NodesNameHierarchy=""
-			PostTiePos="4028.429 239.411 5806.564"
+			PostTiePos="4028.429 239.358 5806.564"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40499,30 +40936,14 @@
 		<Post
 			ServerObjName="stolb1124"
 			NodesNameHierarchy=""
-			PostTiePos="4076.622 239.118 5787.528"
+			PostTiePos="4076.622 239.064 5787.528"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1125"
 			NodesNameHierarchy=""
-			PostTiePos="4027.993 239.068 5805.379"
+			PostTiePos="4027.993 239.015 5805.379"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1125"
-			NodesNameHierarchy=""
-			PostTiePos="4028.429 239.411 5806.564"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1126"
-			NodesNameHierarchy=""
-			PostTiePos="3979.800 239.563 5824.415"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40531,13 +40952,29 @@
 		<Post
 			ServerObjName="stolb1125"
 			NodesNameHierarchy=""
-			PostTiePos="4027.993 239.068 5805.379"
+			PostTiePos="4028.429 239.358 5806.564"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1126"
+			NodesNameHierarchy=""
+			PostTiePos="3979.800 239.509 5824.415"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1125"
+			NodesNameHierarchy=""
+			PostTiePos="4027.993 239.015 5805.379"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1126"
 			NodesNameHierarchy=""
-			PostTiePos="3979.364 239.220 5823.229"
+			PostTiePos="3979.364 239.166 5823.229"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40547,13 +40984,13 @@
 		<Post
 			ServerObjName="stolb1126"
 			NodesNameHierarchy=""
-			PostTiePos="3979.800 239.563 5824.415"
+			PostTiePos="3979.800 239.509 5824.415"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1127"
 			NodesNameHierarchy=""
-			PostTiePos="3931.171 241.523 5842.266"
+			PostTiePos="3931.171 241.486 5842.266"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40563,30 +41000,14 @@
 		<Post
 			ServerObjName="stolb1126"
 			NodesNameHierarchy=""
-			PostTiePos="3979.364 239.220 5823.229"
+			PostTiePos="3979.364 239.166 5823.229"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1127"
 			NodesNameHierarchy=""
-			PostTiePos="3930.735 241.180 5841.081"
+			PostTiePos="3930.735 241.142 5841.081"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1127"
-			NodesNameHierarchy=""
-			PostTiePos="3931.171 241.523 5842.266"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1128"
-			NodesNameHierarchy=""
-			PostTiePos="3882.542 239.788 5860.117"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40595,13 +41016,29 @@
 		<Post
 			ServerObjName="stolb1127"
 			NodesNameHierarchy=""
-			PostTiePos="3930.735 241.180 5841.081"
+			PostTiePos="3931.171 241.486 5842.266"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1128"
+			NodesNameHierarchy=""
+			PostTiePos="3882.542 239.786 5860.117"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1127"
+			NodesNameHierarchy=""
+			PostTiePos="3930.735 241.142 5841.081"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1128"
 			NodesNameHierarchy=""
-			PostTiePos="3882.106 239.445 5858.932"
+			PostTiePos="3882.106 239.443 5858.932"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40611,13 +41048,13 @@
 		<Post
 			ServerObjName="stolb1128"
 			NodesNameHierarchy=""
-			PostTiePos="3882.542 239.788 5860.117"
+			PostTiePos="3882.542 239.786 5860.117"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1129"
 			NodesNameHierarchy=""
-			PostTiePos="3827.652 239.380 5879.924"
+			PostTiePos="3827.652 239.326 5879.924"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40627,30 +41064,14 @@
 		<Post
 			ServerObjName="stolb1128"
 			NodesNameHierarchy=""
-			PostTiePos="3882.106 239.445 5858.932"
+			PostTiePos="3882.106 239.443 5858.932"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1129"
 			NodesNameHierarchy=""
-			PostTiePos="3827.222 239.037 5878.737"
+			PostTiePos="3827.222 238.983 5878.737"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1129"
-			NodesNameHierarchy=""
-			PostTiePos="3827.652 239.380 5879.924"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1130"
-			NodesNameHierarchy=""
-			PostTiePos="3778.974 239.377 5897.638"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40659,13 +41080,29 @@
 		<Post
 			ServerObjName="stolb1129"
 			NodesNameHierarchy=""
-			PostTiePos="3827.222 239.037 5878.737"
+			PostTiePos="3827.652 239.326 5879.924"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1130"
+			NodesNameHierarchy=""
+			PostTiePos="3778.974 239.323 5897.638"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1129"
+			NodesNameHierarchy=""
+			PostTiePos="3827.222 238.983 5878.737"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1130"
 			NodesNameHierarchy=""
-			PostTiePos="3778.544 239.034 5896.451"
+			PostTiePos="3778.544 238.980 5896.451"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40675,13 +41112,13 @@
 		<Post
 			ServerObjName="stolb1130"
 			NodesNameHierarchy=""
-			PostTiePos="3778.974 239.377 5897.638"
+			PostTiePos="3778.974 239.323 5897.638"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1131"
 			NodesNameHierarchy=""
-			PostTiePos="3730.295 239.461 5915.352"
+			PostTiePos="3730.295 239.408 5915.352"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40691,30 +41128,14 @@
 		<Post
 			ServerObjName="stolb1130"
 			NodesNameHierarchy=""
-			PostTiePos="3778.544 239.034 5896.451"
+			PostTiePos="3778.544 238.980 5896.451"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1131"
 			NodesNameHierarchy=""
-			PostTiePos="3729.865 239.118 5914.165"
+			PostTiePos="3729.865 239.064 5914.165"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1131"
-			NodesNameHierarchy=""
-			PostTiePos="3730.295 239.461 5915.352"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1132"
-			NodesNameHierarchy=""
-			PostTiePos="3670.177 239.412 5934.719"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40723,29 +41144,13 @@
 		<Post
 			ServerObjName="stolb1131"
 			NodesNameHierarchy=""
-			PostTiePos="3729.865 239.118 5914.165"
-			LpName="LP_PART02" />
-
-		<Post
-			ServerObjName="stolb1132"
-			NodesNameHierarchy=""
-			PostTiePos="3669.856 239.069 5933.498"
-			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1132"
-			NodesNameHierarchy=""
-			PostTiePos="3670.177 239.412 5934.719"
+			PostTiePos="3730.295 239.408 5915.352"
 			LpName="LP_PART01" />
 
 		<Post
-			ServerObjName="stolb1133"
+			ServerObjName="stolb1132"
 			NodesNameHierarchy=""
-			PostTiePos="3621.162 239.389 5950.059"
+			PostTiePos="3670.177 239.359 5934.719"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40753,15 +41158,47 @@
 		Belong="-1"
 		Prototype="Cable_1">
 		<Post
+			ServerObjName="stolb1131"
+			NodesNameHierarchy=""
+			PostTiePos="3729.865 239.064 5914.165"
+			LpName="LP_PART02" />
+
+		<Post
 			ServerObjName="stolb1132"
 			NodesNameHierarchy=""
-			PostTiePos="3669.856 239.069 5933.498"
+			PostTiePos="3669.856 239.016 5933.498"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1132"
+			NodesNameHierarchy=""
+			PostTiePos="3670.177 239.359 5934.719"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1133"
+			NodesNameHierarchy=""
+			PostTiePos="3621.162 239.362 5950.059"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1132"
+			NodesNameHierarchy=""
+			PostTiePos="3669.856 239.016 5933.498"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1133"
 			NodesNameHierarchy=""
-			PostTiePos="3620.842 239.046 5948.838"
+			PostTiePos="3620.842 239.018 5948.838"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40771,13 +41208,13 @@
 		<Post
 			ServerObjName="stolb1133"
 			NodesNameHierarchy=""
-			PostTiePos="3621.162 239.389 5950.059"
+			PostTiePos="3621.162 239.362 5950.059"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1134"
 			NodesNameHierarchy=""
-			PostTiePos="3576.677 239.400 5958.626"
+			PostTiePos="3576.677 239.312 5958.626"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40787,13 +41224,13 @@
 		<Post
 			ServerObjName="stolb1133"
 			NodesNameHierarchy=""
-			PostTiePos="3620.842 239.046 5948.838"
+			PostTiePos="3620.842 239.018 5948.838"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1134"
 			NodesNameHierarchy=""
-			PostTiePos="3576.862 239.057 5957.377"
+			PostTiePos="3576.862 238.969 5957.377"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40809,7 +41246,7 @@
 		<Post
 			ServerObjName="stolb1117"
 			NodesNameHierarchy=""
-			PostTiePos="4224.240 240.172 5480.708"
+			PostTiePos="4224.240 240.118 5480.708"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40825,7 +41262,7 @@
 		<Post
 			ServerObjName="stolb1117"
 			NodesNameHierarchy=""
-			PostTiePos="4223.220 239.829 5479.964"
+			PostTiePos="4223.220 239.775 5479.964"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40841,7 +41278,7 @@
 		<Post
 			ServerObjName="stolb1113"
 			NodesNameHierarchy=""
-			PostTiePos="4374.665 239.409 5353.674"
+			PostTiePos="4374.665 239.355 5353.674"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40857,7 +41294,7 @@
 		<Post
 			ServerObjName="stolb1113"
 			NodesNameHierarchy=""
-			PostTiePos="4374.538 239.065 5352.417"
+			PostTiePos="4374.538 239.012 5352.417"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40867,13 +41304,13 @@
 		<Post
 			ServerObjName="stolb1113"
 			NodesNameHierarchy=""
-			PostTiePos="4374.665 239.409 5353.674"
+			PostTiePos="4374.665 239.355 5353.674"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1112"
 			NodesNameHierarchy=""
-			PostTiePos="4426.202 239.439 5348.458"
+			PostTiePos="4426.202 239.386 5348.458"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40883,30 +41320,14 @@
 		<Post
 			ServerObjName="stolb1113"
 			NodesNameHierarchy=""
-			PostTiePos="4374.538 239.065 5352.417"
+			PostTiePos="4374.538 239.012 5352.417"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1112"
 			NodesNameHierarchy=""
-			PostTiePos="4426.076 239.096 5347.201"
+			PostTiePos="4426.076 239.043 5347.201"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1112"
-			NodesNameHierarchy=""
-			PostTiePos="4426.202 239.439 5348.458"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1111"
-			NodesNameHierarchy=""
-			PostTiePos="4473.489 239.497 5331.335"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40915,13 +41336,29 @@
 		<Post
 			ServerObjName="stolb1112"
 			NodesNameHierarchy=""
-			PostTiePos="4426.076 239.096 5347.201"
+			PostTiePos="4426.202 239.386 5348.458"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1111"
+			NodesNameHierarchy=""
+			PostTiePos="4473.489 239.443 5331.335"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1112"
+			NodesNameHierarchy=""
+			PostTiePos="4426.076 239.043 5347.201"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1111"
 			NodesNameHierarchy=""
-			PostTiePos="4472.896 239.154 5330.221"
+			PostTiePos="4472.896 239.100 5330.221"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40931,13 +41368,13 @@
 		<Post
 			ServerObjName="stolb1111"
 			NodesNameHierarchy=""
-			PostTiePos="4473.489 239.497 5331.335"
+			PostTiePos="4473.489 239.443 5331.335"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1110"
 			NodesNameHierarchy=""
-			PostTiePos="4519.212 239.380 5306.986"
+			PostTiePos="4519.212 239.326 5306.986"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -40947,30 +41384,14 @@
 		<Post
 			ServerObjName="stolb1111"
 			NodesNameHierarchy=""
-			PostTiePos="4472.896 239.154 5330.221"
+			PostTiePos="4472.896 239.100 5330.221"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1110"
 			NodesNameHierarchy=""
-			PostTiePos="4518.620 239.037 5305.872"
+			PostTiePos="4518.620 238.983 5305.872"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb1110"
-			NodesNameHierarchy=""
-			PostTiePos="4519.212 239.380 5306.986"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb1109"
-			NodesNameHierarchy=""
-			PostTiePos="4564.934 239.467 5282.637"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -40979,13 +41400,29 @@
 		<Post
 			ServerObjName="stolb1110"
 			NodesNameHierarchy=""
-			PostTiePos="4518.620 239.037 5305.872"
+			PostTiePos="4519.212 239.326 5306.986"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1109"
+			NodesNameHierarchy=""
+			PostTiePos="4564.934 239.414 5282.637"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb1110"
+			NodesNameHierarchy=""
+			PostTiePos="4518.620 238.983 5305.872"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1109"
 			NodesNameHierarchy=""
-			PostTiePos="4564.341 239.124 5281.522"
+			PostTiePos="4564.341 239.070 5281.522"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -40995,13 +41432,13 @@
 		<Post
 			ServerObjName="stolb1109"
 			NodesNameHierarchy=""
-			PostTiePos="4564.934 239.467 5282.637"
+			PostTiePos="4564.934 239.414 5282.637"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1108"
 			NodesNameHierarchy=""
-			PostTiePos="4605.093 239.484 5258.514"
+			PostTiePos="4605.093 239.430 5258.514"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41011,13 +41448,13 @@
 		<Post
 			ServerObjName="stolb1109"
 			NodesNameHierarchy=""
-			PostTiePos="4564.341 239.124 5281.522"
+			PostTiePos="4564.341 239.070 5281.522"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1108"
 			NodesNameHierarchy=""
-			PostTiePos="4604.444 239.141 5257.431"
+			PostTiePos="4604.444 239.087 5257.431"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41027,13 +41464,13 @@
 		<Post
 			ServerObjName="stolb1108"
 			NodesNameHierarchy=""
-			PostTiePos="4605.093 239.484 5258.514"
+			PostTiePos="4605.093 239.430 5258.514"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1107"
 			NodesNameHierarchy=""
-			PostTiePos="4649.510 239.472 5231.858"
+			PostTiePos="4649.510 239.419 5231.858"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41043,13 +41480,13 @@
 		<Post
 			ServerObjName="stolb1108"
 			NodesNameHierarchy=""
-			PostTiePos="4604.444 239.141 5257.431"
+			PostTiePos="4604.444 239.087 5257.431"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1107"
 			NodesNameHierarchy=""
-			PostTiePos="4648.861 239.129 5230.775"
+			PostTiePos="4648.861 239.076 5230.775"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41059,7 +41496,7 @@
 		<Post
 			ServerObjName="stolb1107"
 			NodesNameHierarchy=""
-			PostTiePos="4649.510 239.472 5231.858"
+			PostTiePos="4649.510 239.419 5231.858"
 			LpName="LP_PART01" />
 
 		<Post
@@ -41075,7 +41512,7 @@
 		<Post
 			ServerObjName="stolb1107"
 			NodesNameHierarchy=""
-			PostTiePos="4648.861 239.129 5230.775"
+			PostTiePos="4648.861 239.076 5230.775"
 			LpName="LP_PART02" />
 
 		<Post
@@ -41129,7 +41566,7 @@
 		<Post
 			ServerObjName="stolb188"
 			NodesNameHierarchy=""
-			PostTiePos="4654.880 239.241 5012.207"
+			PostTiePos="4654.880 239.242 5012.207"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41155,13 +41592,13 @@
 		<Post
 			ServerObjName="stolb188"
 			NodesNameHierarchy=""
-			PostTiePos="4654.880 239.241 5012.207"
+			PostTiePos="4654.880 239.242 5012.207"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb189"
 			NodesNameHierarchy=""
-			PostTiePos="4642.036 239.468 5062.391"
+			PostTiePos="4642.036 239.414 5062.391"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41177,7 +41614,7 @@
 		<Post
 			ServerObjName="stolb189"
 			NodesNameHierarchy=""
-			PostTiePos="4640.813 239.124 5062.078"
+			PostTiePos="4640.813 239.071 5062.078"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41187,13 +41624,13 @@
 		<Post
 			ServerObjName="stolb189"
 			NodesNameHierarchy=""
-			PostTiePos="4642.036 239.468 5062.391"
+			PostTiePos="4642.036 239.414 5062.391"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb190"
 			NodesNameHierarchy=""
-			PostTiePos="4637.752 239.304 5116.060"
+			PostTiePos="4637.752 239.305 5116.060"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41203,7 +41640,7 @@
 		<Post
 			ServerObjName="stolb189"
 			NodesNameHierarchy=""
-			PostTiePos="4640.813 239.124 5062.078"
+			PostTiePos="4640.813 239.071 5062.078"
 			LpName="LP_PART02" />
 
 		<Post
@@ -41219,13 +41656,13 @@
 		<Post
 			ServerObjName="stolb190"
 			NodesNameHierarchy=""
-			PostTiePos="4637.752 239.304 5116.060"
+			PostTiePos="4637.752 239.305 5116.060"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb191"
 			NodesNameHierarchy=""
-			PostTiePos="4660.769 239.467 5162.468"
+			PostTiePos="4660.769 239.413 5162.468"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41241,7 +41678,7 @@
 		<Post
 			ServerObjName="stolb191"
 			NodesNameHierarchy=""
-			PostTiePos="4659.638 239.124 5163.029"
+			PostTiePos="4659.638 239.070 5163.029"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41251,7 +41688,7 @@
 		<Post
 			ServerObjName="stolb191"
 			NodesNameHierarchy=""
-			PostTiePos="4660.769 239.467 5162.468"
+			PostTiePos="4660.769 239.413 5162.468"
 			LpName="LP_PART01" />
 
 		<Post
@@ -41267,7 +41704,7 @@
 		<Post
 			ServerObjName="stolb191"
 			NodesNameHierarchy=""
-			PostTiePos="4659.638 239.124 5163.029"
+			PostTiePos="4659.638 239.070 5163.029"
 			LpName="LP_PART02" />
 
 		<Post
@@ -41321,7 +41758,7 @@
 		<Post
 			ServerObjName="stolb194"
 			NodesNameHierarchy=""
-			PostTiePos="4777.279 239.407 5230.146"
+			PostTiePos="4777.279 239.353 5230.146"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41337,7 +41774,7 @@
 		<Post
 			ServerObjName="stolb194"
 			NodesNameHierarchy=""
-			PostTiePos="4776.865 239.064 5231.338"
+			PostTiePos="4776.865 239.010 5231.338"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41347,13 +41784,13 @@
 		<Post
 			ServerObjName="stolb194"
 			NodesNameHierarchy=""
-			PostTiePos="4777.279 239.407 5230.146"
+			PostTiePos="4777.279 239.353 5230.146"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb195"
 			NodesNameHierarchy=""
-			PostTiePos="4821.694 239.486 5250.846"
+			PostTiePos="4821.694 239.433 5250.846"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41363,30 +41800,14 @@
 		<Post
 			ServerObjName="stolb194"
 			NodesNameHierarchy=""
-			PostTiePos="4776.865 239.064 5231.338"
+			PostTiePos="4776.865 239.010 5231.338"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb195"
 			NodesNameHierarchy=""
-			PostTiePos="4821.045 239.143 5251.929"
+			PostTiePos="4821.045 239.089 5251.929"
 			LpName="LP_PART02" />
-	</Object>
-
-	<Object
-		Belong="-1"
-		Prototype="Cable_1">
-		<Post
-			ServerObjName="stolb195"
-			NodesNameHierarchy=""
-			PostTiePos="4821.694 239.486 5250.846"
-			LpName="LP_PART01" />
-
-		<Post
-			ServerObjName="stolb196"
-			NodesNameHierarchy=""
-			PostTiePos="4866.148 239.444 5277.439"
-			LpName="LP_PART01" />
 	</Object>
 
 	<Object
@@ -41395,13 +41816,29 @@
 		<Post
 			ServerObjName="stolb195"
 			NodesNameHierarchy=""
-			PostTiePos="4821.045 239.143 5251.929"
+			PostTiePos="4821.694 239.433 5250.846"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb196"
+			NodesNameHierarchy=""
+			PostTiePos="4866.148 239.390 5277.439"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable_1">
+		<Post
+			ServerObjName="stolb195"
+			NodesNameHierarchy=""
+			PostTiePos="4821.045 239.089 5251.929"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb196"
 			NodesNameHierarchy=""
-			PostTiePos="4865.499 239.101 5278.522"
+			PostTiePos="4865.499 239.047 5278.522"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41411,13 +41848,13 @@
 		<Post
 			ServerObjName="stolb196"
 			NodesNameHierarchy=""
-			PostTiePos="4866.148 239.444 5277.439"
+			PostTiePos="4866.148 239.390 5277.439"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb197"
 			NodesNameHierarchy=""
-			PostTiePos="4910.602 239.439 5304.033"
+			PostTiePos="4910.602 239.386 5304.033"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41427,13 +41864,13 @@
 		<Post
 			ServerObjName="stolb196"
 			NodesNameHierarchy=""
-			PostTiePos="4865.499 239.101 5278.522"
+			PostTiePos="4865.499 239.047 5278.522"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb197"
 			NodesNameHierarchy=""
-			PostTiePos="4909.953 239.096 5305.116"
+			PostTiePos="4909.953 239.042 5305.116"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41443,13 +41880,13 @@
 		<Post
 			ServerObjName="stolb197"
 			NodesNameHierarchy=""
-			PostTiePos="4910.602 239.439 5304.033"
+			PostTiePos="4910.602 239.386 5304.033"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb198"
 			NodesNameHierarchy=""
-			PostTiePos="4955.056 239.381 5330.627"
+			PostTiePos="4955.056 239.328 5330.627"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41459,13 +41896,13 @@
 		<Post
 			ServerObjName="stolb197"
 			NodesNameHierarchy=""
-			PostTiePos="4909.953 239.096 5305.116"
+			PostTiePos="4909.953 239.042 5305.116"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb198"
 			NodesNameHierarchy=""
-			PostTiePos="4954.407 239.038 5331.710"
+			PostTiePos="4954.407 238.985 5331.710"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41475,7 +41912,7 @@
 		<Post
 			ServerObjName="stolb198"
 			NodesNameHierarchy=""
-			PostTiePos="4955.056 239.381 5330.627"
+			PostTiePos="4955.056 239.328 5330.627"
 			LpName="LP_PART01" />
 
 		<Post
@@ -41491,7 +41928,7 @@
 		<Post
 			ServerObjName="stolb198"
 			NodesNameHierarchy=""
-			PostTiePos="4954.407 239.038 5331.710"
+			PostTiePos="4954.407 238.985 5331.710"
 			LpName="LP_PART02" />
 
 		<Post
@@ -41513,7 +41950,7 @@
 		<Post
 			ServerObjName="stolb1100"
 			NodesNameHierarchy=""
-			PostTiePos="5042.021 239.441 5382.810"
+			PostTiePos="5042.021 239.388 5382.810"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41529,7 +41966,7 @@
 		<Post
 			ServerObjName="stolb1100"
 			NodesNameHierarchy=""
-			PostTiePos="5041.390 239.098 5383.903"
+			PostTiePos="5041.390 239.045 5383.903"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41539,13 +41976,13 @@
 		<Post
 			ServerObjName="stolb1100"
 			NodesNameHierarchy=""
-			PostTiePos="5042.021 239.441 5382.810"
+			PostTiePos="5042.021 239.388 5382.810"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1101"
 			NodesNameHierarchy=""
-			PostTiePos="5086.870 239.453 5408.735"
+			PostTiePos="5086.870 239.399 5408.735"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41555,13 +41992,13 @@
 		<Post
 			ServerObjName="stolb1100"
 			NodesNameHierarchy=""
-			PostTiePos="5041.390 239.098 5383.903"
+			PostTiePos="5041.390 239.045 5383.903"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1101"
 			NodesNameHierarchy=""
-			PostTiePos="5086.238 239.110 5409.828"
+			PostTiePos="5086.238 239.056 5409.828"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41571,13 +42008,13 @@
 		<Post
 			ServerObjName="stolb1101"
 			NodesNameHierarchy=""
-			PostTiePos="5086.870 239.453 5408.735"
+			PostTiePos="5086.870 239.399 5408.735"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1102"
 			NodesNameHierarchy=""
-			PostTiePos="5127.748 239.441 5439.778"
+			PostTiePos="5127.748 239.395 5439.778"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41587,13 +42024,13 @@
 		<Post
 			ServerObjName="stolb1101"
 			NodesNameHierarchy=""
-			PostTiePos="5086.238 239.110 5409.828"
+			PostTiePos="5086.238 239.056 5409.828"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1102"
 			NodesNameHierarchy=""
-			PostTiePos="5126.944 239.098 5440.750"
+			PostTiePos="5126.944 239.052 5440.750"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41603,7 +42040,7 @@
 		<Post
 			ServerObjName="stolb1102"
 			NodesNameHierarchy=""
-			PostTiePos="5127.748 239.441 5439.778"
+			PostTiePos="5127.748 239.395 5439.778"
 			LpName="LP_PART01" />
 
 		<Post
@@ -41619,7 +42056,7 @@
 		<Post
 			ServerObjName="stolb1102"
 			NodesNameHierarchy=""
-			PostTiePos="5126.944 239.098 5440.750"
+			PostTiePos="5126.944 239.052 5440.750"
 			LpName="LP_PART02" />
 
 		<Post
@@ -41673,7 +42110,7 @@
 		<Post
 			ServerObjName="stolb1105"
 			NodesNameHierarchy=""
-			PostTiePos="5255.523 240.424 5450.665"
+			PostTiePos="5255.523 240.409 5450.665"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -41689,7 +42126,7 @@
 		<Post
 			ServerObjName="stolb1105"
 			NodesNameHierarchy=""
-			PostTiePos="5256.485 240.081 5451.482"
+			PostTiePos="5256.485 240.066 5451.482"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41699,7 +42136,7 @@
 		<Post
 			ServerObjName="stolb1105"
 			NodesNameHierarchy=""
-			PostTiePos="5255.523 240.424 5450.665"
+			PostTiePos="5255.523 240.409 5450.665"
 			LpName="LP_PART01" />
 
 		<Post
@@ -41715,13 +42152,13 @@
 		<Post
 			ServerObjName="stolb1105"
 			NodesNameHierarchy=""
-			PostTiePos="5256.485 240.081 5451.482"
+			PostTiePos="5256.485 240.066 5451.482"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1106"
 			NodesNameHierarchy=""
-			PostTiePos="5276.769 237.425 5419.929"
+			PostTiePos="5276.769 237.426 5419.929"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -41747,7 +42184,7 @@
 		<Post
 			ServerObjName="stolb1106"
 			NodesNameHierarchy=""
-			PostTiePos="5276.769 237.425 5419.929"
+			PostTiePos="5276.769 237.426 5419.929"
 			LpName="LP_PART02" />
 
 		<Post
@@ -42009,7 +42446,7 @@
 		<Post
 			ServerObjName="stolb1164"
 			NodesNameHierarchy=""
-			PostTiePos="5399.141 240.616 5856.668"
+			PostTiePos="5399.141 240.615 5856.668"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -42035,7 +42472,7 @@
 		<Post
 			ServerObjName="stolb1164"
 			NodesNameHierarchy=""
-			PostTiePos="5399.141 240.616 5856.668"
+			PostTiePos="5399.141 240.615 5856.668"
 			LpName="LP_PART02" />
 
 		<Post
@@ -42121,7 +42558,7 @@
 		<Post
 			ServerObjName="stolb1168"
 			NodesNameHierarchy=""
-			PostTiePos="5512.540 239.418 6048.001"
+			PostTiePos="5512.540 239.419 6048.001"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -42147,7 +42584,7 @@
 		<Post
 			ServerObjName="stolb1168"
 			NodesNameHierarchy=""
-			PostTiePos="5512.540 239.418 6048.001"
+			PostTiePos="5512.540 239.419 6048.001"
 			LpName="LP_PART01" />
 
 		<Post
@@ -42345,7 +42782,7 @@
 		<Post
 			ServerObjName="stolb1175"
 			NodesNameHierarchy=""
-			PostTiePos="5670.365 238.545 6369.744"
+			PostTiePos="5670.365 238.546 6369.744"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -42361,7 +42798,7 @@
 		<Post
 			ServerObjName="stolb1175"
 			NodesNameHierarchy=""
-			PostTiePos="5669.576 238.202 6370.729"
+			PostTiePos="5669.576 238.203 6370.729"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -42371,7 +42808,7 @@
 		<Post
 			ServerObjName="stolb1175"
 			NodesNameHierarchy=""
-			PostTiePos="5670.365 238.545 6369.744"
+			PostTiePos="5670.365 238.546 6369.744"
 			LpName="LP_PART01" />
 
 		<Post
@@ -42387,7 +42824,7 @@
 		<Post
 			ServerObjName="stolb1175"
 			NodesNameHierarchy=""
-			PostTiePos="5669.576 238.202 6370.729"
+			PostTiePos="5669.576 238.203 6370.729"
 			LpName="LP_PART02" />
 
 		<Post
@@ -42505,7 +42942,7 @@
 		<Post
 			ServerObjName="stolb1180"
 			NodesNameHierarchy=""
-			PostTiePos="5920.752 254.458 6413.262"
+			PostTiePos="5920.752 254.457 6413.262"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -42531,7 +42968,7 @@
 		<Post
 			ServerObjName="stolb1180"
 			NodesNameHierarchy=""
-			PostTiePos="5920.752 254.458 6413.262"
+			PostTiePos="5920.752 254.457 6413.262"
 			LpName="LP_PART01" />
 
 		<Post
@@ -42649,7 +43086,7 @@
 		<Post
 			ServerObjName="stolb1184"
 			NodesNameHierarchy=""
-			PostTiePos="6008.020 254.129 6587.941"
+			PostTiePos="6008.020 254.128 6587.941"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -42675,7 +43112,7 @@
 		<Post
 			ServerObjName="stolb1184"
 			NodesNameHierarchy=""
-			PostTiePos="6008.020 254.129 6587.941"
+			PostTiePos="6008.020 254.128 6587.941"
 			LpName="LP_PART02" />
 
 		<Post
@@ -42825,7 +43262,7 @@
 		<Post
 			ServerObjName="stolb1190"
 			NodesNameHierarchy=""
-			PostTiePos="6287.894 253.199 6739.322"
+			PostTiePos="6287.894 253.200 6739.322"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -42851,7 +43288,7 @@
 		<Post
 			ServerObjName="stolb1190"
 			NodesNameHierarchy=""
-			PostTiePos="6287.894 253.199 6739.322"
+			PostTiePos="6287.894 253.200 6739.322"
 			LpName="LP_PART01" />
 
 		<Post
@@ -42889,7 +43326,7 @@
 		<Post
 			ServerObjName="stolb1730"
 			NodesNameHierarchy=""
-			PostTiePos="6318.227 255.008 6837.619"
+			PostTiePos="6318.227 255.009 6837.619"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -42905,7 +43342,7 @@
 		<Post
 			ServerObjName="stolb1730"
 			NodesNameHierarchy=""
-			PostTiePos="6317.122 254.665 6838.228"
+			PostTiePos="6317.122 254.666 6838.228"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -42915,7 +43352,7 @@
 		<Post
 			ServerObjName="stolb1730"
 			NodesNameHierarchy=""
-			PostTiePos="6318.227 255.008 6837.619"
+			PostTiePos="6318.227 255.009 6837.619"
 			LpName="LP_PART01" />
 
 		<Post
@@ -42931,7 +43368,7 @@
 		<Post
 			ServerObjName="stolb1730"
 			NodesNameHierarchy=""
-			PostTiePos="6317.122 254.665 6838.228"
+			PostTiePos="6317.122 254.666 6838.228"
 			LpName="LP_PART02" />
 
 		<Post
@@ -43113,7 +43550,7 @@
 		<Post
 			ServerObjName="stolb1394"
 			NodesNameHierarchy=""
-			PostTiePos="5476.489 244.709 5045.787"
+			PostTiePos="5476.489 244.710 5045.787"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -43139,7 +43576,7 @@
 		<Post
 			ServerObjName="stolb1394"
 			NodesNameHierarchy=""
-			PostTiePos="5476.489 244.709 5045.787"
+			PostTiePos="5476.489 244.710 5045.787"
 			LpName="LP_PART01" />
 
 		<Post
@@ -43417,7 +43854,7 @@
 		<Post
 			ServerObjName="stolb1106"
 			NodesNameHierarchy=""
-			PostTiePos="5276.769 237.425 5419.929"
+			PostTiePos="5276.769 237.426 5419.929"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -43529,7 +43966,7 @@
 		<Post
 			ServerObjName="stolb1416"
 			NodesNameHierarchy=""
-			PostTiePos="5388.366 280.084 4162.823"
+			PostTiePos="5388.366 280.085 4162.823"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -43555,7 +43992,7 @@
 		<Post
 			ServerObjName="stolb1416"
 			NodesNameHierarchy=""
-			PostTiePos="5388.366 280.084 4162.823"
+			PostTiePos="5388.366 280.085 4162.823"
 			LpName="LP_PART01" />
 
 		<Post
@@ -43609,7 +44046,7 @@
 		<Post
 			ServerObjName="stolb1418"
 			NodesNameHierarchy=""
-			PostTiePos="5491.137 277.181 4163.903"
+			PostTiePos="5491.137 277.182 4163.903"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -43635,7 +44072,7 @@
 		<Post
 			ServerObjName="stolb1418"
 			NodesNameHierarchy=""
-			PostTiePos="5491.137 277.181 4163.903"
+			PostTiePos="5491.137 277.182 4163.903"
 			LpName="LP_PART02" />
 
 		<Post
@@ -43737,7 +44174,7 @@
 		<Post
 			ServerObjName="stolb1422"
 			NodesNameHierarchy=""
-			PostTiePos="5717.793 274.204 4195.876"
+			PostTiePos="5717.793 274.203 4195.876"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -43763,7 +44200,7 @@
 		<Post
 			ServerObjName="stolb1422"
 			NodesNameHierarchy=""
-			PostTiePos="5717.793 274.204 4195.876"
+			PostTiePos="5717.793 274.203 4195.876"
 			LpName="LP_PART02" />
 
 		<Post
@@ -43779,7 +44216,7 @@
 		<Post
 			ServerObjName="stolb1405"
 			NodesNameHierarchy=""
-			PostTiePos="5179.996 246.211 4583.578"
+			PostTiePos="5179.996 246.210 4583.578"
 			LpName="LP_PART01" />
 
 		<Post
@@ -43897,7 +44334,7 @@
 		<Post
 			ServerObjName="stolb1401"
 			NodesNameHierarchy=""
-			PostTiePos="5306.591 239.573 4737.964"
+			PostTiePos="5306.591 239.572 4737.964"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -43923,7 +44360,7 @@
 		<Post
 			ServerObjName="stolb1401"
 			NodesNameHierarchy=""
-			PostTiePos="5306.591 239.573 4737.964"
+			PostTiePos="5306.591 239.572 4737.964"
 			LpName="LP_PART02" />
 
 		<Post
@@ -44035,7 +44472,7 @@
 		<Post
 			ServerObjName="stolb1210"
 			NodesNameHierarchy=""
-			PostTiePos="4639.201 282.807 3843.714"
+			PostTiePos="4639.201 282.808 3843.714"
 			LpName="LP_PART01" />
 
 		<Post
@@ -44057,7 +44494,7 @@
 		<Post
 			ServerObjName="stolb1209"
 			NodesNameHierarchy=""
-			PostTiePos="4665.611 279.395 3888.294"
+			PostTiePos="4665.611 279.396 3888.294"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -44083,13 +44520,13 @@
 		<Post
 			ServerObjName="stolb1209"
 			NodesNameHierarchy=""
-			PostTiePos="4665.611 279.395 3888.294"
+			PostTiePos="4665.611 279.396 3888.294"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb1208"
 			NodesNameHierarchy=""
-			PostTiePos="4690.920 282.216 3933.489"
+			PostTiePos="4690.920 282.217 3933.489"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -44115,7 +44552,7 @@
 		<Post
 			ServerObjName="stolb1208"
 			NodesNameHierarchy=""
-			PostTiePos="4690.920 282.216 3933.489"
+			PostTiePos="4690.920 282.217 3933.489"
 			LpName="LP_PART02" />
 
 		<Post
@@ -44185,7 +44622,7 @@
 		<Post
 			ServerObjName="stolb1205"
 			NodesNameHierarchy=""
-			PostTiePos="4776.129 282.180 4061.893"
+			PostTiePos="4776.129 282.181 4061.893"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -44211,7 +44648,7 @@
 		<Post
 			ServerObjName="stolb1205"
 			NodesNameHierarchy=""
-			PostTiePos="4776.129 282.180 4061.893"
+			PostTiePos="4776.129 282.181 4061.893"
 			LpName="LP_PART02" />
 
 		<Post
@@ -44297,7 +44734,7 @@
 		<Post
 			ServerObjName="stolb1202"
 			NodesNameHierarchy=""
-			PostTiePos="4938.351 286.408 4193.636"
+			PostTiePos="4938.351 286.407 4193.636"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -44323,7 +44760,7 @@
 		<Post
 			ServerObjName="stolb1202"
 			NodesNameHierarchy=""
-			PostTiePos="4938.351 286.408 4193.636"
+			PostTiePos="4938.351 286.407 4193.636"
 			LpName="LP_PART01" />
 
 		<Post
@@ -44585,7 +45022,7 @@
 		<Post
 			ServerObjName="stolb1405"
 			NodesNameHierarchy=""
-			PostTiePos="5179.996 246.211 4583.578"
+			PostTiePos="5179.996 246.210 4583.578"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -44617,7 +45054,7 @@
 		<Post
 			ServerObjName="stolb1220"
 			NodesNameHierarchy=""
-			PostTiePos="4373.857 293.326 3447.009"
+			PostTiePos="4373.857 293.327 3447.009"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -44643,7 +45080,7 @@
 		<Post
 			ServerObjName="stolb1220"
 			NodesNameHierarchy=""
-			PostTiePos="4373.857 293.326 3447.009"
+			PostTiePos="4373.857 293.327 3447.009"
 			LpName="LP_PART01" />
 
 		<Post
@@ -44937,7 +45374,7 @@
 		<Post
 			ServerObjName="stolb1210"
 			NodesNameHierarchy=""
-			PostTiePos="4639.201 282.807 3843.714"
+			PostTiePos="4639.201 282.808 3843.714"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -45273,7 +45710,7 @@
 		<Post
 			ServerObjName="stolb1226"
 			NodesNameHierarchy=""
-			PostTiePos="4155.907 282.936 3220.149"
+			PostTiePos="4155.907 282.937 3220.149"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -45289,7 +45726,7 @@
 		<Post
 			ServerObjName="stolb1225"
 			NodesNameHierarchy=""
-			PostTiePos="4175.864 283.489 3267.967"
+			PostTiePos="4175.864 283.490 3267.967"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -45299,7 +45736,7 @@
 		<Post
 			ServerObjName="stolb1226"
 			NodesNameHierarchy=""
-			PostTiePos="4155.907 282.936 3220.149"
+			PostTiePos="4155.907 282.937 3220.149"
 			LpName="LP_PART02" />
 
 		<Post
@@ -45315,13 +45752,13 @@
 		<Post
 			ServerObjName="stolb1225"
 			NodesNameHierarchy=""
-			PostTiePos="4175.864 283.489 3267.967"
+			PostTiePos="4175.864 283.490 3267.967"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb1224"
 			NodesNameHierarchy=""
-			PostTiePos="4196.973 294.077 3315.271"
+			PostTiePos="4196.973 294.076 3315.271"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -45347,7 +45784,7 @@
 		<Post
 			ServerObjName="stolb1224"
 			NodesNameHierarchy=""
-			PostTiePos="4196.973 294.077 3315.271"
+			PostTiePos="4196.973 294.076 3315.271"
 			LpName="LP_PART01" />
 
 		<Post
@@ -45609,7 +46046,7 @@
 		<Post
 			ServerObjName="stolb1243"
 			NodesNameHierarchy=""
-			PostTiePos="3629.084 285.801 2524.413"
+			PostTiePos="3629.084 285.800 2524.413"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -45635,7 +46072,7 @@
 		<Post
 			ServerObjName="stolb1243"
 			NodesNameHierarchy=""
-			PostTiePos="3629.084 285.801 2524.413"
+			PostTiePos="3629.084 285.800 2524.413"
 			LpName="LP_PART01" />
 
 		<Post
@@ -45705,7 +46142,7 @@
 		<Post
 			ServerObjName="stolb1240"
 			NodesNameHierarchy=""
-			PostTiePos="3698.604 285.021 2651.557"
+			PostTiePos="3698.604 285.022 2651.557"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -45731,7 +46168,7 @@
 		<Post
 			ServerObjName="stolb1240"
 			NodesNameHierarchy=""
-			PostTiePos="3698.604 285.021 2651.557"
+			PostTiePos="3698.604 285.022 2651.557"
 			LpName="LP_PART01" />
 
 		<Post
@@ -46025,7 +46462,7 @@
 		<Post
 			ServerObjName="stolb1260"
 			NodesNameHierarchy=""
-			PostTiePos="3249.076 276.379 1838.258"
+			PostTiePos="3249.076 276.378 1838.258"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -46051,7 +46488,7 @@
 		<Post
 			ServerObjName="stolb1260"
 			NodesNameHierarchy=""
-			PostTiePos="3249.076 276.379 1838.258"
+			PostTiePos="3249.076 276.378 1838.258"
 			LpName="LP_PART01" />
 
 		<Post
@@ -46505,7 +46942,7 @@
 		<Post
 			ServerObjName="stolb1372"
 			NodesNameHierarchy=""
-			PostTiePos="3800.188 278.475 2041.926"
+			PostTiePos="3800.188 278.474 2041.926"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -46531,7 +46968,7 @@
 		<Post
 			ServerObjName="stolb1372"
 			NodesNameHierarchy=""
-			PostTiePos="3800.188 278.475 2041.926"
+			PostTiePos="3800.188 278.474 2041.926"
 			LpName="LP_PART01" />
 
 		<Post
@@ -46713,7 +47150,7 @@
 		<Post
 			ServerObjName="stolb1378"
 			NodesNameHierarchy=""
-			PostTiePos="4069.412 306.492 1948.015"
+			PostTiePos="4069.412 306.491 1948.015"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -46739,7 +47176,7 @@
 		<Post
 			ServerObjName="stolb1378"
 			NodesNameHierarchy=""
-			PostTiePos="4069.412 306.492 1948.015"
+			PostTiePos="4069.412 306.491 1948.015"
 			LpName="LP_PART02" />
 
 		<Post
@@ -46841,7 +47278,7 @@
 		<Post
 			ServerObjName="stolb1382"
 			NodesNameHierarchy=""
-			PostTiePos="4086.432 312.028 1775.239"
+			PostTiePos="4086.432 312.029 1775.239"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -46937,7 +47374,7 @@
 		<Post
 			ServerObjName="stolb1384"
 			NodesNameHierarchy=""
-			PostTiePos="4055.019 312.041 1685.051"
+			PostTiePos="4055.019 312.042 1685.051"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -46963,7 +47400,7 @@
 		<Post
 			ServerObjName="stolb1384"
 			NodesNameHierarchy=""
-			PostTiePos="4055.019 312.041 1685.051"
+			PostTiePos="4055.019 312.042 1685.051"
 			LpName="LP_PART02" />
 
 		<Post
@@ -47001,7 +47438,7 @@
 		<Post
 			ServerObjName="stolb1382"
 			NodesNameHierarchy=""
-			PostTiePos="4086.432 312.028 1775.239"
+			PostTiePos="4086.432 312.029 1775.239"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -47177,7 +47614,7 @@
 		<Post
 			ServerObjName="stolb1315"
 			NodesNameHierarchy=""
-			PostTiePos="6592.472 284.541 4020.486"
+			PostTiePos="6592.472 284.540 4020.486"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -47203,7 +47640,7 @@
 		<Post
 			ServerObjName="stolb1315"
 			NodesNameHierarchy=""
-			PostTiePos="6592.472 284.541 4020.486"
+			PostTiePos="6592.472 284.540 4020.486"
 			LpName="LP_PART01" />
 
 		<Post
@@ -47513,7 +47950,7 @@
 		<Post
 			ServerObjName="stolb1354"
 			NodesNameHierarchy=""
-			PostTiePos="7152.777 291.697 4610.616"
+			PostTiePos="7152.777 291.698 4610.616"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -47539,7 +47976,7 @@
 		<Post
 			ServerObjName="stolb1354"
 			NodesNameHierarchy=""
-			PostTiePos="7152.777 291.697 4610.616"
+			PostTiePos="7152.777 291.698 4610.616"
 			LpName="LP_PART02" />
 
 		<Post
@@ -47577,7 +48014,7 @@
 		<Post
 			ServerObjName="stolb1356"
 			NodesNameHierarchy=""
-			PostTiePos="7221.338 290.503 4690.148"
+			PostTiePos="7221.338 290.504 4690.148"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -47593,7 +48030,7 @@
 		<Post
 			ServerObjName="stolb1357"
 			NodesNameHierarchy=""
-			PostTiePos="7272.005 290.114 4687.245"
+			PostTiePos="7272.005 290.115 4687.245"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -47603,7 +48040,7 @@
 		<Post
 			ServerObjName="stolb1356"
 			NodesNameHierarchy=""
-			PostTiePos="7221.338 290.503 4690.148"
+			PostTiePos="7221.338 290.504 4690.148"
 			LpName="LP_PART02" />
 
 		<Post
@@ -47619,7 +48056,7 @@
 		<Post
 			ServerObjName="stolb1357"
 			NodesNameHierarchy=""
-			PostTiePos="7272.005 290.114 4687.245"
+			PostTiePos="7272.005 290.115 4687.245"
 			LpName="LP_PART01" />
 
 		<Post
@@ -47817,7 +48254,7 @@
 		<Post
 			ServerObjName="stolb1364"
 			NodesNameHierarchy=""
-			PostTiePos="7596.956 283.570 4778.630"
+			PostTiePos="7596.956 283.569 4778.630"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -47843,7 +48280,7 @@
 		<Post
 			ServerObjName="stolb1364"
 			NodesNameHierarchy=""
-			PostTiePos="7596.956 283.570 4778.630"
+			PostTiePos="7596.956 283.569 4778.630"
 			LpName="LP_PART01" />
 
 		<Post
@@ -48489,7 +48926,7 @@
 		<Post
 			ServerObjName="stolb1337"
 			NodesNameHierarchy=""
-			PostTiePos="6429.072 295.581 3187.521"
+			PostTiePos="6428.262 295.409 3192.983"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -48505,7 +48942,7 @@
 		<Post
 			ServerObjName="stolb1337"
 			NodesNameHierarchy=""
-			PostTiePos="6430.292 295.238 3187.196"
+			PostTiePos="6429.481 295.065 3192.657"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -48515,7 +48952,7 @@
 		<Post
 			ServerObjName="stolb1337"
 			NodesNameHierarchy=""
-			PostTiePos="6429.072 295.581 3187.521"
+			PostTiePos="6428.262 295.409 3192.983"
 			LpName="LP_PART01" />
 
 		<Post
@@ -48531,7 +48968,7 @@
 		<Post
 			ServerObjName="stolb1337"
 			NodesNameHierarchy=""
-			PostTiePos="6430.292 295.238 3187.196"
+			PostTiePos="6429.481 295.065 3192.657"
 			LpName="LP_PART02" />
 
 		<Post
@@ -48649,7 +49086,7 @@
 		<Post
 			ServerObjName="stolb1606"
 			NodesNameHierarchy=""
-			PostTiePos="6442.252 295.330 3444.264"
+			PostTiePos="6442.252 295.329 3444.264"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -48675,7 +49112,7 @@
 		<Post
 			ServerObjName="stolb1606"
 			NodesNameHierarchy=""
-			PostTiePos="6442.252 295.330 3444.264"
+			PostTiePos="6442.252 295.329 3444.264"
 			LpName="LP_PART01" />
 
 		<Post
@@ -49196,6 +49633,244 @@
 			Pos="3059.550 234.560 3512.748"
 			Rot="0.998 0.000 0.000 0.060" />
 	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4109"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="713.944 252.903 2306.267"
+		Rot="0.000 0.498 0.000 0.867">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4110"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="737.620 256.960 2275.093"
+		Rot="0.000 0.494 0.000 0.869">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4111"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="759.038 261.746 2248.693"
+		Rot="0.000 0.489 0.000 0.872">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4112"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="664.526 257.926 2366.936"
+		Rot="0.000 0.391 0.000 0.920">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4113"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="643.168 263.880 2395.198"
+		Rot="-0.014 0.401 -0.025 0.916">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4114"
+		Belong="1083"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="625.261 268.090 2415.174"
+		Rot="-0.020 0.463 -0.039 0.885">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4115"
+		Belong="1083"
+		Prototype="heavy_dot4_octopus"
+		Pos="624.778 258.037 2261.666"
+		Rot="0.000 0.013 0.000 1.000">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4116"
+		Belong="1083"
+		Prototype="heavy_dot4_octopus"
+		Pos="594.992 269.006 2287.606"
+		Rot="0.000 0.509 0.000 0.861">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4117"
+		Belong="1083"
+		Prototype="heavy_dot4_octopus"
+		Pos="573.489 269.809 2274.192"
+		Rot="0.000 -0.884 0.000 0.468">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4118"
+		Belong="1083"
+		Prototype="heavy_dot4_octopus"
+		Pos="583.660 255.135 2212.239"
+		Rot="0.000 -0.740 0.000 0.672">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_hurricane4119"
+		Belong="1083"
+		Prototype="heavy_dot4_big_hurricane"
+		Pos="460.701 265.880 2171.884"
+		Rot="0.000 0.853 0.000 0.522">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_hurricane4120"
+		Belong="1083"
+		Prototype="heavy_dot4_big_hurricane"
+		Pos="443.315 260.954 2070.043"
+		Rot="0.000 0.521 0.000 0.854">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4121"
+		Belong="1083"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="544.651 252.205 2147.115"
+		Rot="0.000 0.489 0.000 0.872">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Human24123"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="539.227 261.366 2183.750"
+		Rot="0.000 -0.332 0.000 0.943" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24124"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="543.625 261.366 2190.448" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24125"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="541.065 261.366 2183.442" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24126"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="542.104 261.366 2186.854" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24127"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="536.157 261.366 2178.488" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24128"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="532.263 261.366 2178.994" />
+
+	<Object
+		Name="koluch1"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="679.212 254.056 2344.886"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch2"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="680.518 254.063 2339.954"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch3"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="682.517 253.819 2335.549"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch4"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="684.599 253.430 2331.614"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch5"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="686.997 253.652 2328.286"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch6"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="690.271 253.492 2325.001"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch7"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="694.136 253.533 2322.243"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch8"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="697.484 253.588 2319.094"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch9"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="701.993 253.186 2316.929"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch10"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="678.602 254.417 2349.654"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch11"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="678.540 254.259 2355.591"
+		NodeScale="1.600" />
+
+	<Object
+		Name="koluch12"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="707.564 252.324 2317.472"
+		NodeScale="1.600" />
 
 	<Object
 		Name="E_InfectionZone1"
@@ -54825,6 +55500,81 @@
 				y="6317.537" />
 		</DropOut>
 	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1149"
+			NodesNameHierarchy=""
+			PostTiePos="2832.515 231.185 6051.539"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="stolb1148"
+			NodesNameHierarchy=""
+			PostTiePos="2880.093 216.731 6067.280"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="stolb1149"
+			NodesNameHierarchy=""
+			PostTiePos="2832.911 230.842 6050.340"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="stolb1148"
+			NodesNameHierarchy=""
+			PostTiePos="2880.489 216.388 6066.081"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="Boss02Trap_Loc"
+		Belong="1018"
+		Prototype="genericLocation"
+		Pos="2295.433 233.000 5427.806"
+		Radius="71.000" />
+
+	<Object
+		Name="OldSibillaEntrance_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4187.015 242.771 6317.060"
+		Radius="29.000" />
+
+	<Object
+		Name="Professor_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="0.000 375.893 0.000"
+		Radius="1.000">
+		<Object
+			Name="PlayerNjeri"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="mask_hero"
+			helloReplyNames="Dlg_npc_003391"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Name="TuzzEscapists_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3546.389 270.000 2084.019"
+		Radius="47.000" />
+
+	<Object
+		Name="AfterDistantNjeriBattle_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2795.072 284.806 1836.845"
+		Radius="10.000" />
 
 	<Object
 		Belong="1100"

@@ -278,6 +278,7 @@ Extra Machines end here
 		<Item
 			id="box"
 			file="data\models\AnimModels.xml" />
+
 		<Item
 			id="cub"
 			file="data\models\AnimModels.xml" />
@@ -1070,6 +1071,10 @@ Extra Machines end here
 			id="lamppost2_broken"
 			file="data\models\AnimModels.xml" />
 
+		<Item
+			id="end_screen"
+			file="data\models\AnimModels.xml" />
+
 <!-- objects -->
 		<Item
 			id="exit"
@@ -1090,6 +1095,14 @@ Extra Machines end here
 
 		<Item 
 			id="dweller3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller07" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller_white" 
 			file="data\models\AnimModels.xml"/>
 
 <!-- Segments -->
@@ -1196,6 +1209,10 @@ Extra Machines end here
 
 		<Item 
 			id="bottles" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="ananaga_bottle" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -1671,12 +1688,12 @@ Extra Machines end here
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"   
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 4 8;" />
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"   
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 4 8;" />
 
 		<Item 
@@ -1922,7 +1939,7 @@ Extra Machines end here
 			id="cruiserCargo02" 
 			file="data\models\AnimModels.xml"   
 			params = "skins: 0 1 2 4 8;" />
-			
+
 		<Item 
 			id="cruiserSusp01" 
 			file="data\models\AnimModels.xml"/>
@@ -2435,9 +2452,13 @@ Extra Machines end here
 			id="quest_letter" 
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="quest_medicine_box" 
-			file="data\models\AnimModels.xml"/>
+		<Item
+			id="quest_medicine_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crimson_medal"
+			file="data\models\AnimModels.xml" />
 
 		<Item 	
 			id="quest_komp_splav" 
@@ -2506,6 +2527,14 @@ Extra Machines end here
 		<Item
 			id="sack_dot_brocken1"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="deadtree4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="flagshtock"
+			file="data\models\AnimModels.xml" />
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
@@ -2517,6 +2546,7 @@ Extra Machines end here
 	<ParticlesServer />
 
 	<SoundsServer>
+
 		<Item id="S_CRASH_METAL01" />
 		<Item id="S_CRASH_METAL02" />
 		<Item id="S_CRASH_METAL03" />
@@ -2536,16 +2566,16 @@ Extra Machines end here
 		<Item id="S_CRASH_WOOD06" />
 		<Item id="S_CRASH_WOOD07" />
 		<Item id="S_CRASH_WOOD08" />
-		<!-- <Item id="S_WOODVEHICLEHIT" /> -->
-		<!-- <Item id="S_WOODVEHICLECRASH" /> -->
-		<!-- <Item id="S_BRICKVEHICLEHIT01" /> -->
-		<!-- <Item id="S_BRICKVEHICLEHIT02" /> -->
-		<!-- <Item id="S_SACKVEHICLEHIT" /> -->
-		<!-- <Item id="S_VEHICLESPARKLE" /> -->
-		<!-- <Item id="S_VEHICLEONGROUND" /> -->
-		<Item id="S_VEHICLEONGROUND_SLOW" />
-		<Item id="S_STATICSSPARKLE" />
-		<Item id="S_STATICSSPARKLE_SLOW" />
+		<Item id="S_WOODVEHICLECRASH" />
+        <Item id="S_BRICKVEHICLEHIT01" />
+        <Item id="S_BRICKVEHICLEHIT02" />
+        <Item id="S_SACKVEHICLEHIT" />
+        <Item id="S_VEHICLESPARKLE" />
+        <Item id="S_VEHICLESPARKLE_SLOW" />
+        <Item id="S_VEHICLEONGROUND" />
+        <Item id="S_VEHICLEONGROUND_SLOW" />
+        <Item id="S_STATICSSPARKLE" />
+        <Item id="S_STATICSSPARKLE_SLOW" />
 
 
 		<!-- Braking -->
@@ -2574,9 +2604,6 @@ Extra Machines end here
 		<Item id="S_ENGINE_BELAZ_3_HIGH" />
 		<Item id="S_ENGINE_BELAZ_4_HIGH" />
 		<Item id="S_ENGINE_BELAZ_5_HIGH" />
-
-		<Item id="S_BELAZ_ENGINE_HIGH" />
-
 
 		<Item id="S_ENGINE_MIR_1_HIGH" />
 		<Item id="S_ENGINE_MIR_2_HIGH" />
@@ -2700,26 +2727,13 @@ Extra Machines end here
 		<Item id="S_HORN07" />
 		<Item id="S_HORN08" />
 
-		<!-- пїЅпїЅпїЅпїЅ -->
+		<!-- Гром -->
 
 		<Item id="S_THUNDER" />
 		<Item id="S_RAIN" />
 
 
 		<!-- Starting -->
-
-		<Item id="S_STARTING01" />
-		<Item id="S_STARTING02" />
-		<Item id="S_STARTING03" />
-		<Item id="S_STARTING04" />
-		<Item id="S_STARTING05" />
-		<Item id="S_STARTING06" />
-		<Item id="S_STARTING07" />
-		<Item id="S_STARTING08" />
-		<Item id="S_STARTING09" />
-		<Item id="S_SOMESHOT" />
-		<Item id="S_SHELL_SMALL" />
-		<Item id="S_SHELL_MEDIUM" />
 		<Item id="S_MISSILE_FLAME" />
 		<Item id="S_HORNET_TAIL" />
 		<Item id="S_STATIC07" />
@@ -2809,6 +2823,7 @@ Extra Machines end here
 		<Item id="S_MARSH" />
 		<Item id="S_MOUNT" />
 		<Item id="S_LAKE" />
+
 		<Item id="S_FOREST" />
 		<Item id="S_DESERT" />
 		<Item id="S_JUNGLE" />
@@ -2822,21 +2837,15 @@ Extra Machines end here
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
 		<Item id="S_WOODVEHICLEHIT1"/>
-		<Item id="S_WOODVEHICLEHIT2"/>
-		<Item id="S_WOODVEHICLEHIT3"/>
-		<Item id="S_WOODVEHICLECRASH"/>
-		<Item id="S_BRICKVEHICLEHIT01"/>
-		<Item id="S_BRICKVEHICLEHIT02"/>
-		<Item id="S_BRICKVEHICLEHIT03"/>
+	      <Item id="S_WOODVEHICLEHIT2"/>
+	      <Item id="S_WOODVEHICLEHIT3"/>
+            <Item id="S_BRICKVEHICLEHIT03"/>
 
-		<Item id="S_SACKVEHICLEHIT"/>
-		<Item id="S_SACKVEHICLEHIT02"/>
-		<Item id="S_TREEVEHICLECRASH"/>
-		<Item id="S_VEHICLESPARKLE"/>
-		<Item id="S_VEHICLESPARKLE_SLOW"/>
-		<Item id="S_VEHICLEONGROUND"/>
+            <Item id="S_SACKVEHICLEHIT02"/>
+            <Item id="S_TREEVEHICLECRASH"/>
 		<Item id="S_DRIFT01"/>
-		<Item id="S_CARJUMP"/>
+            <Item id="S_CARJUMP"/>
+
 
 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
@@ -2857,7 +2866,7 @@ Extra Machines end here
 		<Item id="S_CAR_BURNING_SMALL"/>
 		<Item id="S_CAR_BURNING"/>
 
-		<Item id="S_ENGINE_TANK_HIGH"/>
+            <Item id="S_ENGINE_TANK_HIGH"/>
 		<Item id="S_SHOOTING_ROBOTGUN_01"/>
 
 	</SoundsServer>
