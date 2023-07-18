@@ -48,15 +48,14 @@ screenshots:
   - img: screen/Cumbine/1.jpg
 
 # информация о процессе инсталляции
-patcher_version_requirement: "2.0"  # трактуется как >=1.13
- 
+patcher_version_requirement: "2.0.9"  # трактуется как >=1.13
+strict_requirements: false
 prerequisites:  # требования по базовым модам, без их наличия установка будет запрещена
   - name: [ImprovedStoryline]  # ComPatch или ComRemaster
     versions: 
      - ">=1.1 HD"  # любой версии начиная с 1.09 - например подойдут 1.11, 1.12, 1.12.4
-     - "<1.1.1"   # но меньше версии 1.14 - 1.14.1 уже не подойдёт
     optional_content:
-      - hd_vehicle_models
+
 no_base_content: false
 optional_content:
   - name: workshops
