@@ -76,6 +76,7 @@ Extra machines start here
 			<Type Name="TORNADO_CABIN" />
 			<Type Name="M35_CABIN" />
 			<Type Name="CUMBINE_CABIN" />
+			<Type Name="TORNADO_CABIN_ENEMY" />
 <!--
 Extra machines end here
 -->			

@@ -160,6 +160,55 @@ Extra Machines vehicles
         </Wheels>
     </Prototype>
 
+    <Prototype
+    Class="Vehicle"
+    Name="TornadoEnemy"
+    ResourceType="VEHICLE"
+    DiffRatio="6.0"
+    MaxEngineRpm="7000"
+    LowGearShiftLimit="3000"
+    HighGearShiftLimit="6000"
+    SteeringSpeed="1"
+    HornSound="ET_S_HORN01"
+    PressingForce="1.3"
+    CameraHeight="2.8"
+    CameraMaxDist="14"
+    DecisionMatrix="vehiclemain.lua"
+    LookRadius="200.0"
+    IntersectionRadius="4.0"
+    TakingRadius="30.0"
+    DriftCoeff="0.02"
+    MassSize="2 1.5 7"
+    MassTranslation="0 -0.8 -0.5"
+    DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+    DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+    DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+    DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+    Abstract="true">
+
+    <MainPartDescription id="CHASSIS" partResourceType="TORNADO_CHASSIS">
+        <PartDescription id="CABIN" partResourceType="TORNADO_CABIN_ENEMY" lpName="LP_CAB01">
+            <PartDescription id="CABIN_SMALL_GUN" partResourceType="SMALL_GUN" lpName="LP_SML01" />
+            <PartDescription id="CABIN_SMALL_GUN_1" partResourceType="SMALL_GUN"
+                lpName="LP_SML02" />
+        </PartDescription>
+        <PartDescription id="BASKET" partResourceType="TORNADO_BASKET" lpName="LP_BSK01">
+            <PartDescription id="BASKET_SPECIAL_WEAPON" partResourceType="SPECIAL_WEAPON" />
+        </PartDescription>
+    </MainPartDescription>
+
+    <Parts>
+        <Part id="CHASSIS" Prototype="TornadoChassis" />
+    </Parts>
+
+    <Wheels>
+        <Wheel Prototype="TornadoWheel01r" steering="correct" />
+        <Wheel Prototype="TornadoWheel01l" steering="correct" />
+        <Wheel Prototype="TornadoWheel02" />
+        <Wheel Prototype="TornadoWheel02" />
+    </Wheels>
+</Prototype>
+
 
     <!--  M35  -->
 
