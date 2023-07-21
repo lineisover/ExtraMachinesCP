@@ -2,7 +2,7 @@ name: ExtraMachinesCP
  
 # необходимая человекочитаемая информация
 display_name: Extra Machines для CR
-version: "1.0.4"  # версия в формате "major.minor.patch-identifier", например "1", "1.0", "1.0.0", "1.4.2-HD.new" 
+version: "1.0.5"  # версия в формате "major.minor.patch-identifier", например "1", "1.0", "1.0.0", "1.4.2-HD.new" 
 build: "230619a"  # формат YYMMDD<build_letter>. Первый релиз 30 декабря 22 - 221230a. Второй от 1 января - 230101b
 description: |  # описание мода в ComMod
   Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
@@ -48,7 +48,7 @@ screenshots:
   - img: screen/Cumbine/1.jpg
 
 # информация о процессе инсталляции
-patcher_version_requirement: "2.0"  # трактуется как >=1.13
+patcher_version_requirement: "2.0.9"  # трактуется как >=1.13
  
 prerequisites:  # требования по базовым модам, без их наличия установка будет запрещена
   - name: [community_remaster]  # ComPatch или ComRemaster
@@ -57,6 +57,10 @@ prerequisites:  # требования по базовым модам, без и
      - "<1.15"   # но меньше версии 1.14 - 1.14.1 уже не подойдёт
     optional_content:
       - hd_vehicle_models
+
+incompatible:
+  - name: [ImprovedStoryline]
+
 no_base_content: false
 optional_content:
   - name: workshops
