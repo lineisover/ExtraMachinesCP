@@ -482,6 +482,18 @@ Prototypes
         </Parts>
     </Prototype>
 
+    <Prototype
+        Class="Vehicle"
+        Name="Tornado01_enemy"
+        ParentPrototype="TornadoEnemy">
+        <Parts>
+            <Part id="CABIN" Prototype="TornadoCab03" />
+            <Part id="BASKET" Prototype="TornadoCargo03" />
+            <Part id="CABIN_SMALL_GUN" Prototype="kord01" />
+            <Part id="CABIN_SMALL_GUN_1" Prototype="specter01" />
+        </Parts>
+    </Prototype>
+
     <!--  M35  -->
 
     <Prototype
