@@ -678,22 +678,7 @@
 					Flags="16"
 					Prototype="BugForSale"
 					Pos="0.000 369.722 0.000">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="bugCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="bugCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="bugChassis" />
-					</Parts>
+					<Parts />
 				</Item>
 <!-- Extra Machines start -->
 				<Item
@@ -702,11 +687,7 @@
 					Flags="16"
 					Prototype="ChevC10ForSale"
 					Pos="0.000 369.722 0.000">
-					<Parts>
-
-					</Parts>
-
-					<Repository />
+					<Parts />
 				</Item>
 <!-- Extra Machines end -->
 			</Vehicles>

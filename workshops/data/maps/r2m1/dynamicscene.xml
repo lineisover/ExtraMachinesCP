@@ -550,23 +550,7 @@
 					Flags="16"
 					Prototype="BelazForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="belazCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="belazCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="belazChassis" />
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 
@@ -576,23 +560,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines start -->
@@ -602,10 +570,7 @@
 					Flags="16"
 					Prototype="M35ForSale"
 					Skin="1">
-					<Parts>
-
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines end -->
@@ -1098,23 +1063,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines start -->
@@ -1124,10 +1073,7 @@
 					Flags="16"
 					Prototype="M35ForSale"
 					Skin="1">
-					<Parts>
-
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines end -->
@@ -1662,23 +1608,7 @@
 					Flags="16"
 					Prototype="UralForSale"
 					Skin="1">
-					<Parts>
-						<BASKET
-							present="1"
-							Flags="16"
-							Prototype="uralCargo01" />
-
-						<CABIN
-							present="1"
-							Flags="16"
-							Prototype="uralCab01" />
-
-						<CHASSIS
-							present="1"
-							Flags="16"
-							Prototype="uralChassis" />
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines start -->
@@ -1688,10 +1618,7 @@
 					Flags="16"
 					Prototype="M35ForSale"
 					Skin="1">
-					<Parts>
-
-					</Parts>
-
+					<Parts />
 					<Repository />
 				</Item>
 <!-- Extra Machines end -->
