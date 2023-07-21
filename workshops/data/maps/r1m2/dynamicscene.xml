@@ -372,12 +372,36 @@
 					PosY="20"
 					Flags="16"
 					Prototype="TractorCargo02" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TornadoCab03" />
+				
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TornadoCargo02" />
+				
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TornadoCargo03" />
+				
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="TornadoCargo03" />
 <!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
 			<Vehicles>
 				<Item
-					PosX="0"
+					PosX="3"
 					PosY="0"
 					Flags="16"
 					Prototype="BugForSale"
@@ -387,7 +411,7 @@
 				</Item>
 
 				<Item
-					PosX="1"
+					PosX="4"
 					PosY="0"
 					Flags="16"
 					Prototype="MolokovozForSale"
@@ -397,7 +421,7 @@
 				</Item>
 <!-- Extra Machines start -->
 				<Item
-					PosX="1"
+					PosX="5"
 					PosY="0"
 					Flags="16"
 					Prototype="TractorForSale"
@@ -411,6 +435,16 @@
 					PosY="0"
 					Flags="16"
 					Prototype="ChevC10ForSale"
+					Pos="0.000 111.656 0.000">
+					<Parts />
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="TornadoForSale"
 					Pos="0.000 111.656 0.000">
 					<Parts />
 					<Repository />
@@ -1116,6 +1150,30 @@
 					PosY="55"
 					Flags="16"
 					Prototype="M35Cargo02" />
+
+					<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="TornadoCab02" />
+
+				<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="TornadoCab03" />
+
+				<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="TornadoCargo02" />
+
+				<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="TornadoCargo03" />
 <!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
@@ -1131,7 +1189,7 @@
 				</Item>
 
 				<Item
-					PosX="3"
+					PosX="5"
 					PosY="0"
 					Flags="16"
 					Prototype="MolokovozForSale"
@@ -1141,7 +1199,7 @@
 				</Item>
 <!-- Extra Machines start -->
 				<Item
-					PosX="0"
+					PosX="1"
 					PosY="0"
 					Flags="16"
 					Prototype="ChevC10ForSale"
@@ -1151,10 +1209,20 @@
 				</Item>
 
 				<Item
-					PosX="1"
+					PosX="4"
 					PosY="0"
 					Flags="16"
 					Prototype="TractorForSale"
+					Pos="0.000 111.656 0.000">
+					<Parts />
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="TornadoForSale"
 					Pos="0.000 111.656 0.000">
 					<Parts />
 					<Repository />
@@ -1447,6 +1515,18 @@
 					PosY="10"
 					Flags="16"
 					Prototype="ChevC10Cargo02" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="TornadoCab02" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="TornadoCargo02" />
 
 				<Item
 					PosX="5"

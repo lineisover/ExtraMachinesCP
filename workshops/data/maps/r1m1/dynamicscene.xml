@@ -668,6 +668,60 @@
 					PosY="100"
 					Flags="16"
 					Prototype="M35Cab04" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCab02" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCab02" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCab03" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCab03" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCargo02" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCargo02" />
+				
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCargo02" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCargo03" />
+				
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="TornadoCargo03" />
 <!-- Extra Machines end -->
 			</CabinsAndBaskets>
 
@@ -679,6 +733,7 @@
 					Prototype="BugForSale"
 					Pos="0.000 369.722 0.000">
 					<Parts />
+					<Repository />
 				</Item>
 <!-- Extra Machines start -->
 				<Item
@@ -688,6 +743,17 @@
 					Prototype="ChevC10ForSale"
 					Pos="0.000 369.722 0.000">
 					<Parts />
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="TornadoForSale"
+					Pos="0.000 369.722 0.000">
+					<Parts />
+					<Repository />
 				</Item>
 <!-- Extra Machines end -->
 			</Vehicles>

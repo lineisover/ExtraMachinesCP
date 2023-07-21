@@ -474,6 +474,16 @@
 					PosX="0"
 					PosY="15"
 					Flags="16"
+					Prototype="TornadoCargo02" />
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
+					Prototype="TornadoCab02" />
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
 					Prototype="TractorCab01" />
 				<Item
 					PosX="0"
@@ -932,6 +942,16 @@
 					PosY="30"
 					Flags="16"
 					Prototype="ChevC10Cargo02" />
+				<Item
+					PosX="0"
+					PosY="30"
+					Flags="16"
+					Prototype="TornadoCab02" />
+				<Item
+					PosX="0"
+					PosY="30"
+					Flags="16"
+					Prototype="TornadoCargo02" />
 				<Item
 					PosX="5"
 					PosY="10"
