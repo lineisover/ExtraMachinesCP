@@ -281,7 +281,88 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
-
+<!-- ExtraMachines start -->
+		<Description 
+			VehiclesPrototypes	="Tornado01_enemy"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+<!-- ExtraMachines start -->
 	</Prototype>
 
 	<Prototype
@@ -341,7 +422,88 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			WaresPrototypes="scrap_metal"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
-
+<!-- ExtraMachines start -->
+		<Description 
+			VehiclesPrototypes	="Tornado01_enemy"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="MolokovozForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="MolokovozForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="TractorForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+<!-- ExtraMachines end -->
 	</Prototype>
 
 	<Prototype
