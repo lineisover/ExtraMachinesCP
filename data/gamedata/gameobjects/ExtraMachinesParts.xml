@@ -1079,18 +1079,18 @@ Extra Machines vehicles parts
 			ModelFile			= "cub"
 			VisibleInEncyclopedia   = "false"
 			ResourceType		= "TRACTOR_BASKET"
-			Durability			= "0"
+			Durability			= "1"
 			DurCoeffsForDamageTypes	= "0 0 0"
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
 
-			Price				= "0"
-			RepairCoef			= "0"
+			Price				= "3000"
+			RepairCoef			= "0.2"
 
 			Mass				= "5.0" >
 			<RepositoryDescription
-				RepositorySize		= "5 8"/>
+				RepositorySize		= "5 4"/>
 		</Prototype>
 		
         <Prototype
@@ -1104,13 +1104,13 @@ Extra Machines vehicles parts
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
-			Price				= "3000"
+			Price				= "8000"
 			RepairCoef			= "0.2"
 
 			Mass				= "20.0"
 			LoadPoints			= "LP_SML01" >
 			<RepositoryDescription
-				RepositorySize		= "5 8">
+				RepositorySize		= "5 5">
 
 				<Slot
 					Name		= "BASKET_SMALL_GUN_0"
@@ -1135,13 +1135,13 @@ Extra Machines vehicles parts
 			NodeScale			= "1 1 1"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
-			Price				= "3000"
+			Price				= "11000"
 			RepairCoef			= "0.2"
 
 			Mass				= "20.0"
 			LoadPoints			= "LP_SML01 LP_SML02" >
 			<RepositoryDescription
-				RepositorySize		= "6 8">
+				RepositorySize		= "5 6">
 
 				<Slot
 					Name		= "BASKET_SMALL_GUN_0"

@@ -16,7 +16,7 @@ Extra Machines vehicles
         SteeringSpeed="0.9"
         HornSound="ET_S_HORN01"
         PressingForce="1.1"
-        CameraHeight="3"
+        CameraHeight="4"
         CameraMaxDist="14"
         DecisionMatrix="vehiclemain.lua"
         LookRadius="200.0"
