@@ -519,37 +519,6 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 	</Prototype>
 
 	<Prototype
-		Class 		= "VehiclesGenerator"
-		Name		= "r4m1Razboyniki"
-                DesiredCount 				= "2-3"
-		partOfSchwartzForCabin 			= "0.15"  
-		partOfSchwartzForBasket 		= "0.15"
-		partOfSchwartzForGuns 			= "0.54"
-		partOfSchwartzForWares 			= "0.05" >
-		<Description 
-			VehiclesPrototypes	="HunterEnemySpawn HunterEnemySpawn FighterEnemySpawn"		
-			WaresPrototypes="book electronics"
-			GunAffixGeneratorPrototype="townaffixGenerator"
-			PartOfSchwartz="0.35" />
-		<Description 
-			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn " 	
-			WaresPrototypes="book electronics"
-			GunAffixGeneratorPrototype="villageaffixGenerator"
-			PartOfSchwartz="0.3" />
-		<Description 
-			VehiclesPrototypes	="HunterEnemySpawn FighterEnemySpawn" 	
-			WaresPrototypes="book electronics"
-			GunAffixGeneratorPrototype="villageaffixGenerator"
-			PartOfSchwartz="0.3" />
-		<Description 
-			VehiclesPrototypes	="UralForSale FighterEnemySpawn FighterEnemySpawn" 	
-			WaresPrototypes="book electronics"
-			GunAffixGeneratorPrototype="villageaffixGenerator"
-			PartOfSchwartz="0.3" />
-
-	</Prototype>
-
-	<Prototype
 		Class			= "InfectionTeam"
 		Name			= "zooGang"
 		DecisionMatrix	        = "teammain.lua"
@@ -697,26 +666,6 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 
 	<Prototype
 		Class			= "InfectionTeam"
-		Name			= "InfectionTeam1"
-		DecisionMatrix	        = "teammain.lua">
-		<Vehicles>
-			<Vehicle PrototypeName="BelazTest" Count="2" />
-			<Vehicle PrototypeName="Revolutioner2" Count="1" />
-		</Vehicles>
-	</Prototype>
-
-	<Prototype
-		Class			= "InfectionTeam"
-		Name			= "InfectionTeam2"
-		DecisionMatrix	        = "teammain.lua">
-		<Vehicles>
-			<Vehicle PrototypeName="ScoutEnemySpawn" Count="2" />
-			<Vehicle PrototypeName="FighterEnemySpawn" Count="1" />
-		</Vehicles>
-	</Prototype>
-
-	<Prototype
-		Class			= "InfectionTeam"
 		Name			= "InfectionTeam3"
 		DecisionMatrix	        = "teammain.lua">
 		<Vehicles>
@@ -811,8 +760,79 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
+<!-- ExtraMachines start -->
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn Tornado01_enemy"		
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn Tornado01_enemy Sml3EnemySpawn" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Tornado01_enemy Sml3EnemySpawn" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
 
-		
+		<Description 
+			VehiclesPrototypes	="BugForSale ScoutEnemySpawn Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Tornado01_enemy Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+<!-- ExtraMachines end -->
 	</Prototype>
 
 
@@ -868,9 +888,80 @@ $Id: Infection.xml,v 1.48 2005/11/28 07:43:57 anton Exp $
 			WaresPrototypes="fuel machinery"
 			GunAffixGeneratorPrototype="villageaffixGenerator"
 			PartOfSchwartz="0.3" />
+	<!-- ExtraMachines start -->
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn Tornado01_enemy"		
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn Tornado01_enemy Sml3EnemySpawn" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Tornado01_enemy Sml3EnemySpawn" 	
+			WaresPrototypes="fuel oil"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale HunterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="M35ForSale FighterEnemySpawn Tornado01_enemy" 	
+			WaresPrototypes="fuel oil electronics"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+
+			<Description 
+			VehiclesPrototypes	="BugForSale ScoutEnemySpawn Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Tornado01_enemy Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy Tornado01_enemy Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale ScoutEnemySpawn ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="ChevC10ForSale Tornado01_enemy ScoutEnemySpawn Sml3EnemySpawn Sml4EnemySpawn" 	
+			WaresPrototypes="fuel machinery"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+	<!-- ExtraMachines end -->
 	</Prototype>
-
-
 
 	<Prototype
 		Class			= "InfectionTeam"
