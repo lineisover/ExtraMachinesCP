@@ -88,7 +88,7 @@ function GiveVehicle(num)
 		model="RobotBobot02"
 	elseif num==25 then
 		model="RobotMetatron"
-	elseif num==26 then
+elseif num==26 then
 		model="ChevC1001"
 	elseif num==27 then
 		model="ChevC1002"
