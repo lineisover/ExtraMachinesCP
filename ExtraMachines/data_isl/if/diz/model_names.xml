@@ -1430,6 +1430,21 @@ Extra machines end here
 		id="DemoMolokovoz3"
 		locForm="0"
 		value="Молоковоз" />
+	
+	<Item
+		id="VelimirMolok"
+		locForm="0"
+		value="Велимир" />
+
+	<Item
+		id="UralMikolka"
+		locForm="0"
+		value="Миколка" />
+
+	<Item
+		id="AivenJrPlate01"
+		locForm="0"
+		value="" />
 
 	<Item
 		id="DemoUral1"
@@ -1520,6 +1535,11 @@ Extra machines end here
 		id="MirotvorecShot1"
 		locForm="0"
 		value="Ф.Г." />
+
+	<Item
+		id="Mirotvorec"
+		locForm="0"
+		value="Миротворец" />
 
 	<Item
 		id="Formula01"

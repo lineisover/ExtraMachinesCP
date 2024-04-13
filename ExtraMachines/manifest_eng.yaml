@@ -60,6 +60,7 @@ prerequisites:
      - ">=1.14"
     optional_content:
       - hd_vehicle_models
+      - english_localization
 
 optional_content:
   - name: workshops

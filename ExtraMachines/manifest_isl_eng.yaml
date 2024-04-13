@@ -1,4 +1,4 @@
-name: ExtraMachines
+name: ExtraMachines_ISL
  
 # version: "1.0.6"
 # build: "240407a"
@@ -11,8 +11,8 @@ description: |
 
 release_date: "2021"
 link: https://github.com/lineisover/ExtraMachinesCP
-logo: assets/logo.png
-install_banner: assets/banner.png
+logo: assets/logo_isl.png
+install_banner: assets/banner_isl.png
 tags: [vehicles]
 change_log: assets/changelog.md
 screenshots:
@@ -50,16 +50,17 @@ patcher_version_requirement: "2.1"
 no_base_content: false
 
 data_dirs:
-  - "data"
+  - "data_isl"
 
-options_base_dir: "options"
+options_base_dir: "options_isl"
  
 prerequisites:
-  - name: [community_remaster]
+  - name: [ImprovedStoryline]
     versions:
-     - ">=1.14"
+     - ">=1.2"
     optional_content:
-      - hd_vehicle_models
+      - kraycity
+      - english_localization
 
 optional_content:
   - name: workshops

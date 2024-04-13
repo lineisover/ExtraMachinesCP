@@ -274,7 +274,7 @@ Extra Machines end here
 		<Item
 			id="cargo"
 			file="data\models\AnimModels.xml" />
-			
+
 		<Item
 			id="tunnel_gate"
 			file="data\models\AnimModels.xml" />
@@ -1499,6 +1499,10 @@ Extra Machines end here
 
 		<Item
 			id="r4_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r5_man"
 			file="data\models\AnimModels.xml" />
 
 		<Item
