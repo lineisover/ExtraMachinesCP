@@ -11,8 +11,8 @@ description: |
 
 release_date: "2021"
 link: https://github.com/lineisover/ExtraMachinesCP
-logo: assets/logo.png
-install_banner: assets/banner.png
+logo: assets/logo_isl.png
+install_banner: assets/banner_isl.png
 tags: [vehicles]
 change_log: assets/changelog.md
 screenshots:
@@ -57,11 +57,11 @@ data_dirs:
 options_base_dir: "options_isl"
  
 prerequisites:
-  - name: [community_remaster]
+  - name: [ImprovedStoryline]
     versions:
-     - ">=1.14"
+     - ">=1.2"
     optional_content:
-      - hd_vehicle_models
+      - kraycity
 
 optional_content:
   - name: workshops
