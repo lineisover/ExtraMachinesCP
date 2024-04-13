@@ -1,0 +1,77 @@
+name: ExtraMachines
+ 
+# version: "1.0.6"
+# build: "240407a"
+language: eng
+display_name: Extra Machines (ComRem)
+authors: Spok, OverLine
+description: |
+  Extra Machines is an addon asset-pack that adds new cars to the original Ex Machina. The main version of the mod is adapted for the full game, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
+  All cars in the pack were created specifically for Ex Machina, and are not ports from other games, as in many other mods. The mod is unprecedented in the level of quality of the added cars, the variety of available cabins and bodies, the presence of damage models for all playable cars, in fact, perfectly fitting into the game on a par with the original cars made by Targem Games.
+
+release_date: "2021"
+link: https://github.com/lineisover/ExtraMachinesCP
+logo: assets/logo.png
+install_banner: assets/banner.png
+tags: [vehicles]
+change_log: assets/changelog.md
+screenshots:
+  - img: assets/Rednek/1.jpg
+    text: | 
+      Pleb - Basic Cabin for Redneck. They say it can be pierced with spit.
+      Rusticana - Redneck native bodywork. Be sure to lock the back door or they'll steal what's inside.
+  - img: assets/Rednek/2.jpg
+    text: |
+      Country - Artisanal modification of the basic cabin, most likely made by a familiar mechanic over a cup of something stronger.
+      Urbana - Redneck Native Body. Be sure to lock the back door or they'll steal what's inside.
+  - img: assets/Rednek/3.jpg
+    text: |
+      Headman - Late model Redneck cab, generally holding up well.
+      Capitus - A body for camping somewhere in the remote wilderness. Often used by explorers.
+  - img: assets/Rednek/4.jpg
+    text: |
+      Headman - Late model Redneck cab, generally holding up well.
+      Palatium - The best body for the Redneck. It doesn't have much space, alas, but this is more than compensated for by its armour.
+  - img: assets/Tornado/1.jpg
+  - img: assets/Tornado/2.jpg
+  - img: assets/Tornado/3.jpg
+  - img: assets/Tornado/4.jpg
+  - img: assets/Traktor/1.jpg
+  - img: assets/Traktor/2.jpg
+  - img: assets/Traktor/3.jpg
+  - img: assets/M35/1.jpg
+  - img: assets/M35/2.jpg
+  - img: assets/M35/3.jpg
+  - img: assets/M35/4.jpg
+  - img: assets/Cumbine/1.jpg
+
+
+patcher_version_requirement: "2.1"
+no_base_content: false
+
+data_dirs:
+  - "data"
+
+options_base_dir: "options"
+ 
+prerequisites:
+  - name: [community_remaster]
+    versions:
+     - ">=1.14"
+    optional_content:
+      - hd_vehicle_models
+
+optional_content:
+  - name: workshops
+    display_name: The cars are on sale and spawn.
+    description: |
+      Adds new cars and parts for sale, as well as adding new cars to spawn enemies.
+    data_dirs:
+      - "workshops"
+  - name: english_localization
+    display_name: English Localization
+    forced_option: True
+    data_dirs: 
+      - "english_localization"
+    description: |
+      Full text localization of Extra Machines.
