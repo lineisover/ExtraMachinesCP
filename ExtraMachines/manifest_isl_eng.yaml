@@ -49,6 +49,8 @@ screenshots:
 patcher_version_requirement: "2.1.1"
 no_base_content: false
 
+compatible_patch_versions: true
+
 data_dirs:
   - "data_isl"
 

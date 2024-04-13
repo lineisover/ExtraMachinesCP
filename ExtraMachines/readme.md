@@ -9,3 +9,14 @@
 ---
 
 Автор оригинальных моделей и базовой настройки на ванильную игру: **Spok**
+
+
+---
+
+**Extra Machines** - is an addon asset-pack that adds new cars to the original Hard Truck. The main version of the mod is adapted for a normal play, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
+
+All cars in the pack were created specifically for Hard Truck, and are not ports from other games, as in many other mods. The mod is unprecedented in the level of quality of the added cars, the variety of available cabins and bodies, the presence of damage models for all playable cars, in fact, perfectly fitting into the game on a par with the original cars made by Targem Games.
+
+---
+
+Author of original models and basic customisation on vanilla game: **Spok**
