@@ -1,6 +1,6 @@
 name: ExtraMachines_ISL
  
-version: "1.0.6"
+version: "1.1.0"
 build: "240414a"
 language: ru
 display_name: Extra Machines [ISL]
@@ -62,6 +62,12 @@ prerequisites:
      - ">=1.2"
     optional_content:
       - kraycity
+
+incompatible:
+  - name: improved_storyline_hd
+    versions: []
+    optional_content:
+    - english_localization
 
 optional_content:
   - name: workshops

@@ -13,10 +13,10 @@ Extra Machines start here
 		value="The basic cabin for Redneck. They say you can spit holes in it." />
 	<string
 		id="ChevC10Cab02_diz"
-		value="Artisanal modification of the basic cabin, most likely made by a familiar mechanic for a cup of something stronger." />
+		value="Artisanal modification of the basic cabin, most likely made by a fellow mechanic for a cup of something stronger." />
 	<string
 		id="ChevC10Cab03_diz"
-		value="Late model Redneck cockpit, generally holding up well." />
+		value="Late model Redneck cabin, generally holding up well." />
 	<string
 		id="ChevC10Cargo01_diz"
 		value="Redneck native bodywork. Be sure to lock the back door or they'll steal what's inside." />
@@ -28,12 +28,12 @@ Extra Machines start here
 		value="A campervan for camping somewhere in the remote wilderness. Often used by explorers." />
 	<string
 		id="ChevC10Cargo04_diz"
-		value="The best body for a Redneck. It's not much space, alas, but that's more than compensated for by its armour plating" />
+		value="The best body for a Redneck. It's not very spacious, alas, but that's more than compensated for by its armour plating" />
 
 <!--  TRACTOR  -->	
 	<string
 		id="TractorForSale_diz"
-		value="Farm tractor, tractor, bulldozer - do you need it? It's yours if you're rich enough." />
+		value="Farm tracktor, hauler, bulldozer?  You want it? It's yours my friend, as long as you have enough money!" />
 		
 	<string
 		id="TractorCab01_diz"
@@ -49,11 +49,11 @@ Extra Machines start here
 		
 	<string
 		id="TornadoForSale_diz"
-		value="The car of a true daredevil. Speed, coupled with the ability to put two guns on one of the modifications, makes the Tornado a very attractive purchase for hobos." />
+		value="The car of a true daredevil. Speed, coupled with the ability to put two guns on one of the modifications, makes the Tornado a very attractive purchase for vagrants." />
 		
 	<string
 		id="TornadoCab00_diz"
-		value="Civic cockpit with no weapons, designed solely for racing." />
+		value="Civic cabin with no weapons, designed solely for racing." />
 		
 	<string
 		id="TornadoCab01_diz"
@@ -63,13 +63,13 @@ Extra Machines start here
 		value="By sacrificing appearance and a bit of speed, the result is something between a prestige car and a bucket. But at least you can rob caravans without the risk of getting a bullet in the petrol tank." />
 	<string
 		id="TornadoCab03_diz"
-		value="Have you ever tried to make a machine gun out of a tin can? This is it, but the cockpit." />
+		value="Have you ever tried to make a machine gun out of a tin can? This is it, but the cabin." />
 	<string
 		id="TornadoCargo01_diz"
 		value="Simple bodywork, minimal luggage space. Not suitable for trading at all." />
 	<string
 		id="TornadoCargo02_diz"
-		value="A modification of the standard body. Has more armour and additional seats on the sides." />
+		value="A modification of the standard body. Has more armour and additional slots on the sides." />
 	<string
 		id="TornadoCargo03_diz"
 		value="Perhaps the only vulnerability for the modified Tornado. For peaceful times, it is indeed an armoured body. In real combat, this will not be enough." />
@@ -78,16 +78,16 @@ Extra Machines start here
 		
 	<string
 		id="M35ForSale_diz"
-		value="Those who are successful but live in the bourgeois west choose the Chif Burt for its excellent balance of payload and armament. Faster than its eastern counterpart, however, it is more expensive to maintain." />
+		value="Those who are successful but live in the bourgeois west choose the Chief Bert for its excellent balance of payload and armament. Faster than its eastern counterpart, however, it is more expensive to maintain." />
 	<string
 		id="M35Cab01_diz"
 		value="It's an old army cabin. No amenities and, strangely, no proper weaponry. Ambitious driver will replace it at the earliest opportunity." />
 	<string
 		id="M35Cab02_diz"
-		value="A later model of the Chif Berta cab. Superior to the Privet in all characteristics." />
+		value="A later model of the Chief Bert cab. Superior to the Private in all characteristics." />
 	<string
 		id="M35Cab03_diz"
-		value="Heavy-modified cabin of the latest generation. Perfectly armed and protected." />
+		value="Heavily-modified cabin of the latest generation. Perfectly armed and protected." />
 	<string
 		id="M35Cab04_diz"
 		value="A very unorthodox cabin. It has a peaceful, harmless appearance... And nests for heavy weapons. Most often used by explorers because of these features." />
@@ -99,7 +99,7 @@ Extra Machines start here
 		value="Very spacious and well protected body. Most often used by entrepreneurs for transporting workers." />
 	<string
 		id="M35Cargo03_diz"
-		value="Despite its impressive size, this body does not boast a large capacity: the lion's share of the space is taken up by the equipment for weapons and the pump of a certain 'Jovic'." />
+		value="Despite its impressive size, this body does not boast a large cargo capacity: the lion's share of the space is taken up by the equipment for weapons and the pump of a certain 'Iovich'." />
 	<string
 		id="M35Cargo04_diz"
 		value="Despite its civilian appearance, it has the best armour. Unfortunately, it does not boast either powerful armament or capacity." />
@@ -108,7 +108,7 @@ Extra Machines start here
 
 	<string
 		id="CumbineCab01_diz"
-		value="The cab of the Combine. No more, no less." />
+		value="The cab of the Cumbine. No more, no less." />
 	<string
 		id="Cumbine01_diz"
 		value="The foundation of the basics of any farming operation, because even in a post-disaster world, no one wants to harvest by hand." />

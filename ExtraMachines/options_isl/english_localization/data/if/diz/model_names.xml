@@ -194,7 +194,7 @@ Extra machines start here
 	<Item
 		id="M35Cab01"
 		locForm="0"
-		value="Privat" />
+		value="Private" />
 
 	<Item
 		id="M35Cab02"
@@ -232,30 +232,30 @@ Extra machines start here
 	<Item
 		id="M35ForSale"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 	<Item
 		id="M3501"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 
 	<Item
 		id="M3502"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 
 	<Item
 		id="M3503"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 	<Item
 		id="M3504"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 		
 	<Item
 		id="M35"
 		locForm="0"
-		value="Chif Bert" />
+		value="Chief Bert" />
 		
 <!--  TRACTOR  -->
 
