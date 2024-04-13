@@ -253,8 +253,8 @@
 				Name="Kartograph1"
 				Belong="1008"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="5"
+				ModelName="r5_man"
+				skin="2"
 				cfg="60"
 				helloReplyNames="Dlg_npc_003007"
 				SpokenCount="0" />
@@ -904,8 +904,8 @@
 				Name="ChemistMan"
 				Belong="1009"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="4"
+				ModelName="r5_man"
+				skin="1"
 				cfg="12"
 				helloReplyNames="Dlg_npc_003170"
 				SpokenCount="0" />
@@ -924,8 +924,8 @@
 				Name="Kartograph2"
 				Belong="1009"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="5"
+				ModelName="r5_man"
+				skin="2"
 				cfg="60"
 				helloReplyNames="Dlg_npc_003007"
 				SpokenCount="0" />
@@ -1346,7 +1346,7 @@
 				<Item
 					PosX="1"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="MolokovozForSale"
 					Pos="0.000 111.656 0.000">
 					<Parts />
@@ -1357,7 +1357,7 @@
 				<Item
 					PosX="0"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="ChevC10ForSale"
 					Pos="0.000 111.656 0.000">
 					<Parts>
@@ -1727,7 +1727,7 @@
 				<Item
 					PosX="1"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="TractorForSale"
 					Pos="0.000 111.656 0.000">
 					<Parts>
@@ -1796,8 +1796,8 @@
 				Name="Kartograph3"
 				Belong="1009"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="5"
+				ModelName="r5_man"
+				skin="2"
 				cfg="60"
 				helloReplyNames="Dlg_npc_003007"
 				SpokenCount="0" />
@@ -2102,8 +2102,7 @@
 				Name="Valerio"
 				Belong="1008"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="3"
+				ModelName="r5_man"
 				cfg="14"
 				helloReplyNames="Dlg_npc_001597"
 				SpokenCount="0" />
@@ -2210,8 +2209,8 @@
 				Name="Mirik"
 				Belong="1008"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="5"
+				ModelName="r5_man"
+				skin="2"
 				cfg="14"
 				helloReplyNames="Dlg_npc_001565"
 				SpokenCount="0" />
@@ -2395,7 +2394,7 @@
 				Belong="1009"
 				Prototype="NPC"
 				ModelName="r1_man"
-				cfg="111"
+				cfg="110"
 				NpcType="BARMAN"
 				SpokenCount="0" />
 
@@ -2403,8 +2402,8 @@
 				Name="Stryga"
 				Belong="1009"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="4"
+				ModelName="r5_man"
+				skin="1"
 				cfg="142"
 				helloReplyNames="Dlg_npc_001642"
 				SpokenCount="0" />
@@ -52516,13 +52515,6 @@
 		Rot="0.000 -0.301 0.000 0.954" />
 
 	<Object
-		Name="Breakable_BrickWall26140"
-		Belong="1001"
-		Prototype="Breakable_BrickWall2"
-		Pos="6707.194 103.595 4104.125"
-		Rot="0.000 -0.706 0.000 0.709" />
-
-	<Object
 		Name="E_InfectionZone1"
 		Belong="1002"
 		Prototype="InfectionZone"
@@ -55932,7 +55924,7 @@
 		<Post
 			ServerObjName="stolb15275"
 			NodesNameHierarchy=""
-			PostTiePos="3110.287 70.243 1354.713"
+			PostTiePos="3110.287 70.243 1354.712"
 			LpName="LP_PART02" />
 
 		<Post
@@ -55970,29 +55962,9 @@
 		<Post
 			ServerObjName="stolb15275"
 			NodesNameHierarchy=""
-			PostTiePos="3110.287 70.243 1354.713"
+			PostTiePos="3110.287 70.243 1354.712"
 			LpName="LP_PART02" />
 	</Object>
-
-	<Object
-		Name="r1m2_BenHouse_1"
-		Belong="1080"
-		Prototype="r1m2_BenHouse"
-		Pos="3775.048 116.119 1808.081"
-		Rot="0.000 1.000 0.000 -0.002"
-		MaxDefenders="0"
-		PointOfViewInInterface="50.000 50.000 50.000"
-		CaravansDest="">
-		<Parts />
-
-		<EntryPath />
-
-		<ExitPath />
-	</Object>
-
-	<Object
-		Belong="1100"
-		Prototype="someRecollection" />
 
 	<Object
 		Belong="-1"
@@ -56006,7 +55978,7 @@
 		<Post
 			ServerObjName="stolb25512"
 			NodesNameHierarchy=""
-			PostTiePos="1514.377 85.788 5274.253"
+			PostTiePos="1514.377 85.788 5274.254"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -56022,7 +55994,7 @@
 		<Post
 			ServerObjName="stolb25512"
 			NodesNameHierarchy=""
-			PostTiePos="1515.291 85.414 5273.312"
+			PostTiePos="1515.290 85.414 5273.312"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -56032,13 +56004,13 @@
 		<Post
 			ServerObjName="stolb25512"
 			NodesNameHierarchy=""
-			PostTiePos="1514.377 85.788 5274.253"
+			PostTiePos="1514.377 85.788 5274.254"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName="stolb25511"
 			NodesNameHierarchy=""
-			PostTiePos="1538.195 83.788 5313.076"
+			PostTiePos="1538.246 83.788 5313.062"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -56048,13 +56020,13 @@
 		<Post
 			ServerObjName="stolb25512"
 			NodesNameHierarchy=""
-			PostTiePos="1515.291 85.414 5273.312"
+			PostTiePos="1515.290 85.414 5273.312"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName="stolb25511"
 			NodesNameHierarchy=""
-			PostTiePos="1539.265 83.414 5312.316"
+			PostTiePos="1539.316 83.414 5312.302"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -56064,7 +56036,7 @@
 		<Post
 			ServerObjName="stolb25511"
 			NodesNameHierarchy=""
-			PostTiePos="1538.195 83.788 5313.076"
+			PostTiePos="1538.246 83.788 5313.062"
 			LpName="LP_PART01" />
 
 		<Post
@@ -56080,7 +56052,7 @@
 		<Post
 			ServerObjName="stolb25511"
 			NodesNameHierarchy=""
-			PostTiePos="1539.265 83.414 5312.316"
+			PostTiePos="1539.316 83.414 5312.302"
 			LpName="LP_PART02" />
 
 		<Post
@@ -56153,4 +56125,8 @@
 			PostTiePos="5054.304 163.598 749.737"
 			LpName="LP_PART02" />
 	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
 </DynamicScene>

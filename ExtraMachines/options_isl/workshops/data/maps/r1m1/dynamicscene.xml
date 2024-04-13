@@ -49,8 +49,8 @@
 			Name="Vasily"
 			Belong="1100"
 			Prototype="NPC"
-			ModelName="r1_man"
-			skin="4"
+			ModelName="r5_man"
+			skin="1"
 			cfg="46"
 			helloReplyNames="Vasily6"
 			SpokenCount="0" />
@@ -285,7 +285,7 @@
 
 		<Object
 			Name="AivenGo"
-			Belong="1008"
+			Belong="1100"
 			Prototype="NPC"
 			ModelName="mask_father"
 			skin="1"
@@ -419,8 +419,8 @@
 				Name="TraiderAfterStryga"
 				Belong="1008"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="4"
+				ModelName="r5_man"
+				skin="1"
 				cfg="94"
 				helloReplyNames="Dlg_npc_003264"
 				SpokenCount="0" />
@@ -950,8 +950,8 @@
 				Name="VasilyBar"
 				Belong="1008"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="4"
+				ModelName="r5_man"
+				skin="1"
 				cfg="46"
 				helloReplyNames="Vasily1"
 				SpokenCount="0" />
@@ -31525,7 +31525,7 @@
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4892"
-			PostTiePos="1030.421 365.651 3669.938"
+			PostTiePos="1017.127 377.726 3637.042"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31541,7 +31541,7 @@
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4892"
-			PostTiePos="1060.181 365.651 3657.837"
+			PostTiePos="1046.887 377.726 3624.941"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -31551,13 +31551,13 @@
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4892"
-			PostTiePos="1030.421 365.651 3669.938"
+			PostTiePos="1017.127 377.726 3637.042"
 			LpName="LP_PART01" />
 
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4893"
-			PostTiePos="1117.908 379.218 3885.153"
+			PostTiePos="1126.925 379.878 3911.240"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -31567,13 +31567,13 @@
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4892"
-			PostTiePos="1060.181 365.651 3657.837"
+			PostTiePos="1046.887 377.726 3624.941"
 			LpName="LP_PART02" />
 
 		<Post
 			ServerObjName=""
 			NodesNameHierarchy="Object4893"
-			PostTiePos="1147.668 379.218 3873.052"
+			PostTiePos="1156.686 379.878 3899.139"
 			LpName="LP_PART02" />
 	</Object>
 

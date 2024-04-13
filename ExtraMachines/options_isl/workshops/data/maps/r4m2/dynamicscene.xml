@@ -881,7 +881,7 @@
 				<Item
 					PosX="2"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="M35ForSale">
 					<Parts>
 
@@ -1203,14 +1203,6 @@
 				y="2422.940" />
 
 			<Point
-				x="706.660"
-				y="3207.570" />
-
-			<Point
-				x="785.782"
-				y="2802.874" />
-
-			<Point
 				x="979.761"
 				y="2769.924" />
 
@@ -1219,28 +1211,8 @@
 				y="2459.621" />
 
 			<Point
-				x="666.594"
-				y="3189.680" />
-
-			<Point
 				x="609.001"
 				y="3135.919" />
-
-			<Point
-				x="699.324"
-				y="3054.385" />
-
-			<Point
-				x="643.380"
-				y="2979.633" />
-
-			<Point
-				x="699.594"
-				y="2966.648" />
-
-			<Point
-				x="744.772"
-				y="2832.264" />
 
 			<Point
 				x="995.183"
@@ -2770,7 +2742,7 @@
 		Name="lamppost1327"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2390.534 295.144 1036.291"
+		Pos="2390.534 295.091 1036.291"
 		Rot="0.000 0.706 0.000 0.709">
 		<Object
 			Belong="-1"
@@ -2783,14 +2755,14 @@
 		Name="lamppost1328"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2373.333 295.129 983.175"
+		Pos="2373.333 295.076 983.175"
 		Rot="0.000 0.892 0.000 0.452" />
 
 	<Object
 		Name="lamppost1329"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2407.752 295.062 998.166"
+		Pos="2407.752 295.029 998.166"
 		Rot="0.000 -0.792 0.000 0.611" />
 
 	<Object
@@ -2825,7 +2797,7 @@
 		Name="lamppost1334"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2378.888 295.086 894.876"
+		Pos="2378.888 295.033 894.876"
 		Rot="0.000 -0.373 0.000 0.928" />
 
 	<Object
@@ -2880,14 +2852,14 @@
 		Name="lamppost1341"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2251.216 295.147 1264.316"
+		Pos="2251.216 295.093 1264.316"
 		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
 		Name="lamppost1342"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2251.305 295.124 1232.600"
+		Pos="2251.305 295.070 1232.600"
 		Rot="0.000 0.698 0.000 0.716" />
 
 	<Object
@@ -2908,21 +2880,21 @@
 		Name="lamppost1345"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2250.277 295.151 1312.916"
+		Pos="2250.277 295.097 1312.916"
 		Rot="0.000 0.389 0.000 0.921" />
 
 	<Object
 		Name="lamppost1346"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2249.925 295.147 1331.735"
+		Pos="2249.925 295.094 1331.735"
 		Rot="0.000 0.920 0.000 0.391" />
 
 	<Object
 		Name="lamppost1347"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2249.808 295.149 1363.124"
+		Pos="2249.808 295.096 1363.124"
 		Rot="0.000 0.707 0.000 0.707" />
 
 	<Object
@@ -2936,7 +2908,7 @@
 		Name="lamppost1349"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="2250.928 295.154 1452.337"
+		Pos="2250.928 295.101 1452.337"
 		Rot="0.000 0.710 0.000 0.704" />
 
 	<Object
@@ -3234,7 +3206,7 @@
 		Name="r4_desert_palma_2389"
 		Belong="-1"
 		Prototype="r4_desert_palma_2_dyn"
-		Pos="2375.646 295.112 880.316"
+		Pos="2375.646 295.058 880.316"
 		Rot="0.000 -0.035 0.000 0.999" />
 
 	<Object
@@ -3742,7 +3714,7 @@
 		Name="stolb1457"
 		Belong="-1"
 		Prototype="Breakable_Stolb1"
-		Pos="3298.971 255.740 1856.836"
+		Pos="3298.971 255.739 1856.836"
 		Rot="0.001 -0.040 0.017 0.999"
 		NodeScale="1.400" />
 
@@ -3937,7 +3909,7 @@
 		Name="lamppost1483"
 		Belong="-1"
 		Prototype="lamppost1"
-		Pos="3192.001 237.149 2104.939" />
+		Pos="3192.001 237.095 2104.939" />
 
 	<Object
 		Name="lamppost2484"
@@ -4310,7 +4282,7 @@
 		Name="factory_box542"
 		Belong="-1"
 		Prototype="factory_box"
-		Pos="2315.521 295.136 952.799"
+		Pos="2315.521 295.104 952.799"
 		Rot="0.000 0.808 0.000 -0.590" />
 
 	<Object

@@ -521,7 +521,7 @@
 				<Item
 					PosX="4"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="M35ForSale">
 					<Parts />
 
@@ -1103,7 +1103,7 @@
 				<Item
 					PosX="2"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="M35ForSale">
 					<Parts />
 
@@ -1670,7 +1670,7 @@
 				<Item
 					PosX="2"
 					PosY="0"
-					Flags="16"
+							Flags="16"
 					Prototype="M35ForSale">
 					<Parts />
 
@@ -1775,8 +1775,8 @@
 		Name="Buhara_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="2018.938 226.808 6360.403"
-		Radius="39.211">
+		Pos="2027.314 226.733 6357.876"
+		Radius="45.211">
 		<Object
 			Name="r4m1_BuharsLeader"
 			Belong="1100"
@@ -20370,8 +20370,8 @@
 		Name="StartGonka_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="4306.524 278.999 2032.484"
-		Radius="93.380">
+		Pos="4302.331 278.977 2039.318"
+		Radius="51.380">
 		<Object
 			Name="Kazif_Bar_Customer2"
 			Belong="1100"
@@ -21400,13 +21400,36 @@
 
 	<Object
 		Name="r4_Buhara_1"
-		Belong="1080"
+		Belong="1026"
 		Prototype="r4_Buhara"
 		Pos="2024.581 226.737 6363.609"
 		Rot="0.000 1.000 0.000 -0.002"
 		MaxDefenders="0"
 		PointOfViewInInterface="50.000 50.000 50.000"
 		CaravansDest="">
+		<Object
+			Name="r4_Buhara_1_Workshop"
+			Belong="1026"
+			Prototype="workshop" />
+
+		<Object
+			Flags="21"
+			Name="r4_Buhara_1_deploy"
+			Belong="1026"
+			Prototype="genericLocation"
+			Pos="2039.478 226.355 6388.071"
+			Rot="0.000 -0.805 0.000 0.593"
+			Radius="11.000" />
+
+		<Object
+			Flags="21"
+			Name="r4_Buhara_1_enter"
+			Belong="1026"
+			Prototype="genericLocation"
+			Pos="2025.534 226.758 6356.478"
+			Rot="0.000 -0.805 0.000 0.593"
+			Radius="31.000" />
+
 		<Parts />
 
 		<EntryPath />
