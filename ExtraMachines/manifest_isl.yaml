@@ -3,7 +3,7 @@ name: ExtraMachines
 version: "1.0.6"
 build: "240407a"
 language: ru
-display_name: Extra Machines [CR]
+display_name: Extra Machines [ISL]
 authors: Spok, OverLine
 description: |
   Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
@@ -52,9 +52,9 @@ patcher_version_requirement: "2.1"
 no_base_content: false
 
 data_dirs:
-  - "data"
+  - "data_isl"
 
-options_base_dir: "options"
+options_base_dir: "options_isl"
  
 prerequisites:
   - name: [community_remaster]

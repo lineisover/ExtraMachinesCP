@@ -3,7 +3,7 @@ name: ExtraMachines
 # version: "1.0.6"
 # build: "240407a"
 language: eng
-display_name: Extra Machines [CR]
+display_name: Extra Machines [ISL]
 authors: Spok, OverLine
 description: |
   Extra Machines is an addon asset-pack that adds new cars to the original Ex Machina. The main version of the mod is adapted for the full game, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
