@@ -46,7 +46,7 @@ screenshots:
   - img: assets/Cumbine/1.jpg
 
 translations: [eng]
-variants: [isl]
+# variants: [isl]
 
 patcher_version_requirement: "2.1"
 no_base_content: false
@@ -59,7 +59,7 @@ options_base_dir: "options"
 prerequisites:
   - name: [community_remaster]
     versions:
-     - ">=1.14.1"
+     - ">=1.14"
     optional_content:
       - hd_vehicle_models
 
