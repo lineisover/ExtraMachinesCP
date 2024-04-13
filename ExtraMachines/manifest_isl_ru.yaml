@@ -1,0 +1,80 @@
+name: ExtraMachines_ISL
+ 
+version: "1.1.0"
+build: "240414a"
+language: ru
+display_name: Extra Machines [ISL]
+authors: Spok, OverLine
+description: |
+  Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
+  Все машины в паке были созданы специально для Ex Machina, а не являются портами из других игр, как в многих других модах. Мод является беспрецедентным по уровню качества добавляемых машин, разнообразию доступных кабин и кузовов, наличию модели повреждений у всех играбельных машин, по сути, идеально вписываясь в игру на одном уровне с оригинальными машинами, сделанными Targem Games.
+
+release_date: "14.04.2024"
+link: https://github.com/lineisover/ExtraMachinesCP
+logo: assets/logo_isl.png
+install_banner: assets/banner_isl.png
+tags: [vehicles]
+change_log: assets/changelog.md
+screenshots:
+  - img: assets/Rednek/1.jpg
+    text: | 
+      Плеб - Базовая кабина для Рэднэка. Говорят, ее можно продырявить плевком.
+      Рустикана - Родной кузов Рэднека. Обязательно запирайте заднюю дверь, а то украдут что внутри.
+  - img: assets/Rednek/2.jpg
+    text: |
+      Кантри - Кустарная модификация базовой кабины, скорее всего сделана знакомым механиком за чарочку чего-нибудь по-крепче.
+      Урбана - Родной кузов Рэднека. Обязательно запирайте заднюю дверь, а то украдут что внутри.
+  - img: assets/Rednek/3.jpg
+    text: |
+      Хэдмен - Поздняя модель кабины Рэднека, в целом держится хорошо.
+      Капитус - Кузов для кемпинга где-нибудь в отдалённой глуши. Часто используется исследователями.
+  - img: assets/Rednek/4.jpg
+    text: |
+      Хэдмен - Поздняя модель кабины Рэднека, в целом держится хорошо.
+      Палатий - Лучший кузов для Рэднека. Места в нём, увы, немного, но это с лихвой компенсируется его бронированностью.
+  - img: assets/Tornado/1.jpg
+  - img: assets/Tornado/2.jpg
+  - img: assets/Tornado/3.jpg
+  - img: assets/Tornado/4.jpg
+  - img: assets/Traktor/1.jpg
+  - img: assets/Traktor/2.jpg
+  - img: assets/Traktor/3.jpg
+  - img: assets/M35/1.jpg
+  - img: assets/M35/2.jpg
+  - img: assets/M35/3.jpg
+  - img: assets/M35/4.jpg
+  - img: assets/Cumbine/1.jpg
+
+translations: [eng]
+# variants: [isl]
+
+patcher_version_requirement: "2.1.1"
+no_base_content: false
+
+compatible_patch_versions: true
+
+data_dirs:
+  - "data_isl"
+
+options_base_dir: "options_isl"
+ 
+prerequisites:
+  - name: [improved_storyline_hd]
+    versions:
+     - ">=1.2"
+    optional_content:
+      - kraycity
+
+incompatible:
+  - name: improved_storyline_hd
+    versions: []
+    optional_content:
+    - english_localization
+
+optional_content:
+  - name: workshops
+    display_name: Машины в продаже и спауне.
+    description: |
+      Добавляет в продажу новые машины и запчасти, а так же добавляет новые машины в спаун врагов.
+    data_dirs:
+      - "workshops"
