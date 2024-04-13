@@ -1,7 +1,7 @@
 name: ExtraMachines
  
 # version: "1.0.6"
-# build: "240407a"
+# build: "240414a"
 language: eng
 display_name: Extra Machines [CR]
 authors: Spok, OverLine
@@ -9,7 +9,7 @@ description: |
   Extra Machines is an addon asset-pack that adds new cars to the original Ex Machina. The main version of the mod is adapted for the full game, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
   All cars in the pack were created specifically for Ex Machina, and are not ports from other games, as in many other mods. The mod is unprecedented in the level of quality of the added cars, the variety of available cabins and bodies, the presence of damage models for all playable cars, in fact, perfectly fitting into the game on a par with the original cars made by Targem Games.
 
-release_date: "2021"
+release_date: "14.04.2024"
 link: https://github.com/lineisover/ExtraMachinesCP
 logo: assets/logo.png
 install_banner: assets/banner.png
@@ -46,7 +46,7 @@ screenshots:
   - img: assets/Cumbine/1.jpg
 
 
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "2.1.1"
 no_base_content: false
 
 data_dirs:
@@ -57,7 +57,7 @@ options_base_dir: "options"
 prerequisites:
   - name: [community_remaster]
     versions:
-     - ">=1.14"
+     - ">=1.14.1"
     optional_content:
       - hd_vehicle_models
       - english_localization

@@ -1,7 +1,7 @@
 name: ExtraMachines
  
 version: "1.0.6"
-build: "240413a"
+build: "240414a"
 language: ru
 display_name: Extra Machines [CR]
 authors: Spok, OverLine
@@ -9,7 +9,7 @@ description: |
   Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
   Все машины в паке были созданы специально для Ex Machina, а не являются портами из других игр, как в многих других модах. Мод является беспрецедентным по уровню качества добавляемых машин, разнообразию доступных кабин и кузовов, наличию модели повреждений у всех играбельных машин, по сути, идеально вписываясь в игру на одном уровне с оригинальными машинами, сделанными Targem Games.
 
-release_date: "2021"
+release_date: "14.04.2024"
 link: https://github.com/lineisover/ExtraMachinesCP
 logo: assets/logo.png
 install_banner: assets/banner.png
@@ -48,7 +48,7 @@ screenshots:
 translations: [eng]
 variants: [isl]
 
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "2.1.1"
 no_base_content: false
 
 data_dirs:
