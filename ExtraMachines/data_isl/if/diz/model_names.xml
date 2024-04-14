@@ -146,6 +146,21 @@ Extra machines start here
 		value="Несмертный" />
 
 	<Item
+		id="TornadoCab01_Enemy"
+		locForm="0"
+		value="Ураган" />
+
+	<Item
+		id="TornadoCab02_Enemy"
+		locForm="0"
+		value="Шкипер" />
+
+	<Item
+		id="TornadoCab03_Enemy"
+		locForm="0"
+		value="Несмертный" />
+
+	<Item
 		id="TornadoCargo01"
 		locForm="0"
 		value="Багажник" />
