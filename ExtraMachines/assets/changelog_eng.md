@@ -1,4 +1,5 @@
 # 1.1.0
+* Added missing lines to descriptions.
 * English text translation.
 * Adaptation for ISL is included in the main package.
 * Adapted for Community Remaster 1.14.1 [build 240403a].
