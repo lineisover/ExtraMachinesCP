@@ -1,12 +1,15 @@
+Язык:
+- [Русский](#[RU]-Extra-Machines)
+- [English](#[ENG]-Extra-Machines)
+
 # [RU] Extra Machines
 ## Оглавление:
-1. [English](#[ENG]-Extra-Machines)
-2. [Описание мода](#Описание-мода)
-3. [Требования к установке](#Требования-к-установке)
-4. [Официально поддерживаемые моды](#Официально-поддерживаемые-моды)
-5. [Моды поддерживаемые сообществом](#Моды-поддерживаемые-сообществом)
-6. [Участники и благодарности](#Участники-и-благодарности)
-7. [Скачать](#Скачать)
+- [Описание мода](#Описание-мода)
+- [Требования к установке](#Требования-к-установке)
+- [Официально поддерживаемые моды](#Официально-поддерживаемые-моды)
+- [Моды поддерживаемые сообществом](#Моды-поддерживаемые-сообществом)
+- [Участники и благодарности](#Участники-и-благодарности)
+- [Скачать](#Скачать)
 
 ## Описание мода:
 **Extra Machines** - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
@@ -41,13 +44,12 @@
 # [ENG] Extra Machines
 
 ## Table of Contents:
-1. [Русский](#[RU]-Extra-Machines)
-2. [Mod Description](#Mod-Description)
-3. [Installation Requirements](#Installation-Requirements)
-4. [Officially supported mods](#Officially-supported-mods)
-5. [Community Supported Mods](#Community-Supported-Mods)
-6. [Contributors and Thanks](#Contributors-and-Thanks)
-7. [Download](#Download)
+- [Mod Description](#Mod-Description)
+- [Installation Requirements](#Installation-Requirements)
+- [Officially supported mods](#Officially-supported-mods)
+- [Community Supported Mods](#Community-Supported-Mods)
+- [Contributors and Thanks](#Contributors-and-Thanks)
+- [Download](#Download)
 
 ## Mod Description:
 **Extra Machines** - is an addon asset-pack that adds new cars to the original Hard Truck Apocalypce. The main version of the mod is adapted for a normal play, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
