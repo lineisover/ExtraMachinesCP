@@ -146,6 +146,21 @@ Extra machines start here
 		value="Immortal" />
 
 	<Item
+		id="TornadoCab01_Enemy"
+		locForm="0"
+		value="Hurricane" />
+
+	<Item
+		id="TornadoCab02_Enemy"
+		locForm="0"
+		value="Skipper" />
+
+	<Item
+		id="TornadoCab03_Enemy"
+		locForm="0"
+		value="Immortal" />
+
+	<Item
 		id="TornadoCargo01"
 		locForm="0"
 		value="Trunk" />

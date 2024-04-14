@@ -6,8 +6,9 @@ Extra Machines start here
 	<string
 		id="ChevC10ForSale_diz"
 		value="Every country boy's dream. Basically, it's the equivalent of a Bug." />
-		
-		
+	<string
+		id="ChevC10Player_diz"
+		value="Every country boy's dream. Basically, it's the equivalent of a Bug." />
 	<string
 		id="ChevC10Cab01_diz"
 		value="The basic cabin for Redneck. They say you can spit holes in it." />
@@ -63,6 +64,15 @@ Extra Machines start here
 		value="By sacrificing appearance and a bit of speed, the result is something between a prestige car and a bucket. But at least you can rob caravans without the risk of getting a bullet in the petrol tank." />
 	<string
 		id="TornadoCab03_diz"
+		value="Have you ever tried to make a machine gun out of a tin can? This is it, but the cabin." />
+	<string
+		id="TornadoCab01_Enemy_diz"
+		value="Lightweight and with a powerful engine, but poor armament. For those who like to make a quick buck." />
+	<string
+		id="TornadoCab02_Enemy_diz"
+		value="By sacrificing appearance and a bit of speed, the result is something between a prestige car and a bucket. But at least you can rob caravans without the risk of getting a bullet in the petrol tank." />
+	<string
+		id="TornadoCab03_Enemy_diz"
 		value="Have you ever tried to make a machine gun out of a tin can? This is it, but the cabin." />
 	<string
 		id="TornadoCargo01_diz"
