@@ -1,15 +1,15 @@
-Язык:
-- [Русский](#[RU]-Extra-Machines)
-- [English](#[ENG]-Extra-Machines)
+## Язык/Language:
+- [Русский](#ru-extra-machines)
+- [English](#eng-extra-machines)
 
 # [RU] Extra Machines
 ## Оглавление:
-- [Описание мода](#Описание-мода)
-- [Требования к установке](#Требования-к-установке)
-- [Официально поддерживаемые моды](#Официально-поддерживаемые-моды)
-- [Моды поддерживаемые сообществом](#Моды-поддерживаемые-сообществом)
-- [Участники и благодарности](#Участники-и-благодарности)
-- [Скачать](#Скачать)
+- [Описание мода](#описание-мода)
+- [Требования к установке](#требования-к-установке)
+- [Официально поддерживаемые моды](#официально-поддерживаемые-моды)
+- [Моды поддерживаемые сообществом](#моды-поддерживаемые-сообществом)
+- [Участники и благодарности](#участники-и-благодарности)
+- [Скачать](#скачать)
 
 ## Описание мода:
 **Extra Machines** - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (/car(26) - /car(42)).
@@ -44,12 +44,12 @@
 # [ENG] Extra Machines
 
 ## Table of Contents:
-- [Mod Description](#Mod-Description)
-- [Installation Requirements](#Installation-Requirements)
-- [Officially supported mods](#Officially-supported-mods)
-- [Community Supported Mods](#Community-Supported-Mods)
-- [Contributors and Thanks](#Contributors-and-Thanks)
-- [Download](#Download)
+- [Mod Description](#mod-description)
+- [Installation Requirements](#installation-requirements)
+- [Officially supported mods](#officially-supported-mods)
+- [Community Supported Mods](#community-supported-mods)
+- [Contributors and Thanks](#contributors-and-thanks)
+- [Download](#download)
 
 ## Mod Description:
 **Extra Machines** - is an addon asset-pack that adds new cars to the original Hard Truck Apocalypce. The main version of the mod is adapted for a normal play, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (/car(26) - /car(42)).
