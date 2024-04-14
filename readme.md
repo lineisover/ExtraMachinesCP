@@ -31,9 +31,9 @@
 >*совместимость каждой отдельной версии мода может запаздывать после релиза, точную информацию можно узнать на странице мода*
 
 ## Участники и благодарности:
-* Автор оригинальных моделей и базовой настройки на ванильную игру: @Maxgdh aka **Spok**
-* Автор адаптации под Community remaster и ISL: @lineisover
-* Правки английской локализации: @Zvetkov
+* Автор оригинальных моделей и базовой настройки на ванильную игру: [@Maxgdh](https://github.com/Maxgdh) aka **Spok**
+* Автор адаптации под Community remaster и ISL: [@lineisover](https://github.com/lineisover)
+* Правки английской локализации: [@Zvetkov](https://github.com/Zvetkov)
 * Первая реализация мода под Community Remaster: **FunnyScout**
 
 ## Скачать:
@@ -71,9 +71,9 @@ All cars in the pack were created specifically for Hard Truck, and are not ports
 >compatibility of each individual mod version may be delayed after release, please check the mod page for exact information.
 
 ## Contributors and Thanks:
-* Author of original models and basic customisation on vanilla game: **Spok**
-* Author of adaptation for Community remaster and ISL: @lineisover
-* Edits of English localisation: @Zvetkov
+* Author of original models and basic customisation on vanilla game: [@Maxgdh](https://github.com/Maxgdh) aka **Spok**
+* Author of adaptation for Community remaster and ISL: [@lineisover](https://github.com/lineisover)
+* Edits of English localisation: [@Zvetkov](https://github.com/Zvetkov)
 * First realisation of the mod under Community Remaster: **FunnyScout**
 
 ## Download:
