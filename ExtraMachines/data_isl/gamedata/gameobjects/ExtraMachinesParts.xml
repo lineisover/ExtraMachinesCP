@@ -436,6 +436,7 @@ Extra Machines vehicles parts
 			Name				= "TornadoCab00"
 			ModelFile			= "TornadoCab00"
 			ResourceType			= "TORNADO_CABIN"
+			CanBeUsedInAutogenerating  =  "0"
 			NodeScale			= "1 1 1"
 			Durability			= "100"
 			DurCoeffsForDamageTypes		= "0 -25 -25"
@@ -553,125 +554,6 @@ Extra Machines vehicles parts
 			Name				= "TornadoCab03"
 			ModelFile			= "TornadoCab03"
 			ResourceType		= "TORNADO_CABIN"
-			NodeScale			= "1 1 1"
-			Durability			= "150"
-			DurCoeffsForDamageTypes		= "8 -5 -5"
-			Mass				= "52.0"
-			MaxPower			= "120"
-			MaxTorque			= "110"
-                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
-
-			Price				= "5000"
-			RepairCoef			= "0.4"
-
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
-                        FuelConsumption                 = "0.45"
-			MaxSpeed			= "152.0"
-			LoadPoints			= "LP_SML01 LP_SML02" >
-
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "1" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount	= "2" />         
-			</GadgetDescription>
-			<GroupsHealth 
-				Main   = "0"
-				Breakable1   = "1"	
-				Breakable2   = "1"
-				Breakable3   = "1"
-				Breakable4   = "1"	
-				Breakable5   = "1"
-			/>
-		</Prototype>
-
-	    <Prototype
-			Class				= "Cabin"
-			Name				= "TornadoCab01_Enemy"
-			ModelFile			= "TornadoCab01"
-			ResourceType		= "TORNADO_CABIN_ENEMY"
-			NodeScale			= "1 1 1"
-			Durability			= "100"
-			DurCoeffsForDamageTypes		= "0 -25 -25"
-			Mass				= "40.0"
-			MaxPower			= "140"
-			MaxTorque			= "90"
-
-			Price				= "2000"
-			RepairCoef			= "0.4"
-                        FuelConsumption                 = "0.3"
-			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
-			MaxSpeed			= "145.0"
-			LoadPoints			= "LP_SML01" >
-
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "1" />
-
-			 
-			</GadgetDescription>
-				<GroupsHealth
-					Main   = "0"
-					Breakable1   = "1"	
-				    Breakable2   = "1"
-					Breakable3   = "1"	
-				    Breakable4   = "1"
-					Breakable5   = "1"	
-					Breakable6   = "0.1"	
-					Breakable7   = "0.1"	
-					Breakable8   = "0.1"	
-					Breakable9   = "0.1"	
-				/>
-		</Prototype>
-
-		<Prototype
-			Class				= "Cabin"
-			Name				= "TornadoCab02_Enemy"
-			ModelFile			= "TornadoCab02"
-			ResourceType		= "TORNADO_CABIN_ENEMY"
-			NodeScale			= "1 1 1"
-			Durability			= "120"
-			DurCoeffsForDamageTypes		= "6 -12 -12"
-			Mass				= "45.0"
-			MaxPower			= "145"
-			MaxTorque			= "98"
-                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
-			Price				= "3500"
-			RepairCoef			= "0.5"
-                        FuelConsumption                 = "0.4"
-			MaxSpeed			= "140.0"
-			LoadPoints			= "LP_SML01" >
-
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "1" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount	= "1" />         
-			</GadgetDescription>
-				<GroupsHealth
-					Main   = "0"
-					Breakable1   = "1"	
-				    Breakable2   = "1"
-					Breakable3   = "1"
-					Breakable4   = "1"	
-				    Breakable5   = "1"
-				/>
-		</Prototype>
-
-		<Prototype
-			Class				= "Cabin"
-			Name				= "TornadoCab03_Enemy"
-			ModelFile			= "TornadoCab03"
-			ResourceType		= "TORNADO_CABIN_ENEMY"
 			NodeScale			= "1 1 1"
 			Durability			= "150"
 			DurCoeffsForDamageTypes		= "8 -5 -5"
