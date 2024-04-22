@@ -1,4 +1,5 @@
 # 1.2.0
+* Reduced the body size of Cheif Burt to reduce the likelihood of ObjCont overflow
 * Removed all unnecessary prototypes related to Tornado
 * Redesigned mod structure, reduced size
 # 1.1.0

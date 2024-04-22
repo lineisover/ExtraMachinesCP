@@ -1136,6 +1136,7 @@ Extra Machines vehicles parts
 			Name				= "M35Cargo01"
 			ModelFile			= "M35Cargo01"
 			ResourceType			= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "60"
 			DurCoeffsForDamageTypes		= "0 0 -25"
 			NodeScale			= "1 1 1"
@@ -1171,6 +1172,7 @@ Extra Machines vehicles parts
 			Name				= "M35Cargo02"
 			ModelFile			= "M35Cargo02"
 			ResourceType			= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "100"
 			DurCoeffsForDamageTypes		= "12 12 -25"
 			NodeScale			= "1 1 1"
@@ -1213,6 +1215,7 @@ Extra Machines vehicles parts
 			Name				= "M35Cargo03"
 			ModelFile			= "M35Cargo03"
 			ResourceType		= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "85"
 			DurCoeffsForDamageTypes		= "7 6 -25"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
@@ -1256,6 +1259,7 @@ Extra Machines vehicles parts
 			Name				= "M35Cargo04"
 			ModelFile			= "M35Cargo04"
 			ResourceType		= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
 			Durability			= "115"
 			DurCoeffsForDamageTypes		= "10 15 -15"
 			NodeScale			= "1 1 1"
@@ -1270,6 +1274,178 @@ Extra Machines vehicles parts
 
 			<RepositoryDescription
 				RepositorySize		= "10 10">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "1 4"
+				/>
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "9 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 11"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+				Breakable6   = "1"
+				Breakable7   = "0.3"
+				Breakable8   = "0.3"
+				Breakable9   = "0.3"
+			/>			
+		</Prototype>
+
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo01_Enemy"
+			ModelFile			= "M35Cargo01"
+			ResourceType			= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "0 0 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "13000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "30.0"
+			LoadPoints			= "LP_BIG01" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "2 2"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.5"	
+			    Breakable2   = "0.5"
+				Breakable3   = "0.2"
+				Breakable4   = "0.7"
+				Breakable5   = "0.7"
+				Breakable6   = "0.7"
+			/>			
+		</Prototype>
+		
+		<Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo02_Enemy"
+			ModelFile			= "M35Cargo02"
+			ResourceType			= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "12 12 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "45000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "55.0"
+			LoadPoints			= "LP_SIDE01L LP_SIDE01R NO_LP" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "5 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.5"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "1"
+				Breakable7   = "1"
+				Breakable8   = "1"
+				Breakable9   = "0.5"
+			/>			
+		</Prototype>
+		
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo03_Enemy"
+			ModelFile			= "M35Cargo03"
+			ResourceType		= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "85"
+			DurCoeffsForDamageTypes		= "7 6 -25"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			NodeScale			= "1 1 1"
+
+			RepairCoef			= "0.3"
+			Price				= "22000"
+
+			Mass				= "45.0" 
+			LoadPoints			= "LP_BIG01 LP_GIANT01 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "5 1"
+				/>
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "5 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 0"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+			/>			
+		</Prototype>
+	
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo04_Enemy"
+			ModelFile			= "M35Cargo04"
+			ResourceType		= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "115"
+			DurCoeffsForDamageTypes		= "10 15 -15"
+			NodeScale			= "1 1 1"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "58000"
+			RepairCoef			= "0.3"
+
+			Mass				= "60.0"
+			LoadPoints			= "LP_BIG01 LP_BIG02 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
 
 				<Slot
 					Name		= "BASKET_BIG_GUN_0"
