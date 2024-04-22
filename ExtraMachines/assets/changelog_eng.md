@@ -1,3 +1,6 @@
+# 1.2.0
+* Removed all unnecessary prototypes related to Tornado
+* Redesigned mod structure, reduced size
 # 1.1.0
 * Added missing lines to descriptions.
 * English text translation.
