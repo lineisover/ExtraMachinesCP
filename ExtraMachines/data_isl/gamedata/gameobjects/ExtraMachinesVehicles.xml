@@ -486,7 +486,6 @@ Prototypes
         Class="Vehicle"
         Name="Tornado01_enemy"
         ParentPrototype="TornadoEnemy">
-        VisibleInEncyclopedia="false">
         <Parts>
             <Part id="CABIN" Prototype="TornadoCab03" />
             <Part id="BASKET" Prototype="TornadoCargo03" />
