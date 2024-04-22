@@ -54,6 +54,7 @@ no_base_content: false
 compatible_patch_versions: true
 
 data_dirs:
+  - "general"
   - "data"
 
 options_base_dir: "options"

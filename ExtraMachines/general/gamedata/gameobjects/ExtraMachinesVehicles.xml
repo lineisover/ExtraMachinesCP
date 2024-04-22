@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+
+<!--
+Extra Machines vehicles
+-->
+
+<Prototypes>
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC10"
+        ResourceType="VEHICLE"
+        DiffRatio="6.0"
+        MaxEngineRpm="6000"
+        LowGearShiftLimit="3000"
+        HighGearShiftLimit="5000"
+        SteeringSpeed="0.9"
+        HornSound="ET_S_HORN01"
+        PressingForce="1.1"
+        CameraHeight="4"
+        CameraMaxDist="14"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="4.0"
+        TakingRadius="30.0"
+        DriftCoeff="0.03"
+        MassSize="2 1.5 7"
+        MassTranslation="0 -0.8 -0.5"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        Abstract="true">
+
+        <MainPartDescription id="CHASSIS" partResourceType="CHEVC10_CHASSIS">
+            <PartDescription id="CABIN" partResourceType="CHEVC10_CABIN" lpName="LP_CAB01">
+            </PartDescription>
+            <PartDescription id="BASKET" partResourceType="CHEVC10_BASKET" lpName="LP_BSK01">
+                <PartDescription id="BASKET_SMALL_GUN_0" partResourceType="SMALL_GUN"
+                    lpName="LP_SML01" />
+                <PartDescription id="BASKET_SPECIAL_WEAPON" partResourceType="SPECIAL_WEAPON" />
+            </PartDescription>
+        </MainPartDescription>
+
+        <Parts>
+            <Part id="CHASSIS" Prototype="ChevC10Chassis" />
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="ChevC10Wheel01r" steering="correct" />
+            <Wheel Prototype="ChevC10Wheel01l" steering="correct" />
+            <Wheel Prototype="ChevC10Wheel02" />
+            <Wheel Prototype="ChevC10Wheel02" />
+        </Wheels>
+    </Prototype>
+
+
+    <!--  TRACTOR  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tractor"
+        ResourceType="VEHICLE"
+        DiffRatio="6.0"
+        MaxEngineRpm="8000"
+        LowGearShiftLimit="4000"
+        HighGearShiftLimit="6000"
+        SteeringSpeed="0.4"
+        HornSound="ET_S_HORN02"
+        PressingForce="1.3"
+        CameraHeight="4"
+        CameraMaxDist="18"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="4.0"
+        TakingRadius="30.0"
+        DriftCoeff="0.07"
+        MassSize="3.5 2.5 9"
+        MassTranslation="0 -1.4 0"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        Abstract="true">
+
+        <MainPartDescription id="CHASSIS" partResourceType="TRACTOR_CHASSIS">
+            <PartDescription id="CABIN" partResourceType="TRACTOR_CABIN" lpName="LP_CAB01">
+                <PartDescription id="CABIN_SMALL_GUN" partResourceType="SMALL_GUN" lpName="LP_SML01" />
+                <PartDescription id="CABIN_SMALL_GUN_1" partResourceType="SMALL_GUN"
+                    lpName="LP_SML02" />
+            </PartDescription>
+            <PartDescription id="BASKET" partResourceType="TRACTOR_BASKET" lpName="LP_BSK01">
+                <PartDescription id="BASKET_SMALL_GUN_0" partResourceType="SMALL_GUN"
+                    lpName="LP_SML01" />
+                <PartDescription id="BASKET_SMALL_GUN_1" partResourceType="SMALL_GUN"
+                    lpName="LP_SML02" />
+                <PartDescription id="BASKET_SPECIAL_WEAPON" partResourceType="SPECIAL_WEAPON" />
+            </PartDescription>
+        </MainPartDescription>
+
+        <Parts>
+            <Part id="CHASSIS" Prototype="TractorChassis" />
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="TractorWheel01r" steering="correct" />
+            <Wheel Prototype="TractorWheel01l" steering="correct" />
+            <Wheel Prototype="TractorWheel02l" />
+            <Wheel Prototype="TractorWheel02r" />
+        </Wheels>
+    </Prototype>
+
+    <!--  TORNADO  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tornado"
+        ResourceType="VEHICLE"
+        DiffRatio="6.0"
+        MaxEngineRpm="7000"
+        LowGearShiftLimit="3000"
+        HighGearShiftLimit="6000"
+        SteeringSpeed="1"
+        HornSound="ET_S_HORN01"
+        PressingForce="1.3"
+        CameraHeight="3.8"
+        CameraMaxDist="14"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="4.0"
+        TakingRadius="30.0"
+        DriftCoeff="0.02"
+        MassSize="2 1.5 7"
+        MassTranslation="0 -0.8 -0.5"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        Abstract="true">
+
+        <MainPartDescription id="CHASSIS" partResourceType="TORNADO_CHASSIS">
+            <PartDescription id="CABIN" partResourceType="TORNADO_CABIN" lpName="LP_CAB01">
+                <PartDescription id="CABIN_SMALL_GUN" partResourceType="SMALL_GUN" lpName="LP_SML01" />
+                <PartDescription id="CABIN_SMALL_GUN_1" partResourceType="SMALL_GUN"
+                    lpName="LP_SML02" />
+            </PartDescription>
+            <PartDescription id="BASKET" partResourceType="TORNADO_BASKET" lpName="LP_BSK01">
+                <PartDescription id="BASKET_SPECIAL_WEAPON" partResourceType="SPECIAL_WEAPON" />
+            </PartDescription>
+        </MainPartDescription>
+
+        <Parts>
+            <Part id="CHASSIS" Prototype="TornadoChassis" />
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="TornadoWheel01r" steering="correct" />
+            <Wheel Prototype="TornadoWheel01l" steering="correct" />
+            <Wheel Prototype="TornadoWheel02" />
+            <Wheel Prototype="TornadoWheel02" />
+        </Wheels>
+    </Prototype>
+
+    <!--  M35  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="M35"
+        ResourceType="VEHICLE"
+        PressingForce="2.0"
+        DiffRatio="4.0"
+        MaxEngineRpm="8000"
+        LowGearShiftLimit="3000"
+        HighGearShiftLimit="5500"
+        SteeringSpeed="0.6"
+        BlastWave="bigBlastWave"
+        CameraHeight="7"
+        CameraMaxDist="24"
+        HornSound="ET_S_HORN03"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="7.0"
+        TakingRadius="30.0"
+        DriftCoeff="0.08"
+        MassSize="5 3 12"
+        MassTranslation="0 -2.3 0"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        Abstract="true">
+
+        <MainPartDescription id="CHASSIS" partResourceType="M35_CHASSIS">
+            <PartDescription id="CABIN" partResourceType="M35_CABIN" lpName="LP_CAB01">
+                <PartDescription id="CABIN_BIG_GUN_1" partResourceType="BIG_GUN" lpName="LP_BIG01" />
+                <PartDescription id="CABIN_BIG_GUN_2" partResourceType="BIG_GUN" lpName="LP_BIG02" />
+                <PartDescription id="CABIN_SIDE_GUN_0" partResourceType="SIDE_GUN"
+                    lpName="LP_SIDE01L,LP_SIDE01R" />
+                <PartDescription id="CABIN_SMALL_GUN" partResourceType="SMALL_GUN" lpName="LP_SML01" />
+            </PartDescription>
+            <PartDescription id="BASKET" partResourceType="M35_BASKET" lpName="LP_BSK01">
+                <PartDescription id="BASKET_GIANT_GUN" partResourceType="GIANT_GUN"
+                    lpName="LP_GIANT01" />
+                <PartDescription id="BASKET_BIG_GUN_0" partResourceType="BIG_GUN" lpName="LP_BIG01" />
+                <PartDescription id="BASKET_BIG_GUN_1" partResourceType="BIG_GUN" lpName="LP_BIG02" />
+                <PartDescription id="BASKET_SIDE_GUN_0" partResourceType="SIDE_GUN"
+                    lpName="LP_SIDE01L,LP_SIDE01R" />
+                <PartDescription id="BASKET_SPECIAL_WEAPON" partResourceType="SPECIAL_WEAPON" />
+            </PartDescription>
+        </MainPartDescription>
+
+        <Parts>
+            <Part id="CHASSIS" Prototype="M35Chassis" />
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="M35Wheel01l" steering="correct" />
+            <Wheel Prototype="M35Wheel01r" steering="correct" />
+            <Wheel Prototype="M35Wheel02" />
+            <Wheel Prototype="M35Wheel02" />
+            <Wheel Prototype="M35Wheel02" />
+            <Wheel Prototype="M35Wheel02" />
+        </Wheels>
+    </Prototype>
+
+    <!--  CUMBINE  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Cumbine"
+        ResourceType="VEHICLE"
+        PressingForce="2.0"
+        BlastWave="bigBlastWave"
+        DiffRatio="5.0"
+        MaxEngineRpm="4500"
+        LowGearShiftLimit="1500"
+        HighGearShiftLimit="3500"
+        DestroyEffectPiercing="ET_PS_VEH_EXP1_MED"
+        DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
+        DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
+        DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        SteeringSpeed="0.2"
+        CameraHeight="6.5"
+        CameraMaxDist="23"
+        HornSound="ET_S_HORN06"
+        DecisionMatrix="vehiclemain.lua"
+        LookRadius="200.0"
+        IntersectionRadius="9.0"
+        TakingRadius="30.0"
+        DriftCoeff="0.04"
+        MassSize="4 4.5 12"
+        MassTranslation="0 -1.9 -2"
+        Abstract="true">
+
+        <MainPartDescription id="CHASSIS" partResourceType="CUMBINE_CHASSIS">
+            <PartDescription id="CABIN" partResourceType="CUMBINE_CABIN" lpName="LP_CAB01">
+                <PartDescription id="CABIN_SMALL_GUN" partResourceType="SMALL_GUN" lpName="LP_SML01" />
+            </PartDescription>
+            <PartDescription id="BASKET" partResourceType="CUMBINE_BASKET" lpName="LP_BSK01">
+            </PartDescription>
+        </MainPartDescription>
+
+        <Parts>
+            <Part id="CHASSIS" Prototype="CumbineChassis" />
+        </Parts>
+
+        <Wheels>
+            <Wheel Prototype="CumbineWheelFL" />
+            <Wheel Prototype="CumbineWheelFR" />
+            <Wheel Prototype="CumbineWheelRL" steering="inverse" />
+            <Wheel Prototype="CumbineWheelRR" steering="inverse" />
+        </Wheels>
+    </Prototype>
+
+    <!--
+Prototypes
+-->
+
+
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC1001"
+        ParentPrototype="ChevC10">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab01" />
+            <Part id="BASKET" Prototype="ChevC10Cargo02" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="hornet01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC1002"
+        ParentPrototype="ChevC10">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab02" />
+            <Part id="BASKET" Prototype="ChevC10Cargo03" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="specter01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC1003"
+        ParentPrototype="ChevC10">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab03" />
+            <Part id="BASKET" Prototype="ChevC10Cargo04" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="kord01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC10ForSale"
+        ParentPrototype="ChevC10"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab01" />
+            <Part id="BASKET" Prototype="ChevC10Cargo01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="ChevC10Player"
+        ParentPrototype="ChevC10"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="ChevC10Cab01" />
+            <Part id="BASKET" Prototype="ChevC10Cargo01" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="hornet01" />
+        </Parts>
+    </Prototype>
+
+    <!--  TRACTOR  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tractor01"
+        ParentPrototype="Tractor">
+        <Parts>
+            <Part id="CABIN" Prototype="TractorCab01" />
+            <Part id="BASKET" Prototype="TractorCargo01" />
+            <Part id="CABIN_SMALL_GUN" Prototype="hornet01" />
+            <Part id="CABIN_SMALL_GUN_1" Prototype="hornet01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tractor02"
+        ParentPrototype="Tractor">
+        <Parts>
+            <Part id="CABIN" Prototype="TractorCab02" />
+            <Part id="BASKET" Prototype="TractorCargo02" />
+            <Part id="CABIN_SMALL_GUN" Prototype="specter01" />
+            <Part id="CABIN_SMALL_GUN_1" Prototype="specter01" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="specter01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tractor03"
+        ParentPrototype="Tractor">
+        <Parts>
+            <Part id="CABIN" Prototype="TractorCab03" />
+            <Part id="BASKET" Prototype="TractorCargo03" />
+            <Part id="CABIN_SMALL_GUN" Prototype="kord01" />
+            <Part id="CABIN_SMALL_GUN_1" Prototype="kord01" />
+            <Part id="BASKET_SMALL_GUN_0" Prototype="kord01" />
+            <Part id="BASKET_SMALL_GUN_1" Prototype="kord01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="TractorForSale"
+        ParentPrototype="Tractor"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="TractorCab01" />
+            <Part id="BASKET" Prototype="TractorCargo01" />
+        </Parts>
+    </Prototype>
+
+
+    <!--  TORNADO  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tornado01"
+        ParentPrototype="Tornado">
+        <Parts>
+            <Part id="CABIN" Prototype="TornadoCab01" />
+            <Part id="BASKET" Prototype="TornadoCargo01" />
+            <Part id="CABIN_SMALL_GUN" Prototype="hornet01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tornado02"
+        ParentPrototype="Tornado">
+        <Parts>
+            <Part id="CABIN" Prototype="TornadoCab02" />
+            <Part id="BASKET" Prototype="TornadoCargo02" />
+            <Part id="CABIN_SMALL_GUN" Prototype="specter01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="Tornado03"
+        ParentPrototype="Tornado">
+        <Parts>
+            <Part id="CABIN" Prototype="TornadoCab03" />
+            <Part id="BASKET" Prototype="TornadoCargo03" />
+            <Part id="CABIN_SMALL_GUN" Prototype="kord01" />
+            <Part id="CABIN_SMALL_GUN_1" Prototype="specter01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="TornadoForSale"
+        ParentPrototype="Tornado"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="TornadoCab01" />
+            <Part id="BASKET" Prototype="TornadoCargo01" />
+        </Parts>
+    </Prototype>
+
+    <!--  M35  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="M3501"
+        ParentPrototype="M35">
+        <Parts>
+            <Part id="CABIN" Prototype="M35Cab01" />
+            <Part id="BASKET" Prototype="M35Cargo01" />
+            <Part id="CABIN_SMALL_GUN" Prototype="hornet01" />
+            <Part id="BASKET_BIG_GUN_0" Prototype="vulcan01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="M3502"
+        ParentPrototype="M35">
+        <Parts>
+            <Part id="CABIN" Prototype="M35Cab02" />
+            <Part id="BASKET" Prototype="M35Cargo02" />
+            <Part id="CABIN_BIG_GUN_1" Prototype="vulcan01" />
+            <Part id="BASKET_SIDE_GUN_0" Prototype="hunterSideGun" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="M3503"
+        ParentPrototype="M35">
+        <Parts>
+            <Part id="CABIN" Prototype="M35Cab03" />
+            <Part id="BASKET" Prototype="M35Cargo03" />
+            <Part id="CABIN_SMALL_GUN" Prototype="specter01" />
+            <Part id="CABIN_BIG_GUN_1" Prototype="kpvt01" />
+            <Part id="BASKET_BIG_GUN_0" Prototype="kpvt01" />
+            <Part id="BASKET_GIANT_GUN" Prototype="octopus01" />
+
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="M3504"
+        ParentPrototype="M35">
+        <Parts>
+            <Part id="CABIN" Prototype="M35Cab04" />
+            <Part id="BASKET" Prototype="M35Cargo04" />
+            <Part id="CABIN_SIDE_GUN_0" Prototype="hunterSideGun" />
+            <Part id="BASKET_BIG_GUN_0" Prototype="kpvt01" />
+            <Part id="BASKET_BIG_GUN_1" Prototype="kpvt01" />
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        Class="Vehicle"
+        Name="M35ForSale"
+        ParentPrototype="M35"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="M35Cab01" />
+            <Part id="BASKET" Prototype="M35Cargo01" />
+        </Parts>
+    </Prototype>
+
+
+    <!--  M35  -->
+
+    <Prototype
+        Class="Vehicle"
+        Name="Cumbine01"
+        ParentPrototype="Cumbine"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part id="CABIN" Prototype="CumbineCab01" />
+            <Part id="BASKET" Prototype="CumbineCargo01" />
+        </Parts>
+    </Prototype>
+</Prototypes>
