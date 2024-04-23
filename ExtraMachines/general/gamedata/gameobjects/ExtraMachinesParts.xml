@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+Extra Machines vehicles parts
+-->
+
+<Prototypes>
+    <Folder Name = "Chassis">
+        <Prototype
+			Class		= "Chassis"
+			Name		= "ChevC10Chassis"
+			ModelFile	= "ChevC10Chassis"
+			ResourceType	= "CHEVC10_CHASSIS"
+			NodeScale	= "1 1 1"
+
+			Price				= "800"
+
+			RepairCoef			= "0.2"
+
+			Mass		= "50.0" 
+			MaxHealth	= "500" 
+			MaxFuel	= "150"
+			BrakingSound="ET_S_BRAKE01"
+			PneumoSound	="ET_S_PNEUMO_BRAKE01"
+			GearShiftSound="ET_S_GEAR_SHIFT01"
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"	
+				/>
+		</Prototype>
+		
+<!--  TRACTOR  -->
+		
+		<Prototype
+			Class		= "Chassis"
+			Name		= "TractorChassis"
+			ModelFile	= "TractorChassis"
+			ResourceType	= "TRACTOR_CHASSIS"
+			NodeScale	= "1 1 1"
+
+			Price				= "5000"
+
+			RepairCoef			= "0.3"
+
+			Mass		= "100.0" 
+			MaxHealth	= "1500" 
+			MaxFuel	= "250"
+			BrakingSound="ET_S_BRAKE01"
+			PneumoSound	="ET_S_PNEUMO_BRAKE01"
+			GearShiftSound="ET_S_GEAR_SHIFT01"
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"	
+				/>
+		</Prototype>
+
+<!--  TORNADO  -->
+
+		<Prototype
+			Class		= "Chassis"
+			Name		= "TornadoChassis"
+			ModelFile	= "TornadoChassis"
+			ResourceType	= "TORNADO_CHASSIS"
+			NodeScale	= "1 1 1"
+
+			Price				= "2700"
+
+			RepairCoef			= "0.4"
+
+			Mass		= "100.0" 
+			MaxHealth	= "500" 
+			MaxFuel	= "120"
+			BrakingSound="ET_S_BRAKE01"
+			PneumoSound	="ET_S_PNEUMO_BRAKE01"
+			GearShiftSound="ET_S_GEAR_SHIFT01"
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"	
+				/>
+		</Prototype>
+		
+<!--  M35  -->
+
+        <Prototype
+			Class		= "Chassis"
+			Name		= "M35Chassis"
+			ModelFile	= "M35Chassis"
+			ResourceType	= "M35_CHASSIS"
+			NodeScale	= "1 1 1"
+
+			Price				= "40000"
+			RepairCoef			= "0.2"
+
+			Mass		= "80.0"			
+			MaxHealth	= "2000" 
+			MaxFuel	= "600"
+			BrakingSound="ET_S_BRAKE01"
+			PneumoSound	="ET_S_PNEUMO_BRAKE01"
+			GearShiftSound="ET_S_GEAR_SHIFT01"
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"	
+				/>
+		</Prototype>
+		
+<!--  CUMBINE  -->
+
+        <Prototype
+			Class		= "Chassis"
+			Name		= "CumbineChassis"
+			ModelFile	= "CumbineChassis"
+			ResourceType	= "CUMBINE_CHASSIS"
+			NodeScale	= "1 1 1"
+
+			Price				= "10000"
+			RepairCoef			= "0.2"
+
+			Mass		= "80.0"			
+			MaxHealth	= "3000" 
+			MaxFuel	= "600"
+			BrakingSound="ET_S_BRAKE01"
+			PneumoSound	="ET_S_PNEUMO_BRAKE01"
+			GearShiftSound="ET_S_GEAR_SHIFT01"
+			LoadPoints	= "LP_CAB01 LP_BSK01" >
+				<GroupsHealth
+					Main   = "10000"	
+				/>
+        </Prototype>
+    </Folder>
+
+    <Folder Name = "Cabins">
+    	<Prototype
+			Class				= "Cabin"
+			Name				= "ChevC10Cab01"
+			ModelFile			= "ChevC10Cab01"
+			ResourceType			= "CHEVC10_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "50"
+			DurCoeffsForDamageTypes		= "4 -25 -25"
+			Mass				= "40.0"
+			MaxPower			= "120"
+			MaxTorque			= "80"
+
+			Price				= "800"
+			RepairCoef			= "0.3"
+                        FuelConsumption                 = "0.3"
+			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			MaxSpeed			= "95.0">
+			<GadgetDescription>
+			 
+			</GadgetDescription>
+				<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "0.2"
+				Breakable6   = "0.2"
+				Breakable7   = "0.2"
+				Breakable8   = "0.2"
+				Breakable9   = "0.3"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "ChevC10Cab02"
+			ModelFile			= "ChevC10Cab02"
+			ResourceType			= "CHEVC10_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "6 -25 -25"
+			Mass				= "45.0"
+			MaxPower			= "120"
+			MaxTorque			= "90"
+                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			Price				= "1100"
+			RepairCoef			= "0.3"
+                        FuelConsumption                 = "0.3"
+			MaxSpeed			= "105.0">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" />         
+			</GadgetDescription>
+				<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "0.2"
+				Breakable6   = "0.2"
+				Breakable7   = "0.2"
+				Breakable8   = "0.2"
+				Breakable9   = "0.5"
+				Breakable10   = "0.5"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "ChevC10CabMenu"
+			ModelFile			= "ChevC10Cab02"
+			ResourceType			= "CHEVC10_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "50"
+			DurCoeffsForDamageTypes	= "10 0 0"
+			VisibleInEncyclopedia = "false"
+			Mass				= "30.0"
+			MaxPower			= "120"
+			MaxTorque			= "190"
+                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			Price				= "8000"
+			RepairCoef			= "0.3"
+                        FuelConsumption                 = "0.3"
+			MaxSpeed			= "60.0">
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "0.5"	
+				    Breakable2   = "0.3"
+					Breakable3   = "0.3"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "ChevC10Cab03"
+			ModelFile			= "ChevC10Cab03"
+			ResourceType			= "CHEVC10_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "80"
+			DurCoeffsForDamageTypes		= "8 -15 -25"
+			Mass				= "52.0"
+			MaxPower			= "120"
+			MaxTorque			= "110"
+                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+
+			Price				= "1500"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+                        FuelConsumption                 = "0.3"
+			MaxSpeed			= "120.0">
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" />         
+			</GadgetDescription>
+			<GroupsHealth 
+				Main   = "0"
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "1"
+				Breakable6   = "1"
+				Breakable7   = "1"
+			/>
+		</Prototype>
+		
+<!--  TRACTOR  -->
+
+	    <Prototype
+			Class				= "Cabin"
+			Name				= "TractorCab01"
+			ModelFile			= "TractorCab01"
+			ResourceType			= "TRACTOR_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "5 -15 -15"
+			Mass				= "40.0"
+			MaxPower			= "140"
+			MaxTorque			= "80"
+
+			Price				= "3500"
+			RepairCoef			= "0.4"
+                        FuelConsumption                 = "0.3"
+			EngineHighSound			= "ET_S_ENGINE_BELAZ_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			MaxSpeed			= "95.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" />   
+			 
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "1"	
+				    Breakable2   = "1.2"
+					Breakable3   = "1.5"	
+				    Breakable4   = "0.1"
+					Breakable5   = "0.1"	
+				    Breakable6   = "0.1"
+					Breakable7   = "0.1"	
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TractorCab02"
+			ModelFile			= "TractorCab02"
+			ResourceType			= "TRACTOR_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "120"
+			DurCoeffsForDamageTypes		= "6 -12 -12"
+			Mass				= "45.0"
+			MaxPower			= "145"
+			MaxTorque			= "90"
+                        EngineHighSound			= "ET_S_ENGINE_BELAZ_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			Price				= "5000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.5"
+			MaxSpeed			= "105.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "1"	
+				    Breakable2   = "1.5"
+					Breakable3   = "1"
+					Breakable4   = "0.2"	
+				    Breakable5   = "0.2"
+					Breakable6   = "0.2"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TractorCabMenu"
+			ModelFile			= "TractorCab02"
+			ResourceType			= "TRACTOR_CABIN"
+			NodeScale			= "1 1 1"
+			VisibleInEncyclopedia = "false"
+			Durability			= "120"
+			DurCoeffsForDamageTypes		= "6 -12 -12"
+			Mass				= "45.0"
+			MaxPower			= "145"
+			MaxTorque			= "90"
+                        EngineHighSound			= "ET_S_ENGINE_BELAZ_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			Price				= "5000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.5"
+			MaxSpeed			= "105.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "0.6"	
+				    Breakable2   = "0.5"
+					Breakable3   = "0.4"
+					Breakable4   = "0.6"	
+				    Breakable5   = "0.4"
+					Breakable6   = "0.5"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TractorCab03"
+			ModelFile			= "TractorCab03"
+			ResourceType			= "TRACTOR_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "150"
+			DurCoeffsForDamageTypes		= "8 -5 -5"
+			Mass				= "52.0"
+			MaxPower			= "120"
+			MaxTorque			= "110"
+                        EngineHighSound			= "ET_S_ENGINE_BELAZ_1_HIGH"
+
+			Price				= "10000"
+			RepairCoef			= "0.4"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+                        FuelConsumption                 = "0.7"
+			MaxSpeed			= "120.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+			<GroupsHealth 
+				Main   = "0"
+				Breakable1   = "2"	
+				Breakable2   = "1.2"	
+				Breakable3   = "1"	
+			/>
+		</Prototype>
+
+<!--  TORNADO  -->
+		
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TornadoCab00"
+			ModelFile			= "TornadoCab00"
+			ResourceType			= "TORNADO_CABIN"
+			CanBeUsedInAutogenerating  =  "0"
+			NodeScale			= "1 1 1"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			Mass				= "40.0"
+			MaxPower			= "150"
+			MaxTorque			= "120"
+
+			Price				= "2000"
+			RepairCoef			= "0.4"
+                        FuelConsumption                 = "0.3"
+			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			MaxSpeed			= "180.0">
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" />
+			 
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "1"	
+				    Breakable2   = "1"
+					Breakable3   = "1"	
+				    Breakable4   = "1"
+					Breakable5   = "0.1"	
+					Breakable6   = "0.1"	
+					Breakable7   = "0.1"	
+					Breakable8   = "0.1"	
+				/>
+		</Prototype>
+		
+	    <Prototype
+			Class				= "Cabin"
+			Name				= "TornadoCab01"
+			ModelFile			= "TornadoCab01"
+			ResourceType			= "TORNADO_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			Mass				= "40.0"
+			MaxPower			= "140"
+			MaxTorque			= "90"
+
+			Price				= "2000"
+			RepairCoef			= "0.4"
+                        FuelConsumption                 = "0.3"
+			EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			MaxSpeed			= "145.0"
+			LoadPoints			= "LP_SML01" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+			 
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "1"	
+				    Breakable2   = "1"
+					Breakable3   = "1"	
+				    Breakable4   = "1"
+					Breakable5   = "1"	
+					Breakable6   = "0.1"	
+					Breakable7   = "0.1"	
+					Breakable8   = "0.1"	
+					Breakable9   = "0.1"	
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TornadoCab02"
+			ModelFile			= "TornadoCab02"
+			ResourceType			= "TORNADO_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "120"
+			DurCoeffsForDamageTypes		= "6 -12 -12"
+			Mass				= "45.0"
+			MaxPower			= "145"
+			MaxTorque			= "98"
+                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			Price				= "3500"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.4"
+			MaxSpeed			= "140.0"
+			LoadPoints			= "LP_SML01" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" />         
+			</GadgetDescription>
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "1"	
+				    Breakable2   = "1"
+					Breakable3   = "1"
+					Breakable4   = "1"	
+				    Breakable5   = "1"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "TornadoCab03"
+			ModelFile			= "TornadoCab03"
+			ResourceType		= "TORNADO_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "150"
+			DurCoeffsForDamageTypes		= "8 -5 -5"
+			Mass				= "52.0"
+			MaxPower			= "120"
+			MaxTorque			= "110"
+                        EngineHighSound			= "ET_S_ENGINE_HUNTER_1_HIGH"
+
+			Price				= "5000"
+			RepairCoef			= "0.4"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+                        FuelConsumption                 = "0.45"
+			MaxSpeed			= "152.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+			<GroupsHealth 
+				Main   = "0"
+				Breakable1   = "1"	
+				Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"	
+				Breakable5   = "1"
+			/>
+		</Prototype>
+
+<!--  M35  -->
+		
+        <Prototype
+			Class				= "Cabin"
+			Name				= "M35Cab01"
+			ModelFile			= "M35Cab01"
+			ResourceType			= "M35_CABIN"
+			NodeScale			= "1 1 1"
+			Mass				= "60.0" 
+			Durability			= "75"
+			DurCoeffsForDamageTypes		= "8 0 -25"
+			MaxPower			= "120"
+			MaxTorque			= "180"
+
+			Price				= "18000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.4"
+                        EngineHighSound			= "ET_S_ENGINE_URAL_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+			MaxSpeed			= "135.0"  
+			LoadPoints			= "LP_SML01" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "2"
+				Breakable6   = "2"
+				Breakable7   = "0.5"
+				Breakable8   = "0.5"
+				Breakable9   = "0.5"
+				Breakable10   = "0.5"
+				Breakable11   = "0.5"
+			/>
+		</Prototype>
+		
+	    <Prototype
+			Class				= "Cabin"
+			Name				= "M35Cab02"
+			ModelFile			= "M35Cab02"
+			ResourceType			= "M35_CABIN"
+			NodeScale			= "1 1 1"
+			Mass				= "65.0" 
+			Durability			= "85"
+			DurCoeffsForDamageTypes		= "9 4 -25"
+			MaxPower			= "120"
+			MaxTorque			= "200"
+                        EngineHighSound			= "ET_S_ENGINE_URAL_2_HIGH"
+
+			Price				= "25000"
+			RepairCoef			= "0.5"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+                        FuelConsumption                 = "0.4"
+			MaxSpeed			= "145.0"  
+			LoadPoints			= "LP_BIG01" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "2"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "2"
+				Breakable7   = "2"
+				Breakable8   = "0.5"
+				Breakable9   = "0.5"
+				Breakable10   = "0.5"
+			/>
+		</Prototype>
+		
+	    <Prototype
+			Class				= "Cabin"
+			Name				= "M35Cab03"
+			ModelFile			= "M35Cab03"
+			ResourceType			= "M35_CABIN"
+			NodeScale			= "1 1 1"
+			DurCoeffsForDamageTypes		= "11 8 -25"
+			Mass				= "77.0"
+			Durability			= "105"
+			MaxPower			= "120"
+			MaxTorque			= "240"
+
+			Price				= "50000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.4"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+                        EngineHighSound			= "ET_S_ENGINE_URAL_3_HIGH"
+			MaxSpeed			= "165.0"  
+			LoadPoints			= "LP_SML01 LP_BIG01" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "2" />         
+			</GadgetDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "2"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "2"
+				Breakable7   = "2"
+				Breakable8   = "1"
+				Breakable9   = "1"
+				Breakable10   = "1"
+			/>
+		</Prototype>
+	
+        <Prototype
+			Class				= "Cabin"
+			Name				= "M35Cab04"
+			ModelFile			= "M35Cab04"
+			ResourceType			= "M35_CABIN"
+			NodeScale			= "1 1 1"
+			Mass				= "90.0" 
+			Durability			= "120"
+			DurCoeffsForDamageTypes		= "12 10 -15"
+			MaxPower			= "120"
+			MaxTorque			= "280"
+                        EngineHighSound			= "ET_S_ENGINE_URAL_5_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			Price				= "70000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.4"
+			MaxSpeed			= "165.0"  
+			LoadPoints			= "LP_SIDE01L LP_SIDE01R" >
+
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "2" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "3" />         
+			</GadgetDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+				Breakable6   = "0.5"
+				Breakable7   = "0.5"
+				Breakable8   = "0.5"
+				Breakable9   = "0.5"
+				Breakable10   = "0.5"
+			/>
+        </Prototype>
+		
+		
+<!--  CUMBINE  -->
+		
+        <Prototype
+			Class				= "Cabin"
+			Name				= "CumbineCab01"
+			ModelFile			= "CumbineCab01"
+			ResourceType			= "CUMBINE_CABIN"
+			NodeScale			= "1 1 1"
+			Mass				= "100.0" 
+			Durability			= "50"
+			DurCoeffsForDamageTypes		= "12 8 0"
+			MaxPower			= "500"
+			MaxTorque			= "250"
+			MaxSpeed			= "50.0"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			Price				= "5000"
+			RepairCoef			= "0.5"
+                        FuelConsumption                 = "0.5"
+			LoadPoints			= "LP_SML01" 
+                        EngineHighSound		= "ET_S_ENGINE_BELAZ_1_HIGH">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "3" />      
+			</GadgetDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.5"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "1.5"
+				Breakable7   = "1.5"
+				Breakable8   = "1.5"
+				Breakable9   = "0.2"
+			/>
+		</Prototype>
+    </Folder>
+
+    <Folder Name = "Baskets">
+        <Prototype
+			Class				= "Basket"
+			Name				= "ChevC10Cargo01"
+			ModelFile			= "ChevC10Cargo01"
+			ResourceType			= "CHEVC10_BASKET"
+			Durability			= "20"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "500"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_SML01" >
+			<RepositoryDescription
+				RepositorySize		= "4 4">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"		
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "ChevC10Cargo02"
+			ModelFile			= "ChevC10Cargo02"
+			ResourceType			= "CHEVC10_BASKET"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "5 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "1000"
+			RepairCoef			= "0.2"
+
+			Mass				= "45.0"
+			LoadPoints			= "LP_SML01" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 4">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"		
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "1"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "ChevC10Cargo03"
+			ModelFile			= "ChevC10Cargo03"
+			ResourceType			= "CHEVC10_BASKET"
+			Durability			= "80"
+			DurCoeffsForDamageTypes		= "8 -15 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "2000"
+			RepairCoef			= "0.2"
+
+			Mass				= "55.0" 
+			LoadPoints			= "LP_SML01" >
+	
+			<RepositoryDescription
+				RepositorySize		= "5 4">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "2"	
+				Breakable2   = "2"	
+				Breakable3   = "1"	
+			/>	
+        </Prototype>	
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "ChevC10Cargo04"
+			ModelFile			= "ChevC10Cargo04"
+			ResourceType			= "CHEVC10_BASKET"
+			Durability			= "80"
+			DurCoeffsForDamageTypes		= "10 5 5"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "2500"
+			RepairCoef			= "0.3"
+
+			Mass				= "65.0" 
+			LoadPoints			= "LP_SML01 NO_LP" >
+	
+			<RepositoryDescription
+				RepositorySize		= "5 5">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "9 1"
+				/>
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			    Breakable2   = "1"
+				Breakable3   = "1"
+				Breakable4   = "1"
+				Breakable5   = "1"
+				Breakable6   = "1"
+			/>	
+        </Prototype>		
+
+<!--  TRACTOR  -->
+	
+        <Prototype
+			Class				= "Basket"
+			Name				= "TractorCargo01"
+			ModelFile			= "cub"
+			VisibleInEncyclopedia   = "false"
+			ResourceType		= "TRACTOR_BASKET"
+			Durability			= "1"
+			DurCoeffsForDamageTypes	= "0 0 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+
+
+			Price				= "3000"
+			RepairCoef			= "0.2"
+
+			Mass				= "5.0" >
+			<RepositoryDescription
+				RepositorySize		= "5 4"/>
+		</Prototype>
+		
+        <Prototype
+			Class				= "Basket"
+			Name				= "TractorCargo02"
+			ModelFile			= "TractorCargo02"
+			VisibleInEncyclopedia   = "false"
+			ResourceType			= "TRACTOR_BASKET"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "8000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_SML01" >
+			<RepositoryDescription
+				RepositorySize		= "5 5">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "2 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			/>			
+		</Prototype>
+		
+        <Prototype
+			Class				= "Basket"
+			Name				= "TractorCargo03"
+			ModelFile			= "TractorCargo03"
+			VisibleInEncyclopedia   = "false"
+			ResourceType			= "TRACTOR_BASKET"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "0 -2 -2"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "11000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_SML01 LP_SML02" >
+			<RepositoryDescription
+				RepositorySize		= "5 6">
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_0"
+					Pos		= "2 1"
+				/>
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "9 1"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1"	
+			/>			
+		</Prototype>
+		
+<!--  TORNADO  -->
+		
+	    <Prototype
+			Class				= "Basket"
+			Name				= "TornadoCargo01"
+			ModelFile			= "TornadoCargo01"
+			ResourceType			= "TORNADO_BASKET"
+			Durability			= "20"
+			DurCoeffsForDamageTypes		= "0 -25 -25"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "700"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0" >
+			<RepositoryDescription
+				RepositorySize		= "4 3">
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.7"	
+				Breakable2   = "0.7"	
+				Breakable3   = "0.7"	
+			/>			
+		</Prototype>
+		
+	    <Prototype
+			Class				= "Basket"
+			Name				= "TornadoCargo02"
+			ModelFile			= "TornadoCargo02"
+			VisibleInEncyclopedia   = "true"
+			ResourceType			= "TORNADO_BASKET"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "5 -22 -22"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "1500"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0">
+			<RepositoryDescription
+				RepositorySize		= "5 3">
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.7"	
+				Breakable2   = "0.7"	
+				Breakable3   = "0.7"	
+			/>			
+		</Prototype>
+		
+	    <Prototype
+			Class				= "Basket"
+			Name				= "TornadoCargo03"
+			ModelFile			= "TornadoCargo03"
+			VisibleInEncyclopedia   = "true"
+			ResourceType			= "TORNADO_BASKET"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "5 -10 -10"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "3000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "NO_LP">
+			<RepositoryDescription
+				RepositorySize		= "5 4">
+				
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.7"	
+				Breakable2   = "0.7"	
+				Breakable3   = "0.7"	
+			/>			
+		</Prototype>
+		
+
+<!--  M35  -->
+
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo01"
+			ModelFile			= "M35Cargo01"
+			ResourceType			= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "0 0 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "13000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "30.0"
+			LoadPoints			= "LP_BIG01" >
+			<RepositoryDescription
+				RepositorySize		= "6 10">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "2 2"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.5"	
+			    Breakable2   = "0.5"
+				Breakable3   = "0.2"
+				Breakable4   = "0.7"
+				Breakable5   = "0.7"
+				Breakable6   = "0.7"
+			/>			
+		</Prototype>
+		
+		<Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo02"
+			ModelFile			= "M35Cargo02"
+			ResourceType			= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "12 12 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "45000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "55.0"
+			LoadPoints			= "LP_SIDE01L LP_SIDE01R NO_LP" >
+			<RepositoryDescription
+				RepositorySize		= "9 8">
+
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "5 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.5"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "1"
+				Breakable7   = "1"
+				Breakable8   = "1"
+				Breakable9   = "0.5"
+			/>			
+		</Prototype>
+		
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo03"
+			ModelFile			= "M35Cargo03"
+			ResourceType		= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
+			Durability			= "85"
+			DurCoeffsForDamageTypes		= "7 6 -25"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			NodeScale			= "1 1 1"
+
+			RepairCoef			= "0.3"
+			Price				= "22000"
+
+			Mass				= "45.0" 
+			LoadPoints			= "LP_BIG01 LP_GIANT01 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "10 10">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "5 1"
+				/>
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "5 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 0"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+			/>			
+		</Prototype>
+	
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo04"
+			ModelFile			= "M35Cargo04"
+			ResourceType		= "M35_BASKET"
+			CanBeUsedInAutogenerating  =  "0"
+			Durability			= "115"
+			DurCoeffsForDamageTypes		= "10 15 -15"
+			NodeScale			= "1 1 1"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "58000"
+			RepairCoef			= "0.3"
+
+			Mass				= "60.0"
+			LoadPoints			= "LP_BIG01 LP_BIG02 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "10 10">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "1 4"
+				/>
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "9 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 11"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+				Breakable6   = "1"
+				Breakable7   = "0.3"
+				Breakable8   = "0.3"
+				Breakable9   = "0.3"
+			/>			
+		</Prototype>
+
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo01_Enemy"
+			ModelFile			= "M35Cargo01"
+			ResourceType			= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "60"
+			DurCoeffsForDamageTypes		= "0 0 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "13000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "30.0"
+			LoadPoints			= "LP_BIG01" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "2 2"
+				/>
+
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.5"	
+			    Breakable2   = "0.5"
+				Breakable3   = "0.2"
+				Breakable4   = "0.7"
+				Breakable5   = "0.7"
+				Breakable6   = "0.7"
+			/>			
+		</Prototype>
+		
+		<Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo02_Enemy"
+			ModelFile			= "M35Cargo02"
+			ResourceType			= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "100"
+			DurCoeffsForDamageTypes		= "12 12 -25"
+			NodeScale			= "1 1 1"
+
+			Price				= "45000"
+			RepairCoef			= "0.3"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			Mass				= "55.0"
+			LoadPoints			= "LP_SIDE01L LP_SIDE01R NO_LP" >
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "5 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "10 10"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.5"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1.5"
+				Breakable6   = "1"
+				Breakable7   = "1"
+				Breakable8   = "1"
+				Breakable9   = "0.5"
+			/>			
+		</Prototype>
+		
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo03_Enemy"
+			ModelFile			= "M35Cargo03"
+			ResourceType		= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "85"
+			DurCoeffsForDamageTypes		= "7 6 -25"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+			NodeScale			= "1 1 1"
+
+			RepairCoef			= "0.3"
+			Price				= "22000"
+
+			Mass				= "45.0" 
+			LoadPoints			= "LP_BIG01 LP_GIANT01 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "5 1"
+				/>
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "5 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 0"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+			/>			
+		</Prototype>
+	
+        <Prototype
+			Class				= "Basket"
+			Name				= "M35Cargo04_Enemy"
+			ModelFile			= "M35Cargo04"
+			ResourceType		= "M35_BASKET"
+			VisibleInEncyclopedia   = "false"
+			Durability			= "115"
+			DurCoeffsForDamageTypes		= "10 15 -15"
+			NodeScale			= "1 1 1"
+
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			Price				= "58000"
+			RepairCoef			= "0.3"
+
+			Mass				= "60.0"
+			LoadPoints			= "LP_BIG01 LP_BIG02 NO_LP" >
+
+			<RepositoryDescription
+				RepositorySize		= "4 6">
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "1 4"
+				/>
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "9 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON"
+					Pos		= "11 11"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.7"	
+			    Breakable2   = "1.5"
+				Breakable3   = "1.5"
+				Breakable4   = "1.5"
+				Breakable5   = "1"
+				Breakable6   = "1"
+				Breakable7   = "0.3"
+				Breakable8   = "0.3"
+				Breakable9   = "0.3"
+			/>			
+		</Prototype>
+		
+<!--	CUMBINE		-->
+	
+        <Prototype
+			Class				= "Basket"
+			Name				= "CumbineCargo01"
+			ModelFile			= "cub"
+			VisibleInEncyclopedia   = "false"
+			ResourceType		= "CUMBINE_BASKET"
+			Durability			= "0"
+			DurCoeffsForDamageTypes	= "0 0 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+
+
+			Price				= "0"
+			RepairCoef			= "0"
+
+			Mass				= "5.0" >
+			<RepositoryDescription
+				RepositorySize		= "5 8"/>
+		</Prototype>
+    </Folder>
+    <Folder Name = "Wheels">
+    	<Prototype
+			Class			= "Wheel"
+			Name			= "ChevC10Wheel01l"
+			ModelFile		= "ChevC10Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "ChevC10Susp01l"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "ChevC10Wheel01r"
+			ModelFile		= "ChevC10Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "ChevC10Susp01r"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "ChevC10Wheel02"
+			ModelFile		= "ChevC10Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "ChevC10Susp02"
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+<!--  TRACTOR  -->
+		
+	    <Prototype
+			Class			= "Wheel"
+			Name			= "TractorWheel01l"
+			ModelFile		= "TractorWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TractorSusp01l"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "BIGWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "TractorWheel01r"
+			ModelFile		= "TractorWheel02"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TractorSusp01r"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "BIGWHEEL" />
+		
+		<Prototype
+			Class			= "Wheel"
+			Name			= "TractorWheel02r"
+			ModelFile		= "TractorWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TractorSusp02"
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "BIGWHEEL" />
+			
+		<Prototype
+			Class			= "Wheel"
+			Name			= "TractorWheel02l"
+			ModelFile		= "TractorWheel02"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TractorSusp02"
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "BIGWHEEL" />
+		
+<!--  TORNADO  -->
+
+	    <Prototype
+			Class			= "Wheel"
+			Name			= "TornadoWheel01l"
+			ModelFile		= "TornadoWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TornadoSusp01l"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "TornadoWheel01r"
+			ModelFile		= "TornadoWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TornadoSusp01r"
+			SuspensionCFM		= "0.0025"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		<Prototype
+			Class			= "Wheel"
+			Name			= "TornadoWheel02"
+			ModelFile		= "TornadoWheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "11.0"
+			SuspensionModelFile	= "TornadoSusp02"
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0"
+			EffectType		= "SMALLWHEEL" />
+
+		
+<!--  M35  -->
+		
+		<Prototype
+			Class			= "Wheel"
+			Name			= "M35Wheel01l"
+			ModelFile		= "M35Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "M35Susp01l"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+			
+		<Prototype
+			Class			= "Wheel"
+			Name			= "M35Wheel01r"
+			ModelFile		= "M35Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "M35Susp01r"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+			
+		<Prototype
+			Class			= "Wheel"
+			Name			= "M35Wheel02"
+			ModelFile		= "M35Wheel01"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "M35Susp02"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+		
+		
+<!--  CUMBINE  -->
+
+        <Prototype
+			Class			= "Wheel"
+			Name			= "CumbineWheelFL"
+			ModelFile		= "CumbineWheelFL"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "M35Susp01l"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+			
+        <Prototype
+			Class			= "Wheel"
+			Name			= "CumbineWheelFR"
+			ModelFile		= "CumbineWheelFR"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "CumbineSusp01r"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+			
+        <Prototype
+			Class			= "Wheel"
+			Name			= "CumbineWheelRL"
+			ModelFile		= "CumbineWheelRL"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "CumbineSusp02"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+			
+        <Prototype
+			Class			= "Wheel"
+			Name			= "CumbineWheelRR"
+			ModelFile		= "CumbineWheelRR"
+			NodeScale		= "1 1 1"
+			Mass			= "17"
+			SuspensionModelFile	= "CumbineSusp02"
+			SuspensionCFM	= "0.0013"
+			SuspensionERP		= "0.25"
+			SuspensionRange	= "1.0"
+			mU			= "1.0" 
+			EffectType		= "BIGWHEEL" />	
+    </Folder>
+</Prototypes>

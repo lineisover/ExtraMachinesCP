@@ -198,11 +198,6 @@ Extra machines start here
 		id="Tornado"
 		locForm="0"
 		value="Tornado" />
-
-	<Item
-		id="Tornado01_enemy"
-		locForm="0"
-		value="Tornado" />
 		
 <!--  M35  -->
 
