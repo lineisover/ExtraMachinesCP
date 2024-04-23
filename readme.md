@@ -25,7 +25,7 @@
 * [Improved Storyline](https://github.com/zatinu322/ImprovedStoryline)
 
 ## Моды поддерживаемые сообществом:
-* на текущий момент неизвестно [14.04.2024]
+* [Different Things](https://discord.com/channels/522817939616038912/1078839766738546688)
 
 >[!NOTE]
 >*совместимость каждой отдельной версии мода может запаздывать после релиза, точную информацию можно узнать на странице мода*
@@ -65,7 +65,7 @@ All cars in the pack were created specifically for Hard Truck, and are not ports
 * [Improved Storyline](https://github.com/zatinu322/ImprovedStoryline)
 
 ## Community Supported Mods:
-* currently unknown [14.04.2024]
+* [Different Things](https://discord.com/channels/522817939616038912/1078839766738546688)
 
 >[!NOTE]
 >compatibility of each individual mod version may be delayed after release, please check the mod page for exact information.
