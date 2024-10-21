@@ -1,7 +1,7 @@
 name: ExtraMachines_ISL
  
-version: "1.2.0"
-build: "240423a"
+version: "1.2.1"
+build: "241021a"
 language: ru
 display_name: Extra Machines [ISL]
 authors: Spok, OverLine
@@ -57,7 +57,7 @@ data_dirs:
   - "general"
   - "data_isl"
 
-options_base_dir: "options_isl"
+# options_base_dir: "options_isl"
  
 prerequisites:
   - name: [improved_storyline_hd]
@@ -78,4 +78,10 @@ optional_content:
     description: |
       Добавляет в продажу новые машины и запчасти, а так же добавляет новые машины в спаун врагов.
     data_dirs:
-      - "workshops"
+      - "options_isl/workshops"
+  - name: suspension
+    display_name: Настройки подвески 120 fps (beta)
+    description: |
+      Меняет параметры подвески автомобилей, для более красивого визуального эффекта. ВНИМАНИЕ! Работает так как задуманно, только при залоченном fps на 120 кадров.
+    data_dirs:
+      - "options_general/suspension"

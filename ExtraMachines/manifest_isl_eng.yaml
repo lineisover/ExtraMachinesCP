@@ -1,7 +1,7 @@
 name: ExtraMachines_ISL
  
-# version: "1.2.0"
-# build: "240423a"
+# version: "1.2.1"
+# build: "241021a"
 language: eng
 display_name: Extra Machines [ISL]
 authors: Spok, OverLine
@@ -55,7 +55,7 @@ data_dirs:
   - "general"
   - "data_isl"
 
-options_base_dir: "options_isl"
+# options_base_dir: "options_isl"
  
 prerequisites:
   - name: [improved_storyline_hd]
@@ -71,11 +71,17 @@ optional_content:
     description: |
       Adds new cars and parts for sale, as well as adding new cars to enemy spawn.
     data_dirs:
-      - "workshops"
+      - "options_isl/workshops"
+  - name: suspension
+    display_name: Suspension settings 120 fps (beta)
+    description: |
+      Changes the parameters of the suspension of cars, for a more beautiful visual effect. WARNING! Works as designed, only when the fps is locked at 120 frames.
+    data_dirs:
+      - "options_general/suspension"
   - name: english_localization
     display_name: English Localization
     forced_option: True
     data_dirs: 
-      - "english_localization"
+      - "options_isl/english_localization"
     description: |
       Full text localization of Extra Machines.
