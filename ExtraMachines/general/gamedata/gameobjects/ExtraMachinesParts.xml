@@ -1499,97 +1499,97 @@ Extra Machines vehicles parts
     </Folder>
     <Folder Name = "Wheels">
     	<Prototype
-			Class			= "Wheel"
-			Name			= "ChevC10Wheel01l"
-			ModelFile		= "ChevC10Wheel01"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "ChevC10Wheel01l"
+			ModelFile			= "ChevC10Wheel01"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "ChevC10Susp01l"
-			SuspensionCFM		= "0.0025"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "SMALLWHEEL" />
+			SuspensionCFM		= "0.008"
+			SuspensionERP		= "0.7"
+			SuspensionRange		= "2.0"
+			mU					= "1.0"
+			EffectType			= "SMALLWHEEL" />
 
 		<Prototype
-			Class			= "Wheel"
-			Name			= "ChevC10Wheel01r"
-			ModelFile		= "ChevC10Wheel01"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "ChevC10Wheel01r"
+			ModelFile			= "ChevC10Wheel01"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "ChevC10Susp01r"
-			SuspensionCFM		= "0.0025"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "SMALLWHEEL" />
+			SuspensionCFM		= "0.008"
+			SuspensionERP		= "0.7"
+			SuspensionRange		= "2.0"
+			mU					= "1.0"
+			EffectType			= "SMALLWHEEL" />
 
 		<Prototype
-			Class			= "Wheel"
-			Name			= "ChevC10Wheel02"
-			ModelFile		= "ChevC10Wheel01"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "ChevC10Wheel02"
+			ModelFile			= "ChevC10Wheel01"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "ChevC10Susp02"
-			SuspensionCFM		= "0.002"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "SMALLWHEEL" />
+			SuspensionCFM		= "0.004"
+			SuspensionERP		= "0.9"
+			SuspensionRange		= "1.0"
+			mU					= "1.0"
+			EffectType			= "SMALLWHEEL" />
 
 <!--  TRACTOR  -->
 		
 	    <Prototype
-			Class			= "Wheel"
-			Name			= "TractorWheel01l"
-			ModelFile		= "TractorWheel01"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "TractorWheel01l"
+			ModelFile			= "TractorWheel01"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "TractorSusp01l"
-			SuspensionCFM		= "0.0025"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "BIGWHEEL" />
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.2"
+			SuspensionRange		= "1.0"
+			mU					= "1.0"
+			EffectType			= "BIGWHEEL" />
 
 		<Prototype
-			Class			= "Wheel"
-			Name			= "TractorWheel01r"
-			ModelFile		= "TractorWheel02"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "TractorWheel01r"
+			ModelFile			= "TractorWheel02"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "TractorSusp01r"
-			SuspensionCFM		= "0.0025"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "BIGWHEEL" />
+			SuspensionCFM		= "0.002"
+			SuspensionERP		= "0.2"
+			SuspensionRange		= "1.0"
+			mU					= "1.0"
+			EffectType			= "BIGWHEEL" />
 		
 		<Prototype
-			Class			= "Wheel"
-			Name			= "TractorWheel02r"
-			ModelFile		= "TractorWheel01"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "TractorWheel02r"
+			ModelFile			= "TractorWheel01"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "TractorSusp02"
 			SuspensionCFM		= "0.002"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "BIGWHEEL" />
+			SuspensionERP		= "0.2"
+			SuspensionRange		= "1.0"
+			mU					= "1.0"
+			EffectType			= "BIGWHEEL" />
 			
 		<Prototype
-			Class			= "Wheel"
-			Name			= "TractorWheel02l"
-			ModelFile		= "TractorWheel02"
-			NodeScale		= "1 1 1"
-			Mass			= "11.0"
+			Class				= "Wheel"
+			Name				= "TractorWheel02l"
+			ModelFile			= "TractorWheel02"
+			NodeScale			= "1 1 1"
+			Mass				= "11.0"
 			SuspensionModelFile	= "TractorSusp02"
 			SuspensionCFM		= "0.002"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
-			mU			= "1.0"
-			EffectType		= "BIGWHEEL" />
+			SuspensionERP		= "0.2"
+			SuspensionRange		= "1.0"
+			mU					= "1.0"
+			EffectType			= "BIGWHEEL" />
 		
 <!--  TORNADO  -->
 
@@ -1600,7 +1600,7 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
 			SuspensionModelFile	= "TornadoSusp01l"
-			SuspensionCFM		= "0.0025"
+			SuspensionCFM		= "0.0035"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
 			mU			= "1.0"
@@ -1613,7 +1613,7 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
 			SuspensionModelFile	= "TornadoSusp01r"
-			SuspensionCFM		= "0.0025"
+			SuspensionCFM		= "0.0035"
 			SuspensionERP		= "0.25"
 			SuspensionRange	= "1.0"
 			mU			= "1.0"
@@ -1626,9 +1626,9 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "11.0"
 			SuspensionModelFile	= "TornadoSusp02"
-			SuspensionCFM		= "0.002"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
+			SuspensionCFM		= "0.001"
+			SuspensionERP		= "0.5"
+			SuspensionRange	= "0.3"
 			mU			= "1.0"
 			EffectType		= "SMALLWHEEL" />
 
@@ -1642,8 +1642,8 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "17"
 			SuspensionModelFile	= "M35Susp01l"
-			SuspensionCFM	= "0.0013"
-			SuspensionERP		= "0.25"
+			SuspensionCFM	= "0.0025"
+			SuspensionERP		= "0.2"
 			SuspensionRange	= "1.0"
 			mU			= "1.0" 
 			EffectType		= "BIGWHEEL" />	
@@ -1655,8 +1655,8 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "17"
 			SuspensionModelFile	= "M35Susp01r"
-			SuspensionCFM	= "0.0013"
-			SuspensionERP		= "0.25"
+			SuspensionCFM	= "0.0025"
+			SuspensionERP		= "0.2"
 			SuspensionRange	= "1.0"
 			mU			= "1.0" 
 			EffectType		= "BIGWHEEL" />	
@@ -1668,9 +1668,9 @@ Extra Machines vehicles parts
 			NodeScale		= "1 1 1"
 			Mass			= "17"
 			SuspensionModelFile	= "M35Susp02"
-			SuspensionCFM	= "0.0013"
-			SuspensionERP		= "0.25"
-			SuspensionRange	= "1.0"
+			SuspensionCFM	= "0.0025"
+			SuspensionERP		= "0.2"
+			SuspensionRange	= "0.8"
 			mU			= "1.0" 
 			EffectType		= "BIGWHEEL" />	
 		

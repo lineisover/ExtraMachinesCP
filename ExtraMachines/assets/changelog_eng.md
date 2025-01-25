@@ -1,3 +1,7 @@
+# 1.2.2
+
+* Suspension settings moved from option to base.
+
 # 1.2.1
 
 * Added suspension settings for 120 fps.

@@ -80,6 +80,7 @@ Extra Machines vehicles
         DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
         DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
         DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        AdditionalWheelsHover="0.1"
         Abstract="true">
 
         <MainPartDescription id="CHASSIS" partResourceType="TRACTOR_CHASSIS">
@@ -166,7 +167,7 @@ Extra Machines vehicles
         Class="Vehicle"
         Name="M35"
         ResourceType="VEHICLE"
-        PressingForce="2.0"
+        PressingForce="0.1"
         DiffRatio="4.0"
         MaxEngineRpm="8000"
         LowGearShiftLimit="3000"
@@ -187,6 +188,7 @@ Extra Machines vehicles
         DestroyEffectBlast="ET_PS_VEH_EXP2_MED"
         DestroyEffectEnergy="ET_PS_VEH_EXP3_MED"
         DestroyEffectWater="ET_PS_VEH_EXP2_MED"
+        AdditionalWheelsHover="0.2"
         Abstract="true">
 
         <MainPartDescription id="CHASSIS" partResourceType="M35_CHASSIS">

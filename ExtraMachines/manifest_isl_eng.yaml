@@ -72,12 +72,6 @@ optional_content:
       Adds new cars and parts for sale, as well as adding new cars to enemy spawn.
     data_dirs:
       - "options_isl/workshops"
-  - name: suspension
-    display_name: Suspension settings 120 fps (beta)
-    description: |
-      Changes the parameters of the suspension of cars, for a more beautiful visual effect. WARNING! Works as designed, only when the fps is locked at 120 frames.
-    data_dirs:
-      - "options_general/suspension"
   - name: english_localization
     display_name: English Localization
     forced_option: True
