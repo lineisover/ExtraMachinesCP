@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="1133">
+	LastId="1135">
 	<TargetNamesForDestroy
 		Names="urod1 urod2 urod3 urod4 urod5 urod6 urod7 urod8 urod9" />
 
@@ -703,7 +703,7 @@
 				Prototype="NPC"
 				ModelName="mask_lisa"
 				cfg="92"
-				helloReplyNames="Dlg_npc_002367 Dlg_npc_002389"
+				helloReplyNames="Dlg_npc_002367 Dlg_npc_002389 Dlg_npc_003409"
 				SpokenCount="0" />
 
 			<Object
@@ -21566,4 +21566,18 @@
 			Pos="4922.959 260.022 5638.271"
 			Rot="0.000 -0.760 0.000 0.649" />
 	</Object>
+
+	<Object
+		Name="BuharersDistPoint_loc"
+		Belong="1026"
+		Prototype="genericLocation"
+		Pos="2813.140 275.925 6627.538"
+		Radius="150.000" />
+
+	<Object
+		Name="BuharersDisableLimits_loc"
+		Belong="1026"
+		Prototype="genericLocation"
+		Pos="1601.243 216.096 3203.016"
+		Radius="121.000" />
 </DynamicScene>
