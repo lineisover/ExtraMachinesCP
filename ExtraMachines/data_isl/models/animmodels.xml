@@ -8845,6 +8845,14 @@ Extra Machines end here
 				restartOnAnimationChange="0" />
 		</action>
 	</model>
+
+	<model
+		id="hunterCab02_fake"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\hunter\cab02.gam">
+	</model>
 <!-- Mirotvorec -->
 	<model
 		id="mirotvorecChassis"

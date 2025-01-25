@@ -1449,7 +1449,7 @@ Extra machines end here
 	<Item
 		id="UralMikolka"
 		locForm="0"
-		value="Миколка" />
+		value="Николай" />
 
 	<Item
 		id="AivenJrPlate01"
@@ -2140,7 +2140,7 @@ Extra machines end here
 	<Item
 		id="Dozer02"
 		locForm="0"
-		value="Миколка" />
+		value="Николай" />
 	
 	<Item
 		id="UralTikhomir"

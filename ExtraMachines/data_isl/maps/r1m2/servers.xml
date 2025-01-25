@@ -2042,7 +2042,7 @@ Extra Machines end here
 			id="hunterCab02" 
 			file="data\models\AnimModels.xml"    
 			params = "skins: 0 1 2 4 8;" />
-
+		
 		<Item 
 			id="hunterSusp01" 
 			file="data\models\AnimModels.xml"/>

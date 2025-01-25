@@ -62,7 +62,7 @@ data_dirs:
 prerequisites:
   - name: [improved_storyline_hd]
     versions:
-     - ">=1.2"
+     - ">=1.2.1"
     optional_content:
       - kraycity
 
