@@ -1,6 +1,8 @@
 # 1.2.2
 
-* Suspension settings moved from option to base.
+* Fixed bug with disappearing wheel skins
+* Adaptation for ISL 1.2.1
+* Suspension settings moved from option to base
 
 # 1.2.1
 
