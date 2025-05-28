@@ -1,3 +1,9 @@
+# 2.0.0
+
+* The mod has been moved to the mod merge system
+* Fixed a lot of minor bugs
+* Cheat codes for cars from the mod have been moved to a separate file
+
 # 1.2.2
 
 * Fixed bug with disappearing wheel skins
