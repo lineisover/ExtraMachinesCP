@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Servers>
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cab01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cab02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cab03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cargo01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cargo02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cargo03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Cargo04"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCab01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCab02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCab03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCargo01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCargo02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorCargo03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCab00"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCab01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCab02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCab03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCargo01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCargo02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoCargo03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cab01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cab02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cab03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cab04"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cargo01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cargo02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cargo03"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Cargo04"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 4 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineCab01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 8;"/>
+</Servers>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Modify"
+        _ParentXPath="Object[@Name='Player1']"
+        _SelectorKeys="Name"
+        Name="MyCar"
+        Prototype="LisaCar"/>
+</DynamicScene>

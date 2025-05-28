@@ -1,0 +1,15 @@
+- commands: merge\comrem\servers\_commands_all_servers.xml
+  targets:
+    - maps\r1m5\servers.xml
+    - maps\r1m6\servers.xml
+    - maps\r1m7\servers.xml
+    - maps\r2m1_bossfight\servers.xml
+
+- commands: merge\comrem\servers\_commands_r1_servers.xml
+  targets:
+    - maps\r1m5\servers.xml
+    - maps\r1m6\servers.xml
+    - maps\r1m7\servers.xml
+
+- commands: merge\comrem\servers\_commands_r2_servers.xml
+  targets: maps\r2m1_bossfight\servers.xml

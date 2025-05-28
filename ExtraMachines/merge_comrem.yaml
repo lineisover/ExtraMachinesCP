@@ -1,0 +1,34 @@
+- commands: merge\comrem\servers\_commands_all_servers.xml
+  targets:
+    - maps\r1m1\servers.xml
+    - maps\r1m2\servers.xml
+    - maps\r1m3\servers.xml
+    - maps\r1m4\servers.xml
+    - maps\r2m1\servers.xml
+    - maps\r2m2\servers.xml
+    - maps\r3m1\servers.xml
+    - maps\r3m2\servers.xml
+    - maps\r4m1\servers.xml
+    - maps\r4m2\servers.xml
+
+- commands: merge\comrem\servers\_commands_r1_servers.xml
+  targets:
+    - maps\r1m1\servers.xml
+    - maps\r1m2\servers.xml
+    - maps\r1m3\servers.xml
+    - maps\r1m4\servers.xml
+
+- commands: merge\comrem\servers\_commands_r2_servers.xml
+  targets:
+    - maps\r2m1\servers.xml
+    - maps\r2m2\servers.xml
+
+- commands: merge\comrem\servers\_commands_r3_servers.xml
+  targets:
+    - maps\r3m1\servers.xml
+    - maps\r3m2\servers.xml
+
+- commands: merge\comrem\servers\_commands_r4_servers.xml
+  targets:
+    - maps\r4m1\servers.xml
+    - maps\r4m2\servers.xml

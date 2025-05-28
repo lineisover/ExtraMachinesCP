@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab01"
+        locForm="0"
+        value="Плеб"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab02"
+        locForm="0"
+        value="Кантри"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab03"
+        locForm="0"
+        value="Хэдмен"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo01"
+        locForm="0"
+        value="Рустикана"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo02"
+        locForm="0"
+        value="Урбана"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo03"
+        locForm="0"
+        value="Капитус"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo04"
+        locForm="0"
+        value="Палатий"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10ForSale"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1001"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1002"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1003"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Player"
+        locForm="0"
+        value="Рэднэк"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab01"
+        locForm="0"
+        value="Трёхсотник"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab02"
+        locForm="0"
+        value="Богатырь"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab03"
+        locForm="0"
+        value="Киров"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo01"
+        locForm="0"
+        value="Контейнер трактора"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo02"
+        locForm="0"
+        value="Ковш"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo03"
+        locForm="0"
+        value="Большой ковш"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorForSale"
+        locForm="0"
+        value="Трактор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor01"
+        locForm="0"
+        value="Трактор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor02"
+        locForm="0"
+        value="Трактор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor03"
+        locForm="0"
+        value="Трактор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor"
+        locForm="0"
+        value="Трактор"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab00"
+        locForm="0"
+        value="Ураган (гоночный)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab01"
+        locForm="0"
+        value="Ураган"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab02"
+        locForm="0"
+        value="Шкипер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab03"
+        locForm="0"
+        value="Несмертный"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab01_Enemy"
+        locForm="0"
+        value="Ураган"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab02_Enemy"
+        locForm="0"
+        value="Шкипер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab03_Enemy"
+        locForm="0"
+        value="Несмертный"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo01"
+        locForm="0"
+        value="Багажник"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo02"
+        locForm="0"
+        value="Баржа"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo03"
+        locForm="0"
+        value="Аполлон"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoForSale"
+        locForm="0"
+        value="Торнадо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado01"
+        locForm="0"
+        value="Торнадо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado02"
+        locForm="0"
+        value="Торнадо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado03"
+        locForm="0"
+        value="Торнадо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado"
+        locForm="0"
+        value="Торнадо"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab01"
+        locForm="0"
+        value="Прайвет"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab02"
+        locForm="0"
+        value="Бивер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab03"
+        locForm="0"
+        value="Феллоу Чад"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab04"
+        locForm="0"
+        value="Битлбас"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo01"
+        locForm="0"
+        value="Лонгхуд"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo02"
+        locForm="0"
+        value="Вэрхауз"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo03"
+        locForm="0"
+        value="Форкасл"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo04"
+        locForm="0"
+        value="Ейтиз"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35ForSale"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3501"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3502"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3503"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3504"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35"
+        locForm="0"
+        value="Чиф Берт"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="CumbineCab01"
+        locForm="0"
+        value="Кабина"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="CumbineCargo01"
+        locForm="0"
+        value="Контейнер"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Cumbine"
+        locForm="0"
+        value="Кумбайн"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Cumbine01"
+        locForm="0"
+        value="Кумбайн"/>
+</ModelNames>

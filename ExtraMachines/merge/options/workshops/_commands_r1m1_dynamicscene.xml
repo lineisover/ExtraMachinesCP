@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Object
+        _Action="Modify"
+        _ParentXPath="Object[@Name='Player1']"
+        _SelectorKeys="Name"
+        Name="MyCar"
+        Prototype="ChevC10Player"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="3"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="3"
+        Prototype="M35Cab04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TornadoCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TornadoCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="3"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TornadoCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10ForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheTown']/Object[@Name='TheTown_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGloohoe']/Object[@Name='TheGloohoe_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGloohoe']/Object[@Name='TheGloohoe_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGloohoe']/Object[@Name='TheGloohoe_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGloohoe']/Object[@Name='TheGloohoe_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+</DynamicScene>

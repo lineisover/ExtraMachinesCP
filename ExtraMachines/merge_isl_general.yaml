@@ -1,0 +1,14 @@
+- commands: merge\general\_commands_vehicleparttypes.xml
+  targets:  gamedata\vehicleparttypes.xml
+
+- commands: merge\general\_commands_resourcetypes.xml
+  targets:  gamedata\resourcetypes.xml
+
+- commands: merge\general\_commands_animmodels.xml
+  targets:  models\animmodels.xml
+
+- commands: merge\general\_commands_gameobjects.xml
+  targets:  gamedata\gameobjects\gameobjects.xml
+
+- commands: merge\general\_commands_modelicons.xml
+  targets:  if\ico_hd\modelicons.xml

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Servers>
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Chassis"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Susp01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Susp01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Susp02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="ChevC10Wheel01"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorChassis"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorSusp01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorSusp01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorSusp02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorWheel01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TractorWheel02"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoChassis"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoSusp01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoSusp01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoSusp02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="TornadoWheel01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Chassis"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Susp01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Susp01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Susp02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="M35Wheel01"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineChassis"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineSusp01l"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineSusp01r"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineSusp02"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineWheelFL"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineWheelFR"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineWheelRL"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="CumbineWheelRR"
+        file="data\models\AnimModels.xml"
+        params="skins: 0 1 2 3 4 5 6 7 8;"/>
+</Servers>

@@ -1,0 +1,9 @@
+- commands: merge\options_isl\workshops\_commands_isl_r1m1_cinematriggers.xml
+  targets:  maps\r1m1\cinematriggers.xml
+
+- commands: merge\options_isl\workshops\_commands_isl_r1m1_dynamicscene.xml
+  targets:  maps\r1m1\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r1m1_triggers.xml
+  targets:  maps\r1m1\triggers.xml
+

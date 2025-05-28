@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ResourceTypes>
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="CHEVC10_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="TRACTOR_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="TORNADO_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="M35_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="CUMBINE_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="CHEVC10_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="TRACTOR_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="TORNADO_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="M35_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="CUMBINE_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="CHEVC10_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="TRACTOR_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="TORNADO_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="M35_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="CUMBINE_BASKET"/>
+</ResourceTypes>

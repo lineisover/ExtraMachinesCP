@@ -1,12 +1,12 @@
 name: ExtraMachines_ISL
  
-version: "1.2.2"
-build: "250126a"
+version: "2.0.0"
+build: "250528a"
 language: ru
 display_name: Extra Machines [ISL]
 authors: Spok, OverLine
 description: |
-  Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (car(26) - car(42)).
+  Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (exm_car(1) - exm_car(17)).
   Все машины в паке были созданы специально для Ex Machina, а не являются портами из других игр, как в многих других модах. Мод является беспрецедентным по уровню качества добавляемых машин, разнообразию доступных кабин и кузовов, наличию модели повреждений у всех играбельных машин, по сути, идеально вписываясь в игру на одном уровне с оригинальными машинами, сделанными Targem Games.
 
 release_date: "23.04.2024"
@@ -48,14 +48,16 @@ screenshots:
 translations: [eng]
 # variants: [isl]
 
-patcher_version_requirement: "2.1.1"
+patcher_version_requirement: "3.0.4"
 no_base_content: false
 
 compatible_patch_versions: true
 
 data_dirs:
   - "general"
-  - "data_isl"
+merge_instructions:
+  - "merge_general.yaml"
+  - "merge_strings_rus.yaml"
 
 # options_base_dir: "options_isl"
  
@@ -78,5 +80,10 @@ optional_content:
     description: |
       Добавляет в продажу новые машины и запчасти, а так же добавляет новые машины в спаун врагов.
     data_dirs:
-      - "options_isl/workshops"
+      - "comrem"
+    merge_instructions:
+      - "merge_comrem.yaml"
+      - "merge_isl.yaml"
+      - "merge_workshops.yaml"
+      - "merge_isl_workshops.yaml"
 

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cab04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheGadad']/Object[@Name='Gadad_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="M35ForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="3"
+        Prototype="M35Cab04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKef']/Object[@Name='Kef_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="M35ForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo04"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='TheKazif']/Object[@Name='Kazif_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="M35ForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

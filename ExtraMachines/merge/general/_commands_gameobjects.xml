@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="ExtraMachinesParts"
+        File="ExtraMachinesParts.xml"/>
+
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="ExtraMachinesVehicles"
+        File="ExtraMachinesVehicles.xml"/>
+</Prototypes>

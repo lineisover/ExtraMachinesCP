@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<VehiclePartTypes>
+    <VehiclePart
+        _Action="Add"
+        _SelectorKeys="PartName"
+        PartName="CABIN_SIDE_GUN_0"
+        ResourceName="SIDE_GUN"/>
+</VehiclePartTypes>

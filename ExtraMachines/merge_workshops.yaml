@@ -1,0 +1,32 @@
+- commands: merge\options\workshops\_commands_infection.xml
+  targets:  gamedata\gameobjects\infection.xml
+
+- commands: merge\options\workshops\_commands_r1m1_dynamicscene.xml
+  targets:  maps\r1m1\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r1m1_triggers.xml
+  targets:  maps\r1m1\triggers.xml
+
+- commands: merge\options\workshops\_commands_r1m2_dynamicscene.xml
+  targets:  maps\r1m2\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r1m3_dynamicscene.xml
+  targets:  maps\r1m3\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r1m4_dynamicscene.xml
+  targets:  maps\r1m4\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r2m1_dynamicscene.xml
+  targets:  maps\r2m1\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r2m2_dynamicscene.xml
+  targets:  maps\r2m2\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r3m1_dynamicscene.xml
+  targets:  maps\r3m1\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r4m1_dynamicscene.xml
+  targets:  maps\r4m1\dynamicscene.xml
+
+- commands: merge\options\workshops\_commands_r4m2_dynamicscene.xml
+  targets:  maps\r4m2\dynamicscene.xml

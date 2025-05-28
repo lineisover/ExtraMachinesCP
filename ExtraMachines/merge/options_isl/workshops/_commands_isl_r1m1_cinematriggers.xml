@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="trOpeningEnd"
+        active="0">
+        <event flypath="Opening_End" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1"/>
+
+        <script>
+            AddPlayerNewVehicle("ChevC10Player")
+            local vehPlayer = GetPlayerVehicle()
+            if vehPlayer then
+                vehPlayer:SetGamePositionOnGround( CVector(3355.000, 368.500, 3308.000))
+                vehPlayer:SetRotation(Quaternion(-0.007, 1.000, -0.010, 0.021))
+                vehPlayer:SetSkin(0)
+                vehPlayer:UnlimitMaxSpeed()
+                vehPlayer:SetBelong(1100)
+            end
+
+
+            trigger:Deactivate()    
+        </script>
+    </trigger>
+
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="Finish00"
+        active="0">
+        <event eventid="GE_END_CINEMATIC" ObjName="Player1"/>
+
+        <event eventid="GE_SKIP_CINEMATIC" ObjName="Player1"/>
+
+        <script>
+            ShowHostileVehicles(true)
+
+            RestoreAllToleranceStatus()
+
+            TeamCreate("HospitalEnemy",1013,CVector(2648.307, 321.213, 1661.576),{"Sml301"})
+            local hen = GetEntityByName("HospitalEnemy_vehicle_0")
+            if hen then hen:SetRotation(Quaternion(-0.024, 0.714, -0.000, -0.700)) end
+
+            local rrr = GetEntityByName ("hero1Dw")
+            if rrr then rrr:Remove() end
+
+            local rrr = GetEntityByName ("hero2Dw")
+            if rrr then rrr:Remove() end
+
+            local rrr = GetEntityByName ("fatherDw")
+            if rrr then rrr:Remove() end
+
+            local vehFelix = GetEntityByName("FelixCarPrologue")
+            if vehFelix then vehFelix:Remove() end
+            local hLisa = getObj("humLisa")
+            if hLisa then hLisa:Remove() end
+            local hFelix = getObj("humFelix")
+            if hFelix then hFelix:Remove() end
+
+            local vehLisa5 = GetEntityByName("Venchik_vehicle_0")
+            if vehLisa5 then vehLisa5:Remove() end
+
+            local vehLisa6 = GetEntityByName("Bolnoy_vehicle_0")
+            if vehLisa6 then vehLisa6:Remove() end
+
+            AddPlayerNewVehicle("ChevC10Player")
+
+            local Plf = GetPlayerVehicle()
+            if Plf then
+                Plf:SetExternalPathByName("start_rolik_mycar")
+                Plf:PlaceToEndOfPath()
+                Plf:SetRotation(Quaternion(-0.007, 1.000, -0.010, 0.021))
+                Plf:SetSkin(0)
+                Plf:setGodMode(0)
+                Plf:setImmortalMode(0)
+                Plf:SetBelong(1100)
+            end
+
+            StopPlayingCustomMusic()
+
+            SetCameraBehindPlayerVehicle()
+
+            EnableAutoHelp( false )
+
+            SpawnMessageBox( "90001" )
+
+            local b = SpawnMessageBox( "90000" )
+            if b == 1 then
+                TakeQuest("FirstTimePlay")
+                CompleteQuest("FirstTimePlay")
+                AddImportantFadingMsgId("fm_mr_shlyapa_off")
+            else
+                AddImportantFadingMsgId("fm_mr_shlyapa_on")
+            end
+
+            ShowMap()
+
+            TDeactivate( "ROLIK15" )
+            TDeactivate( "ROLIK16" )
+            TDeactivate( "ROLIK12" )
+            TDeactivate( "ROLIK13" )
+            TDeactivate( "ROLIK18" )
+            TDeactivate( "ROLIK14" )
+            TDeactivate( "trOpeningOpen1" )
+            TDeactivate( "trOpening1" )
+            TDeactivate( "trOpening11" )
+            TDeactivate( "trOpening2" )
+            TDeactivate( "trOpening22" )
+            TDeactivate( "trOpening3" )
+            TDeactivate( "trOpening4" )
+            TDeactivate( "trOpening5" )
+            TDeactivate( "trOpeningEnd" )
+            TDeactivate( "StartGame" )
+            TActivate("triggerExitToMap12")
+            TActivate("loc_lisa")
+            TActivate("BotanikVanCreate")
+            TActivate("trCreateHumans")
+
+            trigger:Deactivate() 
+        </script>
+    </trigger>
+</triggers>

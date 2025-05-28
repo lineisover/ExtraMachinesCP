@@ -1,0 +1,5 @@
+- commands: merge\general\_commands_model_names.xml
+  targets:  if\diz\model_names.xml
+
+- commands: merge\general\_commands_uidescription.xml
+  targets:  if\strings\uidescription.xml

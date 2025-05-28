@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+    <trigger
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="TRAKTOR_FUN"
+        active="1">
+        <event timeout="0" eventid="GE_TIME_PERIOD"/>
+
+        <script>
+            TeamCreateWithWarez("11Traktor1", 1008, CVector(979.867, 290.134, 2700.000), {"Cumbine01"}, nil, 1)
+
+            local t = GetEntityByName("11Traktor1")
+            if t then
+                t:StackOpen()
+                t:SetDestination( CVector(987, 287, 2728) )
+                t:SetDestination( CVector(1001, 287, 2814) )
+                t:SetDestination( CVector(1086, 287, 2802) )
+                t:SetDestination( CVector(1077, 287, 2730) )
+                t:StackLoop()
+                t:StackClose()
+            end
+
+            trigger:Deactivate()
+        </script>
+    </trigger>
+</triggers>
