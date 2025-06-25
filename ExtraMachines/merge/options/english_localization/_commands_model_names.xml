@@ -2,399 +2,399 @@
 
 <ModelNames>
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cab01"
         locForm="0"
         value="Pleb"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cab02"
         locForm="0"
         value="Country"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cab03"
         locForm="0"
         value="Headman"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cargo01"
         locForm="0"
         value="Rusticana"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cargo02"
         locForm="0"
         value="Urbana"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cargo03"
         locForm="0"
         value="Capitus"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Cargo04"
         locForm="0"
         value="Palatium"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10ForSale"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC1001"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC1002"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC1003"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="ChevC10Player"
         locForm="0"
         value="Redneck"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCab01"
         locForm="0"
         value="Tricentennial"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCab02"
         locForm="0"
         value="Bogatyr"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCab03"
         locForm="0"
         value="Kirov"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCargo01"
         locForm="0"
         value="Tractor container"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCargo02"
         locForm="0"
         value="Ladle"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorCargo03"
         locForm="0"
         value="Large bucket"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TractorForSale"
         locForm="0"
         value="Tractor"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tractor01"
         locForm="0"
         value="Tractor"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tractor02"
         locForm="0"
         value="Tractor"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tractor03"
         locForm="0"
         value="Tractor"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tractor"
         locForm="0"
         value="Tractor"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab00"
         locForm="0"
         value="Hurricane (racing)"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab01"
         locForm="0"
         value="Hurricane"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab02"
         locForm="0"
         value="Skipper"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab03"
         locForm="0"
         value="Immortal"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab01_Enemy"
         locForm="0"
         value="Hurricane"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab02_Enemy"
         locForm="0"
         value="Skipper"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCab03_Enemy"
         locForm="0"
         value="Immortal"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCargo01"
         locForm="0"
         value="Trunk"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCargo02"
         locForm="0"
         value="Barge"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoCargo03"
         locForm="0"
         value="Apollo"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="TornadoForSale"
         locForm="0"
         value="Tornado"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tornado01"
         locForm="0"
         value="Tornado"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tornado02"
         locForm="0"
         value="Tornado"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tornado03"
         locForm="0"
         value="Tornado"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Tornado"
         locForm="0"
         value="Tornado"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cab01"
         locForm="0"
         value="Private"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cab02"
         locForm="0"
         value="Biver"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cab03"
         locForm="0"
         value="Fellow Chad"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cab04"
         locForm="0"
         value="Battlebus"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cargo01"
         locForm="0"
         value="Longhood"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cargo02"
         locForm="0"
         value="Warehouse"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cargo03"
         locForm="0"
         value="Forcastle"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35Cargo04"
         locForm="0"
         value="Yetiz"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35ForSale"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M3501"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M3502"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M3503"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M3504"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="M35"
         locForm="0"
         value="Chief Bert"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="CumbineCab01"
         locForm="0"
         value="Cockpit"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="CumbineCargo01"
         locForm="0"
         value="Container"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Cumbine"
         locForm="0"
         value="Combine"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Add"
         _SelectorKeys="id,locForm"
         id="Cumbine01"
         locForm="0"

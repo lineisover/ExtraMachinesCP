@@ -1,7 +1,7 @@
 name: ExtraMachines
  
 # version: "2.0.0"
-# build: "250528a"
+# build: "250625a"
 language: eng
 display_name: Extra Machines [CR]
 authors: Spok, OverLine
@@ -46,7 +46,7 @@ screenshots:
   - img: assets/Cumbine/1.jpg
 
 
-patcher_version_requirement: "3.0.4"
+patcher_version_requirement: "3.0.6"
 no_base_content: false
 
 compatible_patch_versions: true
@@ -80,6 +80,8 @@ optional_content:
   - name: english_localization
     display_name: English Localization
     forced_option: True
+    data_dirs:
+      - "fakedir"
     merge_instructions:
       - "merge_strings_eng.yaml"
     description: |
