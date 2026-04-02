@@ -1,7 +1,7 @@
 name: ExtraMachines
  
-# version: "2.0.0"
-# build: "250625a"
+# version: "2.0.1"
+# build: "260402a"
 language: eng
 display_name: Extra Machines [CR]
 authors: Spok, OverLine

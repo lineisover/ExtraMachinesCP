@@ -1,3 +1,8 @@
+# 2.0.1
+
+* Fixed logic when reinstalling a mod on ISL.
+* Fixed skin for 3 ChevC10 cargo
+
 # 2.0.0
 
 * The mod has been moved to the mod merge system
