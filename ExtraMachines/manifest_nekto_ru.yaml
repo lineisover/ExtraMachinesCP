@@ -3,7 +3,7 @@ name: ExtraMachines_ISL
 version: "2.1.0"
 build: "260402a"
 language: ru
-display_name: Extra Machines [ISL]
+display_name: Extra Machines [NEKTO]
 authors: Spok, OverLine
 description: |
   Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (exm_car(1) - exm_car(17)).
@@ -82,7 +82,7 @@ screenshots:
       Контейнер - Стандартный контейнер Кумбайна.
 
 translations: [eng]
-# variants: [isl]
+# variants: [nekto]
 
 patcher_version_requirement: "3.0.6"
 no_base_content: false
@@ -95,7 +95,7 @@ merge_instructions:
   - "merge_general.yaml"
   - "merge_strings_rus.yaml"
 
-# options_base_dir: "options_isl"
+# options_base_dir: "options_nekto"
  
 prerequisites:
   - name: [community_remaster]
@@ -103,17 +103,15 @@ prerequisites:
      - ">=1.14.1"
     optional_content:
       - hd_vehicle_models
-  - name: [improved_storyline_hd]
+  - name: [nekto_mod_comrem]
     versions:
-     - ">=1.2.1"
-    optional_content:
-      - kraycity
+     - ">=5.2"
 
 incompatible:
-  - name: improved_storyline_hd
+  - name: nekto_mod_comrem
     versions: []
     optional_content:
-    - english_localization
+    - english_update
 
 optional_content:
   - name: workshops
@@ -123,8 +121,8 @@ optional_content:
     data_dirs:
       - "comrem"
     merge_instructions:
-      - "merge_comrem.yaml"
-      - "merge_isl.yaml"
-      - "merge_workshops.yaml"
-      - "merge_isl_workshops.yaml"
+#      - "merge_comrem.yaml"
+#      - "merge_isl.yaml"
+#      - "merge_workshops.yaml"
+#      - "merge_isl_workshops.yaml"
 
