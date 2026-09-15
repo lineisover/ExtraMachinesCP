@@ -1,0 +1,14 @@
+- commands: merge\nekto\_commands_resourcetypes.xml
+  targets:  gamedata\resourcetypes.xml
+
+- commands: merge\nekto\_commands_extramachinesparts.xml
+  targets:  gamedata\gameobjects\extramachinesparts.xml
+
+- commands: merge\nekto\_commands_extramachinesvehicles.xml
+  targets:  gamedata\gameobjects\extramachinesvehicles.xml
+
+- commands: merge\nekto\_commands_modelicons.xml
+  targets:  if\ico_hd\modelicons.xml
+  
+
+

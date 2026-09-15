@@ -1,0 +1,2 @@
+- commands: merge\options_nekto\workshops\_commands_infection.xml
+  targets:  gamedata\gameobjects\infection.xml

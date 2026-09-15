@@ -94,6 +94,8 @@ data_dirs:
 merge_instructions:
   - "merge_general.yaml"
   - "merge_strings_rus.yaml"
+  - "merge_nekto_general.yaml"
+  - "manifest_nekto_strings_ru.yaml"
 
 # options_base_dir: "options_nekto"
  
@@ -112,6 +114,8 @@ incompatible:
     versions: []
     optional_content:
     - english_update
+  - name: improved_storyline_hd
+    versions: []
 
 optional_content:
   - name: workshops
@@ -121,8 +125,6 @@ optional_content:
     data_dirs:
       - "comrem"
     merge_instructions:
-#      - "merge_comrem.yaml"
-#      - "merge_isl.yaml"
-#      - "merge_workshops.yaml"
-#      - "merge_isl_workshops.yaml"
-
+      - "merge_comrem.yaml"
+      - "merge_workshops.yaml"
+      - "merge_nekto_workshops.yaml"
