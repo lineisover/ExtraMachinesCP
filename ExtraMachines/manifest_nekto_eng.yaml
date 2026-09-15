@@ -55,6 +55,7 @@ data_dirs:
   - "general"
 merge_instructions:
   - "merge_general.yaml"
+  - "merge_nekto_general.yaml"
 
 # options_base_dir: "options_nekto"
  
@@ -85,9 +86,8 @@ optional_content:
       - "comrem"
     merge_instructions:
       - "merge_comrem.yaml"
-      - "merge_isl.yaml"
       - "merge_workshops.yaml"
-      - "merge_isl_workshops.yaml"
+      - "merge_nekto_workshops.yaml"
   - name: english_localization
     display_name: English Localization
     forced_option: True
@@ -95,5 +95,6 @@ optional_content:
       - "fakedir"
     merge_instructions:
       - "merge_strings_eng.yaml"
+      - "merge_nekto_strings_en.yaml"
     description: |
       Full text localization of Extra Machines.
