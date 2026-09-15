@@ -1,4 +1,4 @@
-name: ExtraMachines_ISL
+name: ExtraMachines_NEKTO
  
 # version: "2.1.0"
 # build: "260402a"
@@ -71,6 +71,11 @@ prerequisites:
     optional_content:
       - english_update
 
+incompatible:
+  - name: improved_storyline_hd
+    versions: []
+    optional_content: []
+
 optional_content:
   - name: workshops
     display_name: The cars are on sale and spawn.
@@ -79,10 +84,10 @@ optional_content:
     data_dirs:
       - "comrem"
     merge_instructions:
-#      - "merge_comrem.yaml"
-#      - "merge_isl.yaml"
-#      - "merge_workshops.yaml"
-#      - "merge_isl_workshops.yaml"
+      - "merge_comrem.yaml"
+      - "merge_isl.yaml"
+      - "merge_workshops.yaml"
+      - "merge_isl_workshops.yaml"
   - name: english_localization
     display_name: English Localization
     forced_option: True

@@ -72,6 +72,11 @@ prerequisites:
       - kraycity
       - english_localization
 
+incompatible:
+  - name: nekto_mod_comrem
+    versions: []
+    optional_content: []
+
 optional_content:
   - name: workshops
     display_name: The cars are on sale and spawn.

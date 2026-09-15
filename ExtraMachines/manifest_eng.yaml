@@ -67,6 +67,14 @@ prerequisites:
       - hd_vehicle_models
       - english_localization
 
+incompatible:
+  - name: nekto_mod_comrem
+    versions: []
+    optional_content: []
+  - name: improved_storyline_hd
+    versions: []
+    optional_content: []
+
 optional_content:
   - name: workshops
     display_name: The cars are on sale and spawn.
