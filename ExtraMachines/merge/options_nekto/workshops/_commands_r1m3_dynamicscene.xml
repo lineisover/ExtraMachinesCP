@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Pesht']/Object[@Name='Pesht_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="TractorForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="M35Cab02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02"/>
+
+    <Item
+        _Action="AddOrReplace"
+        _ParentXPath="Object[@Name='Minin']/Object[@Name='Minin_Workshop']/Vehicles"
+        _SelectorKeys="Prototype"
+        Prototype="TractorForSale">
+        <Parts/>
+
+        <Repository/>
+    </Item>
+</DynamicScene>

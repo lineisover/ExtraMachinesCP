@@ -1,2 +1,5 @@
 - commands: merge\options_nekto\workshops\_commands_infection.xml
   targets:  gamedata\gameobjects\infection.xml
+
+- commands: merge\options_nekto\workshops\_commands_r1m1_dynamicscene.xml
+  targets: maps\r1m1\dynamicscene.xml

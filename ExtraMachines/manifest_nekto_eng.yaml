@@ -11,8 +11,8 @@ description: |
 
 release_date: "23.04.2024"
 link: https://github.com/lineisover/ExtraMachinesCP
-logo: assets/logo_isl.png
-install_banner: assets/banner_isl.png
+logo: assets/logo_nekto.png
+install_banner: assets/banner_nekto.png
 tags: [vehicles]
 change_log: assets/changelog_eng.md
 screenshots:
