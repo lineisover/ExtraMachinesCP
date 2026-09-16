@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ModelNames>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab01_P"
+        locForm="0"
+        value="Pleb"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab02_P"
+        locForm="0"
+        value="Country"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cab03_P"
+        locForm="0"
+        value="Headman"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo01_P"
+        locForm="0"
+        value="Rusticana"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo02_P"
+        locForm="0"
+        value="Urbana"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo03_P"
+        locForm="0"
+        value="Capitus"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10Cargo04_P"
+        locForm="0"
+        value="Palatium"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1001_P"
+        locForm="0"
+        value="Redneck"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1002_P"
+        locForm="0"
+        value="Redneck"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC1003_P"
+        locForm="0"
+        value="Redneck"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="ChevC10_P"
+        locForm="0"
+        value="Redneck"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab01_P"
+        locForm="0"
+        value="Tricentennial"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab02_P"
+        locForm="0"
+        value="Bogatyr"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCab03_P"
+        locForm="0"
+        value="Kirov"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo01_P"
+        locForm="0"
+        value="Tractor container"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo02_P"
+        locForm="0"
+        value="Ladle"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TractorCargo03_P"
+        locForm="0"
+        value="Large bucket"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor01_P"
+        locForm="0"
+        value="Tractor"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor02_P"
+        locForm="0"
+        value="Tractor"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor03_P"
+        locForm="0"
+        value="Tractor"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tractor_P"
+        locForm="0"
+        value="Tractor"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab00_P"
+        locForm="0"
+        value="Hurricane (racing)"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab01_P"
+        locForm="0"
+        value="Hurricane"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab02_P"
+        locForm="0"
+        value="Skipper"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCab03_P"
+        locForm="0"
+        value="Immortal"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo01_P"
+        locForm="0"
+        value="Trunk"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo02_P"
+        locForm="0"
+        value="Barge"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="TornadoCargo03_P"
+        locForm="0"
+        value="Apollo"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado01_P"
+        locForm="0"
+        value="Tornado"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado02_P"
+        locForm="0"
+        value="Tornado"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado03_P"
+        locForm="0"
+        value="Tornado"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Tornado_P"
+        locForm="0"
+        value="Tornado"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab01_P"
+        locForm="0"
+        value="Private"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab02_P"
+        locForm="0"
+        value="Biver"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab03_P"
+        locForm="0"
+        value="Fellow Chad"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cab04_P"
+        locForm="0"
+        value="Battlebus"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo01_P"
+        locForm="0"
+        value="Longhood"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo02_P"
+        locForm="0"
+        value="Warehouse"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo03_P"
+        locForm="0"
+        value="Forcastle"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35Cargo04_P"
+        locForm="0"
+        value="Yetiz"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3501_P"
+        locForm="0"
+        value="Chief Bert"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3502_P"
+        locForm="0"
+        value="Chief Bert"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3503_P"
+        locForm="0"
+        value="Chief Bert"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M3504_P"
+        locForm="0"
+        value="Chief Bert"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="M35_P"
+        locForm="0"
+        value="Chief Bert"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="CumbineCab01_P"
+        locForm="0"
+        value="Cockpit"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="CumbineCargo01_P"
+        locForm="0"
+        value="Container"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Cumbine_P"
+        locForm="0"
+        value="Combine"/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id,locForm"
+        id="Cumbine01_P"
+        locForm="0"
+        value="Combine"/>
+</ModelNames>

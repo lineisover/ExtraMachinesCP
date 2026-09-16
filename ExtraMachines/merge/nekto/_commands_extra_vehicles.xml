@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="ChevC10ForSale"
+        Class="Vehicle"
+        ParentPrototype="ChevC10_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="ChevC10Cab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="ChevC10Cargo01_P"/>
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="ChevC10Player"
+        Class="Vehicle"
+        ParentPrototype="ChevC10_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="ChevC10Cab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="ChevC10Cargo01_P"/>
+
+            <Part
+                id="BASKET_SMALL_GUN_0"
+                Prototype="hornet01"/>
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="TractorForSale"
+        Class="Vehicle"
+        ParentPrototype="Tractor_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="TractorCab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="TractorCargo01_P"/>
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="TornadoForSale"
+        Class="Vehicle"
+        ParentPrototype="Tornado_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="TornadoCab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="TornadoCargo01_P"/>
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        _Action="AddOrReplace"
+        _SelectorKeys="Name"
+        Name="M35ForSale"
+        Class="Vehicle"
+        ParentPrototype="M35_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="M35Cab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="M35Cargo01_P"/>
+        </Parts>
+    </Prototype>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="CumbineForSale"
+        Class="Vehicle"
+        ParentPrototype="Cumbine_P"
+        VisibleInEncyclopedia="true">
+        <Parts>
+            <Part
+                id="CABIN"
+                Prototype="CumbineCab01_P"/>
+
+            <Part
+                id="BASKET"
+                Prototype="CumbineCargo01_P"/>
+        </Parts>
+    </Prototype>
+</Prototypes>

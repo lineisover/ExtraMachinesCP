@@ -5,11 +5,17 @@
         _Action="Add"
         _SelectorKeys="Name"
         Name="ExtraMachinesParts"
-        File="ExtraMachinesParts.xml"/>
+        File="extra_parts.xml"/>
+
+    <Folder
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="ExtraMachinesPrototypes"
+        File="extra_prototypes.xml"/>
 
     <Folder
         _Action="Add"
         _SelectorKeys="Name"
         Name="ExtraMachinesVehicles"
-        File="ExtraMachinesVehicles.xml"/>
+        File="extra_vehicles.xml"/>
 </Prototypes>

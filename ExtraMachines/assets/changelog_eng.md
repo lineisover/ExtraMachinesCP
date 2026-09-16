@@ -1,3 +1,9 @@
+# 2.1.0
+
+* The mod structure has been changed for better compatibility with the mod merging function.
+* The files have been renamed to lowercase to minimize potential issues with Linux systems.
+* Adaptation for nekto MOD 5.2 ComRem Edition
+
 # 2.0.1
 
 * Fixed logic when reinstalling a mod on ISL.

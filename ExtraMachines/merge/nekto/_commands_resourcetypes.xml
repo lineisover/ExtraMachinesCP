@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<ResourceTypes>
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="KTO_CHEVC10_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="KTO_TRACTOR_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="KTO_TORNADO_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="KTO_M35_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CHASSIS']"
+        _SelectorKeys="Name"
+        Name="KTO_CUMBINE_CHASSIS"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="KTO_CHEVC10_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="KTO_TRACTOR_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="KTO_TORNADO_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="KTO_M35_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='CABIN']"
+        _SelectorKeys="Name"
+        Name="KTO_CUMBINE_CABIN"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="KTO_CHEVC10_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="KTO_TRACTOR_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="KTO_TORNADO_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="KTO_M35_BASKET"/>
+
+    <Type
+        _Action="Add"
+        _ParentXPath="Type[@Name='VEHICLE_PART']/Type[@Name='BASKET']"
+        _SelectorKeys="Name"
+        Name="KTO_CUMBINE_BASKET"/>
+</ResourceTypes>

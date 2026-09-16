@@ -1,9 +1,9 @@
-name: ExtraMachines
+name: ExtraMachines_NEKTO
  
 # version: "2.1.0"
 # build: "260917a"
 language: eng
-display_name: Extra Machines [CR]
+display_name: Extra Machines [NEKTO]
 authors: Spok, OverLine
 description: |
   Extra Machines is an addon asset-pack that adds new cars to the original Hard Truck. The main version of the mod is adapted for a normal play, the most suitable for the player cars can be purchased in cities, and the rest can be obtained only with cheats (exm_car(1) - exm_car(17)).
@@ -11,8 +11,8 @@ description: |
 
 release_date: "23.04.2024"
 link: https://github.com/lineisover/ExtraMachinesCP
-logo: assets/logo.png
-install_banner: assets/banner.png
+logo: assets/logo_nekto.png
+install_banner: assets/banner_nekto.png
 tags: [vehicles]
 change_log: assets/changelog_eng.md
 screenshots:
@@ -50,14 +50,14 @@ patcher_version_requirement: "3.0.6"
 no_base_content: false
 
 compatible_patch_versions: true
-strict_requirements: false
 
 data_dirs:
   - "general"
 merge_instructions:
   - "merge_general.yaml"
+  - "merge_nekto_general.yaml"
 
-# options_base_dir: "options"
+# options_base_dir: "options_nekto"
  
 prerequisites:
   - name: [community_remaster]
@@ -66,11 +66,13 @@ prerequisites:
     optional_content:
       - hd_vehicle_models
       - english_localization
+  - name: [nekto_mod_comrem]
+    versions:
+     - ">=5.2"
+    optional_content:
+      - english_update
 
 incompatible:
-  - name: nekto_mod_comrem
-    versions: []
-    optional_content: []
   - name: improved_storyline_hd
     versions: []
     optional_content: []
@@ -85,6 +87,7 @@ optional_content:
     merge_instructions:
       - "merge_comrem.yaml"
       - "merge_workshops.yaml"
+      - "merge_nekto_workshops.yaml"
   - name: english_localization
     display_name: English Localization
     forced_option: True
@@ -92,5 +95,6 @@ optional_content:
       - "fakedir"
     merge_instructions:
       - "merge_strings_eng.yaml"
+      - "merge_nekto_strings_en.yaml"
     description: |
       Full text localization of Extra Machines.

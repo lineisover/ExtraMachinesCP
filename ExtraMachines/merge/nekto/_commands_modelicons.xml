@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<icons>
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cab01_P"
+        file="data\if\ico\InventoryDlg\chevc10\cab1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cab02_P"
+        file="data\if\ico\InventoryDlg\chevc10\cab2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cab03_P"
+        file="data\if\ico\InventoryDlg\chevc10\cab3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cargo01_P"
+        file="data\if\ico\InventoryDlg\chevc10\cargo1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cargo02_P"
+        file="data\if\ico\InventoryDlg\chevc10\cargo2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cargo03_P"
+        file="data\if\ico\InventoryDlg\chevc10\cargo3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="ChevC10Cargo04_P"
+        file="data\if\ico\InventoryDlg\chevc10\cargo4.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCab01_P"
+        file="data\if\ico\InventoryDlg\tractor\cab1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCab02_P"
+        file="data\if\ico\InventoryDlg\tractor\cab2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCab03_P"
+        file="data\if\ico\InventoryDlg\tractor\cab3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCargo01_P"
+        file="data\if\ico\InventoryDlg\tractor\cargo1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCargo02_P"
+        file="data\if\ico\InventoryDlg\tractor\cargo2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TractorCargo03_P"
+        file="data\if\ico\InventoryDlg\tractor\cargo3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCab00_P"
+        file="data\if\ico\InventoryDlg\tornado\cab1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCab01_P"
+        file="data\if\ico\InventoryDlg\tornado\cab1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCab02_P"
+        file="data\if\ico\InventoryDlg\tornado\cab2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCab03_P"
+        file="data\if\ico\InventoryDlg\tornado\cab3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCargo01_P"
+        file="data\if\ico\InventoryDlg\tornado\cargo1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCargo02_P"
+        file="data\if\ico\InventoryDlg\tornado\cargo2.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="TornadoCargo03_P"
+        file="data\if\ico\InventoryDlg\tornado\cargo3.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cab01_P"
+        file="data\if\ico\InventoryDlg\M35\cab01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cab02_P"
+        file="data\if\ico\InventoryDlg\M35\cab02.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cab03_P"
+        file="data\if\ico\InventoryDlg\M35\cab03.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cab04_P"
+        file="data\if\ico\InventoryDlg\M35\cab04.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cargo01_P"
+        file="data\if\ico\InventoryDlg\M35\cargo01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cargo02_P"
+        file="data\if\ico\InventoryDlg\M35\cargo02.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cargo03_P"
+        file="data\if\ico\InventoryDlg\M35\cargo03.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="M35Cargo04_P"
+        file="data\if\ico\InventoryDlg\M35\cargo04.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="CumbineCab01_P"
+        file="data\if\ico\InventoryDlg\cumbine\cab01.dds"
+        file1=""/>
+
+    <Item
+        _Action="Add"
+        _SelectorKeys="id"
+        id="CumbineCargo01_P"
+        file="data\if\ico\InventoryDlg\tractor\cargo1.dds"
+        file1=""/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cab01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cab02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cab03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cargo01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cargo03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="ChevC10Cargo04"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCab01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCab02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCab03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCargo01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TractorCargo03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCab00"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCab01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCab02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCab03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCargo01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="TornadoCargo03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cab01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cab02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cab03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cab04"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cargo01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cargo03"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="M35Cargo04"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="CumbineCab01"/>
+
+    <Item
+        _Action="Remove"
+        _SelectorKeys="id"
+        id="CumbineCargo01"/>
+</icons>

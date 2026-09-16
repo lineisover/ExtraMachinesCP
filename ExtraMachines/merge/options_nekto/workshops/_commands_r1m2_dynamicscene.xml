@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<DynamicScene>
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo03"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01"/>
+
+    <Item
+        _Action="Remove"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="ChevC10Cargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="ChevC10Cargo04_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Esting']/Object[@Name='Esting_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TornadoCargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Midragd']/Object[@Name='Midragd_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TornadoCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='Porto']/Object[@Name='Porto_Workshop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        _DesiredCount="2"
+        Prototype="TractorCargo02_P"/>
+</DynamicScene>

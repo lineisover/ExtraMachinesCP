@@ -1,9 +1,9 @@
-name: ExtraMachines
+name: ExtraMachines_NEKTO
  
 version: "2.1.0"
 build: "260917a"
 language: ru
-display_name: Extra Machines [CR]
+display_name: Extra Machines [NEKTO]
 authors: Spok, OverLine
 description: |
   Extra Machines - аддон ассет-пак, добавляющий новые машины в оригинальную Ex Machina. Основная версия мода является адаптированной для полноценной игры, наиболее подходящие для игрока машины могут быть приобретены в городах, а остальные могут быть получены только с помощью читов (exm_car(1) - exm_car(17)).
@@ -11,8 +11,8 @@ description: |
 
 release_date: "23.04.2024"
 link: https://github.com/lineisover/ExtraMachinesCP
-logo: assets/logo.png
-install_banner: assets/banner.png
+logo: assets/logo_nekto.png
+install_banner: assets/banner_nekto.png
 tags: [vehicles]
 change_log: assets/changelog.md
 screenshots:
@@ -82,21 +82,22 @@ screenshots:
       Контейнер - Стандартный контейнер Кумбайна.
 
 translations: [eng]
-variants: [isl, nekto]
+# variants: [isl, nekto]
 
 patcher_version_requirement: "3.0.6"
 no_base_content: false
 
 compatible_patch_versions: true
-strict_requirements: false
 
 data_dirs:
   - "general"
 merge_instructions:
   - "merge_general.yaml"
   - "merge_strings_rus.yaml"
+  - "merge_nekto_general.yaml"
+  - "merge_nekto_strings_ru.yaml"
 
-# options_base_dir: "options"
+# options_base_dir: "options_nekto"
  
 prerequisites:
   - name: [community_remaster]
@@ -104,15 +105,15 @@ prerequisites:
      - ">=1.14.1"
     optional_content:
       - hd_vehicle_models
+  - name: [nekto_mod_comrem]
+    versions:
+     - ">=5.2"
 
 incompatible:
-  - name: community_remaster
-    versions: []
-    optional_content:
-    - english_localization
   - name: nekto_mod_comrem
     versions: []
-    optional_content: []
+    optional_content:
+    - english_update
   - name: improved_storyline_hd
     versions: []
     optional_content: []
@@ -127,3 +128,4 @@ optional_content:
     merge_instructions:
       - "merge_comrem.yaml"
       - "merge_workshops.yaml"
+      - "merge_nekto_workshops.yaml"
