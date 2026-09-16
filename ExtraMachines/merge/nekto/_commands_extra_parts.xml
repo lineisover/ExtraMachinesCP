@@ -133,7 +133,7 @@
         MaxTorque="0.01"
         Price="800"
         RepairCoef="0.3"
-        FuelConsumption="0.3"
+        FuelConsumption="0.01"
         EngineHighSound="ET_S_ENGINE_HUNTER_1_HIGH"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         MaxSpeed="0.0">
@@ -175,7 +175,7 @@
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         Price="1100"
         RepairCoef="0.3"
-        FuelConsumption="0.3"
+        FuelConsumption="0.01"
         MaxSpeed="0.0">
         <GadgetDescription>
             <Slot
@@ -220,7 +220,7 @@
         Price="1500"
         RepairCoef="0.3"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
-        FuelConsumption="0.3"
+        FuelConsumption="0.01"
         MaxSpeed="0.0">
         <GadgetDescription>
             <Slot
@@ -260,7 +260,7 @@
         MaxTorque="0.01"
         Price="3500"
         RepairCoef="0.4"
-        FuelConsumption="0.3"
+        FuelConsumption="0.01"
         EngineHighSound="ET_S_ENGINE_BELAZ_1_HIGH"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         MaxSpeed="0.0"
@@ -305,7 +305,7 @@
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         Price="5000"
         RepairCoef="0.5"
-        FuelConsumption="0.5"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_SML01 LP_SML02">
         <GadgetDescription>
@@ -347,7 +347,7 @@
         Price="10000"
         RepairCoef="0.4"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
-        FuelConsumption="0.7"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_SML01 LP_SML02">
         <GadgetDescription>
@@ -384,7 +384,7 @@
         MaxTorque="0.01"
         Price="2000"
         RepairCoef="0.4"
-        FuelConsumption="0.3"
+        FuelConsumption="0.01"
         EngineHighSound="ET_S_ENGINE_HUNTER_1_HIGH"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         MaxSpeed="0.0"
@@ -427,7 +427,7 @@
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         Price="3500"
         RepairCoef="0.5"
-        FuelConsumption="0.4"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_SML01">
         <GadgetDescription>
@@ -468,7 +468,7 @@
         Price="5000"
         RepairCoef="0.4"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
-        FuelConsumption="0.45"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_SML01 LP_SML02">
         <GadgetDescription>
@@ -507,7 +507,7 @@
         MaxTorque="0.01"
         Price="18000"
         RepairCoef="0.5"
-        FuelConsumption="0.4"
+        FuelConsumption="0.01"
         EngineHighSound="ET_S_ENGINE_URAL_1_HIGH"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         MaxSpeed="0.0"
@@ -556,7 +556,7 @@
         Price="25000"
         RepairCoef="0.5"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
-        FuelConsumption="0.4"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_BIG01">
         <GadgetDescription>
@@ -600,7 +600,7 @@
         MaxTorque="0.01"
         Price="50000"
         RepairCoef="0.5"
-        FuelConsumption="0.4"
+        FuelConsumption="0.01"
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         EngineHighSound="ET_S_ENGINE_URAL_3_HIGH"
         MaxSpeed="0.0"
@@ -648,7 +648,7 @@
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         Price="70000"
         RepairCoef="0.5"
-        FuelConsumption="0.4"
+        FuelConsumption="0.01"
         MaxSpeed="0.0"
         LoadPoints="LP_SIDE01L LP_SIDE01R">
         <GadgetDescription>
@@ -694,7 +694,7 @@
         BlowEffect="ET_PS_VEH_PART_BLOW_BIG_CAB"
         Price="5000"
         RepairCoef="0.5"
-        FuelConsumption="0.5"
+        FuelConsumption="0.01"
         LoadPoints="LP_SML01"
         EngineHighSound="ET_S_ENGINE_BELAZ_1_HIGH">
         <GadgetDescription>
