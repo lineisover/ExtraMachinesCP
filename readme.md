@@ -34,6 +34,7 @@
 ### Официально поддерживаемые моды
 
 - [Improved Storyline](https://github.com/zatinu322/ImprovedStoryline) - для правильной установки необходимо выбрать вариант ExtraMachines[ISL] в ComMod.
+- **nekto MOD ComRem Edition** - для правильной установки необходимо выбрать вариант ExtraMachines[NEKTO] в ComMod.
 
 - С версии 2.0.0 есть возможность установки поверх любых модов, для этого необходимо выбрать вариант ExtraMachines[CR] в ComMod.
 
@@ -84,6 +85,7 @@ All cars in the pack were created specifically for Hard Truck, and are not ports
 ### Officially supported mods
 
 - [Improved Storyline](https://github.com/zatinu322/ImprovedStoryline) - ExtraMachines[ISL] option must be selected in ComMod for proper installation.
+- **nekto MOD ComRem Edition** - ExtraMachines[NEKTO] option must be selected in ComMod for proper installation.
 
 - Since version 2.0.0 it is possible to install over any mods, for this you need to select the ExtraMachines[CR] option in ComMod.
 
