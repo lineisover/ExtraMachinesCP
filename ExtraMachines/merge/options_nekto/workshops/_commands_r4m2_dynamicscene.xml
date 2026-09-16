@@ -2,114 +2,207 @@
 
 <DynamicScene>
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="ChevC10Cab02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="ChevC10Cab03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="ChevC10Cargo02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="ChevC10Cargo03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="ChevC10Cargo04"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="TractorCab02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="TractorCab03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="TractorCargo02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="TractorCargo03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cab01"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cab02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cab03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cab04"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cargo01"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cargo02"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cargo03"/>
 
     <Item
-        _Action="AddOrReplace"
+        _Action="Remove"
         _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
         Prototype="M35Cargo04"/>
 
     <Item
-        _Action="AddOrReplace"
-        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/Vehicles"
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
         _SelectorKeys="Prototype"
-        Prototype="M35ForSale">
-        <Parts/>
+        Prototype="ChevC10Cab02_P"/>
 
-        <Repository/>
-    </Item>
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="ChevC10Cargo04_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="TractorCargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cab04_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo01_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo02_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo03_P"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="Object[@Name='ScientiferVillage']/Object[@Name='ScientiferVillage_WorkShop']/CabinsAndBaskets"
+        _SelectorKeys="Prototype"
+        Prototype="M35Cargo04_P"/>
+
 </DynamicScene>
